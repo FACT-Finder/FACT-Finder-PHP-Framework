@@ -23,7 +23,7 @@ abstract class FACTFinder_Abstract_ImportAdapter extends FACTFinder_Abstract_Ada
      * @return object $report     import report in xml format
      */
     public function triggerDataImport($download = false) {
-        return $this->triggerImport($download, false);
+        return $this->triggerImport($download, 'data');
     }
 	
 	/**
@@ -33,13 +33,23 @@ abstract class FACTFinder_Abstract_ImportAdapter extends FACTFinder_Abstract_Ada
      * @return object $report     import report in xml format
      */
     public function triggerSuggestImport($download = false) {
-        return $this->triggerImport($download, true);
+        return $this->triggerImport($download, 'suggest');
+    }
+	
+	/**
+     * trigger a recommendation import
+     *
+	 * @param  bool   $download   import files will also be updated if true
+     * @return object $report     import report in xml format
+     */
+    public function triggerRecommendationImport($download = false) {
+        return $this->triggerImport($download, 'recommendation');
     }
 
     /**
 	 * @param  bool   $download        import files will also be updated if true
-	 * @param  bool   $suggestImport   do suggest import if true, data import otherwise
+	 * @param  string $type   		   determines which import will be triggered. can be 'data', 'suggest' or 'recommendation'
      * @return object $report          import report in xml format
      */
-    abstract protected function triggerImport($download, $suggestImport);
+    abstract protected function triggerImport($download, $type);
 }

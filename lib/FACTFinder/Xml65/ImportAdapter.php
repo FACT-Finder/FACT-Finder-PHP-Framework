@@ -22,7 +22,6 @@ class FACTFinder_Xml65_ImportAdapter extends FACTFinder_Abstract_ImportAdapter
     public function init()
     {
 		$this->log->info("Initializing new import adapter.");
-        $this->getDataProvider()->setType('Import.ff');
 		$this->getDataProvider()->setParam('format', 'xml');
     }
 
@@ -40,10 +39,10 @@ class FACTFinder_Xml65_ImportAdapter extends FACTFinder_Abstract_ImportAdapter
 
     /**
 	 * @param  bool   $download        import files will also be updated if true
-	 * @param  bool   $suggestImport   do suggest import if true, data import otherwise
+	 * @param  string $type   		   determines which import will be triggered. can be 'data', 'suggest' or 'recommendation'
      * @return object $report          import report in xml format
      */
-    protected function triggerImport($download, $suggestImport = false)
+    protected function triggerImport($download, $type = 'data')
     {
         $this->getDataProvider()->setCurlOptions(array(
             CURLOPT_CONNECTTIMEOUT => 10,
@@ -51,10 +50,35 @@ class FACTFinder_Xml65_ImportAdapter extends FACTFinder_Abstract_ImportAdapter
         ));
         
         $this->getDataProvider()->setParam('download', $download ? 'true' : 'false');
-		if($suggestImport) $this->getDataProvider()->setParam('type', 'suggest');
-		else $this->getDataProvider()->unsetParam('type');
-        
+		switch($type)
+		{
+		case 'suggest':
+			$this->getDataProvider()->setType('Import.ff');
+			$this->getDataProvider()->setParam('type', 'suggest');
+			break;
+		case 'recommendation':
+			$this->getDataProvider()->setType('Recommender.ff');
+			$this->getDataProvider()->setParam('do', 'importData');
+			break;
+		case 'data':
+		default:
+			$this->getDataProvider()->setType('Import.ff');
+			break;
+		}
+		
         $report = $this->getData();
+		
+		// clean up for next import
+		switch($type)
+		{
+		case 'suggest':
+			$this->getDataProvider()->unsetParam('type');
+			break;
+		case 'recommendation':
+			$this->getDataProvider()->unsetParam('do');
+			break;
+		}
+		
         return $report;
     }
 }

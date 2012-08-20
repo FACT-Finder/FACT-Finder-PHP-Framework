@@ -48,4 +48,9 @@ class ImportAdapter67Test extends PHPUnit_Framework_TestCase
 	{
 		$tagCloud = $this->importAdapter->triggerSuggestImport();
 	}
+	
+	public function testRecommendationImport()
+	{
+		$tagCloud = $this->importAdapter->triggerRecommendationImport();
+	}
 }
