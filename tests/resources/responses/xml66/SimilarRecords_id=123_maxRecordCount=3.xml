@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ff>
+	<similarAttributes>
+		<attribute name="category1">..Fahrräder..</attribute>
+		<attribute name="category2">..BMX..</attribute>
+		<attribute name="category3">..BMX Räder ab 300€..</attribute>
+		<attribute name="category4"></attribute>
+	</similarAttributes>
+	<similarRecords>
+		<record nr="0" id="298725">
+				<field name="Klemmung"></field>
+				<field name="products_ean">..4250583689383..#..4250583689383..</field>
+				<field name="products_retail_price"></field>
+				<field name="products_special_offer3">0</field>
+				<field name="products_ranking_profit">0</field>
+				<field name="FFiPhoneVariants">Oberrohrlänge|21,5 Zoll#4250583689383|schwarz#4250583689383</field>
+				<field name="Durchmesser"></field>
+				<field name="Farbe">..schwarz..</field>
+				<field name="products_special_offer2">0</field>
+				<field name="products_price_min">469.00</field>
+				<field name="products_price_max">469.00</field>
+				<field name="products_image">http://www.fahrrad.de/media/products/Black_BMX_main.jpg</field>
+				<field name="products_ranking_charge">21969</field>
+				<field name="shop_id">44</field>
+				<field name="products_you_save_money"></field>
+				<field name="imageUrlLarge"><![CDATA[http://www.fahrrad.de/media/products/Black_BMX_main[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="Breite"></field>
+				<field name="category1">..Fahrräder..</field>
+				<field name="category3">..BMX Räder ab 300€..</field>
+				<field name="products_best_price">0</field>
+				<field name="category2">..BMX..</field>
+				<field name="category4"></field>
+				<field name="evaluation_total"></field>
+				<field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder ab 300€</field>
+				<field name="FFCliplisterQuality"></field>
+				<field name="Ausführung"></field>
+				<field name="Rahmengrösse"></field>
+				<field name="products_id">298725</field>
+				<field name="products_video">0</field>
+				<field name="additional_imageurls"></field>
+				<field name="AdditionalAttributes">|Oberrohrlänge=21,5 Zoll|</field>
+				<field name="products_description"><![CDATA[Geometriedaten:Oberrohrlänge: 21,5 ZollSitzwinkel: 71°Lenkwinkel: 74,5°Kettenstrebe: 13,5 Zoll Materialtyp: Stahl , Material: 4130 CrMo , weitere Merkmale: New ABSOLUT BMX Trail 3 tubes , BMX: Dirt , Marke: Commencal , Typ: New ABSOLUT BMX , Anzahl Gänge: 1 , Marke: Commencal , Übersetzung Blatt 1: 8 Zähne, Bauart: 1-teilig , Material: 4130 Cr-Mo , Marke: Commencal , Typ: Alloy 6061 , Anzahl Zähne: 25 Zähne, Marke: KMC 1/2x1/8 , Marke: Tektro , Marke: Tektro , Bauart: U-Brake , Marke: Commencal , Typ: BMX 8 Zoll rise 22,2mm , Typ: BMX Commencal 22,2mm , Bauart: A-Head , : Mushroom Kraton black , : Campa standard , : New Commencal combo seat post & saddle one piece , Marke: Commencal , Typ: 14mm , Marke: Commencal  , Typ: 14mm 4 sealed bearing drive type 9T , Marke & Typ: Alex Rims , Material & sonstiges: alloy reinforced , Marke: CST , Typ: 1382 , Größe: 20 Zoll, Reifenbreite: 2 Zoll, Marke: CST , Typ: 1213 , Größe: 20 Zoll, Reifenbreite: 1.95 Zoll, : Plastic clear black , : 8.5 kg (ca.), : Performance]]></field>
+				<field name="Geschmack"></field>
+				<field name="imageUrlSmall"><![CDATA[http://www.fahrrad.de/media/products/Black_BMX_main[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="products_name">Commencal Absolut BMX matt black</field>
+				<field name="FFAutomaticSearchOptimization"></field>
+				<field name="cash_back_amount"></field>
+				<field name="month-campaign"></field>
+				<field name="Größe"></field>
+				<field name="products_quantity_unit"></field>
+				<field name="coupon-campaign"></field>
+				<field name="products_special_offer">0</field>
+				<field name="products_price">469.00</field>
+				<field name="availability">3</field>
+				<field name="imageUrlMid"><![CDATA[http://www.fahrrad.de/media/products/Black_BMX_main[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="categories_free_shipping">0</field>
+				<field name="Länge"></field>
+				<field name="products_model_year">2012</field>
+				<field name="products_link_self"><![CDATA[http://www.fahrrad.de/fahrraeder/bmx/commencal-absolut-bmx-matt-black/298725.html]]></field>
+				<field name="manufacturers_name">Commencal</field>
+				<field name="manufacturers_image">http://www.fahrrad.de/media/products/commencal.jpg</field>
+				<field name="manufacturers_free_shipping">0</field>
+				<field name="categories_image"></field>
+				<field name="FFCheckoutCount">0</field>
+				<field name="products_free_shipping">0</field>
+				<field name="manufacturers_id">313</field>
+				<field name="products_quantity"></field>
+				<field name="products_you_save_percent"></field>
+				<field name="FFAfterSearchReorder"></field>
+		</record>
+		<record nr="1" id="302007">
+				<field name="Klemmung"></field>
+				<field name="products_ean">..4250583699382..</field>
+				<field name="products_retail_price"></field>
+				<field name="products_special_offer3">0</field>
+				<field name="products_ranking_profit">0</field>
+				<field name="FFiPhoneVariants">Farbe|grau#4250583699382</field>
+				<field name="Durchmesser"></field>
+				<field name="Farbe">..grau..</field>
+				<field name="products_special_offer2">0</field>
+				<field name="products_price_min">649.00</field>
+				<field name="products_price_max">649.00</field>
+				<field name="products_image"><![CDATA[http://www.fahrrad.de/media/products/BRAD_RACE_PROXL_SHINY_SILVER_01.jpg]]></field>
+				<field name="products_ranking_charge">21308</field>
+				<field name="shop_id">44</field>
+				<field name="products_you_save_money"></field>
+				<field name="imageUrlLarge"><![CDATA[http://www.fahrrad.de/media/products/BRAD_RACE_PROXL_SHINY_SILVER_01[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="Breite"></field>
+				<field name="category1">..Fahrräder..</field>
+				<field name="category3">..BMX Räder ab 300€..</field>
+				<field name="products_best_price">0</field>
+				<field name="category2">..BMX..</field>
+				<field name="category4"></field>
+				<field name="evaluation_total"></field>
+				<field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder ab 300€</field>
+				<field name="FFCliplisterQuality"></field>
+				<field name="Ausführung"></field>
+				<field name="Rahmengrösse"></field>
+				<field name="products_id">302007</field>
+				<field name="products_video">0</field>
+				<field name="additional_imageurls"></field>
+				<field name="AdditionalAttributes"></field>
+				<field name="products_description"><![CDATA[Geometriedaten: 10,5 Zoll Sitzrohrlänge: 255mm Oberrohrlänge: 534mmKettenstrebenlänge: 385mm Lenkwinkel: 74° Sitzwinkel: 72°geeignet für eine Körpergröße von 1,65 m bis 1,85 m Materialtyp: Aluminium , Material: Alu , Typ: 3/8 Zoll, Carbon , Anzahl Gänge: 1 , Marke: Samox , Übersetzung Blatt 1: 44 Zähne, Übersetzung: 16 Zähne, Marke: Samox , Typ: AF15 , Marke: KMC Z410 , Marke: Tektro , Typ: BX-25 , Marke: MJ , Typ: MJ CM W700 R200 , Bauart: A-Head , : VLG-411-1A , : FSA BB410 , : VL-1125-1 , Durchmesser: 24.5 mm, Typ: UMF , Material: Carbon , Typ: 3/8 Zoll, 2 bearing , Typ: 3/8 Zoll, 4 bearing , Marke & Typ: Alex DM22 , Material & sonstiges: black , Marke: Maxxis  , Typ: Hoodlum , Größe: 20 Zoll, Reifenbreite: 2.1 Zoll, Marke: Maxxis  , Typ: Hoodlum , Größe: 20 Zoll, Reifenbreite: 1.85 Zoll, : BMX Screw pin 9/16 , : 9.1 kg (ca.), : Sport]]></field>
+				<field name="Geschmack"></field>
+				<field name="imageUrlSmall"><![CDATA[http://www.fahrrad.de/media/products/BRAD_RACE_PROXL_SHINY_SILVER_01[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="products_name">UMF Brad Race ProXL dunkelsilber</field>
+				<field name="FFAutomaticSearchOptimization"></field>
+				<field name="cash_back_amount"></field>
+				<field name="month-campaign"></field>
+				<field name="Größe"></field>
+				<field name="products_quantity_unit"></field>
+				<field name="coupon-campaign"></field>
+				<field name="products_special_offer">0</field>
+				<field name="products_price">649.00</field>
+				<field name="availability">3</field>
+				<field name="imageUrlMid"><![CDATA[http://www.fahrrad.de/media/products/BRAD_RACE_PROXL_SHINY_SILVER_01[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="categories_free_shipping">0</field>
+				<field name="Länge"></field>
+				<field name="products_model_year">2012</field>
+				<field name="products_link_self"><![CDATA[http://www.fahrrad.de/fahrraeder/bmx/umf-brad-race-proxl-dunkelsilber/302007.html]]></field>
+				<field name="manufacturers_name">UMF</field>
+				<field name="manufacturers_image">http://www.fahrrad.de/media/products/umf.jpg</field>
+				<field name="manufacturers_free_shipping">0</field>
+				<field name="categories_image"></field>
+				<field name="FFCheckoutCount">0</field>
+				<field name="products_free_shipping">0</field>
+				<field name="manufacturers_id">455</field>
+				<field name="products_quantity"></field>
+				<field name="products_you_save_percent"></field>
+				<field name="FFAfterSearchReorder"></field>
+		</record>
+		<record nr="2" id="293165">
+				<field name="Klemmung"></field>
+				<field name="products_ean">..0879762035892..#..0879762035892..</field>
+				<field name="products_retail_price"></field>
+				<field name="products_special_offer3">0</field>
+				<field name="products_ranking_profit">0</field>
+				<field name="FFiPhoneVariants">Oberrohrlänge|20,5 Zoll#0879762035892|blau#0879762035892</field>
+				<field name="Durchmesser"></field>
+				<field name="Farbe">..blau..</field>
+				<field name="products_special_offer2">0</field>
+				<field name="products_price_min">399.95</field>
+				<field name="products_price_max">399.95</field>
+				<field name="products_image"><![CDATA[http://www.fahrrad.de/media/products/293165_Eastern_Bike_BMX_Komplettrad_2012_RAMRODDER_BLUE_0.jpg]]></field>
+				<field name="products_ranking_charge">0</field>
+				<field name="shop_id">44</field>
+				<field name="products_you_save_money"></field>
+				<field name="imageUrlLarge"><![CDATA[http://www.fahrrad.de/media/products/293165_Eastern_Bike_BMX_Komplettrad_2012_RAMRODDER_BLUE_0[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="Breite"></field>
+				<field name="category1">..Fahrräder..</field>
+				<field name="category3">..BMX Räder ab 300€..</field>
+				<field name="products_best_price">0</field>
+				<field name="category2">..BMX..</field>
+				<field name="category4"></field>
+				<field name="evaluation_total"></field>
+				<field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder ab 300€</field>
+				<field name="FFCliplisterQuality"></field>
+				<field name="Ausführung"></field>
+				<field name="Rahmengrösse"></field>
+				<field name="products_id">293165</field>
+				<field name="products_video">0</field>
+				<field name="additional_imageurls"></field>
+				<field name="AdditionalAttributes">|Oberrohrlänge=20,5 Zoll|</field>
+				<field name="products_description"><![CDATA[Farbe: midnight-blue Materialtyp: Stahl , Material: Hi-Ten light steel , BMX: Street , Marke: Eastern Bikes , Material: Hi-Ten Steel , Typ: Ramrodder , Anzahl Gänge: 1 , Marke: Eastern , Typ: 8 spline Spindel, 175 mm , Bauart: 1-teilig , Material: Heattreated CroMo , Marke: Eastern , Typ: Phorcys , Anzahl Zähne: 25 Zähne, Übersetzung: 9 Zähne, Typ: Sealed Bearing Mid Size , Marke: KMC Z510 , Typ: mit Rotorsystem , Bauart: U-Brake , Typ: 8,25 Zoll hoch, 28,5 Zoll breit, 1° Upsweep, 12° Backsweep , Bauart: 2-teilig , Typ: Forged Alu Front Load , Bauart: A-Head , : Eastern Fuquay Flyer , : 1-1/8 Zoll Eastern Internal Headset , : Eastern Combo Fat Kevlar , Typ: Combo Fat Kevlar , Typ: 36H 3/8 Zoll Loose Ball Bearing , Marke: KT , Typ: Quando Semi-Sealed 36H Kassettennabe, 9T CroMo Driver, 14mm CroMo Hohlachse , Marke & Typ: Double Wall 36 Loch , Material & sonstiges: Aluminium , Marke: Eastern , Typ: Fuquay , Größe: 20 Zoll, Reifenbreite: 2.3 Zoll, Marke: Eastern , Typ: Fuquay , Größe: 20 Zoll, Reifenbreite: 2.3 Zoll, : Eastern Bikes Crown Plastik , im Lieferumfang enthalten: ja , Anzahl: 1 Paar , : 11.93 kg (ca.), : Bügelbremse vorne liegt bei , : Sport]]></field>
+				<field name="Geschmack"></field>
+				<field name="imageUrlSmall"><![CDATA[http://www.fahrrad.de/media/products/293165_Eastern_Bike_BMX_Komplettrad_2012_RAMRODDER_BLUE_0[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="products_name">Eastern Ramrodder midnight/blue</field>
+				<field name="FFAutomaticSearchOptimization"></field>
+				<field name="cash_back_amount"></field>
+				<field name="month-campaign"></field>
+				<field name="Größe"></field>
+				<field name="products_quantity_unit"></field>
+				<field name="coupon-campaign"></field>
+				<field name="products_special_offer">0</field>
+				<field name="products_price">399.95</field>
+				<field name="availability">3</field>
+				<field name="imageUrlMid"><![CDATA[http://www.fahrrad.de/media/products/293165_Eastern_Bike_BMX_Komplettrad_2012_RAMRODDER_BLUE_0[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="categories_free_shipping">0</field>
+				<field name="Länge"></field>
+				<field name="products_model_year">2012</field>
+				<field name="products_link_self"><![CDATA[http://www.fahrrad.de/fahrraeder/bmx/eastern-bikes-bmx-komplettrad-2012-ramrodder-midnight-blue-/293165.html]]></field>
+				<field name="manufacturers_name">Eastern</field>
+				<field name="manufacturers_image">http://www.fahrrad.de/media/products/eastern.jpg</field>
+				<field name="manufacturers_free_shipping">0</field>
+				<field name="categories_image"></field>
+				<field name="FFCheckoutCount">0</field>
+				<field name="products_free_shipping">0</field>
+				<field name="manufacturers_id">1229</field>
+				<field name="products_quantity"></field>
+				<field name="products_you_save_percent"></field>
+				<field name="FFAfterSearchReorder"></field>
+		</record>
+	</similarRecords>
+</ff>

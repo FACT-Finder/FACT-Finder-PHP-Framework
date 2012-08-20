@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <production>
+		<debug>true</debug>
+
+		<!-- search settings -->
+		<search>
+			<address>demoshop.fact-finder.de</address>
+			<port>80</port>
+			<protocol>http</protocol> <!-- possible values: http, https -->
+			<auth>
+				<user>user</user>
+				<password>userpw</password>
+				<type>simple</type> <!-- possible values: http, simple, advanced -->
+				<advancedPrefix>FACT-FINDER</advancedPrefix>
+				<advancedPostfix>FACT-FINDER</advancedPostfix>
+			</auth>
+			<context>FACT-Finder</context>
+			<channel>de</channel>
+			<language>de</language>
+		</search>
+
+		<!-- parameter settings -->
+		<params>
+			<!-- parameter settings for the server -->
+			<server>
+				<ignore name="sid" />
+				<mapping from="keywords" to="query" />
+				<ignore name="password" />
+				<ignore name="username" />
+				<ignore name="timestamp" />
+			</server>
+
+			<!-- parameter settings for the client -->
+			<client>
+				<ignore name="xml" />
+				<ignore name="format" />
+				<ignore name="channel" />
+				<ignore name="password" />
+				<ignore name="username" />
+				<ignore name="timestamp" />
+				<mapping from="query" to="keywords" />
+			</client>
+		</params>
+
+		<!-- encoding settings -->
+		<encoding>
+			<pageContent>UTF-8</pageContent>
+			<serverURI>UTF-8</serverURI>
+			<pageURI>UTF-8</pageURI>
+		</encoding>
+	</production>
+</config>

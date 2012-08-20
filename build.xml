@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="FACT-Finder PHP Framework" default="build">
+
+	<property name="version"  value="2.4.2" override="true" />
+    <property name="buildBaseDir" value="./build" override="true" />
+	<property name="packageName" value="FACTFinderPHPFramework" override="true" />
+    <property name="srcdir"   value="${project.basedir}" override="true" />
+
+	<!-- ============================================  -->
+    <!-- Target: test                                  -->
+    <!-- ============================================  -->
+	<target name="test">
+		<phplint haltonfailure="true" cachefile="./build/phplint.cache">
+			<fileset dir=".">
+				<include name="lib/**/*.php"/>
+				<include name="demo/**.php"/>
+			</fileset>
+		</phplint>
+		
+		<phpunit bootstrap="tests/bootstrap.php" haltonerror="true" haltonfailure="true" printsummary="true">
+			<formatter todir="tests/reports" type="plain"/>
+			<batchtest>
+				<fileset dir="tests">
+					<include name="*Test.php"/>
+				</fileset>
+			</batchtest>
+		</phpunit>
+	</target>
+	
+	<!-- ============================================  -->
+    <!-- Target: document                              -->
+    <!-- ============================================  -->
+	<target name="doc">
+		<phpdoc title="FACT-Finder PHP Framework 2.3"
+			destdir="doc\phpdoc"
+			sourcecode="false"
+			output="HTML:Smarty:PHP"
+			quiet="true">
+			
+			<fileset dir="./lib">
+			  <include name="FACTFinder*/**" />
+			</fileset>
+			<projdocfileset dir=".">
+			  <include name="CHANGELOG" />
+			</projdocfileset>
+		</phpdoc>
+	</target>
+	
+    <!-- ============================================  -->
+    <!-- Target: clean                                 -->
+    <!-- ============================================  -->
+	<target name="clean">
+		<delete dir="${buildBaseDir}/${packageName}" includeemptydirs="true" verbose="false" failonerror="true" />
+		<delete file="${buildBaseDir}/${packageName}.${version}.zip" verbose="false" failonerror="true" />
+		<echo msg="cleaned up OK" />
+	</target>
+	
+    <!-- ============================================  -->
+    <!-- Target: build                                 -->
+    <!-- ============================================  -->
+    <target name="build">
+		<mkdir dir="${buildBaseDir}/${packageName}" />
+        <copy todir="${buildBaseDir}/${packageName}" >
+			<fileset dir=".">
+				<include name="demo/**" />
+				<include name="demo2/**" />
+				<include name="lib/**" />
+				<include name="resources/**" />
+				<include name="CHANGELOG.txt" />
+			</fileset>
+		</copy>
+		<copy todir="${buildBaseDir}/${packageName}" >
+			<fileset dir=".">
+				<include name="doc/**" />
+			</fileset>
+		</copy>
+		
+		<zip destfile="${buildBaseDir}/${packageName}.${version}.zip">
+            <fileset dir="${buildBaseDir}/">
+                <include name="${packageName}/**" />
+				<exclude name="*" />
+            </fileset>
+        </zip>
+    </target>
+</project>

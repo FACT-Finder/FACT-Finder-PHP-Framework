@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ffrecommender.xsd">
+	<results count="10">
+		<record nr="0" id="10465"> </record>
+		<record nr="1" id="228126"> </record>
+		<record nr="2" id="222360"> </record>
+		<record nr="3" id="225056"> </record>
+		<record nr="4" id="222362"> </record>
+		<record nr="5" id="225051"> </record>
+		<record nr="6" id="267315"> </record>
+		<record nr="7" id="222355"> </record>
+		<record nr="8" id="267312"> </record>
+		<record nr="9" id="275959"> </record>
+	</results>
+</ff>

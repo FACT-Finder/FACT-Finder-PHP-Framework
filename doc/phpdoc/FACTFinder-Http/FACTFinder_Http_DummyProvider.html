@@ -1,0 +1,653 @@
+<html>
+<head>
+<title>Docs For Class FACTFinder_Http_DummyProvider</title>
+<link rel="stylesheet" type="text/css" href="../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">FACTFinder-Http</td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+        
+                                                                            
+                                                                                                              		  [ <a href="../classtrees_FACTFinder-Http.html" class="menu">class tree: FACTFinder-Http</a> ]
+		  [ <a href="../elementindex_FACTFinder-Http.html" class="menu">index: FACTFinder-Http</a> ]
+		  	    [ <a href="../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+	<div id="todolist">
+			<p><a href="../todolist.html">Todo List</a></p>
+	</div>
+      <b>Packages:</b><br />
+              <a href="../li_FACTFinder-Abstract.html">FACTFinder-Abstract</a><br />
+              <a href="../li_FACTFinder-Common.html">FACTFinder-Common</a><br />
+              <a href="../li_FACTFinder-Http.html">FACTFinder-Http</a><br />
+              <a href="../li_FACTFinder-Xml64.html">FACTFinder-Xml64</a><br />
+              <a href="../li_FACTFinder-Xml65.html">FACTFinder-Xml65</a><br />
+              <a href="../li_FACTFinder-Xml66.html">FACTFinder-Xml66</a><br />
+              <a href="../li_FACTFinder-Xml67.html">FACTFinder-Xml67</a><br />
+            <br /><br />
+                        <b>Files:</b><br />
+      	  <div class="package">
+			<a href="../FACTFinder-Http/_Http---DataProvider.php.html">		DataProvider.php
+		</a><br>
+			<a href="../FACTFinder-Http/_Http---DummyProvider.php.html">		DummyProvider.php
+		</a><br>
+			<a href="../FACTFinder-Http/_Http---ParallelDataProvider.php.html">		ParallelDataProvider.php
+		</a><br>
+			<a href="../FACTFinder-Http/_Http---ScicAdapter.php.html">		ScicAdapter.php
+		</a><br>
+			<a href="../FACTFinder-Http/_Http---SuggestAdapter.php.html">		SuggestAdapter.php
+		</a><br>
+	  </div><br />
+      
+      
+            <b>Classes:</b><br />
+        <div class="package">
+		    		<a href="../FACTFinder-Http/DataNotLoadedException.html">DataNotLoadedException</a><br />
+	    		<a href="../FACTFinder-Http/FACTFinder_Http_DataProvider.html">FACTFinder_Http_DataProvider</a><br />
+	    		<a href="../FACTFinder-Http/FACTFinder_Http_DataProviderProxy.html">FACTFinder_Http_DataProviderProxy</a><br />
+	    		<a href="../FACTFinder-Http/FACTFinder_Http_DummyProvider.html">FACTFinder_Http_DummyProvider</a><br />
+	    		<a href="../FACTFinder-Http/FACTFinder_Http_ParallelDataProvider.html">FACTFinder_Http_ParallelDataProvider</a><br />
+	    		<a href="../FACTFinder-Http/FACTFinder_Http_ScicAdapter.html">FACTFinder_Http_ScicAdapter</a><br />
+	    		<a href="../FACTFinder-Http/FACTFinder_Http_SuggestAdapter.html">FACTFinder_Http_SuggestAdapter</a><br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: FACTFinder_Http_DummyProvider</h1>
+Source Location: /Http/DummyProvider.php<br /><br />
+
+
+<table width="100%" border="0">
+<tr><td valign="top">
+
+<h3><a href="#class_details">Class Overview</a></h3>
+<pre><a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html">FACTFinder_Abstract_DataProvider</a>
+   |
+   --FACTFinder_Http_DummyProvider</pre><br />
+<div class="description">this data provider loads the data from local static xml files  it is only intended to be used for testing</div><br /><br />
+<h4>Author(s):</h4>
+<ul>
+          <li>Rudolf Batt &lt;<a href="mailto:rb@omikron.net">rb@omikron.net</a>&gt;, Martin Buettner &lt;martin.buettner@omikron.net&gt;</li>
+            </ul>
+
+
+
+
+        
+    
+<h4>Version:</h4>
+<ul>
+  <li>$Id: DummyProvider.php 44086 2012-02-29 17:19:43Z martin.buettner $</li>
+</ul>
+
+        
+</td>
+
+<td valign="top">
+<h3><a href="#class_vars">Variables</a></h3>
+<ul>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DummyProvider.html#var$data">$data</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DummyProvider.html#var$fileLocation">$fileLocation</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DummyProvider.html#var$previousFileName">$previousFileName</a></li>
+  </ul>
+</td>
+
+
+<td valign="top">
+<h3><a href="#class_methods">Methods</a></h3>
+<ul>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DummyProvider.html#methodgetChannel">getChannel</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DummyProvider.html#methodgetData">getData</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DummyProvider.html#methodgetFileName">getFileName</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DummyProvider.html#methodloadFileContent">loadFileContent</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DummyProvider.html#methodsetCurlOption">setCurlOption</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DummyProvider.html#methodsetCurlOptions">setCurlOptions</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DummyProvider.html#methodsetFileLocation">setFileLocation</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DummyProvider.html#methodsetType">setType</a></li>
+  </ul>
+</td>
+
+</tr></table>
+<hr />
+
+<table width="100%" border="0"><tr>
+
+
+
+
+<td valign="top">
+<h3>Inherited Variables</h3>
+<div class="tags">
+<h4>Class: <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html">FACTFinder_Abstract_DataProvider</a></h4>
+<dl>
+<dt>
+  <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#var$config">FACTFinder_Abstract_DataProvider::$config</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#var$log">FACTFinder_Abstract_DataProvider::$log</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#var$params">FACTFinder_Abstract_DataProvider::$params</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#var$type">FACTFinder_Abstract_DataProvider::$type</a>
+  </dt>
+<dd>
+   
+</dd>
+</dl>
+</div>
+</td>
+
+<td valign="top">
+<h3>Inherited Methods</h3>
+<div class="tags">
+<h4>Class: <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html">FACTFinder_Abstract_DataProvider</a></h4>
+<dl>
+    <dt>
+    <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#method__construct">FACTFinder_Abstract_DataProvider::__construct()</a>
+  </dt>
+  <dd>
+    
+  </dd>
+    <dt>
+    <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodgetConfig">FACTFinder_Abstract_DataProvider::getConfig()</a>
+  </dt>
+  <dd>
+    
+  </dd>
+    <dt>
+    <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodgetData">FACTFinder_Abstract_DataProvider::getData()</a>
+  </dt>
+  <dd>
+    return the data for the current config and params; the return type depends on the implementation
+  </dd>
+    <dt>
+    <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodgetParams">FACTFinder_Abstract_DataProvider::getParams()</a>
+  </dt>
+  <dd>
+    
+  </dd>
+    <dt>
+    <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodsetArrayParam">FACTFinder_Abstract_DataProvider::setArrayParam()</a>
+  </dt>
+  <dd>
+    set single param with multiple values
+  </dd>
+    <dt>
+    <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodsetConfig">FACTFinder_Abstract_DataProvider::setConfig()</a>
+  </dt>
+  <dd>
+    
+  </dd>
+    <dt>
+    <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodsetParam">FACTFinder_Abstract_DataProvider::setParam()</a>
+  </dt>
+  <dd>
+    set single param
+  </dd>
+    <dt>
+    <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodsetParams">FACTFinder_Abstract_DataProvider::setParams()</a>
+  </dt>
+  <dd>
+    sets factfinder params object
+  </dd>
+    <dt>
+    <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodsetType">FACTFinder_Abstract_DataProvider::setType()</a>
+  </dt>
+  <dd>
+    set type to identify which data should be loaded. that could be a request path or any source identifier
+  </dd>
+    <dt>
+    <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodunsetParam">FACTFinder_Abstract_DataProvider::unsetParam()</a>
+  </dt>
+  <dd>
+    unset single param
+  </dd>
+  </dl>
+</div>
+</td>
+
+</tr></table>
+<hr />
+
+<a name="class_details"></a>
+<h3>Class Details</h3>
+<div class="tags">
+[line 18]<br />
+this data provider loads the data from local static xml files  it is only intended to be used for testing<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>author:</b>&nbsp;&nbsp;</td><td>Rudolf Batt &lt;<a href="mailto:rb@omikron.net">rb@omikron.net</a>&gt;, Martin Buettner &lt;martin.buettner@omikron.net&gt;</td>
+  </tr>
+  <tr>
+    <td><b>version:</b>&nbsp;&nbsp;</td><td>$Id: DummyProvider.php 44086 2012-02-29 17:19:43Z martin.buettner $</td>
+  </tr>
+</table>
+</div>
+</div><br /><br />
+<div class="top">[ <a href="#top">Top</a> ]</div><br />
+
+<hr />
+<a name="class_vars"></a>
+<h3>Class Variables</h3>
+<div class="tags">
+	<a name="var$data"></a>
+	<p></p>
+	<h4>$data = <span class="value"></span></h4>
+	<p>[line 20]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>mixed</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$fileLocation"></a>
+	<p></p>
+	<h4>$fileLocation = <span class="value"></span></h4>
+	<p>[line 23]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>mixed</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$previousFileName"></a>
+	<p></p>
+	<h4>$previousFileName = <span class="value"></span></h4>
+	<p>[line 21]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>mixed</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+</div><br />
+
+<hr />
+<a name="class_methods"></a>
+<h3>Class Methods</h3>
+<div class="tags">
+
+  <hr />
+	<a name="methodgetChannel"></a>
+	<h3>method getChannel <span class="smalllinenumber">[line 127]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string getChannel(
+array
+$params, FACTFinderAbstractConfiguration
+$config)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		get channel from params or config (params override config)<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>channel</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$params</b>&nbsp;&nbsp;</td>
+        <td>parameters</td>
+      </tr>
+          <tr>
+        <td class="type">FACTFinderAbstractConfiguration&nbsp;&nbsp;</td>
+        <td><b>$config</b>&nbsp;&nbsp;</td>
+        <td>config</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetData"></a>
+	<h3>method getData <span class="smalllinenumber">[line 70]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string getData(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		this implementation returns the data as string<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>data</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	Overrides <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodgetData">FACTFinder_Abstract_DataProvider::getData()</a> (return the data for the current config and params; the return type depends on the implementation)<br /><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetFileName"></a>
+	<h3>method getFileName <span class="smalllinenumber">[line 91]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void getFileName(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodloadFileContent"></a>
+	<h3>method loadFileContent <span class="smalllinenumber">[line 86]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>response loadFileContent(
+
+$fileName)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		this function loads the correct file and returns its contents<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>data</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>Exception on connection error</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$fileName</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsetCurlOption"></a>
+	<h3>method setCurlOption <span class="smalllinenumber">[line 39]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void setCurlOption(
+the
+$option, the
+$value, [boolean
+$overwriteExisting = true])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		we just offer this function, for compatibility with the DataProvider API<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>link:</b>&nbsp;&nbsp;</td><td><a href="http://php.net/manual/en/function.curl-setopt.php">http://php.net/manual/en/function.curl-setopt.php</a></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">the&nbsp;&nbsp;</td>
+        <td><b>$option</b>&nbsp;&nbsp;</td>
+        <td>option key (should be a cURL constant)</td>
+      </tr>
+          <tr>
+        <td class="type">the&nbsp;&nbsp;</td>
+        <td><b>$value</b>&nbsp;&nbsp;</td>
+        <td>option value</td>
+      </tr>
+          <tr>
+        <td class="type">boolean&nbsp;&nbsp;</td>
+        <td><b>$overwriteExisting</b>&nbsp;&nbsp;</td>
+        <td>whether to overwrite existing options or not. optional, default = true</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsetCurlOptions"></a>
+	<h3>method setCurlOptions <span class="smalllinenumber">[line 50]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void setCurlOptions(
+array
+$options)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		we just offer this function, for compatibility with the DataProvider API<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>link:</b>&nbsp;&nbsp;</td><td><a href="http://php.net/manual/en/function.curl-setopt.php">http://php.net/manual/en/function.curl-setopt.php</a></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$options</b>&nbsp;&nbsp;</td>
+        <td>of options</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsetFileLocation"></a>
+	<h3>method setFileLocation <span class="smalllinenumber">[line 25]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void setFileLocation(
+
+$loc)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$loc</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsetType"></a>
+	<h3>method setType <span class="smalllinenumber">[line 60]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void setType(
+string
+$type)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		this implementation of the data provider uses the type as request path in addition to the request context path.<br /><br /><p>please ensure that this is the full action name, i.e. &quot;Search.ff&quot;</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	Overrides <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodsetType">FACTFinder_Abstract_DataProvider::setType()</a> (set type to identify which data should be loaded. that could be a request path or any source identifier)<br /><br />
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$type</b>&nbsp;&nbsp;</td>
+        <td>type</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+</div><br />
+
+
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Tue, 03 Jul 2012 11:21:28 +0200 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.4</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

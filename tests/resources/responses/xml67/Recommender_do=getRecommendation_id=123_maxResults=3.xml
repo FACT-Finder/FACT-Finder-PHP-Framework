@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ffrecommender.xsd">
+	<results count="3">
+		<record nr="0" id="221910"> 
+				<field name="products_ean">..4250355585134..#..4250355585134..</field>
+				<field name="products_retail_price">299.99</field>
+				<field name="products_special_offer3">0</field>
+				<field name="products_ranking_profit">16961</field>
+				<field name="FFiPhoneVariants">Farbe|grau#4250355585134|weiß#4250355585134</field>
+				<field name="Farbe">..grau..#..weiß..</field>
+				<field name="products_special_offer2">0</field>
+				<field name="products_price_min">269.99</field>
+				<field name="products_price_max">269.99</field>
+				<field name="products_image">http://www.fahrrad.de/media/products/10_Serious_BMX_Spot_1024x768.jpg</field>
+				<field name="products_ranking_charge">25137</field>
+				<field name="shop_id">44</field>
+				<field name="products_you_save_money">30.00</field>
+				<field name="imageUrlLarge"><![CDATA[http://www.fahrrad.de/media/products/10_Serious_BMX_Spot_1024x768[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="category1">..Fahrräder..</field>
+				<field name="Breite"></field>
+				<field name="category0">Katalog</field>
+				<field name="category3">..BMX Räder bis 300€..</field>
+				<field name="products_best_price">0</field>
+				<field name="category2">..BMX..</field>
+				<field name="evaluation_total"></field>
+				<field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder bis 300€</field>
+				<field name="FFCliplisterQuality"></field>
+				<field name="products_id">221910</field>
+				<field name="products_video">1</field>
+				<field name="AdditionalAttributes"></field>
+				<field name="products_description"><![CDATA[Serious Spot BMXDas Serious Spot ist ein Einsteiger Street BMX Rad mit KHE F-Set Rotor, 4 Axle Pegs und robusten Laufrädern sowie KHE MAC Street Reifen in weiß. Das Serious Spot ist made by KHE in Germany. Materialtyp: Stahl , Material: Hi-Ten light steel , weitere Merkmale: Rahmen mit F-Set Rotor System , BMX: Freestyle , BMX: Allround , Marke: KHE , Material: Hi-Ten Steel , Anzahl Gänge: 1 , Übersetzung Blatt 1: 36 Zähne, Bauart: 1-teilig , Bauart: V-Brake , Bauart: V-Brake , Bauart: 2-teilig , Material: Hi-Ten light steel , Typ: 1 1/8 Zoll Aluminium , Bauart: A-Head , Marke: KHE , Typ: F-Set , : Prism Jump , Typ: 14 mm Achse , Typ: 14 mm Achse , Marke: KHE , Typ: MAC  , Größe: 20 Zoll, Reifenbreite: 2 Zoll, Marke: Trax , Typ: Prism Freestyle , Größe: 20 Zoll, Reifenbreite: 2 Zoll, : PVC Allround B/B , im Lieferumfang enthalten: ja , Anzahl: 1 Paar , Marke: KHE , Typ: Grind Pegs , : 13.9 kg (ca.), : Kettenspanner, verstärkte Kettenradgarnitur  , : Sport]]></field>
+				<field name="imageUrlSmall"><![CDATA[http://www.fahrrad.de/media/products/10_Serious_BMX_Spot_1024x768[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="products_name">KHE Serious BMX Spot</field>
+				<field name="AdditionalAttributes_values"></field>
+				<field name="FFAutomaticSearchOptimization"><![CDATA[BMX MIT 360°ROTOR=13|KHE BMX=12|KHE BIKE=4|KHE SERIOUS BMX SPOT 2012)=11|SIRIOUS=15]]></field>
+				<field name="cash_back_amount"></field>
+				<field name="month-campaign"></field>
+				<field name="Größe"></field>
+				<field name="products_quantity_unit"></field>
+				<field name="coupon-campaign"></field>
+				<field name="products_special_offer">0</field>
+				<field name="products_price">269.99</field>
+				<field name="availability">3</field>
+				<field name="imageUrlMid"><![CDATA[http://www.fahrrad.de/media/products/10_Serious_BMX_Spot_1024x768[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="categories_free_shipping">0</field>
+				<field name="Länge"></field>
+				<field name="products_model_year">2012</field>
+				<field name="products_link_self">http://www.fahrrad.de/fahrraeder/bmx/khe-serious-bmx-spot-/221910.html</field>
+				<field name="manufacturers_name">Serious</field>
+				<field name="manufacturers_image">http://www.fahrrad.de/media/products/serious.jpg</field>
+				<field name="manufacturers_free_shipping">0</field>
+				<field name="categories_image"></field>
+				<field name="FFCheckoutCount">2</field>
+				<field name="products_free_shipping">0</field>
+				<field name="manufacturers_id">445</field>
+				<field name="products_quantity"></field>
+				<field name="products_you_save_percent">10.00</field>
+				<field name="FFAfterSearchReorder"></field>
+		</record>
+		<record nr="1" id="278034"> 
+				<field name="products_ean">..4250583623851..#..4250583623851..</field>
+				<field name="products_retail_price">449.00</field>
+				<field name="products_special_offer3">0</field>
+				<field name="products_ranking_profit">0</field>
+				<field name="FFiPhoneVariants">Oberrohrlänge|20,5 Zoll#4250583623851|schwarz#4250583623851</field>
+				<field name="Farbe">..schwarz..</field>
+				<field name="products_special_offer2">0</field>
+				<field name="products_price_min">299.99</field>
+				<field name="products_price_max">299.99</field>
+				<field name="products_image">http://www.fahrrad.de/media/products/Serious_Fiftyfour_45.jpg</field>
+				<field name="products_ranking_charge">24953</field>
+				<field name="shop_id">44</field>
+				<field name="products_you_save_money">149.01</field>
+				<field name="imageUrlLarge"><![CDATA[http://www.fahrrad.de/media/products/Serious_Fiftyfour_45[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="category1">..Fahrräder..</field>
+				<field name="Breite"></field>
+				<field name="category0">Katalog</field>
+				<field name="category3">..BMX Räder bis 300€..</field>
+				<field name="products_best_price">0</field>
+				<field name="category2">..BMX..</field>
+				<field name="evaluation_total"></field>
+				<field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder bis 300€</field>
+				<field name="FFCliplisterQuality"></field>
+				<field name="products_id">278034</field>
+				<field name="products_video">0</field>
+				<field name="AdditionalAttributes">|Oberrohrlänge=20,5 Zoll|</field>
+				<field name="products_description"><![CDATA[Geometriedaten:Oberrohrlänge: 521 mm Materialtyp: Stahl , Material: Hi-Ten light steel , BMX: Allround , Material: Hi-Ten Steel , Typ: 14 mm , Anzahl Gänge: 1 , Typ: Torq, 175 mm, black , Bauart: 3-teilig , Material: CrMo , Typ: Rotor steel , Anzahl Zähne: 25 Zähne, Übersetzung: 9 Zähne, Typ: MidBB ball , Bauart: --- , Marke: KMC 1/2 x 1/8 " black , Typ: F-Set , Bauart: U-Brake , Typ: F-Set , Bauart: U-Brake , Marke: F-Set , Typ: Extra wide, 8" high , Bauart: 2-teilig , Material: Hi-Ten light steel , Typ: Topload 1/8 Zoll black , Bauart: A-Head , Typ: F-Set Kunstoff Rotor 1 1/8 Zoll weiß , : Velo Grips black , : 1 1/8 Zoll F-Set Sport black , : Prism Hurley , Bauart: Pivotal, inkl. Sattelklemme , Durchmesser: 25.4 mm, Typ: black, 300 mm , Typ: 14 mm, 36 Loch , Typ: Cassette 9T, 14 mm, 36 Loch , Marke & Typ: Prism Easy O double wall , : Prism, 181 mm, gold , Typ: Prism Fat , Größe: 20 Zoll, Reifenbreite: 2.3 Zoll, Typ: Prism Fat , Größe: 20 Zoll, Reifenbreite: 2.3 Zoll, : Prism Pedal 9/16 Zoll black , im Lieferumfang enthalten: ja , Anzahl: 1 Paar , Typ: steel pegs , : 13.3 kg (ca.), : Kettenspanner , : Sport , : Performance]]></field>
+				<field name="imageUrlSmall"><![CDATA[http://www.fahrrad.de/media/products/Serious_Fiftyfour_45[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="products_name">Serious fiftyfour 54</field>
+				<field name="AdditionalAttributes_values">20,5 Zoll</field>
+				<field name="FFAutomaticSearchOptimization"></field>
+				<field name="cash_back_amount"></field>
+				<field name="month-campaign"></field>
+				<field name="Größe"></field>
+				<field name="products_quantity_unit"></field>
+				<field name="coupon-campaign"></field>
+				<field name="products_special_offer">0</field>
+				<field name="products_price">299.99</field>
+				<field name="availability">3</field>
+				<field name="imageUrlMid"><![CDATA[http://www.fahrrad.de/media/products/Serious_Fiftyfour_45[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="categories_free_shipping">0</field>
+				<field name="Länge"></field>
+				<field name="products_model_year">2012</field>
+				<field name="products_link_self">http://www.fahrrad.de/fahrraeder/bmx/serious-fiftyfour45/278034.html</field>
+				<field name="manufacturers_name">Serious</field>
+				<field name="manufacturers_image">http://www.fahrrad.de/media/products/serious.jpg</field>
+				<field name="manufacturers_free_shipping">0</field>
+				<field name="categories_image"></field>
+				<field name="FFCheckoutCount">0</field>
+				<field name="products_free_shipping">0</field>
+				<field name="manufacturers_id">445</field>
+				<field name="products_quantity"></field>
+				<field name="products_you_save_percent">33.19</field>
+				<field name="FFAfterSearchReorder"></field>
+		</record>
+		<record nr="2" id="284311"> 
+				<field name="products_ean"><![CDATA[..0843990015490..#..0843990015490..#..0843990015490..#..0843990015513..#..0843990015513..#..0843990015513..]]></field>
+				<field name="products_retail_price"></field>
+				<field name="products_special_offer3">0</field>
+				<field name="products_ranking_profit">0</field>
+				<field name="FFiPhoneVariants"><![CDATA[Kopfumfang|56#0843990015490|57#0843990015490|58#0843990015490|59#0843990015513|60#0843990015513|61#0843990015513]]></field>
+				<field name="Farbe"></field>
+				<field name="products_special_offer2">0</field>
+				<field name="products_price_min">64.99</field>
+				<field name="products_price_max">64.99</field>
+				<field name="products_image">http://www.fahrrad.de/media/products/liix/2698_0.jpg</field>
+				<field name="products_ranking_charge">0</field>
+				<field name="shop_id">44</field>
+				<field name="products_you_save_money"></field>
+				<field name="imageUrlLarge"><![CDATA[http://www.fahrrad.de/media/products/liix/2698_0[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="category1">..Fahrradbekleidung..</field>
+				<field name="Breite"></field>
+				<field name="category0">Katalog</field>
+				<field name="category3">..BMX / Dirt Helme..</field>
+				<field name="products_best_price">0</field>
+				<field name="category2">..Fahrradhelme..</field>
+				<field name="evaluation_total"></field>
+				<field name="category">Katalog &gt;&gt; Fahrradbekleidung &gt;&gt; Fahrradhelme &gt;&gt; BMX / Dirt Helme</field>
+				<field name="FFCliplisterQuality">175</field>
+				<field name="products_id">284311</field>
+				<field name="products_video">1</field>
+				<field name="AdditionalAttributes"><![CDATA[|Kopfumfang=56|Kopfumfang=57|Kopfumfang=58|Kopfumfang=59|Kopfumfang=60|Kopfumfang=61|]]></field>
+				<field name="products_description"><![CDATA[Es war noch nie so leicht im Sommer einen kühlen Kopf und im Winter warme Ohren zu bewahren. Denn der Brentwood ist der leichtgewichtigste und schmalprofiligste Helm, den es im Moment gibt. Durch die austauschbaren Inlays begleitet er einen das ganze Jahr: von der Straße auf die Piste. Beim Biken, Skaten, Snowboarden und Skifahren. Die Bern Zipmold Technologie ermöglicht das schnelle und einfache Austauschen der Inlays: Der Bern Brentwood hat ein wärmendes Futter, das einfach durch ein Sommer-Inlay mit Sonnenblende ausgetauscht werden kann. Dieses Sommer-Inlay für die sonnigen Tage des Lebens auf Bikes und Boards ist bei uns exklusiv im Lieferumfang enthalten. Details:- mit warmen Winter-Inlay und exklusivem Sonnenblenden-Inlay für den Sommer- abnehmbarer Goggle Clip (Skibrillenhalter)- SINK FIT Design - der Helm sitzt tiefer auf dem KopfGrößen (Kopfumfang):M/L = 56,5 - 58 cmM = 55,5 - 57 cmXL = 59 - 60,5 cm Zielgruppe: Herren , : Allround , : Schalenkonstruktion , : ja , : 450 g, : EN 1078 , : CPSC , : ASTM 2040 , : ---]]></field>
+				<field name="imageUrlSmall"><![CDATA[http://www.fahrrad.de/media/products/liix/2698_0[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="products_name">Bern Brentwood mit schwarzem Visor Innenfutter matt grau</field>
+				<field name="AdditionalAttributes_values">56 57 58 59 60 61</field>
+				<field name="FFAutomaticSearchOptimization">BERN BRENTWOOD=7</field>
+				<field name="cash_back_amount"></field>
+				<field name="month-campaign"></field>
+				<field name="Größe"></field>
+				<field name="products_quantity_unit"></field>
+				<field name="coupon-campaign"></field>
+				<field name="products_special_offer">0</field>
+				<field name="products_price">64.99</field>
+				<field name="availability">3</field>
+				<field name="imageUrlMid"><![CDATA[http://www.fahrrad.de/media/products/liix/2698_0[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="categories_free_shipping">0</field>
+				<field name="Länge"></field>
+				<field name="products_model_year">2011</field>
+				<field name="products_link_self"><![CDATA[http://www.fahrrad.de/bekleidung/fahrradhelme/bern-brentwood-grau-matt-mit-schwarzem-visor-innenfutter/284311.html]]></field>
+				<field name="manufacturers_name">Bern</field>
+				<field name="manufacturers_image"></field>
+				<field name="manufacturers_free_shipping">0</field>
+				<field name="categories_image"></field>
+				<field name="FFCheckoutCount">0</field>
+				<field name="products_free_shipping">0</field>
+				<field name="manufacturers_id">1211</field>
+				<field name="products_quantity"></field>
+				<field name="products_you_save_percent"></field>
+				<field name="FFAfterSearchReorder"></field>
+		</record>
+	</results>
+</ff>

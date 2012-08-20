@@ -1,0 +1,66 @@
+﻿#result
+result_head_searchFor = Ihre Suche nach "{0}" ergab {1} Treffer
+result_sort = Sortierung:
+result_pushedProducts = Unsere Topseller
+result_productsPerPage = {0} Artikel pro Seite
+result_searchTimedOut = Die Suche hat die maximal erlaube Zeitspanne überschritten. Das Suchergebnis ist unter Umständen nicht vollständig. Die Ursache ist ein überlasteter Demo-Suchserver.
+result_error = Leider ist bei ihrer Anfrage ein Fehler aufgetreten.<br>Bitte wenden Sie sich an den Shopbetreiber für weitere Infos.
+result_badMatchingQueryParts = Für Teile Ihrer Suchanfrage konnten folgende Ergebnisanzahlen ermittelt werden:
+
+#header
+header_imageURL = ./files/images/head_logo_de.gif
+
+#sorting
+sorting_selected = gewählt
+
+#footer
+footer_copyright = FACT-Finder ist eine Technologie der Omikron Data Quality GmbH Copyright 2000-2008
+footer_contact = Kontakt
+
+#asn
+asn_removeFilter = (Auswahl aufheben)
+asn_moreGroupElements = {0} weitere...
+
+#tagcloud
+tagcloud_title = Tag-Cloud
+
+#resultpage
+resultpage_title = FACT-Finder Demoshop - Suche nach "{0}"
+resultpage_asnHintCssClass = asnHintDE
+
+#product
+product_new = Neuheit
+product_used = Gebraucht
+product_noPicture = kein Bild
+product_articlenumber = Art.Nr.:
+product_priceUnit = &euro;
+
+#paging
+paging_onePageOnly = Seite 1 von 1
+prev_link_text = vorherige Seite
+next_link_text = nächste Seite
+
+#searchbox
+searchbox_submitButtonURL = ./files/images/searchbox_button_de.png
+searchbox_defaultText = Suchbegriff eingeben...
+
+#catalog
+catalog_useAsn = Schränken Sie auf eine Kategorie ein, um die Produkte von dieser Kategorie zu sehen.
+
+#nomatch
+nomatch_head_searchFor = Ihre Suche nach <strong>"{0}"</strong> ergab leider keine Treffer
+nomatch_nothingFound = Für Ihre Suchabfrage konnten keine Übereinstimmungen gefunden werden.<br>Bitte verwenden Sie einen anderen Suchbegriff.
+nomatch_topseller = Alternativ möchten wir Ihnen die beliebtesten Artikel vorstellen, vielleicht ist auch was für Sie dabei.
+
+#info
+info_placeholder = <h3>Infospalte</h3><p>Wenn Sie den Infomodus aktivieren (Fragezeichensymbol oben), dann erscheint hier eine Beschreibung beim überfahren der entsprechenden Bereiche</p>
+info_asn = <h3>ASN-Gruppe</h3><p>Hier können Sie das Suchergebnis weiter einschränken.
+info_result = <h3>Suchergebnis</h3><p>Hier sehen Sie die Produkte, die durch die Suchanfrage gefunden wurden.</p>
+info_breadcrumb = <h3>Breadcrumbs</h3><p>Durch die Breadcrumbs kann man zu einem vorherigen Stand der Anfrage springen.</p>
+info_sort = <h3>Sortierung</h3><p>Hier können Sie das Suchergebnis sortieren.</p>
+info_paging = <h3>Paging</h3><p>Hier können Sie durch das Suchergebnis blättern, falls es mehrere Seiten gibt.</p>
+
+#errors
+error_title = Fehler
+error_noQuery = Bitte Suchbegriff eingeben
+error_noResult = Es ist ein Fehler aufgetreten...

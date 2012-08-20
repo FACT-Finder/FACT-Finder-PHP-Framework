@@ -1,0 +1,33 @@
+function activateInfomodus(){
+	$('img#infoButton').attr('src', 'files/images/modus_info_on.png');
+
+	bindInfo('#asnColumn', '<h3>ASN-Gruppe</h3><p>Hier können Sie das Suchergebnis weiter einschränken.');
+	bindInfo('#resultWrap', '<h3>Suchergebnis</h3><p>Hier sehen Sie die Produkte, die durch die Suchanfrage gefunden wurden.</p>');
+	bindInfo('#breadCrumbTrail', '<h3>Breadcrumbs</h3><p>Durch die Breadcrumbs kann man zu einem vorherigen Stand der Anfrage springen.</p>');
+	bindInfo('div.sortBox', '<h3>Sortierung</h3><p>Hier können Sie das Suchergebnis sortieren.</p>');
+	bindInfo('div.paging', '<h3>Paging</h3><p>Hier können Sie durch das Suchergebnis blättern, falls es mehrere Seiten gibt.</p>');
+}
+
+function deactivateInfomodus(){
+	$('img#infoButton').attr('src', 'files/images/modus_info_off.png');
+
+	$('div#infoPlaceHolder').html('<h3>Infospalte</h3><p>Wenn Sie den Infomodus aktivieren (Fragezeichensymbol oben), dann erscheint hier eine Beschreibung beim überfahren der entsprechenden Bereiche</p>');
+
+	unbindInfo('#asnColumn');
+	unbindInfo('#resultWrap');
+	unbindInfo('#breadCrumbTrail');
+	unbindInfo('div.sortBox');
+	unbindInfo('div.paging');
+}
+
+function bindInfo(object, text){
+	$(object).mouseover(function(){
+	  $('div#infoPlaceHolder').html(text);
+	});
+	$(object).addClass('infoblock');
+}
+
+function unbindInfo(object) {
+	$(object).unbind('mouseover');
+	$(object).removeClass('infoblock');
+}

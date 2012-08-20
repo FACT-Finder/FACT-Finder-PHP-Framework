@@ -1,0 +1,168 @@
+<?php
+/**
+ * HTML frame for demo shop.
+ * Available variables include:
+ * 		$config
+ *		$paramsParser
+ *		$searchAdapter
+ *		$tagCloudAdapter
+ *      $i18n
+ *
+ *		$encoding
+ *		$ffparams
+ *		$campaigns
+ *		$status
+ *		$isArticleNumberSearch
+ *		$isSearchTimedOut
+ *		$productsPerPageOptions
+ *		$breadCrumbTrail
+ *		$singleWordSearch
+ *		$paging
+ *		$sorting
+ *		$asn
+ *		$result
+ *		$util
+ *
+ *		$tagCloud
+ *
+ *		$message
+ *
+ * Available constants include:
+ * 		DEMO_DIR
+ *		LIB_DIR
+ *		TEMPLATE_DIR
+ *		USERDATA_DIR
+ *
+ * @author    Rudolf Batt <rb@omikron.net>, Martin Buettner <martin.buettner@omikron.net>
+ * @revision  $Rev: -1 $
+ * @update    $LastChangedDate: $
+ */
+?>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $encoding; ?>"/>
+		<title><?php echo $i18n->msg('resultpage_title', $ffparams->getQuery()); ?></title>
+
+		<link rel="shortcut icon" href="./files/images/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="./files/css/demoshop.css">
+		
+		<script language="JavaScript" type="text/javascript" src="./files/js/ffsuggest.js"></script>
+		<script language="JavaScript" type="text/javascript" src="./files/js/ffscic.js"></script>
+		<script language="JavaScript" type="text/javascript" src="./files/js/jquery/jquery-1.2.6.min.js"></script>
+		<script language="javascript" type="text/javascript" src="http://static.express.fact-finder.com/onetouchslider-1.0/de.factfinder.asn.slider.OneTouchSlider.nocache.js"></script>
+
+		<script language="JavaScript" type="text/javascript">
+			<?php include TEMPLATE_DIR.DS.'js'.DS.'infomodus.js.phtml'; ?>
+			<?php include TEMPLATE_DIR.DS.'js'.DS.'demoshop.js.phtml'; ?>
+		</script>
+
+		<?php if(isset($campaigns)) echo $campaigns->getFeedback('html header'); ?>
+	</head>
+	<body>
+		<script type="text/javascript" src="./files/js/wz_tooltip/wz_tooltip.js"></script>
+		<div id="container" >
+			<div id="header">
+				<?php renderHeader($i18n); ?>
+			</div>
+
+			<div id="searchboxLine" class="asnHint">
+				<div id="searchbox">
+					<?php renderSearchBox($ffparams, $i18n); ?>
+				</div>
+
+				<div id="SearchboxCMPlaceHolder">
+					<?php if(isset($campaigns)) echo $campaigns->getFeedback('header'); ?>
+				</div>
+
+				<?php if(!$ffparams->isNavigation()): ?>
+					<div id="buttons">
+						<img src="./files/images/modus_info_off.png" alt="Info" id="infoButton">
+					</div>
+				<?php endif; ?>
+			</div>
+
+			<div id="content">
+			<?php switch($status):
+			case FACTFinder_Abstract_SearchAdapter::NO_RESULT:
+			case FACTFinder_Abstract_SearchAdapter::NOTHING_FOUND: ?>
+				<h2><?php echo $message; ?></h2>
+			<?php break;
+			case FACTFinder_Abstract_SearchAdapter::RESULTS_FOUND: ?>
+				<div id="asnColumn" class="<?php echo $i18n->msg('resultpage_asnHintCssClass'); ?>" >
+					<?php
+					if(isset($campaigns)) echo $campaigns->getFeedback('above asn');
+					renderAsnColumn($asn, $ffparams, $i18n, isset($campaigns) ? $campaigns : NULL);
+					if(isset($campaigns)) echo $campaigns->getFeedback('below asn');
+					?>
+				</div>
+
+				<div id="resultColumn">
+					<?php if(isset($campaigns)) renderAdvisorCampaign($campaigns); ?>
+					
+					<?php renderBreadCrumbs($result, $ffparams, $i18n, $breadCrumbTrail); ?>
+					
+					<?php if(isset($campaigns)) echo $campaigns->getFeedback('below breadcrumb'); ?>
+					
+					<?php if($isSearchTimedOut): ?>
+						<p class="timeout"><?php echo $i18n->msg('result_searchTimedOut'); ?></p>
+					<?php endif; ?>
+					
+					<?php if(isset($campaigns)) echo $campaigns->getFeedback('above search result'); ?>
+					
+					<!-- single word search goes here -->
+					<?php if (!empty($singleWordSearch) && count($singleWordSearch) > 0) renderSingleWordResults($singleWordSearch, $i18n); ?>
+					
+					<?php if(isset($result) && count($result) > 0 && !$ffparams->isNavigation()): ?>
+						<?php renderSortBox($sorting, $i18n); ?>
+						<?php renderPaging($paging, $i18n); ?>
+					<?php else: ?>
+						<div class="paging browseTop"><?php echo $i18n->msg('catalog_useAsn'); ?></div>
+					<?php endif; ?>
+					
+					<!-- preview image asn goes here -->
+										
+					<div id="results">
+						<?php if(isset($campaigns)) echo $campaigns->getFeedback('above pushed product'); ?>
+						
+						<?php renderPushedProducts($asn, $util, $i18n, isset($campaigns) ? $campaigns : NULL); ?>
+						
+						<div id="resultWrap">
+							<?php renderResults($result, $util, $i18n); ?>
+						</div>
+					</div>
+					<div class="clear">&nbsp;</div>
+					
+					<?php if (isset($result) && count($result) > 0 && !$ffparams->isNavigation()): ?>
+						<?php renderPaging($paging, $i18n); ?>
+						<?php renderPagingOptionBox($productsPerPageOptions, $i18n); ?>
+					<?php endif; ?>
+					
+					<?php if(isset($campaigns)) echo $campaigns->getFeedback('below search result'); ?>
+					
+				</div>
+
+				<div id="infoColumn">
+					<?php if(isset($campaigns)) echo $campaigns->getFeedback('above info panel'); ?>
+
+					<?php if(!$ffparams->isNavigation()): ?>
+						<div id="infoPlaceHolder">
+							<?php echo $i18n->msg('info_placeholder'); ?>
+						</div>
+					<?php endif; ?>
+					
+					<?php if (isset($tagCloud) && !empty($tagCloud)): ?>
+						<?php renderTagCloud($i18n, $tagCloud); ?>
+					<?php endif;?>
+					<div class="clear">&nbsp;</div>
+				</div>
+			<?php break;
+			endswitch; ?>
+			</div>
+			<div id="footer">
+				<?php renderFooter($i18n); ?>
+			</div>
+		</div>
+	</body>
+</html>

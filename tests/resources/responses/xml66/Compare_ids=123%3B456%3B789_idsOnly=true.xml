@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ff>
+	<attributes>
+		<attribute name="Farbe" hasDifferences="true" sourceField="Farbe" />
+		<attribute name="Hersteller" hasDifferences="false" sourceField="manufacturers_name" />
+		<attribute name="Modelljahr" hasDifferences="true" sourceField="products_model_year" />
+	</attributes>
+	<results count="3">
+			<record nr="0" id="123" >
+					<field name="Modelljahr">2011</field>
+					<field name="Schaltung"></field>
+					<field name="Gepäckträger"></field>
+					<field name="Hersteller">KHE</field>
+					<field name="Kette"></field>
+					<field name="Größe"></field>
+					<field name="Material"></field>
+					<field name="Schaltungstyp"></field>
+					<field name="Farbe">..grau..#..weiß..</field>
+					<field name="Anzahl Gänge"></field>
+					<field name="AdditionalAttributes"></field>
+					<field name="Felgen"></field>
+			</record>
+			<record nr="1" id="456" >
+					<field name="Modelljahr">2012</field>
+					<field name="Schaltung"></field>
+					<field name="Gepäckträger"></field>
+					<field name="Hersteller">KHE</field>
+					<field name="Kette"></field>
+					<field name="Größe"></field>
+					<field name="Material"></field>
+					<field name="Schaltungstyp"></field>
+					<field name="Farbe">..schwarz..</field>
+					<field name="Anzahl Gänge"></field>
+					<field name="AdditionalAttributes"></field>
+					<field name="Felgen"></field>
+			</record>
+			<record nr="2" id="789" >
+					<field name="Modelljahr">2010</field>
+					<field name="Schaltung"></field>
+					<field name="Gepäckträger"></field>
+					<field name="Hersteller">KHE</field>
+					<field name="Kette"></field>
+					<field name="Größe"></field>
+					<field name="Material"></field>
+					<field name="Schaltungstyp"></field>
+					<field name="Farbe">..grau..#..schwarz..</field>
+					<field name="Anzahl Gänge"></field>
+					<field name="AdditionalAttributes"></field>
+					<field name="Felgen"></field>
+			</record>
+	</results>
+</ff>

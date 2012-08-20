@@ -1,0 +1,858 @@
+<html>
+<head>
+<title>Docs For Class FACTFinder_Http_DataProvider</title>
+<link rel="stylesheet" type="text/css" href="../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">FACTFinder-Http</td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+        
+                                                                            
+                                                                                                              		  [ <a href="../classtrees_FACTFinder-Http.html" class="menu">class tree: FACTFinder-Http</a> ]
+		  [ <a href="../elementindex_FACTFinder-Http.html" class="menu">index: FACTFinder-Http</a> ]
+		  	    [ <a href="../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+	<div id="todolist">
+			<p><a href="../todolist.html">Todo List</a></p>
+	</div>
+      <b>Packages:</b><br />
+              <a href="../li_FACTFinder-Abstract.html">FACTFinder-Abstract</a><br />
+              <a href="../li_FACTFinder-Common.html">FACTFinder-Common</a><br />
+              <a href="../li_FACTFinder-Http.html">FACTFinder-Http</a><br />
+              <a href="../li_FACTFinder-Xml64.html">FACTFinder-Xml64</a><br />
+              <a href="../li_FACTFinder-Xml65.html">FACTFinder-Xml65</a><br />
+              <a href="../li_FACTFinder-Xml66.html">FACTFinder-Xml66</a><br />
+              <a href="../li_FACTFinder-Xml67.html">FACTFinder-Xml67</a><br />
+            <br /><br />
+                        <b>Files:</b><br />
+      	  <div class="package">
+			<a href="../FACTFinder-Http/_Http---DataProvider.php.html">		DataProvider.php
+		</a><br>
+			<a href="../FACTFinder-Http/_Http---DummyProvider.php.html">		DummyProvider.php
+		</a><br>
+			<a href="../FACTFinder-Http/_Http---ParallelDataProvider.php.html">		ParallelDataProvider.php
+		</a><br>
+			<a href="../FACTFinder-Http/_Http---ScicAdapter.php.html">		ScicAdapter.php
+		</a><br>
+			<a href="../FACTFinder-Http/_Http---SuggestAdapter.php.html">		SuggestAdapter.php
+		</a><br>
+	  </div><br />
+      
+      
+            <b>Classes:</b><br />
+        <div class="package">
+		    		<a href="../FACTFinder-Http/DataNotLoadedException.html">DataNotLoadedException</a><br />
+	    		<a href="../FACTFinder-Http/FACTFinder_Http_DataProvider.html">FACTFinder_Http_DataProvider</a><br />
+	    		<a href="../FACTFinder-Http/FACTFinder_Http_DataProviderProxy.html">FACTFinder_Http_DataProviderProxy</a><br />
+	    		<a href="../FACTFinder-Http/FACTFinder_Http_DummyProvider.html">FACTFinder_Http_DummyProvider</a><br />
+	    		<a href="../FACTFinder-Http/FACTFinder_Http_ParallelDataProvider.html">FACTFinder_Http_ParallelDataProvider</a><br />
+	    		<a href="../FACTFinder-Http/FACTFinder_Http_ScicAdapter.html">FACTFinder_Http_ScicAdapter</a><br />
+	    		<a href="../FACTFinder-Http/FACTFinder_Http_SuggestAdapter.html">FACTFinder_Http_SuggestAdapter</a><br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: FACTFinder_Http_DataProvider</h1>
+Source Location: /Http/DataProvider.php<br /><br />
+
+
+<table width="100%" border="0">
+<tr><td valign="top">
+
+<h3><a href="#class_details">Class Overview</a></h3>
+<pre><a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html">FACTFinder_Abstract_DataProvider</a>
+   |
+   --FACTFinder_Http_DataProvider</pre><br />
+<div class="description">this data provider loads the data via http</div><br /><br />
+<h4>Author(s):</h4>
+<ul>
+          <li>Rudolf Batt &lt;<a href="mailto:rb@omikron.net">rb@omikron.net</a>&gt;</li>
+            </ul>
+
+
+
+
+        
+    
+<h4>Version:</h4>
+<ul>
+  <li>$Id: DataProvider.php 25893 2010-06-29 08:19:43Z rb $</li>
+</ul>
+
+        
+</td>
+
+<td valign="top">
+<h3><a href="#class_vars">Variables</a></h3>
+<ul>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DataProvider.html#var$curlOptions">$curlOptions</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DataProvider.html#var$data">$data</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DataProvider.html#var$httpHeader">$httpHeader</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DataProvider.html#var$previousUrl">$previousUrl</a></li>
+  </ul>
+</td>
+
+
+<td valign="top">
+<h3><a href="#class_methods">Methods</a></h3>
+<ul>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DataProvider.html#methodaddHttpHeaderFields">addHttpHeaderFields</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DataProvider.html#methodgetAdvancedAuthenticationUrl">getAdvancedAuthenticationUrl</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DataProvider.html#methodgetAuthenticationUrl">getAuthenticationUrl</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DataProvider.html#methodgetChannel">getChannel</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DataProvider.html#methodgetData">getData</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DataProvider.html#methodgetHttpAuthenticationUrl">getHttpAuthenticationUrl</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DataProvider.html#methodgetNonAuthenticationUrl">getNonAuthenticationUrl</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DataProvider.html#methodgetSimpleAuthenticationUrl">getSimpleAuthenticationUrl</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DataProvider.html#methodloadResponse">loadResponse</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DataProvider.html#methodsendRequest">sendRequest</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DataProvider.html#methodsetCurlOption">setCurlOption</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DataProvider.html#methodsetCurlOptions">setCurlOptions</a></li>
+    <li><a href="../FACTFinder-Http/FACTFinder_Http_DataProvider.html#methodsetType">setType</a></li>
+  </ul>
+</td>
+
+</tr></table>
+<hr />
+
+<table width="100%" border="0"><tr>
+
+
+<td valign="top">
+<h3>Child classes:</h3>
+<div class="tags">
+<dl>
+<dt><a href="../FACTFinder-Http/FACTFinder_Http_DataProviderProxy.html">FACTFinder_Http_DataProviderProxy</a></dt>
+	<dd></dd>
+</dl>
+</div>
+</td>
+
+
+<td valign="top">
+<h3>Inherited Variables</h3>
+<div class="tags">
+<h4>Class: <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html">FACTFinder_Abstract_DataProvider</a></h4>
+<dl>
+<dt>
+  <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#var$config">FACTFinder_Abstract_DataProvider::$config</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#var$log">FACTFinder_Abstract_DataProvider::$log</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#var$params">FACTFinder_Abstract_DataProvider::$params</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#var$type">FACTFinder_Abstract_DataProvider::$type</a>
+  </dt>
+<dd>
+   
+</dd>
+</dl>
+</div>
+</td>
+
+<td valign="top">
+<h3>Inherited Methods</h3>
+<div class="tags">
+<h4>Class: <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html">FACTFinder_Abstract_DataProvider</a></h4>
+<dl>
+    <dt>
+    <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#method__construct">FACTFinder_Abstract_DataProvider::__construct()</a>
+  </dt>
+  <dd>
+    
+  </dd>
+    <dt>
+    <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodgetConfig">FACTFinder_Abstract_DataProvider::getConfig()</a>
+  </dt>
+  <dd>
+    
+  </dd>
+    <dt>
+    <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodgetData">FACTFinder_Abstract_DataProvider::getData()</a>
+  </dt>
+  <dd>
+    return the data for the current config and params; the return type depends on the implementation
+  </dd>
+    <dt>
+    <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodgetParams">FACTFinder_Abstract_DataProvider::getParams()</a>
+  </dt>
+  <dd>
+    
+  </dd>
+    <dt>
+    <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodsetArrayParam">FACTFinder_Abstract_DataProvider::setArrayParam()</a>
+  </dt>
+  <dd>
+    set single param with multiple values
+  </dd>
+    <dt>
+    <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodsetConfig">FACTFinder_Abstract_DataProvider::setConfig()</a>
+  </dt>
+  <dd>
+    
+  </dd>
+    <dt>
+    <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodsetParam">FACTFinder_Abstract_DataProvider::setParam()</a>
+  </dt>
+  <dd>
+    set single param
+  </dd>
+    <dt>
+    <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodsetParams">FACTFinder_Abstract_DataProvider::setParams()</a>
+  </dt>
+  <dd>
+    sets factfinder params object
+  </dd>
+    <dt>
+    <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodsetType">FACTFinder_Abstract_DataProvider::setType()</a>
+  </dt>
+  <dd>
+    set type to identify which data should be loaded. that could be a request path or any source identifier
+  </dd>
+    <dt>
+    <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodunsetParam">FACTFinder_Abstract_DataProvider::unsetParam()</a>
+  </dt>
+  <dd>
+    unset single param
+  </dd>
+  </dl>
+</div>
+</td>
+
+</tr></table>
+<hr />
+
+<a name="class_details"></a>
+<h3>Class Details</h3>
+<div class="tags">
+[line 17]<br />
+this data provider loads the data via http<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>author:</b>&nbsp;&nbsp;</td><td>Rudolf Batt &lt;<a href="mailto:rb@omikron.net">rb@omikron.net</a>&gt;</td>
+  </tr>
+  <tr>
+    <td><b>version:</b>&nbsp;&nbsp;</td><td>$Id: DataProvider.php 25893 2010-06-29 08:19:43Z rb $</td>
+  </tr>
+</table>
+</div>
+</div><br /><br />
+<div class="top">[ <a href="#top">Top</a> ]</div><br />
+
+<hr />
+<a name="class_vars"></a>
+<h3>Class Variables</h3>
+<div class="tags">
+	<a name="var$curlOptions"></a>
+	<p></p>
+	<h4>$curlOptions = <span class="value">array(<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CURLOPT_RETURNTRANSFER&nbsp;=&gt;&nbsp;true,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CURLOPT_SSL_VERIFYPEER&nbsp;=&gt;&nbsp;false,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CURLOPT_SSL_VERIFYHOST&nbsp;=&gt;&nbsp;false,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CURLOPT_CONNECTTIMEOUT&nbsp;=&gt;&nbsp;2,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CURLOPT_TIMEOUT&nbsp;=&gt;&nbsp;4<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</span></h4>
+	<p>[line 22]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>mixed</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$data"></a>
+	<p></p>
+	<h4>$data = <span class="value"></span></h4>
+	<p>[line 19]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>mixed</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$httpHeader"></a>
+	<p></p>
+	<h4>$httpHeader = <span class="value">array()</span></h4>
+	<p>[line 21]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>mixed</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$previousUrl"></a>
+	<p></p>
+	<h4>$previousUrl = <span class="value"></span></h4>
+	<p>[line 20]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>mixed</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+</div><br />
+
+<hr />
+<a name="class_methods"></a>
+<h3>Class Methods</h3>
+<div class="tags">
+
+  <hr />
+	<a name="methodaddHttpHeaderFields"></a>
+	<h3>method addHttpHeaderFields <span class="smalllinenumber">[line 76]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void addHttpHeaderFields(
+array
+$httpHeader)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		add an array of HTTP header fields in the format  array('Content-type: text/plain', 'Content-length: 100')<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$httpHeader</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetAdvancedAuthenticationUrl"></a>
+	<h3>method getAdvancedAuthenticationUrl <span class="smalllinenumber">[line 181]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string getAdvancedAuthenticationUrl(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		get url with advanced authentication encryption<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>url</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetAuthenticationUrl"></a>
+	<h3>method getAuthenticationUrl <span class="smalllinenumber">[line 125]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string getAuthenticationUrl(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		this function returns the request url with the correct authentication method (set by the configuration).<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>url</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetChannel"></a>
+	<h3>method getChannel <span class="smalllinenumber">[line 300]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string getChannel(
+array
+$params, FACTFinderAbstractConfiguration
+$config)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		get channel from params or config (params override config)<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>channel</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$params</b>&nbsp;&nbsp;</td>
+        <td>parameterse</td>
+      </tr>
+          <tr>
+        <td class="type">FACTFinderAbstractConfiguration&nbsp;&nbsp;</td>
+        <td><b>$config</b>&nbsp;&nbsp;</td>
+        <td>config</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetData"></a>
+	<h3>method getData <span class="smalllinenumber">[line 85]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string getData(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		this implementation returns the data as string, no matter what content type set at the http response<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>data</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	<p>Overridden in child classes as:<br />
+		<dl>
+	<dt><a href="../FACTFinder-Http/FACTFinder_Http_DataProviderProxy.html#methodgetData">FACTFinder_Http_DataProviderProxy::getData()</a></dt>
+		<dd></dd>
+	</dl>
+	</p>
+	Overrides <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodgetData">FACTFinder_Abstract_DataProvider::getData()</a> (return the data for the current config and params; the return type depends on the implementation)<br /><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetHttpAuthenticationUrl"></a>
+	<h3>method getHttpAuthenticationUrl <span class="smalllinenumber">[line 243]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string getHttpAuthenticationUrl(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		get url with http authentication<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>url</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetNonAuthenticationUrl"></a>
+	<h3>method getNonAuthenticationUrl <span class="smalllinenumber">[line 272]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string getNonAuthenticationUrl(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		get url with no authentication.<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>url</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetSimpleAuthenticationUrl"></a>
+	<h3>method getSimpleAuthenticationUrl <span class="smalllinenumber">[line 213]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string getSimpleAuthenticationUrl(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		get url with simple authentication encryption<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>url</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodloadResponse"></a>
+	<h3>method loadResponse <span class="smalllinenumber">[line 101]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>response loadResponse(
+
+$url)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		this function sends the request to the server and loads the response data<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>data</td>
+  </tr>
+  <tr>
+    <td><b>throws:</b>&nbsp;&nbsp;</td><td>Exception on connection error</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$url</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsendRequest"></a>
+	<h3>method sendRequest <span class="smalllinenumber">[line 145]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string sendRequest(
+string
+$url)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		send request and return response data<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>returned http body</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$url</b>&nbsp;&nbsp;</td>
+        <td>url</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsetCurlOption"></a>
+	<h3>method setCurlOption <span class="smalllinenumber">[line 51]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void setCurlOption(
+the
+$option, the
+$value, [boolean
+$overwriteExisting = true])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		set a option for a cURL request like described at <a href="http://php.net/manual/en/function.curl-setopt.php">http://php.net/manual/en/function.curl-setopt.php</a>.<br /><br /><p>The second parameter can be set to false, so the option will not be overwritten if it already exists</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>link:</b>&nbsp;&nbsp;</td><td><a href="http://php.net/manual/en/function.curl-setopt.php">http://php.net/manual/en/function.curl-setopt.php</a></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">the&nbsp;&nbsp;</td>
+        <td><b>$option</b>&nbsp;&nbsp;</td>
+        <td>option key (should be a cURL constant)</td>
+      </tr>
+          <tr>
+        <td class="type">the&nbsp;&nbsp;</td>
+        <td><b>$value</b>&nbsp;&nbsp;</td>
+        <td>option value</td>
+      </tr>
+          <tr>
+        <td class="type">boolean&nbsp;&nbsp;</td>
+        <td><b>$overwriteExisting</b>&nbsp;&nbsp;</td>
+        <td>whether to overwrite existing options or not. optional, default = true</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsetCurlOptions"></a>
+	<h3>method setCurlOptions <span class="smalllinenumber">[line 64]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void setCurlOptions(
+array
+$options)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Set multiple options for a cURL request like described at <a href="http://php.net/manual/en/function.curl-setopt.php">http://php.net/manual/en/function.curl-setopt.php</a><br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>link:</b>&nbsp;&nbsp;</td><td><a href="http://php.net/manual/en/function.curl-setopt.php">http://php.net/manual/en/function.curl-setopt.php</a></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$options</b>&nbsp;&nbsp;</td>
+        <td>of options</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsetType"></a>
+	<h3>method setType <span class="smalllinenumber">[line 36]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void setType(
+string
+$type)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		this implementation of the data provider uses the type as request path in addition to the request context path.<br /><br /><p>please ensure that this is the full action name, i.e. &quot;Search.ff&quot;</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	Overrides <a href="../FACTFinder-Abstract/FACTFinder_Abstract_DataProvider.html#methodsetType">FACTFinder_Abstract_DataProvider::setType()</a> (set type to identify which data should be loaded. that could be a request path or any source identifier)<br /><br />
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$type</b>&nbsp;&nbsp;</td>
+        <td>type</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+</div><br />
+
+
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Tue, 03 Jul 2012 11:21:27 +0200 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.4</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

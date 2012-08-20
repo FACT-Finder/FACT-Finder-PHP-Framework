@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ffrecommender.xsd">
+
+	<results count="3">
+		
+		<record nr="0" id="6781"> 
+			
+				<field name="products_ean"><![CDATA[4032191001586 4032191415574 4032191001593 4032191266534 4032191001586 4032191415574 4032191001593 4032191266534]]></field>
+			
+				<field name="products_retail_price"></field>
+			
+				<field name="products_special_offer3">0</field>
+			
+				<field name="products_ranking_profit">11959</field>
+			
+				<field name="Farbe">..schwarz..#..schwarz..#..schwarz..#..schwarz..</field>
+			
+				<field name="products_special_offer2">0</field>
+			
+				<field name="products_price_min">6.90</field>
+			
+				<field name="products_price_max">7.99</field>
+			
+				<field name="products_ranking_charge">8040</field>
+			
+				<field name="products_image"><![CDATA[http://www.bikester.at/media/products/bikeparts/0bf40152d3a30227f618def4e91d13f8.JPG]]></field>
+			
+				<field name="shop_id">7</field>
+			
+				<field name="products_you_save_money"></field>
+			
+				<field name="imageUrlLarge"><![CDATA[http://www.bikester.at/media/products/bikeparts/0bf40152d3a30227f618def4e91d13f8[320x480].JPG?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="category1">..Fahrradteile..</field>
+			
+				<field name="category0">Katalog</field>
+			
+				<field name="category3">..Schlauch..</field>
+			
+				<field name="products_best_price">0</field>
+			
+				<field name="category2">..Reifen &amp; Schlauch..</field>
+			
+				<field name="evaluation_total"></field>
+			
+				<field name="category">Katalog &gt;&gt; Fahrradteile &gt;&gt; Reifen &amp; Schlauch &gt;&gt; Schlauch</field>
+			
+				<field name="FFCliplisterQuality"></field>
+			
+				<field name="products_id">6781</field>
+			
+				<field name="products_video">1</field>
+			
+				<field name="AdditionalAttributes"><![CDATA[|Ausführung=AV 40mm|Ausführung=DV 40mm|Ausführung=SV 42mm|Ausführung=SV 52mm|]]></field>
+			
+				<field name="products_description"><![CDATA[Größe: 28 x 1 1/4 / 1.75 ; 32/47-609/642Wahlweise mit 40mm DV (Dunlop), 40mm AV (Auto, Schrader),&nbsp; 42mm oder 52mm SV (Scaverand, Presta, französisches) Ventil. : Schlauch , : SV (Sclaverand Ventil) / AV (Auto-/Schraderventil) / DV (Dunlop Ventil/Blitzventil) , : verschiedene Größen]]></field>
+			
+				<field name="imageUrlSmall"><![CDATA[http://www.bikester.at/media/products/bikeparts/0bf40152d3a30227f618def4e91d13f8[85x85].JPG?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="products_name">Continental Schlauch Tour 28 Zoll</field>
+			
+				<field name="AdditionalAttributes_values">AV 40mm DV 40mm SV 42mm SV 52mm</field>
+			
+				<field name="FFAutomaticSearchOptimization">SCHLAUCH,28,AUTO=12</field>
+			
+				<field name="cash_back_amount"></field>
+			
+				<field name="month-campaign"></field>
+			
+				<field name="Größe"></field>
+			
+				<field name="products_quantity_unit"></field>
+			
+				<field name="coupon-campaign"></field>
+			
+				<field name="products_special_offer">0</field>
+			
+				<field name="products_price">6.90</field>
+			
+				<field name="availability">3</field>
+			
+				<field name="imageUrlMid"><![CDATA[http://www.bikester.at/media/products/bikeparts/0bf40152d3a30227f618def4e91d13f8[200x200].JPG?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="categories_free_shipping">0</field>
+			
+				<field name="Länge"></field>
+			
+				<field name="products_model_year">2012</field>
+			
+				<field name="products_link_self"><![CDATA[http://www.bikester.at/fahrradteile/reifen-schlaeuche/schlauch-conti-compact/6781.html]]></field>
+			
+				<field name="manufacturers_name">Continental</field>
+			
+				<field name="manufacturers_image">http://www.bikester.at/media/products/continental.jpg</field>
+			
+				<field name="manufacturers_free_shipping">0</field>
+			
+				<field name="categories_image"></field>
+			
+				<field name="products_free_shipping">0</field>
+			
+				<field name="manufacturers_id">109</field>
+			
+				<field name="products_quantity"></field>
+			
+				<field name="products_you_save_percent"></field>
+			
+				<field name="FFAfterSearchReorder"></field>
+			
+		</record>
+		
+		<record nr="1" id="258827"> 
+			
+				<field name="products_ean">4032191774756 4032191774763 4032191774770</field>
+			
+				<field name="products_retail_price"></field>
+			
+				<field name="products_special_offer3">0</field>
+			
+				<field name="products_ranking_profit">7290</field>
+			
+				<field name="Farbe"></field>
+			
+				<field name="products_special_offer2">0</field>
+			
+				<field name="products_price_min">8.99</field>
+			
+				<field name="products_price_max">8.99</field>
+			
+				<field name="products_ranking_charge">8173</field>
+			
+				<field name="products_image"><![CDATA[http://www.bikester.at/media/products/bikeparts/3435b5d5c6419dbdf9e59908c4d13a89.JPG]]></field>
+			
+				<field name="shop_id">7</field>
+			
+				<field name="products_you_save_money"></field>
+			
+				<field name="imageUrlLarge"><![CDATA[http://www.bikester.at/media/products/bikeparts/3435b5d5c6419dbdf9e59908c4d13a89[320x480].JPG?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="category1">..Fahrradteile..</field>
+			
+				<field name="category0">Katalog</field>
+			
+				<field name="category3">..Schlauch..</field>
+			
+				<field name="products_best_price">0</field>
+			
+				<field name="category2">..Reifen &amp; Schlauch..</field>
+			
+				<field name="evaluation_total"></field>
+			
+				<field name="category">Katalog &gt;&gt; Fahrradteile &gt;&gt; Reifen &amp; Schlauch &gt;&gt; Schlauch</field>
+			
+				<field name="FFCliplisterQuality">175</field>
+			
+				<field name="products_id">258827</field>
+			
+				<field name="products_video">1</field>
+			
+				<field name="AdditionalAttributes">|Ventil=D 40 mm|Ventil=A 40 mm|Ventil=S 42 mm|</field>
+			
+				<field name="products_description"><![CDATA[Ein Rundum-Sorglos-Produkt ist der Hermetic Plus  Schlauch. Der höhere Butylanteil und die höhere Wandstärke machen ihn  besonders pannensicher. Weil er dazu noch extra lange die Luft anhält,  ist er der Favorit vieler Fahrradverleiher.  Größe: 26 x 1 1/8 / 1.75 ; 37/47-559/597  Wahlweise mit 40mm DV (Dunlop), 40mm AV (Auto, Schrader) oder 42mm SV (Scaverand, Presta, französisches) Ventil.  : Continental , : City & Trekking , : 28 Zoll]]></field>
+			
+				<field name="imageUrlSmall"><![CDATA[http://www.bikester.at/media/products/bikeparts/3435b5d5c6419dbdf9e59908c4d13a89[85x85].JPG?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="products_name">Continental Schlauch Tour 28 Zoll Hermetic Plus</field>
+			
+				<field name="AdditionalAttributes_values">D 40 mm A 40 mm S 42 mm</field>
+			
+				<field name="FFAutomaticSearchOptimization"></field>
+			
+				<field name="cash_back_amount"></field>
+			
+				<field name="month-campaign"></field>
+			
+				<field name="Größe"></field>
+			
+				<field name="products_quantity_unit"></field>
+			
+				<field name="coupon-campaign"></field>
+			
+				<field name="products_special_offer">0</field>
+			
+				<field name="products_price">8.99</field>
+			
+				<field name="availability">3</field>
+			
+				<field name="imageUrlMid"><![CDATA[http://www.bikester.at/media/products/bikeparts/3435b5d5c6419dbdf9e59908c4d13a89[200x200].JPG?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="categories_free_shipping">0</field>
+			
+				<field name="Länge"></field>
+			
+				<field name="products_model_year">2012</field>
+			
+				<field name="products_link_self"><![CDATA[http://www.bikester.at/fahrradteile/reifen-schlaeuche/schlauch-conti-tour-28-hermetic-plus/258827.html]]></field>
+			
+				<field name="manufacturers_name">Continental</field>
+			
+				<field name="manufacturers_image">http://www.bikester.at/media/products/continental.jpg</field>
+			
+				<field name="manufacturers_free_shipping">0</field>
+			
+				<field name="categories_image"></field>
+			
+				<field name="products_free_shipping">0</field>
+			
+				<field name="manufacturers_id">109</field>
+			
+				<field name="products_quantity"></field>
+			
+				<field name="products_you_save_percent"></field>
+			
+				<field name="FFAfterSearchReorder"></field>
+			
+		</record>
+		
+		<record nr="2" id="8628"> 
+			
+				<field name="products_ean">4032191683034</field>
+			
+				<field name="products_retail_price"></field>
+			
+				<field name="products_special_offer3">0</field>
+			
+				<field name="products_ranking_profit">0</field>
+			
+				<field name="Farbe">..schwarz..</field>
+			
+				<field name="products_special_offer2">0</field>
+			
+				<field name="products_price_min">26.99</field>
+			
+				<field name="products_price_max">26.99</field>
+			
+				<field name="products_ranking_charge">1924</field>
+			
+				<field name="products_image"><![CDATA[http://www.bikester.at/media/products/bikeparts/f15ed85dfa1b8d5d7778a1c6044ebc09.JPG]]></field>
+			
+				<field name="shop_id">7</field>
+			
+				<field name="products_you_save_money"></field>
+			
+				<field name="imageUrlLarge"><![CDATA[http://www.bikester.at/media/products/bikeparts/f15ed85dfa1b8d5d7778a1c6044ebc09[320x480].JPG?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="category1">..Fahrradzubehör..</field>
+			
+				<field name="category0">Katalog</field>
+			
+				<field name="category3">..Seitenständer..</field>
+			
+				<field name="products_best_price">0</field>
+			
+				<field name="category2">..Fahrradständer..</field>
+			
+				<field name="evaluation_total"></field>
+			
+				<field name="category">Katalog &gt;&gt; Fahrradzubehör &gt;&gt; Fahrradständer &gt;&gt; Seitenständer</field>
+			
+				<field name="FFCliplisterQuality">175</field>
+			
+				<field name="products_id">8628</field>
+			
+				<field name="products_video">1</field>
+			
+				<field name="AdditionalAttributes"></field>
+			
+				<field name="products_description"><![CDATA[Hebie Seitenständer Lowrider Version, für Lowrider Gepäckträger.Zusatzinformationen:- für Modell Hebie Touring und Expedition- kurze Ausführung- Ständerlänge gesamt ca. 230 mm- inkl. SL-Befestigungsklemmen 8/10 mm- wichtig: Low Rider Stütze nur als Ergänzung nutzen! : Seitenständer , : ---]]></field>
+			
+				<field name="imageUrlSmall"><![CDATA[http://www.bikester.at/media/products/bikeparts/f15ed85dfa1b8d5d7778a1c6044ebc09[85x85].JPG?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="products_name">Hebie Seitenständer Lowrider Version</field>
+			
+				<field name="AdditionalAttributes_values"></field>
+			
+				<field name="FFAutomaticSearchOptimization"></field>
+			
+				<field name="cash_back_amount"></field>
+			
+				<field name="month-campaign"></field>
+			
+				<field name="Größe"></field>
+			
+				<field name="products_quantity_unit"></field>
+			
+				<field name="coupon-campaign"></field>
+			
+				<field name="products_special_offer">0</field>
+			
+				<field name="products_price">26.99</field>
+			
+				<field name="availability">3</field>
+			
+				<field name="imageUrlMid"><![CDATA[http://www.bikester.at/media/products/bikeparts/f15ed85dfa1b8d5d7778a1c6044ebc09[200x200].JPG?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="categories_free_shipping">0</field>
+			
+				<field name="Länge"></field>
+			
+				<field name="products_model_year">2012</field>
+			
+				<field name="products_link_self"><![CDATA[http://www.bikester.at/fahrradzubehoer/fahrradstaender/hebie-seitenstaender-lowrider-version/8628.html]]></field>
+			
+				<field name="manufacturers_name">Hebie</field>
+			
+				<field name="manufacturers_image">http://www.bikester.at/media/products/hebie.jpg</field>
+			
+				<field name="manufacturers_free_shipping">0</field>
+			
+				<field name="categories_image"></field>
+			
+				<field name="products_free_shipping">0</field>
+			
+				<field name="manufacturers_id">210</field>
+			
+				<field name="products_quantity"></field>
+			
+				<field name="products_you_save_percent"></field>
+			
+				<field name="FFAfterSearchReorder"></field>
+			
+		</record>
+		
+	</results>
+
+</ff>

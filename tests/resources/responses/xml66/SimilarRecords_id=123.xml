@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ff>
+	<similarAttributes>
+		<attribute name="category1">..Fahrräder..</attribute>
+		<attribute name="category2">..BMX..</attribute>
+		<attribute name="category3">..BMX Räder ab 300€..</attribute>
+		<attribute name="category4"></attribute>
+	</similarAttributes>
+	<similarRecords>
+		<record nr="0" id="319593">
+				<field name="Klemmung"></field>
+				<field name="products_ean">..4052406039326..#..4052406039326..</field>
+				<field name="products_retail_price"></field>
+				<field name="products_special_offer3">0</field>
+				<field name="products_ranking_profit">0</field>
+				<field name="FFiPhoneVariants">Oberrohrlänge|20.8 Zoll#4052406039326|grün#4052406039326</field>
+				<field name="Durchmesser"></field>
+				<field name="Farbe">..grau..</field>
+				<field name="products_special_offer2">0</field>
+				<field name="products_price_min">599.99</field>
+				<field name="products_price_max">599.99</field>
+				<field name="products_image">http://www.fahrrad.de/media/products/Versus_matt_teal_1800x1200.jpg</field>
+				<field name="products_ranking_charge">0</field>
+				<field name="shop_id">44</field>
+				<field name="products_you_save_money"></field>
+				<field name="imageUrlLarge"><![CDATA[http://www.fahrrad.de/media/products/Versus_matt_teal_1800x1200[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="Breite"></field>
+				<field name="category1">..Fahrräder..</field>
+				<field name="category3">..BMX Räder ab 300€..</field>
+				<field name="products_best_price">0</field>
+				<field name="category2">..BMX..</field>
+				<field name="category4"></field>
+				<field name="evaluation_total"></field>
+				<field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder ab 300€</field>
+				<field name="FFCliplisterQuality"></field>
+				<field name="Ausführung"></field>
+				<field name="Rahmengrösse"></field>
+				<field name="products_id">319593</field>
+				<field name="products_video">0</field>
+				<field name="additional_imageurls"></field>
+				<field name="AdditionalAttributes">|Oberrohrlänge=20.8 Zoll|</field>
+				<field name="products_description"><![CDATA[Geometrie Rahmen:Oberrohr: 20.8 ZollKettenstrebenlänge: 13.2 ZollLenkwinkel: 75°Sitzwinkel: 71°Geometrie Lenker:Rise: 8.5 ZollBreite: 28.4 ZollBacksweep: 12°Upseep: 2.5° Materialtyp: Stahl , Material: 4130 CrMo , Marke: Salt , Material: 4130 Cr-Mo , Typ: HQ , Anzahl Gänge: 1 , Marke: Salt , Typ: AM , Bauart: 3-teilig , Material: CrMo , Marke: SaltPLus , Typ: Aluminium , Anzahl Zähne: 26 Zähne, Übersetzung: 9 Zähne, Marke: Salt , Typ: Sealed Bearing Mid Size , Marke: Salt AM 510h , Marke: Salt , Bauart: Calliper Bremse , Marke: Saltplus , Typ: Geo , Bauart: U-Brake , Marke: SaltPlus Aluminium , Typ: 8.5 Zoll hoch, 28.4 Zoll breit , Material: 4130 Cr-Mo , Typ: Salt Pro Front Loader 50mm Aluminium , Bauart: A-Head , : wethepeople Mugen , : Salt 1 1/8 Zoll integrated , : Eclat Unify Combo , Typ: Eclat Unify Combo , Marke: Salt , Typ: Pro SB 9.5 mm , Marke: Salt , Typ: Pro Cassette SB 14 mm , Marke & Typ: SaltPlus Aero Hohlkammer vorne, Salt Plus Summit Hohlkammer hinten , Marke: Salt , Typ: Pitch Mid , Größe: 20 Zoll, Reifenbreite: 2.3 Zoll, Marke: Salt , Typ: Pitch Flow , Größe: 20 Zoll, Reifenbreite: 2.2 Zoll, : Eclat Slash PC , im Lieferumfang enthalten: ja , Anzahl: 1 Paar , Marke: Salt , Typ: AM Steel Pegs , : 11.28 kg (ca.), : Sport]]></field>
+				<field name="Geschmack"></field>
+				<field name="imageUrlSmall"><![CDATA[http://www.fahrrad.de/media/products/Versus_matt_teal_1800x1200[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="products_name">wethepeople Versus matt teal</field>
+				<field name="FFAutomaticSearchOptimization">WETHEPEOPLE=3</field>
+				<field name="cash_back_amount"></field>
+				<field name="month-campaign"></field>
+				<field name="Größe"></field>
+				<field name="products_quantity_unit"></field>
+				<field name="coupon-campaign"></field>
+				<field name="products_special_offer">0</field>
+				<field name="products_price">599.99</field>
+				<field name="availability">2</field>
+				<field name="imageUrlMid"><![CDATA[http://www.fahrrad.de/media/products/Versus_matt_teal_1800x1200[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="categories_free_shipping">0</field>
+				<field name="Länge"></field>
+				<field name="products_model_year">2012</field>
+				<field name="products_link_self">http://www.fahrrad.de/fahrraeder/bmx/wethepeople-versus/319593.html</field>
+				<field name="manufacturers_name">wethepeople</field>
+				<field name="manufacturers_image">http://www.fahrrad.de/media/products/wethepeople.jpg</field>
+				<field name="manufacturers_free_shipping">0</field>
+				<field name="categories_image"></field>
+				<field name="FFCheckoutCount">0</field>
+				<field name="products_free_shipping">0</field>
+				<field name="manufacturers_id">1241</field>
+				<field name="products_quantity"></field>
+				<field name="products_you_save_percent"></field>
+				<field name="FFAfterSearchReorder"></field>
+		</record>
+		<record nr="1" id="277986">
+				<field name="Klemmung"></field>
+				<field name="products_ean">..4250583623714..#..4250583623714..</field>
+				<field name="products_retail_price">369.99</field>
+				<field name="products_special_offer3">0</field>
+				<field name="products_ranking_profit">15297</field>
+				<field name="FFiPhoneVariants">Oberrohrlänge|20,5 Zoll#4250583623714|schwarz#4250583623714</field>
+				<field name="Durchmesser"></field>
+				<field name="Farbe">..schwarz..</field>
+				<field name="products_special_offer2">0</field>
+				<field name="products_price_min">339.99</field>
+				<field name="products_price_max">339.99</field>
+				<field name="products_image">http://www.fahrrad.de/media/products/1314_012_33_20th.jpg</field>
+				<field name="products_ranking_charge">24724</field>
+				<field name="shop_id">44</field>
+				<field name="products_you_save_money">30.00</field>
+				<field name="imageUrlLarge"><![CDATA[http://www.fahrrad.de/media/products/1314_012_33_20th[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="Breite"></field>
+				<field name="category1">..Fahrräder..</field>
+				<field name="category3">..BMX Räder ab 300€..</field>
+				<field name="products_best_price">0</field>
+				<field name="category2">..BMX..</field>
+				<field name="category4"></field>
+				<field name="evaluation_total"></field>
+				<field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder ab 300€</field>
+				<field name="FFCliplisterQuality"></field>
+				<field name="Ausführung"></field>
+				<field name="Rahmengrösse"></field>
+				<field name="products_id">277986</field>
+				<field name="products_video">0</field>
+				<field name="additional_imageurls"></field>
+				<field name="AdditionalAttributes">|Oberrohrlänge=20,5 Zoll|</field>
+				<field name="products_description"><![CDATA[Geometriedaten:Oberrohr: 52,1 cm Materialtyp: Stahl , Material: Hi-Ten light steel , BMX: Allround , Material: Hi-Ten Steel , Typ: 14 mm , Anzahl Gänge: 1 , Typ: 175 mm , Bauart: 3-teilig , Material: CrMo , Marke: KHE , Typ: Rotor steel , Anzahl Zähne: 25 Zähne, Typ: MidBB ball , Bauart: --- , Marke: KMC 1/2 x 1/8 " black , Marke: KHE , Typ: F-Set , Bauart: U-Brake , Marke: KHE , Typ: F-Set , Bauart: U-Brake , Marke: KHE F-Set , Typ: Extra wide, 8" high , Bauart: 2-teilig , Material: Hi-Ten light steel , Typ: Topload , Bauart: A-Head , Marke: KHE , Typ: F-Set rotor system, all around geometry , : KHE Prism Classic , : Prism Dandy , Durchmesser: 25.4 mm, Typ: 14 mm, 36 Loch , Typ: Cassette 9T, 14 mm, 36 Loch , Marke & Typ: Prism EasyO double wall , Marke: KHE , Typ: Prism Fat , Größe: 20 Zoll, Reifenbreite: 2.3 Zoll, Marke: KHE , Typ: Prism Fat , Größe: 20 Zoll, Reifenbreite: 2.3 Zoll, : Prism thin plastic , im Lieferumfang enthalten: ja , Anzahl: 1 Paar , Typ: steel pegs , : 13.3 kg (ca.), : Kettenspanner, gold valve cap , : Performance]]></field>
+				<field name="Geschmack"></field>
+				<field name="imageUrlSmall"><![CDATA[http://www.fahrrad.de/media/products/1314_012_33_20th[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="products_name">KHE 20TH matt schwarz</field>
+				<field name="FFAutomaticSearchOptimization">KHE 20 TH MATT SCHWARZ=6|KHE BIKE=1|BMX RAEDER=3</field>
+				<field name="cash_back_amount"></field>
+				<field name="month-campaign"></field>
+				<field name="Größe"></field>
+				<field name="products_quantity_unit"></field>
+				<field name="coupon-campaign"></field>
+				<field name="products_special_offer">0</field>
+				<field name="products_price">339.99</field>
+				<field name="availability">3</field>
+				<field name="imageUrlMid"><![CDATA[http://www.fahrrad.de/media/products/1314_012_33_20th[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="categories_free_shipping">0</field>
+				<field name="Länge"></field>
+				<field name="products_model_year">2012</field>
+				<field name="products_link_self">http://www.fahrrad.de/fahrraeder/bmx/khe-20-matt-schwarz/277986.html</field>
+				<field name="manufacturers_name">KHE</field>
+				<field name="manufacturers_image">http://www.fahrrad.de/media/products/khe.jpg</field>
+				<field name="manufacturers_free_shipping">0</field>
+				<field name="categories_image"></field>
+				<field name="FFCheckoutCount">1</field>
+				<field name="products_free_shipping">0</field>
+				<field name="manufacturers_id">63</field>
+				<field name="products_quantity"></field>
+				<field name="products_you_save_percent">8.11</field>
+				<field name="FFAfterSearchReorder"></field>
+		</record>
+		<record nr="2" id="319297">
+				<field name="Klemmung"></field>
+				<field name="products_ean">..4052406037100..</field>
+				<field name="products_retail_price"></field>
+				<field name="products_special_offer3">0</field>
+				<field name="products_ranking_profit">0</field>
+				<field name="FFiPhoneVariants">Farbe|grau#4052406037100</field>
+				<field name="Durchmesser"></field>
+				<field name="Farbe">..grau..</field>
+				<field name="products_special_offer2">0</field>
+				<field name="products_price_min">799.99</field>
+				<field name="products_price_max">799.99</field>
+				<field name="products_image">http://www.fahrrad.de/media/products/SUN12_ProSilv_Young_2400x1600.jpg</field>
+				<field name="products_ranking_charge">0</field>
+				<field name="shop_id">44</field>
+				<field name="products_you_save_money"></field>
+				<field name="imageUrlLarge"><![CDATA[http://www.fahrrad.de/media/products/SUN12_ProSilv_Young_2400x1600[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="Breite"></field>
+				<field name="category1">..Fahrräder..</field>
+				<field name="category3">..BMX Räder ab 300€..</field>
+				<field name="products_best_price">0</field>
+				<field name="category2">..BMX..</field>
+				<field name="category4"></field>
+				<field name="evaluation_total"></field>
+				<field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder ab 300€</field>
+				<field name="FFCliplisterQuality"></field>
+				<field name="Ausführung"></field>
+				<field name="Rahmengrösse"></field>
+				<field name="products_id">319297</field>
+				<field name="products_video">0</field>
+				<field name="additional_imageurls"></field>
+				<field name="AdditionalAttributes"></field>
+				<field name="products_description"><![CDATA[zusätzliche Informationen:Kettenstrebenlänge: 13,25 ZollLenkwinkel: 75°Sitzwinkel: 71°Rahmengröße = Oberrohrlänge Materialtyp: Stahl , Material: 4130 CrMo , weitere Merkmale: CrMo Unterrohr und Dropouts , Material: 4130 Cr-Mo , Typ: 1 1/8 Zoll Ahead , Anzahl Gänge: 1 , Marke: Odyssey , Typ: Thunderbolt RHD 175 mm , Bauart: 2-teilig , Marke: Sunday , Typ: 6061 Aluminium (CNC) , Anzahl Zähne: 28 Zähne, Übersetzung: 9 Zähne, Typ: 22 mm , Bauart: Sealed Mid BB , Marke: KMC Z510H , Bauart: Calliper Bremse , Marke: Odyssey , Typ: Evo2 , Bauart: U-Brake , Marke: Odyssey Monolever Medium , Typ: Triumph XL Replica (8.5 Zoll hoch, 28 Zoll breit) , Material: 4130 Cr-Mo , Typ: Sunday Freeze Top Load , Bauart: A-Head , : Odyssey Gary Young Signature , : 1 1/8 Zoll Integrated , : Odyssey Gary Young , Bauart: Pivotal , Durchmesser: 25.4 mm, Typ: Odyssey , Marke: Odyssey , Typ: Vandero 2, sealed, 3/8 Zoll, 36h , Marke: Odyssey , Typ: V3 Cassette, sealed, 14 mm, 36h , Marke & Typ: Odyssey Quadrant , Material & sonstiges: 36H , Marke: Odyssey , Typ: Aitken , Größe: 20 Zoll, Reifenbreite: 2.25 Zoll, Marke: Odyssey , Typ: Aitken , Größe: 20 Zoll, Reifenbreite: 2.1 Zoll, : Odyssey Twisted PC , : 11.7 kg (ca.), : Competition]]></field>
+				<field name="Geschmack"></field>
+				<field name="imageUrlSmall"><![CDATA[http://www.fahrrad.de/media/products/SUN12_ProSilv_Young_2400x1600[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="products_name">Sunday BMX Pro-Young silber</field>
+				<field name="FFAutomaticSearchOptimization">SUNDAY=20</field>
+				<field name="cash_back_amount"></field>
+				<field name="month-campaign"></field>
+				<field name="Größe"></field>
+				<field name="products_quantity_unit"></field>
+				<field name="coupon-campaign"></field>
+				<field name="products_special_offer">0</field>
+				<field name="products_price">799.99</field>
+				<field name="availability">2</field>
+				<field name="imageUrlMid"><![CDATA[http://www.fahrrad.de/media/products/SUN12_ProSilv_Young_2400x1600[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="categories_free_shipping">0</field>
+				<field name="Länge"></field>
+				<field name="products_model_year">2012</field>
+				<field name="products_link_self">http://www.fahrrad.de/fahrraeder/bmx/sundaybmx-pro-young/319297.html</field>
+				<field name="manufacturers_name">Sunday</field>
+				<field name="manufacturers_image">http://www.fahrrad.de/media/products/sunday.jpg</field>
+				<field name="manufacturers_free_shipping">0</field>
+				<field name="categories_image"></field>
+				<field name="FFCheckoutCount">0</field>
+				<field name="products_free_shipping">0</field>
+				<field name="manufacturers_id">357</field>
+				<field name="products_quantity"></field>
+				<field name="products_you_save_percent"></field>
+				<field name="FFAfterSearchReorder"></field>
+		</record>
+		<record nr="3" id="293420">
+				<field name="Klemmung"></field>
+				<field name="products_ean">..0879762036370..#..0879762036370..</field>
+				<field name="products_retail_price"></field>
+				<field name="products_special_offer3">0</field>
+				<field name="products_ranking_profit">0</field>
+				<field name="FFiPhoneVariants">Oberrohrlänge|20,5 Zoll#0879762036370|schwarz#0879762036370</field>
+				<field name="Durchmesser"></field>
+				<field name="Farbe">..schwarz..</field>
+				<field name="products_special_offer2">0</field>
+				<field name="products_price_min">949.95</field>
+				<field name="products_price_max">949.95</field>
+				<field name="products_image"><![CDATA[http://www.fahrrad.de/media/products/293420_Eastern_BMX_Komplettrad_Boss_flat_black_00.jpg]]></field>
+				<field name="products_ranking_charge">21318</field>
+				<field name="shop_id">44</field>
+				<field name="products_you_save_money"></field>
+				<field name="imageUrlLarge"><![CDATA[http://www.fahrrad.de/media/products/293420_Eastern_BMX_Komplettrad_Boss_flat_black_00[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="Breite"></field>
+				<field name="category1">..Fahrräder..</field>
+				<field name="category3">..BMX Räder ab 300€..</field>
+				<field name="products_best_price">0</field>
+				<field name="category2">..BMX..</field>
+				<field name="category4"></field>
+				<field name="evaluation_total"></field>
+				<field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder ab 300€</field>
+				<field name="FFCliplisterQuality"></field>
+				<field name="Ausführung"></field>
+				<field name="Rahmengrösse"></field>
+				<field name="products_id">293420</field>
+				<field name="products_video">0</field>
+				<field name="additional_imageurls"></field>
+				<field name="AdditionalAttributes">|Oberrohrlänge=20,5 Zoll|</field>
+				<field name="products_description"><![CDATA[Extras:- schraubbare Bremssockel für Brakeless Ride- neues E-BB 78mm breites Tretlagergehäuse = Breiter Hinterbau = 2.3 Reifen ohne Probleme fahren- Nabe hinten Bi-Rectional RHD und LHD möglich- incl. Eastern Loc On Hubguard hinten- incl. Eastern Hubguard vorneBremsschuhe: Soft CompoundBremskabel hinten: Linear System Materialtyp: Stahl , Material: 4130 CrMo , weitere Merkmale: Helix Unterrohr, 20,5 Zoll Oberrohr , Marke: Eastern Bikes , Material: 4130 Cr-Mo , Typ: Hawkeye Fork Heattreated , Anzahl Gänge: 1 , Marke: Eastern , Typ: Nomad Crank Heattreated , Marke: Eastern , Typ: Shogun 7075-T6 CNC Alu , Anzahl Zähne: 25 Zähne, Typ: Mid BB, 19 mm SB , Marke: Nitrous Halflink , Typ: Dia Compe , Bauart: U-Brake , Marke: Eastern 6061 Alu , Marke: Eastern Wonderyear , Typ: 2pc Bar 8.5 Zoll hoch x 28.5 Zoll breit 1° Upsweep 12° Backsweep , Bauart: 2-teilig , Material: 4130 Cr-Mo , Typ: Compressor Frontload CNC 6061 Alu , : Eastern Wizmerski Signature , : Eastern Internal Headset , : Eastern Pivotal Letters 3 , Typ: Eastern Alu Pivotal , Material: Alu , Marke: Eastern , Typ: Venus Female SB , Marke: Eastern , Typ: Female Cassette SB Lager, 36H, 9T, 5x SB Lager , Marke & Typ: Eastern Diode Hohlkammer 36H , Material & sonstiges: verschweißt 6061 T6 , Marke: Eastern , Typ: Fuquay High Pressure , Größe: 20 Zoll, Reifenbreite: 2.3 Zoll, Marke: Eastern , Typ: Fuquay High Pressure , Größe: 20 Zoll, Reifenbreite: 2.3 Zoll, : Eastern Crown Plastik , im Lieferumfang enthalten: ja , Anzahl: 1 Paar , Marke: Nitrous , : 10.27 kg (ca.), : Bügelbremse vorne liegt bei; Sattelklemme: Eastern Molded integriert , : Sport]]></field>
+				<field name="Geschmack"></field>
+				<field name="imageUrlSmall"><![CDATA[http://www.fahrrad.de/media/products/293420_Eastern_BMX_Komplettrad_Boss_flat_black_00[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="products_name">Eastern Boss graphite rot</field>
+				<field name="FFAutomaticSearchOptimization">EASTERN BIKE=3</field>
+				<field name="cash_back_amount"></field>
+				<field name="month-campaign"></field>
+				<field name="Größe"></field>
+				<field name="products_quantity_unit"></field>
+				<field name="coupon-campaign"></field>
+				<field name="products_special_offer">0</field>
+				<field name="products_price">949.95</field>
+				<field name="availability">2</field>
+				<field name="imageUrlMid"><![CDATA[http://www.fahrrad.de/media/products/293420_Eastern_BMX_Komplettrad_Boss_flat_black_00[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="categories_free_shipping">0</field>
+				<field name="Länge"></field>
+				<field name="products_model_year">2012</field>
+				<field name="products_link_self"><![CDATA[http://www.fahrrad.de/fahrraeder/bmx/eastern-bikes-bmx-komplettrad-2012-boss-flat-black-/293420.html]]></field>
+				<field name="manufacturers_name">Eastern</field>
+				<field name="manufacturers_image">http://www.fahrrad.de/media/products/eastern.jpg</field>
+				<field name="manufacturers_free_shipping">0</field>
+				<field name="categories_image"></field>
+				<field name="FFCheckoutCount">1</field>
+				<field name="products_free_shipping">0</field>
+				<field name="manufacturers_id">1229</field>
+				<field name="products_quantity"></field>
+				<field name="products_you_save_percent"></field>
+				<field name="FFAfterSearchReorder"></field>
+		</record>
+		<record nr="4" id="232670">
+				<field name="Klemmung"></field>
+				<field name="products_ean">..4250454231086..#..4250454231086..</field>
+				<field name="products_retail_price">1199.00</field>
+				<field name="products_special_offer3">0</field>
+				<field name="products_ranking_profit">11592</field>
+				<field name="FFiPhoneVariants">Farbe|grau#4250454231086|weiß#4250454231086</field>
+				<field name="Durchmesser"></field>
+				<field name="Farbe">..grau..#..weiß..</field>
+				<field name="products_special_offer2">0</field>
+				<field name="products_price_min">999.00</field>
+				<field name="products_price_max">999.00</field>
+				<field name="products_image">http://www.fahrrad.de/media/products/maceto_pro_silver_1.jpg</field>
+				<field name="products_ranking_charge">23292</field>
+				<field name="shop_id">44</field>
+				<field name="products_you_save_money">200.00</field>
+				<field name="imageUrlLarge"><![CDATA[http://www.fahrrad.de/media/products/maceto_pro_silver_1[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="Breite"></field>
+				<field name="category1">..Fahrräder..</field>
+				<field name="category3">..BMX Räder ab 300€..</field>
+				<field name="products_best_price">0</field>
+				<field name="category2">..BMX..</field>
+				<field name="category4"></field>
+				<field name="evaluation_total"></field>
+				<field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder ab 300€</field>
+				<field name="FFCliplisterQuality"></field>
+				<field name="Ausführung"></field>
+				<field name="Rahmengrösse"></field>
+				<field name="products_id">232670</field>
+				<field name="products_video">1</field>
+				<field name="additional_imageurls"></field>
+				<field name="AdditionalAttributes"></field>
+				<field name="products_description"><![CDATA[Das Daniel Dhers Pro Modell ist um den 2011 Maceto Rahmen aufgebaut. Es kommt mit Pluma Gabel, Lenker und Sattel, sowie mit den neuesten Entwicklungen aus dem Hause KHE: Die Erlkönig Kurbel, die kaltgeschmiedete Bremse mit Bush Lagern und die Alpha Pedale.Gewicht: 8,9 kgFarbe: silber / blauFelge vorne: KHE BigV rim Felge hinten: KHE BigO rimSpeichen: DT SwissKette: KHE hollowpin halflinkKettenradgarnitur mit 19 mm-Titanium-Hollow-Achse Materialtyp: Stahl , Material: 4130 CrMo , weitere Merkmale: 100% wärmebehandelt , BMX: Street , Marke: Pluma Fork , Material: 4130 Cr-Mo , Anzahl Gänge: 1 , Marke: KHE Erlkönig , Übersetzung Blatt 1: 25 Zähne, Bauart: 3-teilig , Material: 4130 Cr-Mo , Marke: KHE , Bauart: U-Brake , Marke: Pluma , Bauart: 2-teilig , Typ: KHE Shola frontload , : KHE Pyramid  , : KHE Pluma Sattel/Sattelstangen Kombination , Typ: 32 Loch , Typ: 36 Loch , Marke: KHE , Typ: MAC Park , Größe: 20 Zoll, Reifenbreite: 2 Zoll, Marke: KHE , Typ: MAC Park , Größe: 20 Zoll, Reifenbreite: 1.5 Zoll, : KHE Alpha CNC Slim sealed , im Lieferumfang enthalten: ja , Marke: KHE , Typ: Alchemy Pegs , : 8.9 kg (ca.), : KHE Dubz Kettenspanner, Affix bush MidBB Lager]]></field>
+				<field name="Geschmack"></field>
+				<field name="imageUrlSmall"><![CDATA[http://www.fahrrad.de/media/products/maceto_pro_silver_1[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="products_name">KHE Maceto Pro silver</field>
+				<field name="FFAutomaticSearchOptimization">BMX KHE BIKES=7|BMX RAEDER=4</field>
+				<field name="cash_back_amount"></field>
+				<field name="month-campaign"></field>
+				<field name="Größe"></field>
+				<field name="products_quantity_unit"></field>
+				<field name="coupon-campaign"></field>
+				<field name="products_special_offer">0</field>
+				<field name="products_price">999.00</field>
+				<field name="availability">3</field>
+				<field name="imageUrlMid"><![CDATA[http://www.fahrrad.de/media/products/maceto_pro_silver_1[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="categories_free_shipping">0</field>
+				<field name="Länge"></field>
+				<field name="products_model_year">2011</field>
+				<field name="products_link_self">http://www.fahrrad.de/fahrraeder/bmx/khe-maceto-pro/232670.html</field>
+				<field name="manufacturers_name">KHE</field>
+				<field name="manufacturers_image">http://www.fahrrad.de/media/products/khe.jpg</field>
+				<field name="manufacturers_free_shipping">0</field>
+				<field name="categories_image"></field>
+				<field name="FFCheckoutCount">0</field>
+				<field name="products_free_shipping">0</field>
+				<field name="manufacturers_id">63</field>
+				<field name="products_quantity"></field>
+				<field name="products_you_save_percent">16.68</field>
+				<field name="FFAfterSearchReorder"></field>
+		</record>
+		<record nr="5" id="319294">
+				<field name="Klemmung"></field>
+				<field name="products_ean">..4052406037070..</field>
+				<field name="products_retail_price"></field>
+				<field name="products_special_offer3">0</field>
+				<field name="products_ranking_profit">0</field>
+				<field name="FFiPhoneVariants">Farbe|blau#4052406037070</field>
+				<field name="Durchmesser"></field>
+				<field name="Farbe">..blau..</field>
+				<field name="products_special_offer2">0</field>
+				<field name="products_price_min">469.99</field>
+				<field name="products_price_max">469.99</field>
+				<field name="products_image">http://www.fahrrad.de/media/products/SUN12_AMblue_young_2655x1770.jpg</field>
+				<field name="products_ranking_charge">0</field>
+				<field name="shop_id">44</field>
+				<field name="products_you_save_money"></field>
+				<field name="imageUrlLarge"><![CDATA[http://www.fahrrad.de/media/products/SUN12_AMblue_young_2655x1770[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="Breite"></field>
+				<field name="category1">..Fahrräder..</field>
+				<field name="category3">..BMX Räder ab 300€..</field>
+				<field name="products_best_price">0</field>
+				<field name="category2">..BMX..</field>
+				<field name="category4"></field>
+				<field name="evaluation_total"></field>
+				<field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder ab 300€</field>
+				<field name="FFCliplisterQuality"></field>
+				<field name="Ausführung"></field>
+				<field name="Rahmengrösse"></field>
+				<field name="products_id">319294</field>
+				<field name="products_video">0</field>
+				<field name="additional_imageurls"></field>
+				<field name="AdditionalAttributes"></field>
+				<field name="products_description"><![CDATA[Das BMX ist speziell für etwas größere Rider mit seinem 21 Zoll Oberrohr geeignet.zusätzliche Informationen:   Kettenstrebenlänge: 13,25 Zoll Lenkwinkel: 75°Sitzwinkel: 71°Rahmengröße = Oberrohrlänge Materialtyp: Stahl , Material: 4130 CrMo , weitere Merkmale: CrMo Wave-Unterrohr und Dropouts , Material: 4130 Cr-Mo , Typ: 1 1/8 Zoll Ahead , Anzahl Gänge: 1 , Bauart: 3-teilig , Material: 4130 CrMo 175mm , Marke: Sunday , Anzahl Zähne: 25 Zähne, Übersetzung: 9 Zähne, Typ: 19 mm , Bauart: Sealed Mid BB , Marke: KMC Z510H , Bauart: Calliper Bremse , Typ: Rush , Bauart: U-Brake , Marke: Rush Hinged , Typ: Triumph XL Replica (8.5 Zoll hoch, 28 Zoll breit) , Material: Aluminium , Typ: Sunday Freeze Top Load , Bauart: A-Head , : Odyssey Gary Young Signature , : 1 1/8 Zoll Integrated , : Odyssey Gary Young , Bauart: Pivotal , Durchmesser: 25.4 mm, Typ: Looseball, 3/8 Zoll, 36h , Typ: Sealed Cassette, 14mm, 36h , Material & sonstiges: Double Wall, 36 Loch, Aluminium , Marke: Duro , Größe: 20 Zoll, Reifenbreite: 2.25 Zoll, Marke: Duro , Größe: 20 Zoll, Reifenbreite: 2.1 Zoll, : Odyssey Twisted PC , : 11.7 kg (ca.), : Freilauf , : Sport]]></field>
+				<field name="Geschmack"></field>
+				<field name="imageUrlSmall"><![CDATA[http://www.fahrrad.de/media/products/SUN12_AMblue_young_2655x1770[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="products_name">Sunday BMX AM-Young blau</field>
+				<field name="FFAutomaticSearchOptimization">SUNDAY=4|SUNDAY BMX AM YOUNG BLUE=6</field>
+				<field name="cash_back_amount"></field>
+				<field name="month-campaign"></field>
+				<field name="Größe"></field>
+				<field name="products_quantity_unit"></field>
+				<field name="coupon-campaign"></field>
+				<field name="products_special_offer">0</field>
+				<field name="products_price">469.99</field>
+				<field name="availability">2</field>
+				<field name="imageUrlMid"><![CDATA[http://www.fahrrad.de/media/products/SUN12_AMblue_young_2655x1770[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="categories_free_shipping">0</field>
+				<field name="Länge"></field>
+				<field name="products_model_year">2012</field>
+				<field name="products_link_self">http://www.fahrrad.de/fahrraeder/bmx/sundaybmx-am-young/319294.html</field>
+				<field name="manufacturers_name">Sunday</field>
+				<field name="manufacturers_image">http://www.fahrrad.de/media/products/sunday.jpg</field>
+				<field name="manufacturers_free_shipping">0</field>
+				<field name="categories_image"></field>
+				<field name="FFCheckoutCount">0</field>
+				<field name="products_free_shipping">0</field>
+				<field name="manufacturers_id">357</field>
+				<field name="products_quantity"></field>
+				<field name="products_you_save_percent"></field>
+				<field name="FFAfterSearchReorder"></field>
+		</record>
+		<record nr="6" id="278034">
+				<field name="Klemmung"></field>
+				<field name="products_ean">..4250583623851..#..4250583623851..</field>
+				<field name="products_retail_price">449.00</field>
+				<field name="products_special_offer3">0</field>
+				<field name="products_ranking_profit">0</field>
+				<field name="FFiPhoneVariants">Oberrohrlänge|20,5 Zoll#4250583623851|schwarz#4250583623851</field>
+				<field name="Durchmesser"></field>
+				<field name="Farbe">..schwarz..</field>
+				<field name="products_special_offer2">0</field>
+				<field name="products_price_min">299.99</field>
+				<field name="products_price_max">299.99</field>
+				<field name="products_image">http://www.fahrrad.de/media/products/Serious_Fiftyfour_45.jpg</field>
+				<field name="products_ranking_charge">24953</field>
+				<field name="shop_id">44</field>
+				<field name="products_you_save_money">149.01</field>
+				<field name="imageUrlLarge"><![CDATA[http://www.fahrrad.de/media/products/Serious_Fiftyfour_45[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="Breite"></field>
+				<field name="category1">..Fahrräder..</field>
+				<field name="category3">..BMX Räder bis 300€..</field>
+				<field name="products_best_price">0</field>
+				<field name="category2">..BMX..</field>
+				<field name="category4"></field>
+				<field name="evaluation_total"></field>
+				<field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder bis 300€</field>
+				<field name="FFCliplisterQuality"></field>
+				<field name="Ausführung"></field>
+				<field name="Rahmengrösse"></field>
+				<field name="products_id">278034</field>
+				<field name="products_video">0</field>
+				<field name="additional_imageurls"></field>
+				<field name="AdditionalAttributes">|Oberrohrlänge=20,5 Zoll|</field>
+				<field name="products_description"><![CDATA[Geometriedaten:Oberrohrlänge: 521 mm Materialtyp: Stahl , Material: Hi-Ten light steel , BMX: Allround , Material: Hi-Ten Steel , Typ: 14 mm , Anzahl Gänge: 1 , Typ: Torq, 175 mm, black , Bauart: 3-teilig , Material: CrMo , Typ: Rotor steel , Anzahl Zähne: 25 Zähne, Übersetzung: 9 Zähne, Typ: MidBB ball , Bauart: --- , Marke: KMC 1/2 x 1/8 " black , Typ: F-Set , Bauart: U-Brake , Typ: F-Set , Bauart: U-Brake , Marke: F-Set , Typ: Extra wide, 8" high , Bauart: 2-teilig , Material: Hi-Ten light steel , Typ: Topload 1/8 Zoll black , Bauart: A-Head , Typ: F-Set Kunstoff Rotor 1 1/8 Zoll weiß , : Velo Grips black , : 1 1/8 Zoll F-Set Sport black , : Prism Hurley , Bauart: Pivotal, inkl. Sattelklemme , Durchmesser: 25.4 mm, Typ: black, 300 mm , Typ: 14 mm, 36 Loch , Typ: Cassette 9T, 14 mm, 36 Loch , Marke & Typ: Prism Easy O double wall , : Prism, 181 mm, gold , Typ: Prism Fat , Größe: 20 Zoll, Reifenbreite: 2.3 Zoll, Typ: Prism Fat , Größe: 20 Zoll, Reifenbreite: 2.3 Zoll, : Prism Pedal 9/16 Zoll black , im Lieferumfang enthalten: ja , Anzahl: 1 Paar , Typ: steel pegs , : 13.3 kg (ca.), : Kettenspanner , : Sport , : Performance]]></field>
+				<field name="Geschmack"></field>
+				<field name="imageUrlSmall"><![CDATA[http://www.fahrrad.de/media/products/Serious_Fiftyfour_45[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="products_name">Serious fiftyfour 54</field>
+				<field name="FFAutomaticSearchOptimization"></field>
+				<field name="cash_back_amount"></field>
+				<field name="month-campaign"></field>
+				<field name="Größe"></field>
+				<field name="products_quantity_unit"></field>
+				<field name="coupon-campaign"></field>
+				<field name="products_special_offer">0</field>
+				<field name="products_price">299.99</field>
+				<field name="availability">3</field>
+				<field name="imageUrlMid"><![CDATA[http://www.fahrrad.de/media/products/Serious_Fiftyfour_45[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="categories_free_shipping">0</field>
+				<field name="Länge"></field>
+				<field name="products_model_year">2012</field>
+				<field name="products_link_self">http://www.fahrrad.de/fahrraeder/bmx/serious-fiftyfour45/278034.html</field>
+				<field name="manufacturers_name">Serious</field>
+				<field name="manufacturers_image">http://www.fahrrad.de/media/products/serious.jpg</field>
+				<field name="manufacturers_free_shipping">0</field>
+				<field name="categories_image"></field>
+				<field name="FFCheckoutCount">0</field>
+				<field name="products_free_shipping">0</field>
+				<field name="manufacturers_id">445</field>
+				<field name="products_quantity"></field>
+				<field name="products_you_save_percent">33.19</field>
+				<field name="FFAfterSearchReorder"></field>
+		</record>
+		<record nr="7" id="293299">
+				<field name="Klemmung"></field>
+				<field name="products_ean">..0879762035786..</field>
+				<field name="products_retail_price"></field>
+				<field name="products_special_offer3">0</field>
+				<field name="products_ranking_profit">0</field>
+				<field name="FFiPhoneVariants">Farbe|schwarz#0879762035786</field>
+				<field name="Durchmesser"></field>
+				<field name="Farbe">..schwarz..</field>
+				<field name="products_special_offer2">0</field>
+				<field name="products_price_min">319.95</field>
+				<field name="products_price_max">319.95</field>
+				<field name="products_image"><![CDATA[http://www.fahrrad.de/media/products/gus_distribution/1406-12-sw_Eastern_Bikes_BMX_Komplettrad_2012_BATTERY_BLACK_Nitrous.jpg]]></field>
+				<field name="products_ranking_charge">0</field>
+				<field name="shop_id">44</field>
+				<field name="products_you_save_money"></field>
+				<field name="imageUrlLarge"><![CDATA[http://www.fahrrad.de/media/products/gus_distribution/1406-12-sw_Eastern_Bikes_BMX_Komplettrad_2012_BATTERY_BLACK_Nitrous[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="Breite"></field>
+				<field name="category1">..Fahrräder..</field>
+				<field name="category3">..BMX Räder ab 300€..</field>
+				<field name="products_best_price">0</field>
+				<field name="category2">..BMX..</field>
+				<field name="category4"></field>
+				<field name="evaluation_total"></field>
+				<field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder ab 300€</field>
+				<field name="FFCliplisterQuality"></field>
+				<field name="Ausführung"></field>
+				<field name="Rahmengrösse"></field>
+				<field name="products_id">293299</field>
+				<field name="products_video">0</field>
+				<field name="additional_imageurls"></field>
+				<field name="AdditionalAttributes"></field>
+				<field name="products_description"><![CDATA[Farbe: schwarz Materialtyp: Stahl , Material: Hi-Ten light steel , BMX: Allround , Material: Hi-Ten Steel , Typ: Battery 1020 , Anzahl Gänge: 1 , Typ: 8-Spline Spindel , Bauart: 3-teilig , Material: Heattreated CrMo , Marke: Nitrous , Typ: Graphic , Anzahl Zähne: 25 Zähne, Übersetzung: 9 Zähne, Marke: American , Typ: Loose Ball Bearing , Marke: KMC Z510 , Typ: Bügelbremse , Bauart: U-Brake , Bauart: U-Brake , Typ: 7,75 Zoll hoch, 27,5 Zoll breit, 1° Grad Upsweep, 12° Backsweep , Bauart: 2-teilig , Material: Hi-Ten light steel , Typ: Forged Alu Front Load , Bauart: A-Head , : Eastern Wiz Signature , : 1-1/8 Zoll Headset , : Nitrous Combo , Typ: Nitrous Combo , Marke: Nitrous , Typ: 3/8 Zoll, 36H, Loose Ball Bearing , Marke: Nitrous , Typ: KT Quando Semi-Sealed 36H Kassettennabe, 9T CrMo Driver, 14mm CroMo Hohlachse , Material & sonstiges: Alu 36 Loch , Typ: LHR Multi-Surface , Größe: 20 Zoll, Reifenbreite: 2.2 Zoll, Typ: LHR Multi-Surface , Größe: 20 Zoll, Reifenbreite: 2.2 Zoll, : Eastern Bikes Crown Plastik , : 12.75 kg (ca.), : Sattelklemme: Nitrous Locker Forged Alu Clamp , : Competition]]></field>
+				<field name="Geschmack"></field>
+				<field name="imageUrlSmall"><![CDATA[http://www.fahrrad.de/media/products/gus_distribution/1406-12-sw_Eastern_Bikes_BMX_Komplettrad_2012_BATTERY_BLACK_Nitrous[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="products_name">Nitrous Battery schwarz</field>
+				<field name="FFAutomaticSearchOptimization">NITROUS BMX=4</field>
+				<field name="cash_back_amount"></field>
+				<field name="month-campaign"></field>
+				<field name="Größe"></field>
+				<field name="products_quantity_unit"></field>
+				<field name="coupon-campaign"></field>
+				<field name="products_special_offer">0</field>
+				<field name="products_price">319.95</field>
+				<field name="availability">2</field>
+				<field name="imageUrlMid"><![CDATA[http://www.fahrrad.de/media/products/gus_distribution/1406-12-sw_Eastern_Bikes_BMX_Komplettrad_2012_BATTERY_BLACK_Nitrous[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="categories_free_shipping">0</field>
+				<field name="Länge"></field>
+				<field name="products_model_year">2012</field>
+				<field name="products_link_self"><![CDATA[http://www.fahrrad.de/fahrraeder/bmx/nitrous-bmx-komplettrad-2012-battery-schwarz-/293299.html]]></field>
+				<field name="manufacturers_name">Nitrous</field>
+				<field name="manufacturers_image">http://www.fahrrad.de/media/products/nitrous.jpg</field>
+				<field name="manufacturers_free_shipping">0</field>
+				<field name="categories_image"></field>
+				<field name="FFCheckoutCount">0</field>
+				<field name="products_free_shipping">0</field>
+				<field name="manufacturers_id">1619</field>
+				<field name="products_quantity"></field>
+				<field name="products_you_save_percent"></field>
+				<field name="FFAfterSearchReorder"></field>
+		</record>
+		<record nr="8" id="319597">
+				<field name="Klemmung"></field>
+				<field name="products_ean">..4052406039333..#..4052406039333..</field>
+				<field name="products_retail_price"></field>
+				<field name="products_special_offer3">0</field>
+				<field name="products_ranking_profit">0</field>
+				<field name="FFiPhoneVariants">Oberrohrlänge|20.5 Zoll#4052406039333|schwarz#4052406039333</field>
+				<field name="Durchmesser"></field>
+				<field name="Farbe">..schwarz..</field>
+				<field name="products_special_offer2">0</field>
+				<field name="products_price_min">649.99</field>
+				<field name="products_price_max">649.99</field>
+				<field name="products_image">http://www.fahrrad.de/media/products/Trust_20_5_clear_bk_1800x1200.jpg</field>
+				<field name="products_ranking_charge">0</field>
+				<field name="shop_id">44</field>
+				<field name="products_you_save_money"></field>
+				<field name="imageUrlLarge"><![CDATA[http://www.fahrrad.de/media/products/Trust_20_5_clear_bk_1800x1200[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="Breite"></field>
+				<field name="category1">..Fahrräder..</field>
+				<field name="category3">..BMX Räder ab 300€..</field>
+				<field name="products_best_price">0</field>
+				<field name="category2">..BMX..</field>
+				<field name="category4"></field>
+				<field name="evaluation_total"></field>
+				<field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder ab 300€</field>
+				<field name="FFCliplisterQuality"></field>
+				<field name="Ausführung"></field>
+				<field name="Rahmengrösse"></field>
+				<field name="products_id">319597</field>
+				<field name="products_video">0</field>
+				<field name="additional_imageurls"></field>
+				<field name="AdditionalAttributes">|Oberrohrlänge=20.5 Zoll|</field>
+				<field name="products_description"><![CDATA[Geometrie Rahmen:Oberrohr: 20.5 ZollKettenstrebenlänge: 13.44 ZollLenkwinkel: 75°Sitzwinkel: 70°Geometrie Lenker:Rise: 8.65 ZollBreite: 28.5 ZollBacksweep: 11.5°Upseep: 1.5° Materialtyp: Stahl , Material: 4130 CrMo , Material: 4130 Cr-Mo , Typ: 1 1/8 Zoll , Anzahl Gänge: 1 , Marke: SaltPlus , Typ: Groove , Bauart: 3-teilig , Material: 4130 CrMo , Marke: SaltPLus , Typ: Manta Aluminium , Anzahl Zähne: 26 Zähne, Übersetzung: 9 Zähne, Marke: Salt , Typ: Sealed Bearing Mid Size , Marke: Salt AM 510h , Marke: Salt , Bauart: Calliper Bremse , Marke: Saltplus , Typ: Geo , Bauart: U-Brake , Marke: SaltPlus Aluminium , Typ: 8.65 Zoll hoch, 28.5 Zoll breit , Material: 4130 Cr-Mo , Typ: SaltPlus Front Loader 50 mm Aluminium , Bauart: A-Head , : wethepeople Mugen , : SaltPlus Slim 1 1/8 Zoll integrated , : wethepeople BelAir , Bauart: Pivotal , Durchmesser: 25.4 mm, Typ: Salt AM , Marke: SaltPlus , Typ: Trapez, 3/8 Zoll, 36h , Marke: Salt , Typ: Pro, cassette Hub, 14 mm, 36h , Marke & Typ: Eclat Trippin Hohlkammer Aero vorne, Straightwall hinten , Marke: Salt , Typ: PitchMid , Größe: 20 Zoll, Reifenbreite: 2.3 Zoll, Marke: Salt , Typ: PitchFlow , Größe: 20 Zoll, Reifenbreite: 2.2 Zoll, : Eclat Slash nylon/Fieberglas , im Lieferumfang enthalten: ja , Anzahl: 1 Paar , Marke: Salt , Typ: AM Steel Pegs , : 11.15 kg (ca.), : Sport]]></field>
+				<field name="Geschmack"></field>
+				<field name="imageUrlSmall"><![CDATA[http://www.fahrrad.de/media/products/Trust_20_5_clear_bk_1800x1200[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="products_name">wethepeople Trust 20.5 Zoll TT clear schwarz</field>
+				<field name="FFAutomaticSearchOptimization"></field>
+				<field name="cash_back_amount"></field>
+				<field name="month-campaign"></field>
+				<field name="Größe"></field>
+				<field name="products_quantity_unit"></field>
+				<field name="coupon-campaign"></field>
+				<field name="products_special_offer">0</field>
+				<field name="products_price">649.99</field>
+				<field name="availability">2</field>
+				<field name="imageUrlMid"><![CDATA[http://www.fahrrad.de/media/products/Trust_20_5_clear_bk_1800x1200[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="categories_free_shipping">0</field>
+				<field name="Länge"></field>
+				<field name="products_model_year">2012</field>
+				<field name="products_link_self"><![CDATA[http://www.fahrrad.de/fahrraeder/bmx/wethepeople-trust-205-tt/319597.html]]></field>
+				<field name="manufacturers_name">wethepeople</field>
+				<field name="manufacturers_image">http://www.fahrrad.de/media/products/wethepeople.jpg</field>
+				<field name="manufacturers_free_shipping">0</field>
+				<field name="categories_image"></field>
+				<field name="FFCheckoutCount">0</field>
+				<field name="products_free_shipping">0</field>
+				<field name="manufacturers_id">1241</field>
+				<field name="products_quantity"></field>
+				<field name="products_you_save_percent"></field>
+				<field name="FFAfterSearchReorder"></field>
+		</record>
+		<record nr="9" id="293313">
+				<field name="Klemmung"></field>
+				<field name="products_ean">..0879762035847..</field>
+				<field name="products_retail_price"></field>
+				<field name="products_special_offer3">0</field>
+				<field name="products_ranking_profit">0</field>
+				<field name="FFiPhoneVariants">Farbe|weiß#0879762035847</field>
+				<field name="Durchmesser"></field>
+				<field name="Farbe">..weiß..</field>
+				<field name="products_special_offer2">0</field>
+				<field name="products_price_min">349.95</field>
+				<field name="products_price_max">349.95</field>
+				<field name="products_image"><![CDATA[http://www.fahrrad.de/media/products/gus_distribution/1400-12-ws_Eastern_Bikes_BMX_Komplettrad_2012_WARHAMMER_WHITE_Nitrous.jpg]]></field>
+				<field name="products_ranking_charge">0</field>
+				<field name="shop_id">44</field>
+				<field name="products_you_save_money"></field>
+				<field name="imageUrlLarge"><![CDATA[http://www.fahrrad.de/media/products/gus_distribution/1400-12-ws_Eastern_Bikes_BMX_Komplettrad_2012_WARHAMMER_WHITE_Nitrous[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="Breite"></field>
+				<field name="category1">..Fahrräder..</field>
+				<field name="category3">..BMX Räder ab 300€..</field>
+				<field name="products_best_price">0</field>
+				<field name="category2">..BMX..</field>
+				<field name="category4"></field>
+				<field name="evaluation_total"></field>
+				<field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder ab 300€</field>
+				<field name="FFCliplisterQuality"></field>
+				<field name="Ausführung"></field>
+				<field name="Rahmengrösse"></field>
+				<field name="products_id">293313</field>
+				<field name="products_video">0</field>
+				<field name="additional_imageurls"></field>
+				<field name="AdditionalAttributes"></field>
+				<field name="products_description"><![CDATA[Farbe: weiß Materialtyp: Stahl , Material: Hi-Ten light steel , BMX: Allround , Material: Hi-Ten Steel , Typ: Warhammer 1020 , Anzahl Gänge: 1 , Typ: Nitrous Shifter, 175mm, 8-Spline Spindel , Material: Heattreated CroMo , Marke: Nitrous , Typ: Graphic , Anzahl Zähne: 25 Zähne, Übersetzung: 9 Zähne, Marke: American , Typ: Loose Ball Bearing , Marke: KMC Z510 , Typ: Bügelbremse , Bauart: U-Brake , Typ: mit Rotorsystem , Bauart: U-Brake , Typ: 8,0 Zoll hoch, 28,5 Zoll breit, 1° Upsweep, 12° Backsweep , Bauart: 2-teilig , Typ: Forged Alu Front Load , Bauart: A-Head , : Eastern Fuquay Flyer , : 1-1/8 Zoll Headset , : Nitrous Combo Fat Kevlar , Typ: Nitrous Combo Fat Kevlar , Marke: Nitrous , Typ: 3/8 Zoll, 36H, Loose Ball Bearing , Marke: Nitrous , Typ: KT Quando Semi-Sealed 36H Kassettennabe, 9T CrMo Driver, 14mm CroMo Hohlachse , Material & sonstiges: Alu 36 Loch , Typ: LHR Multi-Surface , Größe: 20 Zoll, Reifenbreite: 2.2 Zoll, Typ: LHR Multi-Surface , Größe: 20 Zoll, Reifenbreite: 2.2 Zoll, : Eastern Bikes Crown Plastik , : 12 kg (ca.), : Sattelklemme: Nitrous Locker Forged Alu Clamp , : Competition]]></field>
+				<field name="Geschmack"></field>
+				<field name="imageUrlSmall"><![CDATA[http://www.fahrrad.de/media/products/gus_distribution/1400-12-ws_Eastern_Bikes_BMX_Komplettrad_2012_WARHAMMER_WHITE_Nitrous[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="products_name">Nitrous Warhammer weiß</field>
+				<field name="FFAutomaticSearchOptimization"></field>
+				<field name="cash_back_amount"></field>
+				<field name="month-campaign"></field>
+				<field name="Größe"></field>
+				<field name="products_quantity_unit"></field>
+				<field name="coupon-campaign"></field>
+				<field name="products_special_offer">0</field>
+				<field name="products_price">349.95</field>
+				<field name="availability">2</field>
+				<field name="imageUrlMid"><![CDATA[http://www.fahrrad.de/media/products/gus_distribution/1400-12-ws_Eastern_Bikes_BMX_Komplettrad_2012_WARHAMMER_WHITE_Nitrous[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				<field name="categories_free_shipping">0</field>
+				<field name="Länge"></field>
+				<field name="products_model_year">2012</field>
+				<field name="products_link_self"><![CDATA[http://www.fahrrad.de/fahrraeder/bmx/nitrous-bmx-komplettrad-2012-warhammer-weiss-/293313.html]]></field>
+				<field name="manufacturers_name">Nitrous</field>
+				<field name="manufacturers_image">http://www.fahrrad.de/media/products/nitrous.jpg</field>
+				<field name="manufacturers_free_shipping">0</field>
+				<field name="categories_image"></field>
+				<field name="FFCheckoutCount">0</field>
+				<field name="products_free_shipping">0</field>
+				<field name="manufacturers_id">1619</field>
+				<field name="products_quantity"></field>
+				<field name="products_you_save_percent"></field>
+				<field name="FFAfterSearchReorder"></field>
+		</record>
+	</similarRecords>
+</ff>

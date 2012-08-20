@@ -1,0 +1,15 @@
+<configuration xmlns="http://logging.apache.org/log4php/">
+    <appender name="fileAppender" class="LoggerAppenderFile">
+		<layout class="LoggerLayoutTTCC" />
+        <param name="file" value="ff.log" />
+    </appender>
+	
+	<appender name="nullAppender" class="LoggerAppenderNull">
+		<layout class="LoggerLayoutTTCC" />
+    </appender>
+	
+    <root>
+        <level value="INFO" />
+        <appender_ref ref="fileAppender" /> <!-- Change this to fileAppender if you want logging output -->
+    </root>
+</configuration>
