@@ -64,6 +64,7 @@ class FACTFinder_Loader
 {
     protected static $singletons = array();
     protected static $classNames = array();
+	protected static $logger = null;
 
     public static function autoload($classname)
     {
