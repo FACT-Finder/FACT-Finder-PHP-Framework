@@ -1,3 +1,7 @@
+Version 2.4.3
+	CHG: Moved framework to Github.
+	FIX: Loader tried to use the logger as an instance member. Changed to static member.
+
 Version 2.4.2
     ADD: Logger eingebaut
     ADD: ImportAdapter eingebaut
