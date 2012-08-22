@@ -134,6 +134,30 @@ class FACTFinder_Loader
         }
         return self::$singletons[$name];
     }
+	
+	/**
+     * set a logger which will log the Loaders activity
+     *
+     * @param    string file name of the configuration file
+     */
+    public static function setLogger(FACTFinder_Abstract_Logger $logger)
+    {
+        self::$logger = $logger;
+    }
+    
+    /**
+     * gets the set logger. if none is set, a NullLogger will be initialized, which does not log anything.
+     *
+     * @return    Logger 	the Loader's logger
+     */
+    public static function getLogger()
+    {
+        if (self::$logger == null) {
+            self::$logger = FF::getSingleton('nullLogger');
+        }
+        
+        return self::$logger;
+    }
 
     /**
      * check whether there is a custom class with the prefix "FACTFinderCustom_" instead of "FACTFinder_"
@@ -159,7 +183,7 @@ class FACTFinder_Loader
         } else if (class_exists($defaultClassName)) { //trigger other autload methods
             $className = $defaultClassName;
         } else {
-			$this->log->error("Could not load class '$defaultClassName'.");
+            self::$getLogger()->error("Could not load class '$defaultClassName'.");
             throw new Exception("class '$defaultClassName' not found");
         }
         return $className;

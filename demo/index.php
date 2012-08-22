@@ -29,6 +29,7 @@ require_once USERDATA_DIR.DS.'HtmlGenerator.php';
 // construct application
 $log = FF::getInstance('log4PhpLogger');
 $log->configure(USERDATA_DIR.DS.'log4php.xml');
+FF::setLogger($log);
 // if required a second logger with a different configuration can be created to handle logging outside of the library differently
 
 // TODO: cache configuration somehow, so it must not be loaded every time from harddisk!
