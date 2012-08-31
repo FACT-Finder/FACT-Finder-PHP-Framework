@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ffresult.xsd">
+	<searchStatus>resultsFound</searchStatus>
+	<articleNumberSearchStatus>noArticleNumberSearch</articleNumberSearchStatus>
+	<searchTimedOut>true</searchTimedOut>
+	<productsPerPageOptions default="30" selected="30">
+
+	</productsPerPageOptions>
+	<searchControlParams>
+		<disableCache>false</disableCache>
+		<generateAdvisorTree>false</generateAdvisorTree>
+		<idsOnly>false</idsOnly>
+		<useAsn>true</useAsn>
+		<useCampaigns>true</useCampaigns>
+		<useFoundWords>false</useFoundWords>
+		<useKeywords>true</useKeywords>
+	</searchControlParams>
+	<searchParams>
+		<searchPhrase>Die Magie des Herrschers und die Quallen des Bösen</searchPhrase>
+		<channel>de</channel>
+		<productsPerPage>30</productsPerPage>
+		<seoPath>/Die-Magie-des-Herrschers-und-die-Quallen-des-Boesen/q</seoPath>
+	</searchParams>
+	<paging pageCount="7" currentPage="1" productsPerPage="30">
+		<searchParams><![CDATA[/Elbenwald/Search.ff?seoPath=%2FDie-Magie-des-Herrschers-und-die-Quallen-des-Boesen%2Fq&query=Die+Magie+des+Herrschers+und+die+Quallen+des+B%C3%B6sen&channel=de&queryFromSuggest=true&format=XML&page=]]></searchParams>
+		<settings>
+			<linkCount>100</linkCount>
+			<nextCaption>paging.next</nextCaption>
+			<previousCaption>paging.previous</previousCaption>
+		</settings>
+	</paging>
+	<results count="17">
+		<record nr="0" id="E1018438" relevancy="96.68">
+			<seoPath>/Die-Magie-des-Herrschers-Die-Quellen-des-Boesen-E1018438.html</seoPath>
+			<field name="farbe" />
+			<field name="auswahl" />
+			<field name="masterartikelnummer">E1018438</field>
+			<field name="beschreibung">Ulldart - Die Dunkle Zeit 5 | Die Dunkle Zeit greift nach Ulldart: Nach langen Jahren des Krieges sehnt sich auch Lodrik, der übermächtige Kabcar von Tarpol, nach Frieden. Allein die Bastionen der Rogogarder und Kensustrianer leisten ihm
+				noch Widerstand, und der Traum von einem geeinten Reich scheint in greifbare Nähe zu rücken. Lodriks Berater aber, der durchtriebene Mortva Nesreca, schmiedet im Hintergrund gefahrvolle Ränke - und der Herrscher gerät in einen Hinterhalt ... Ulldart - Die
+				Dunkle Zeit 6 | Das Finale der Dunklen Zeit: Um Lodriks Tod zu rächen, greifen die Untertanen zu den Waffen. Niemand ahnt, dass der geachtete Herrscher das Opfer seiner machtbesessenen Kinder wurde. Der Größenwahn des jungen Govan scheint keine Grenzen zu
+				kennen. Dann aber wird das Gerücht laut, Lodrik sei noch am Leben. Und auch der junge Lorin zieht aus, um gemeinsam mit seinen geheimnisvollen Verbündeten gegen die Horden des Bösen anzutreten. Doch Govan setzt alles daran, die Dunkle Zeit endgültig über
+				Ulldart hereinbrechen zu lassen ...</field>
+			<field name="ringgröße" />
+			<field name="hersteller" />
+			<field name="lieferbarkeit">1</field>
+			<field name="mpn" />
+			<field name="FFAutomaticSearchOptimization" />
+			<field name="DQAttributes" />
+			<field name="einband">kartoniert</field>
+			<field name="schuhgröße" />
+			<field name="anzahlbewertungen">0</field>
+			<field name="währung">EUR</field>
+			<field name="isbn" />
+			<field name="artikelnummer">E1018438</field>
+			<field name="verkaufsrang">1751</field>
+			<field name="kategoriepfad">|kategoriepfadROOT=Fantasy|kategoriepfadROOT/Fantasy/Bücher=Bücher nach Autoren|kategoriepfadROOT/Fantasy=Bücher|</field>
+			<field name="kategorie4" />
+			<field name="kategorie3">..Bücher nach Autoren..</field>
+			<field name="metakeywords">..Die Magie des Herrschers/Die Quellen des Bösen..,..Fantasy..,..Bücher..,..Bücher nach Autoren..</field>
+			<field name="kategorie2">..Bücher..</field>
+			<field name="autor">Heitz, Markus</field>
+			<field name="preisart" />
+			<field name="bewertung">0</field>
+			<field name="kategorie1">..Fantasy..</field>
+			<field name="größe" />
+			<field name="art" />
+			<field name="länge">..0..</field>
+			<field name="alterpreis">0</field>
+			<field name="neuigkeit" />
+			<field name="preis_slider">10.00</field>
+			<field name="altan">E11312</field>
+			<field name="zuggewicht" />
+			<field name="material" />
+			<field name="ean">9783492268103</field>
+			<field name="FFCliplisterQuality" />
+			<field name="titel">Die Magie des Herrschers/Die Quellen des Bösen</field>
+			<field name="preis">10.00</field>
+			<field name="deeplink">/products/Fantasy/Buecher/Buecher-nach-Autoren/Die-Magie-des-Herrschers-Die-Quellen-des-Boesen.html</field>
+			<field name="brand">Ulldart 3</field>
+			<field name="menge">1</field>
+			<field name="zusatzattribute">E11312</field>
+			<field name="bildurl">http://d30u0kofcv45jk.cloudfront.net/E1018438/E1018438_kl.jpg</field>
+			<field name="FFAfterSearchReorder" />
+		</record>
+		<record nr="1" id="E1002393" relevancy="86.76">
+			<seoPath>/Die-Magie-des-Herrschers---Die-dunkle-Zeit-Band-5-E1002393.html</seoPath>
+			<field name="farbe" />
+			<field name="auswahl" />
+			<field name="masterartikelnummer">E1002393</field>
+			<field name="beschreibung">Auf Wunsch begeisterter Fans jetzt die ungekürzte und völlig überarbeitete Fortsetzung der großen "Ulldart"-Saga: Vormals im Band "Die Stimme der Magie" enthalten, spinnt Markus Heitz in "Die Magie des Herrschers" die faszinierende
+				Geschichte um die Wiederkehr der Dunklen Zeit weiter. Nach langen Jahren des Krieges sehnt sich auch Lodrik nach Frieden. Seine Berater jedoch schmieden im Hintergrund gefahrvolle Ränke - und der Herrscher gerät in einen Hinterhalt. Zum Autor: Markus
+				Heitz, geboren 1971, studierte Geschichte und Germanistik und arbeitete als Journalist bei der Saarbrücker Zeitung. Seit dem sensationellen Erfolg seines Romans "Die Zwerge" widmet er sich hauptberuflich der Schriftstellerei. Markus Heitz lebt in
+				Zweibrücken.</field>
+			<field name="ringgröße" />
+			<field name="hersteller" />
+			<field name="lieferbarkeit">0</field>
+			<field name="mpn" />
+			<field name="FFAutomaticSearchOptimization" />
+			<field name="DQAttributes" />
+			<field name="einband" />
+			<field name="schuhgröße" />
+			<field name="anzahlbewertungen">0</field>
+			<field name="währung">EUR</field>
+			<field name="isbn">9783492285322</field>
+			<field name="artikelnummer">E1002393</field>
+			<field name="verkaufsrang">1955</field>
+			<field name="kategoriepfad">|kategoriepfadROOT=Fantasy|kategoriepfadROOT/Fantasy/Bücher=Bücher nach Autoren|kategoriepfadROOT/Fantasy/Bücher=Bücher nach Themen|kategoriepfadROOT/Fantasy/Bücher/Bücher nach Themen=Magische Welten|kategoriepfadROOT/Fantasy=Bücher|
+			</field>
+			<field name="kategorie4">..Magische Welten..</field>
+			<field name="kategorie3">..Bücher nach Autoren..|..Bücher nach Themen..</field>
+			<field name="metakeywords">..Die Magie des Herrschers - Die dunkle Zeit Band 5..,..Fantasy..,..Bücher..,..Bücher nach Autoren..</field>
+			<field name="kategorie2">..Bücher..|..Bücher..</field>
+			<field name="autor">Heitz, Markus</field>
+			<field name="preisart" />
+			<field name="bewertung">0</field>
+			<field name="kategorie1">..Fantasy..|..Fantasy..</field>
+			<field name="größe" />
+			<field name="art" />
+			<field name="länge">..0..</field>
+			<field name="alterpreis">0</field>
+			<field name="neuigkeit" />
+			<field name="preis_slider">9.95</field>
+			<field name="altan">E12241</field>
+			<field name="zuggewicht" />
+			<field name="material" />
+			<field name="ean">9783492285322</field>
+			<field name="FFCliplisterQuality" />
+			<field name="titel">Die Magie des Herrschers - Die dunkle Zeit Band 5</field>
+			<field name="preis">9.95</field>
+			<field name="deeplink">/products/Fantasy/Buecher/Buecher-nach-Autoren/Die-Magie-des-Herrschers-Die-dunkle-Zeit-Band-5.html</field>
+			<field name="brand">Ulldart</field>
+			<field name="menge">0</field>
+			<field name="zusatzattribute">E12241</field>
+			<field name="bildurl">http://d30u0kofcv45jk.cloudfront.net/E1002393/E1002393_kl.jpg</field>
+			<field name="FFAfterSearchReorder" />
+		</record>
+		<record nr="2" id="E1002114" relevancy="86.62">
+			<seoPath>/Elfenfeuer---Saga-von-Thale-1-E1002114.html</seoPath>
+			<field name="farbe" />
+			<field name="auswahl" />
+			<field name="masterartikelnummer">E1002114</field>
+			<field name="beschreibung">Die junge Ilahja wird von schrecklichen Erinnerungen geplagt: Als kleines Kind musste sie mitansehen, wie ihre Familie in einer Feuersbrunst ums Leben kam. Damals wurde das Land Thale von feindlichen Truppen überrannt: Der grausame
+				Herrscher An-Rukhbar hat nicht nur alle menschlichen Druiden, sondern auch alle Nebelelfen hingemetzelt und die Gütige Göttin vertrieben. Doch vor seinem Ende prophezeite der oberste Druide die Geburt eines Retters, der dem Land Frieden und Freiheit
+				zurückgeben wird. Aus Angst vor der nahenden Ankunft des prophezeiten Kindes verhindert An-Rukhbar mithilfe von Magie schon seit drei Jahren nahezu alle Schwangerschaften. Frauen, die dennoch ein Kind erwarten, merzt er unbarmherzig aus. Da bemerkt auch
+				Ilahja die Zeichen einer Schwangerschaft. In panischer Furcht um sich und ihr ungeborendes Kind verbirgt sie ihren Zustand -- bis unerwartete Hilfe naht. Unter dramatischen Umständen schenkt sie dem Mädchen Sunnivah das Leben, das auf das Schicksal Thales
+				grenzenlosen Einfluss haben wird. Die Grundelemente der Geschichte sind nicht neu. Doch Monika Felten erzählt in ihrem Romandebüt so eindringlich und einfühlsam, dass der Roman von der ersten Seite an gefangen nimmt und seine Spannung bis zum Schluss nicht
+				verliert. Besonders weibliche Leser werden sich von den starken Frauenfiguren angesprochen fühlen, die über ihre Ängste hinauswachsen und sich in einer brutalen Welt zu behaupten lernen. Seitenzahl: 475 Ausgabe: Paperback Als bester Roman ausgezeichnet mit
+				dem Deutschen Phantastikpreis 2002! Zur Autorin: Monika Felten, geboren 1965, lebt mit ihrer Familie in der Holsteinischen Schweiz, einem Landstrich, wo zwischen Wäldern, Seen und Hünengräbern immer noch Elfen und Feen ihr Wesen zu treiben scheinen. Ihre
+				Romane »Elfenfeuer« und »Die Macht des Elfenfeuers«, für die ihr jeweils der Deutsche Phantastik Preis verliehen wurde, knüpfen an den Mythen und Legenden ihrer Kindheit an und begeisterten auf Anhieb zahlreiche Leser.</field>
+			<field name="ringgröße" />
+			<field name="hersteller" />
+			<field name="lieferbarkeit">1</field>
+			<field name="mpn" />
+			<field name="FFAutomaticSearchOptimization" />
+			<field name="DQAttributes" />
+			<field name="einband">broschiert</field>
+			<field name="schuhgröße" />
+			<field name="anzahlbewertungen">0</field>
+			<field name="währung">EUR</field>
+			<field name="isbn" />
+			<field name="artikelnummer">E1002114</field>
+			<field name="verkaufsrang">1955</field>
+			<field name="kategoriepfad">|kategoriepfadROOT=Fantasy|kategoriepfadROOT/Fantasy/Bücher=Bücher nach Autoren|kategoriepfadROOT/Fantasy=Bücher|</field>
+			<field name="kategorie4" />
+			<field name="kategorie3">..Bücher nach Autoren..</field>
+			<field name="metakeywords">..Elfenfeuer - Saga von Thale 1..,..Fantasy..,..Bücher..,..Bücher nach Autoren..</field>
+			<field name="kategorie2">..Bücher..</field>
+			<field name="autor">Felten, Monika</field>
+			<field name="preisart" />
+			<field name="bewertung">0</field>
+			<field name="kategorie1">..Fantasy..</field>
+			<field name="größe" />
+			<field name="art" />
+			<field name="länge">..0..</field>
+			<field name="alterpreis">0</field>
+			<field name="neuigkeit" />
+			<field name="preis_slider">9.95</field>
+			<field name="altan">E10082</field>
+			<field name="zuggewicht" />
+			<field name="material" />
+			<field name="ean">9783492265010</field>
+			<field name="FFCliplisterQuality" />
+			<field name="titel">Elfenfeuer - Saga von Thale 1</field>
+			<field name="preis">9.95</field>
+			<field name="deeplink">/products/Fantasy/Buecher/Buecher-nach-Autoren/Elfenfeuer-Saga-von-Thale-1.html</field>
+			<field name="brand">Saga von Thale</field>
+			<field name="menge">1</field>
+			<field name="zusatzattribute">E10082</field>
+			<field name="bildurl">http://d30u0kofcv45jk.cloudfront.net/E1002114/E1002114_kl.jpg</field>
+			<field name="FFAfterSearchReorder" />
+		</record>
+		<record nr="3" id="E1021987" relevancy="85.06">
+			<keywords>
+				<keyword>KOSTAŒME FAŒR KINDER</keyword>
+			</keywords>
+			<seoPath>/Kleiner-Hexer---Kinderkostuem-E1021987.html</seoPath>
+			<field name="farbe">..gelb..|..lila..</field>
+			<field name="auswahl">..Kinder..</field>
+			<field name="masterartikelnummer">E1021987</field>
+			<field name="beschreibung">Mit diesem Kostüm geht es garantiert mit rechten Dingen zu! Es macht Euch zum Herrscher der Magie. Dieses dreiteilige Kostüm besteht aus einer Hose mit Gummizugbund, einem Langarm Oberteil und einem Gürtel mit Klettverschluss. Das Oberteil
+				hat weit auslaufende Ärmel, eine großzügige Kapuze und ist durch Nietenelemente und den auffallenden Saumabschlüssen detailreich verziert. Vom Hersteller wird eine Trockenwäsche empfohlen. Warnhinweis: Achtung! Nicht für Kinder unter 36 Monaten geeignet.
+				Achtung! Enthält verschluckbare Kleinteile. Erstickungsgefahr.</field>
+			<field name="ringgröße" />
+			<field name="hersteller" />
+			<field name="lieferbarkeit">16</field>
+			<field name="mpn" />
+			<field name="FFAutomaticSearchOptimization">KOSTAŒME FAŒR KINDER=41</field>
+			<field name="DQAttributes" />
+			<field name="einband" />
+			<field name="schuhgröße" />
+			<field name="anzahlbewertungen">0</field>
+			<field name="währung">EUR</field>
+			<field name="isbn" />
+			<field name="artikelnummer">E1021987</field>
+			<field name="verkaufsrang">1955</field>
+			<field name="kategoriepfad"><![CDATA[|kategoriepfadROOT=Kostüme|kategoriepfadROOT/Kostüme=Horror & Halloween|kategoriepfadROOT/Kostüme/Horror & Halloween=Hexen & Teufel|]]></field>
+			<field name="kategorie4" />
+			<field name="kategorie3"><![CDATA[..Hexen & Teufel..]]></field>
+			<field name="metakeywords"><![CDATA[..Kleiner Hexer - Kinderkostüm..,..Kostüme..,..Horror & Halloween..,..Hexen & Teufel..]]></field>
+			<field name="kategorie2"><![CDATA[..Horror & Halloween..]]></field>
+			<field name="autor" />
+			<field name="preisart" />
+			<field name="bewertung">0</field>
+			<field name="kategorie1">..Kostüme..</field>
+			<field name="größe" />
+			<field name="art">Komplettkostüm</field>
+			<field name="länge" />
+			<field name="alterpreis">0</field>
+			<field name="neuigkeit" />
+			<field name="preis_slider">39.90</field>
+			<field name="altan" />
+			<field name="zuggewicht" />
+			<field name="material" />
+			<field name="ean" />
+			<field name="FFCliplisterQuality" />
+			<field name="titel">Kleiner Hexer - Kinderkostüm</field>
+			<field name="preis">39.90</field>
+			<field name="deeplink">/products/Kostueme/Horror-Halloween/Hexen-Teufel/Kleiner-Hexer-Kinderkostuem.html</field>
+			<field name="brand"><![CDATA[Kostüme & Zubehör]]></field>
+			<field name="menge">16</field>
+			<field name="zusatzattribute" />
+			<field name="bildurl">http://d30u0kofcv45jk.cloudfront.net/E1021987/E1021987_kl.jpg</field>
+			<field name="FFAfterSearchReorder" />
+		</record>
+		<record nr="4" id="E1009807" relevancy="84.96">
+			<keywords>
+				<keyword>ORC</keyword>
+			</keywords>
+			<seoPath>/Der-Koenig-der-Orks---Die-Legende-vom-Dunkelelf-E1009807.html</seoPath>
+			<field name="farbe" />
+			<field name="auswahl" />
+			<field name="masterartikelnummer">E1009807</field>
+			<field name="beschreibung">Drizzt Do'Urden ist zurück! Das Jahr der Wilden Magie ist angebrochen. Plötzlich flammen die alten Feindseligkeiten zwischen Zwergen, Orks, Dunkelelfen und Magiern wieder auf, und der Boden wird wie so oft zuvor mit Blut getränkt. Doch
+				Bruenor Heldenhammer, Herrscher der Zwerge, will sich nicht länger mit dem ewigen Krieg abfinden. Gemeinsam mit Drizzt Do'Urden sucht er nach einer Möglichkeit, ihn ein für alle Mal zu beenden. Doch besonders der König der Orks hat andere Pläne ... - Ein
+				hochdramatisches Fantasy-Epos voller Kämpfe, schwarzer Magie und tödlicher Intrigen! - Für alle Leser von Raymond Feist, David Eddings und den Drachenlanze-Romanen!</field>
+			<field name="ringgröße" />
+			<field name="hersteller" />
+			<field name="lieferbarkeit">1</field>
+			<field name="mpn" />
+			<field name="FFAutomaticSearchOptimization">ORC=11</field>
+			<field name="DQAttributes" />
+			<field name="einband" />
+			<field name="schuhgröße" />
+			<field name="anzahlbewertungen">0</field>
+			<field name="währung">EUR</field>
+			<field name="isbn" />
+			<field name="artikelnummer">E1009807</field>
+			<field name="verkaufsrang">1955</field>
+			<field name="kategoriepfad">|kategoriepfadROOT=Fantasy|kategoriepfadROOT/Fantasy/Bücher=Bücher nach Autoren|kategoriepfadROOT/Fantasy=Bücher|</field>
+			<field name="kategorie4" />
+			<field name="kategorie3">..Bücher nach Autoren..</field>
+			<field name="metakeywords">..Der König der Orks - Die Legende vom Dunkelelf..,..Fantasy..,..Bücher..,..Bücher nach Autoren..</field>
+			<field name="kategorie2">..Bücher..</field>
+			<field name="autor">Salvatore, R. A.</field>
+			<field name="preisart" />
+			<field name="bewertung">0</field>
+			<field name="kategorie1">..Fantasy..</field>
+			<field name="größe" />
+			<field name="art" />
+			<field name="länge">..0..</field>
+			<field name="alterpreis">0</field>
+			<field name="neuigkeit" />
+			<field name="preis_slider">8.95</field>
+			<field name="altan">E15811</field>
+			<field name="zuggewicht" />
+			<field name="material" />
+			<field name="ean">9783442265800</field>
+			<field name="FFCliplisterQuality" />
+			<field name="titel">Der König der Orks - Die Legende vom Dunkelelf</field>
+			<field name="preis">8.95</field>
+			<field name="deeplink">/products/Fantasy/Buecher/Buecher-nach-Autoren/Der-Koenig-der-Orks-Die-Legende-vom-Dunkelelf.html</field>
+			<field name="brand">Die Legende vom Dunkelelf</field>
+			<field name="menge">1</field>
+			<field name="zusatzattribute">E15811</field>
+			<field name="bildurl">http://d30u0kofcv45jk.cloudfront.net/E1009807/E1009807_kl.jpg</field>
+			<field name="FFAfterSearchReorder" />
+		</record>
+		<record nr="5" id="E1002394" relevancy="84.93">
+			<seoPath>/Die-Quellen-des-Boesen---Die-dunkle-Zeit-Band-6-E1002394.html</seoPath>
+			<field name="farbe" />
+			<field name="auswahl" />
+			<field name="masterartikelnummer">E1002394</field>
+			<field name="beschreibung">Das große Finale des Epos "Ulldart - Die Dunkle Zeit" erstmals in der langerwarteten ungekürzten Fassung (vormals stark gekürzt im Band "Die Stimme der Magie"). Um den Tod ihres Herrschers zu rächen, greifen die Untertanen zu den Waffen.
+				Niemand ahnt, daß der geachtete Mann das Opfer seiner machtbesessenen Kinder wurde. Dann aber wird das Gerücht laut, Lodrik sei noch am Leben. Dennoch sprechen alle Zeichen dafür, daß die Wiederkehr der Dunklen Zeit unmittelbar bevorsteht. Zum Autor:
+				Markus Heitz, geboren 1971, studierte Geschichte und Germanistik und arbeitete als Journalist bei der Saarbrücker Zeitung. Seit dem sensationellen Erfolg seines Romans "Die Zwerge" widmet er sich hauptberuflich der Schriftstellerei. Markus Heitz lebt in
+				Zweibrücken.</field>
+			<field name="ringgröße" />
+			<field name="hersteller" />
+			<field name="lieferbarkeit">0</field>
+			<field name="mpn" />
+			<field name="FFAutomaticSearchOptimization" />
+			<field name="DQAttributes" />
+			<field name="einband" />
+			<field name="schuhgröße" />
+			<field name="anzahlbewertungen">0</field>
+			<field name="währung">EUR</field>
+			<field name="isbn" />
+			<field name="artikelnummer">E1002394</field>
+			<field name="verkaufsrang">1955</field>
+			<field name="kategoriepfad">|kategoriepfadROOT/Fantasy/Bücher=Bücher nach Themen|kategoriepfadROOT/Fantasy/Bücher/Bücher nach Themen=Magische Welten|kategoriepfadROOT/Fantasy=Bücher|kategoriepfadROOT=Fantasy|kategoriepfadROOT/Fantasy/Bücher=Bücher nach Autoren|
+			</field>
+			<field name="kategorie4">..Magische Welten..</field>
+			<field name="kategorie3">..Bücher nach Autoren..|..Bücher nach Themen..</field>
+			<field name="metakeywords">..Die Quellen des Bösen - Die dunkle Zeit Band 6..,..Fantasy..,..Bücher..,..Bücher nach Autoren..</field>
+			<field name="kategorie2">..Bücher..|..Bücher..</field>
+			<field name="autor">Heitz, Markus</field>
+			<field name="preisart" />
+			<field name="bewertung">0</field>
+			<field name="kategorie1">..Fantasy..|..Fantasy..</field>
+			<field name="größe" />
+			<field name="art" />
+			<field name="länge">..19..</field>
+			<field name="alterpreis">0</field>
+			<field name="neuigkeit" />
+			<field name="preis_slider">12.95</field>
+			<field name="altan">E12242</field>
+			<field name="zuggewicht" />
+			<field name="material" />
+			<field name="ean">9783492285469</field>
+			<field name="FFCliplisterQuality" />
+			<field name="titel">Die Quellen des Bösen - Die dunkle Zeit Band 6</field>
+			<field name="preis">12.95</field>
+			<field name="deeplink">/products/Fantasy/Buecher/Buecher-nach-Autoren/Die-Quellen-des-Boesen-Die-dunkle-Zeit-Band-6.html</field>
+			<field name="brand">Ulldart</field>
+			<field name="menge">0</field>
+			<field name="zusatzattribute">E12242</field>
+			<field name="bildurl">http://d30u0kofcv45jk.cloudfront.net/E1002394/E1002394_kl.jpg</field>
+			<field name="FFAfterSearchReorder" />
+		</record>
+		<record nr="6" id="E1005203" relevancy="83.46">
+			<seoPath>/Die-sterblichen-Goetter-Tencendors---Band-1-E1005203.html</seoPath>
+			<field name="farbe" />
+			<field name="auswahl" />
+			<field name="masterartikelnummer">E1005203</field>
+			<field name="beschreibung">Als "Die Sternenbraut" erschien, erlebte die australische Bestsellerautorin Sara Douglass auch bei uns einen furiosen Erfolg. Anfangs noch als Geheimtip gehandelt, wurde ihre Saga "Unter dem Weltenbaum" rasch zur Lesedroge für eine ständig
+				wachsende Fan-Gemeinde. Auch das neue Epos "Im Zeichen der Sterne" spielt im phantastischen Reich Tencendor. Axis und Aschur e, die Helden der Prophezeiung, führen Seite an Seite mit den Göttern ein himmlisches Leben. Ihr Sohn Caelum befiehlt nun über die
+				Welt, doch seiner Herrschaft ist kein Friede beschieden. Denn Prinz Zared, der die Schwester seines ärgsten Widersachers liebt, stellt sich dem Sternensohn Caelum entgegen. In diesem großen Roman erleben die Kinder von Axis und Aschure ein neues Zeitalter
+				unter dem Weltenbaum... Seiten: 720 Ausgabe: kartoniert BUCHREZENSION VOM ELBENWALD Die sterblichen Götter Tencendors Die sterblichen Götter Tencendors ist Band eins der neuen Trilogie "Im Zeichen der Sterne" der australischen Fantasy-Bestsellerautorin
+				Sara Douglass. Die neue Trilogie, deren erster Band am 23. März erstmalig auf Deutsch erscheint, lässt Fans des bereits abgeschlossenen Fantasyepos "Unter dem Weltenbaum" aufatmen. Die Geschichte von Axis, Aschure und Caelum geht weiter. Aber auch
+				Neueinsteiger können sich mit der neuen Trilogie von Sara Douglass' Welt begeistern lassen. "Die sterblichen Götter Tencendors" beginnt 40 Jahre nach dem Sieg von Axis, dem Sternenmann. Sein Sohn Caelum regiert in Tencendor, eine Welt voll Frieden zwischen
+				den Völkern. Aber es entstehen langsam Spannungen. Askam, Herrscher des Südens, kontrolliert einen Großteil des Handels zwischen dem Süden und dem Norden - sehr zum Leidwesen von Prinz Zared, dem Sohn von Rivkah und Magariz. Viele Achariten sind verstimmt,
+				dass Axis den Ikariern einen Krallenfürsten und den Awaren ihren Magierkönig zugestand, aber ihre eigene Monarchie zerstörte. Viele von ihnen wünschen sich ihren eigenen König, natürlich unter der Oberherrschaft von Caelum. Was geschieht, wenn Zared, der
+				Prinz des Nordens und einziger Sohn Rivkahs mit königlichem Blut, Ansprüche auf den Thron von Achar erhebt? Bedeutet dies das Aufflammen jahrtausendealter Feindschaft zwischen den Völkern? Aber es gibt nicht nur Spannungen in Tencendor, selbst in der
+				Familie des Sternenmannes beginnt es zu rumoren. Drago, Bruder von Caelum, seiner ikarischen Zauberkräfte und Erinnerungen an seine grausamen frühkindlichen Taten beraubt, ist zu einem stattlichen, aber sterblichen Mann herangewachsen. Jahrelang bestraft
+				und gehasst für etwas, an das er sich nicht mehr erinnern kann. Zenit, die jüngste Tochter von Axis, plagen Alpträume, und selbst Caelum bekommt Zweifel an seiner Herrschaft in dieser unruhigen Zeit. Ein grausamer Mord an Flussstern, einer weiteren Tochter
+				von Axis, lässt die Ereignisse überschlagen und entzweit die Familie. Drago, der vermeintliche Mörder, wird von seiner eigenen Familie durch Tencendor gejagt, das nun dicht vor einem Bürgerkrieg steht. "Die sterblichen Götter Tendendors" ist ein
+				wunderbarer Einstieg in eine neue und langerwartete Fantasy-Serie von Sara Douglass. War schon "Unter dem Weltenbaum" ein spannendes Fantasy-Werk, so ist es dieser neue Band 1 von "Im Zeichen der Sterne" um so mehr. Sara Douglass schafft es wieder einmal,
+				eine unglaublich lebendige und farbenfrohe Fantasywelt in den Kopf des Lesers zu zaubern. Die Kreaturen Tencendors sind liebevoll und detailliert ausgearbeitet. Der Leser und selbst die Charaktere des Buches wissen bis zum Schluss nicht, auf welcher Seite
+				sie stehen. Das macht das Buch bis zur letzten Seite spannend und lässt einen mit jedem Helden mitfiebern, vereint Abenteuer voller Schwertergeklirr, Romantik und Magie. Mein Tipp: Am besten mit dem ersten Teil von "Unter dem Weltenbaum - Die Sternenbraut"
+				beginnen. Durch die neue Fantasyserie haben Fans von High-Fantasy für die nächsten Jahre Lesestoff! Viel Spaß damit! Euer Thorin</field>
+			<field name="ringgröße" />
+			<field name="hersteller" />
+			<field name="lieferbarkeit">0</field>
+			<field name="mpn" />
+			<field name="FFAutomaticSearchOptimization" />
+			<field name="DQAttributes" />
+			<field name="einband" />
+			<field name="schuhgröße" />
+			<field name="anzahlbewertungen">0</field>
+			<field name="währung">EUR</field>
+			<field name="isbn" />
+			<field name="artikelnummer">E1005203</field>
+			<field name="verkaufsrang">1955</field>
+			<field name="kategoriepfad">|kategoriepfadROOT/Fantasy=Bücher|kategoriepfadROOT=Fantasy|kategoriepfadROOT/Fantasy/Bücher=Bücher nach Autoren|</field>
+			<field name="kategorie4" />
+			<field name="kategorie3">..Bücher nach Autoren..</field>
+			<field name="metakeywords">..Die sterblichen Götter Tencendors - Band 1..,..Fantasy..,..Bücher..,..Bücher nach Autoren..</field>
+			<field name="kategorie2">..Bücher..</field>
+			<field name="autor">Douglass, Sara</field>
+			<field name="preisart" />
+			<field name="bewertung">0</field>
+			<field name="kategorie1">..Fantasy..</field>
+			<field name="größe" />
+			<field name="art" />
+			<field name="länge">..0..</field>
+			<field name="alterpreis">0</field>
+			<field name="neuigkeit" />
+			<field name="preis_slider">16.90</field>
+			<field name="altan">E15213</field>
+			<field name="zuggewicht" />
+			<field name="material" />
+			<field name="ean">9783492700412</field>
+			<field name="FFCliplisterQuality" />
+			<field name="titel">Die sterblichen Götter Tencendors - Band 1</field>
+			<field name="preis">16.90</field>
+			<field name="deeplink">/products/Fantasy/Buecher/Buecher-nach-Autoren/Die-sterblichen-Goetter-Tencendors-Band-1.html</field>
+			<field name="brand">Im Zeichen der Sterne</field>
+			<field name="menge">0</field>
+			<field name="zusatzattribute">E15213</field>
+			<field name="bildurl">http://d30u0kofcv45jk.cloudfront.net/E1005203/E1005203_kl.jpg</field>
+			<field name="FFAfterSearchReorder" />
+		</record>
+		<record nr="7" id="E1008036" relevancy="83.31">
+			<seoPath>/Prinz-des-Schattenreichs---Night-World-2-E1008036.html</seoPath>
+			<field name="farbe" />
+			<field name="auswahl" />
+			<field name="masterartikelnummer">E1008036</field>
+			<field name="beschreibung">Nightworld - die geheime Welt der Vampire Maggie Neely kommt einem grauenvollen Komplott auf die Spur: Die Mächte des Bösen wollen die Alleinherrschaft über die Welt erlangen! Kann ihre Liebe zu Prinz Delos, dem unwiderstehlichen Herrscher
+				des Schattenreichs, das Unheil noch abwenden.  </field>
+			<field name="ringgröße" />
+			<field name="hersteller" />
+			<field name="lieferbarkeit">0</field>
+			<field name="mpn" />
+			<field name="FFAutomaticSearchOptimization" />
+			<field name="DQAttributes" />
+			<field name="einband" />
+			<field name="schuhgröße" />
+			<field name="anzahlbewertungen">0</field>
+			<field name="währung">EUR</field>
+			<field name="isbn" />
+			<field name="artikelnummer">E1008036</field>
+			<field name="verkaufsrang">1955</field>
+			<field name="kategoriepfad">|kategoriepfadROOT=Fantasy|kategoriepfadROOT/Fantasy/Bücher=Bücher nach Autoren|kategoriepfadROOT/Fantasy=Bücher|</field>
+			<field name="kategorie4" />
+			<field name="kategorie3">..Bücher nach Autoren..</field>
+			<field name="metakeywords">..Prinz des Schattenreichs - Night World 2..,..Fantasy..,..Bücher..,..Bücher nach Autoren..</field>
+			<field name="kategorie2">..Bücher..</field>
+			<field name="autor">Smith, Lisa J.</field>
+			<field name="preisart" />
+			<field name="bewertung">0</field>
+			<field name="kategorie1">..Fantasy..</field>
+			<field name="größe" />
+			<field name="art" />
+			<field name="länge">..0..</field>
+			<field name="alterpreis">0</field>
+			<field name="neuigkeit" />
+			<field name="preis_slider">7.95</field>
+			<field name="altan">E10838</field>
+			<field name="zuggewicht" />
+			<field name="material" />
+			<field name="ean">9783570306345</field>
+			<field name="FFCliplisterQuality" />
+			<field name="titel">Prinz des Schattenreichs - Night World 2</field>
+			<field name="preis">7.95</field>
+			<field name="deeplink">/products/Fantasy/Buecher/Buecher-nach-Autoren/Prinz-des-Schattenreichs-Night-World-2.html</field>
+			<field name="brand">Night World</field>
+			<field name="menge">0</field>
+			<field name="zusatzattribute">E10838</field>
+			<field name="bildurl">http://d30u0kofcv45jk.cloudfront.net/E1008036/E1008036_kl.jpg</field>
+			<field name="FFAfterSearchReorder" />
+		</record>
+		<record nr="8" id="E1002431" relevancy="83.07">
+			<seoPath>/Himmlisches-Feuer---Die-Gezeitenwelt-Band-2-E1002431.html</seoPath>
+			<field name="farbe" />
+			<field name="auswahl" />
+			<field name="masterartikelnummer">E1002431</field>
+			<field name="beschreibung">»Der Himmel hatte die Farbe alter Knochen. Südwind trieb zerfetzte Wolken gegen die Gipfel der Weltenmauer. Der riesenhafte Gott hob seine sechs Arme. Kommt nur her, ihr Wurmtreter!« So beginnt die Schlacht um den Unvollendeten Palast ?
+				Über Serkan Katau steht ein Komet. Der Kaiser sieht ein neues Zeitalter heraufziehen und befiehlt, einen leibhaftigen Gott zu töten, um sich an dessen Lebenskraft zu nähren. Inmitten des Chaos, das der fremde Stern heraufbeschwört, nimmt der Götterfresser
+				Kang die Verfolgungsjagd auf, um seinem Herrscher den toten Gott zu Füßen zu legen. Weder Flutwellen noch Vulkanausbrüche bringen ihn von seinem Ziel ab. Zweites Buch eines Epos voller Abenteuer, Magie und bizarrer Naturphänomene, das vier Autoren in einer
+				wunderträchtigen Welt, aber auf naturwissenschaftlicher Basis angesiedelt haben. Jeder Roman ist in sich abgeschlossen.</field>
+			<field name="ringgröße" />
+			<field name="hersteller" />
+			<field name="lieferbarkeit">0</field>
+			<field name="mpn" />
+			<field name="FFAutomaticSearchOptimization" />
+			<field name="DQAttributes" />
+			<field name="einband" />
+			<field name="schuhgröße" />
+			<field name="anzahlbewertungen">0</field>
+			<field name="währung">EUR</field>
+			<field name="isbn" />
+			<field name="artikelnummer">E1002431</field>
+			<field name="verkaufsrang">1955</field>
+			<field name="kategoriepfad">|kategoriepfadROOT=Fantasy|kategoriepfadROOT/Fantasy/Bücher=Bücher nach Autoren|kategoriepfadROOT/Fantasy/Bücher=Bücher nach Themen|kategoriepfadROOT/Fantasy/Bücher/Bücher nach Themen=Magische Welten|kategoriepfadROOT/Fantasy=Bücher|
+			</field>
+			<field name="kategorie4">..Magische Welten..</field>
+			<field name="kategorie3">..Bücher nach Autoren..|..Bücher nach Themen..</field>
+			<field name="metakeywords">..Himmlisches Feuer - Die Gezeitenwelt Band 2..,..Fantasy..,..Bücher..,..Bücher nach Autoren..</field>
+			<field name="kategorie2">..Bücher..|..Bücher..</field>
+			<field name="autor">Magellan, Magus</field>
+			<field name="preisart" />
+			<field name="bewertung">0</field>
+			<field name="kategorie1">..Fantasy..|..Fantasy..</field>
+			<field name="größe" />
+			<field name="art" />
+			<field name="länge">..0..</field>
+			<field name="alterpreis">0</field>
+			<field name="neuigkeit" />
+			<field name="preis_slider">19.90</field>
+			<field name="altan">E10217</field>
+			<field name="zuggewicht" />
+			<field name="material" />
+			<field name="ean" />
+			<field name="FFCliplisterQuality" />
+			<field name="titel">Himmlisches Feuer - Die Gezeitenwelt Band 2</field>
+			<field name="preis">19.90</field>
+			<field name="deeplink">/products/Fantasy/Buecher/Buecher-nach-Autoren/Himmlisches-Feuer-Die-Gezeitenwelt-Band-2.html</field>
+			<field name="brand">Die Gezeitenwelt</field>
+			<field name="menge">0</field>
+			<field name="zusatzattribute">E10217</field>
+			<field name="bildurl">http://d30u0kofcv45jk.cloudfront.net/E1002431/E1002431_kl.jpg</field>
+			<field name="FFAfterSearchReorder" />
+		</record>
+		<record nr="9" id="E1003365" relevancy="83.06">
+			<seoPath>/Das-Vermaechtnis-der-Drachenreiter---Eragon-Band-1-E1003365.html</seoPath>
+			<field name="farbe" />
+			<field name="auswahl" />
+			<field name="masterartikelnummer">E1003365</field>
+			<field name="beschreibung">Als Eragon auf der Jagd einen glänzenden blauen Stein findet, ahnt er nicht, dass dieser Fund sein Leben verändern wird. Doch plötzlich rührt sich der Stein. Feine Risse zeichnen sich auf seiner Oberfläche ab - ein Drachenjunges
+				entschlüpft der Schale und es beschert Eragon ein Vermächtnis, das älter ist als die Welt ... Über Nacht wird Eragon in eine schicksalhafte Welt voller Magie und Macht geworfen. Elfen, Zwerge und Monster bevölkern Alagaesia, dessen grenzenlos grausamer
+				Herrscher das Volk unterjocht. Mit nichts als einem Schwert und den Ratschlägen seines Lehrmeisters stellt sich Eragon dem Kampf gegen das Böse. An seiner Seite Saphira, der blaue Drache. Wird Eragon das Erbe der legendären Drachenreiter antreten können?
+				Das Schicksal aller liegt in seiner Hand ...</field>
+			<field name="ringgröße" />
+			<field name="hersteller" />
+			<field name="lieferbarkeit">0</field>
+			<field name="mpn" />
+			<field name="FFAutomaticSearchOptimization" />
+			<field name="DQAttributes" />
+			<field name="einband" />
+			<field name="schuhgröße" />
+			<field name="anzahlbewertungen">0</field>
+			<field name="währung">EUR</field>
+			<field name="isbn" />
+			<field name="artikelnummer">E1003365</field>
+			<field name="verkaufsrang">1955</field>
+			<field name="kategoriepfad"><![CDATA[|kategoriepfadROOT/Fantasy=Drachen & Elfen|kategoriepfadROOT/Fantasy/Bücher/Bücher nach Themen=Drachen & Elfenbücher|kategoriepfadROOT=Kino|kategoriepfadROOT/Kino=Fantasy|kategoriepfadROOT/Fantasy/Bücher=Bücher nach
+				Themen|kategoriepfadROOT/Fantasy=Bücher|kategoriepfadROOT/Kino/Fantasy=Eragon|kategoriepfadROOT=Fantasy|kategoriepfadROOT/Fantasy/Bücher=Bücher nach Autoren|kategoriepfadROOT/Fantasy/Drachen & Elfen=Drachen & Elfenbücher|]]></field>
+			<field name="kategorie4"><![CDATA[..Drachen & Elfenbücher..]]></field>
+			<field name="kategorie3"><![CDATA[..Bücher nach Autoren..|..Drachen & Elfenbücher..|..Bücher nach Themen..|..Eragon..]]></field>
+			<field name="metakeywords">..Das Vermächtnis der Drachenreiter - Eragon Band 1..,..Fantasy..,..Bücher..,..Bücher nach Autoren..</field>
+			<field name="kategorie2"><![CDATA[..Bücher..|..Drachen & Elfen..|..Bücher..|..Fantasy..]]></field>
+			<field name="autor">Paolini, Christopher</field>
+			<field name="preisart" />
+			<field name="bewertung">0</field>
+			<field name="kategorie1">..Fantasy..|..Fantasy..|..Fantasy..|..Kino..</field>
+			<field name="größe" />
+			<field name="art" />
+			<field name="länge">..0..</field>
+			<field name="alterpreis">0</field>
+			<field name="neuigkeit" />
+			<field name="preis_slider">19.90</field>
+			<field name="altan">E12297</field>
+			<field name="zuggewicht" />
+			<field name="material" />
+			<field name="ean">9783570128039</field>
+			<field name="FFCliplisterQuality" />
+			<field name="titel">Das Vermächtnis der Drachenreiter - Eragon Band 1</field>
+			<field name="preis">19.90</field>
+			<field name="deeplink">/products/Fantasy/Buecher/Buecher-nach-Autoren/Das-Vermaechtnis-der-Drachenreiter-Eragon-Band-1.html</field>
+			<field name="brand">Eragon</field>
+			<field name="menge">0</field>
+			<field name="zusatzattribute">E12297</field>
+			<field name="bildurl">http://d30u0kofcv45jk.cloudfront.net/E1003365/E1003365_kl.jpg</field>
+			<field name="FFAfterSearchReorder" />
+		</record>
+		<record nr="10" id="E1004346" relevancy="83.05">
+			<seoPath>/Das-Reich-des-dunklen-Herrschers---Band-14-E1004346.html</seoPath>
+			<field name="farbe" />
+			<field name="auswahl" />
+			<field name="masterartikelnummer">E1004346</field>
+			<field name="beschreibung">Terry Goodkind erzählt aus einer Welt der Finsternis, in der der archaische Kampf des Guten gegen das Böse tobt. Lord Richard Rahl, der Herrscher des Reiches Hara, und Kahlan, die Hüterin der Magie, erhalten einen verzweifelten Hilferuf
+				aus dem abgelegenen Bandakar. Den verbannten Bergbewohnern droht die Unterjochung durch den Imperialen Orden, seit sie jeder Gewalt abgeschworen haben. Der finstere Jagang und seine Schergen verfolgen den perfiden Plan, magie-resistente Menschen zu
+				erschaffen, um so das Reich Hara zu unterwandern und von allem Zauber zu säubern Seitenzahl: 608 Ausgabe: Taschenbuch</field>
+			<field name="ringgröße" />
+			<field name="hersteller" />
+			<field name="lieferbarkeit">0</field>
+			<field name="mpn" />
+			<field name="FFAutomaticSearchOptimization" />
+			<field name="DQAttributes" />
+			<field name="einband" />
+			<field name="schuhgröße" />
+			<field name="anzahlbewertungen">0</field>
+			<field name="währung">EUR</field>
+			<field name="isbn" />
+			<field name="artikelnummer">E1004346</field>
+			<field name="verkaufsrang">1955</field>
+			<field name="kategoriepfad">|kategoriepfadROOT=Fantasy|kategoriepfadROOT/Fantasy/Bücher=Bücher nach Autoren|kategoriepfadROOT/Fantasy/Bücher=Bücher nach Themen|kategoriepfadROOT/Fantasy/Bücher/Bücher nach Themen=Magische Welten|kategoriepfadROOT/Fantasy=Bücher|
+			</field>
+			<field name="kategorie4">..Magische Welten..</field>
+			<field name="kategorie3">..Bücher nach Autoren..|..Bücher nach Themen..</field>
+			<field name="metakeywords">..Das Reich des dunklen Herrschers - Band 14..,..Fantasy..,..Bücher..,..Bücher nach Autoren..</field>
+			<field name="kategorie2">..Bücher..|..Bücher..</field>
+			<field name="autor">Goodkind, Terry</field>
+			<field name="preisart" />
+			<field name="bewertung">0</field>
+			<field name="kategorie1">..Fantasy..|..Fantasy..</field>
+			<field name="größe" />
+			<field name="art" />
+			<field name="länge">..0..</field>
+			<field name="alterpreis">0</field>
+			<field name="neuigkeit" />
+			<field name="preis_slider">12.00</field>
+			<field name="altan">E15074</field>
+			<field name="zuggewicht" />
+			<field name="material" />
+			<field name="ean">9783442243747</field>
+			<field name="FFCliplisterQuality" />
+			<field name="titel">Das Reich des dunklen Herrschers - Band 14</field>
+			<field name="preis">12.00</field>
+			<field name="deeplink">/products/Fantasy/Buecher/Buecher-nach-Autoren/Das-Reich-des-dunklen-Herrschers-Band-14.html</field>
+			<field name="brand">Das Schwert der Wahrheit</field>
+			<field name="menge">0</field>
+			<field name="zusatzattribute">E15074</field>
+			<field name="bildurl">http://d30u0kofcv45jk.cloudfront.net/E1004346/E1004346_kl.jpg</field>
+			<field name="FFAfterSearchReorder" />
+		</record>
+		<record nr="11" id="E1000676" relevancy="83.05">
+			<seoPath>/Die-Rache-der-Kobolde---Spiderwick-Geheimnisse-5-E1000676.html</seoPath>
+			<field name="farbe" />
+			<field name="auswahl">..Kinder..</field>
+			<field name="masterartikelnummer">E1000676</field>
+			<field name="beschreibung">Jared und seine Geschwister Simon und Mallory haben in dem alten Haus, in dem sie seit kurzem wohnen, eine geheimnisvolle Entdeckung gemacht - Arthur Spiderwicks Handbuch der magischen Geschöpfe! Plötzlich eröffnet sich den Kindern eine
+				Welt voller Magie und Zauberwesen, doch nicht alle sind ihnen freundlich gesonnnen. Urplötzlich heiklen Situationen und ungeahnten Gefahren ausgesetzt, müssen die Geschwister Mut, Geschicklichkeit und Zusammenhalt beweisen. In Trümmern! Das Haus der
+				Familie Grace ist völlig verwüstet, ihre Mutter entführt! Jared, Simon und Mallory begeben sich in das Reich des schrecklichen Herrschers der Kobolde, Mulgarath, der auch das Magische Handbuch in seiner Gewalt hat. Im Zweikampf gelingt es Jared dank seines
+				inzwischen erworbenen Wissens über die fantastische Welt, das Ungeheuer zu überlisten, seine Mutter zu befreien und das magische Handbuch zurückzuerlangen. Im Tausch gegen das Buch geben die Elfen Arthur Spiderwick frei und auch der Zauber, der Tante Lucy
+				bannte, ist gebrochen. Die Geheimnisse von Spiderwick sind zu Ende - vorerst.</field>
+			<field name="ringgröße" />
+			<field name="hersteller" />
+			<field name="lieferbarkeit">0</field>
+			<field name="mpn" />
+			<field name="FFAutomaticSearchOptimization" />
+			<field name="DQAttributes" />
+			<field name="einband" />
+			<field name="schuhgröße" />
+			<field name="anzahlbewertungen">0</field>
+			<field name="währung">EUR</field>
+			<field name="isbn" />
+			<field name="artikelnummer">E1000676</field>
+			<field name="verkaufsrang">1955</field>
+			<field name="kategoriepfad">|kategoriepfadROOT/Fantasy/Bücher/Bücher nach Themen=Fantasybücher für Kinder|kategoriepfadROOT/Fantasy/Bücher=Bücher nach Themen|kategoriepfadROOT/Fantasy=Bücher|kategoriepfadROOT=Fantasy|kategoriepfadROOT/Fantasy/Bücher=Bücher nach
+				Autoren|</field>
+			<field name="kategorie4">..Fantasybücher für Kinder..</field>
+			<field name="kategorie3">..Bücher nach Autoren..|..Bücher nach Themen..</field>
+			<field name="metakeywords">..Die Rache der Kobolde - Spiderwick Geheimnisse 5..,..Fantasy..,..Bücher..,..Bücher nach Autoren..</field>
+			<field name="kategorie2">..Bücher..|..Bücher..</field>
+			<field name="autor">Black, Holly</field>
+			<field name="preisart" />
+			<field name="bewertung">0</field>
+			<field name="kategorie1">..Fantasy..|..Fantasy..</field>
+			<field name="größe" />
+			<field name="art" />
+			<field name="länge">..0..</field>
+			<field name="alterpreis">0</field>
+			<field name="neuigkeit" />
+			<field name="preis_slider">8.50</field>
+			<field name="altan">E10413</field>
+			<field name="zuggewicht" />
+			<field name="material" />
+			<field name="ean">9783570129227</field>
+			<field name="FFCliplisterQuality" />
+			<field name="titel">Die Rache der Kobolde - Spiderwick Geheimnisse 5</field>
+			<field name="preis">8.50</field>
+			<field name="deeplink">/products/Fantasy/Buecher/Buecher-nach-Autoren/Die-Rache-der-Kobolde-Spiderwick-Geheimnisse-5.html</field>
+			<field name="brand">Die Spiderwick Geheimnisse</field>
+			<field name="menge">0</field>
+			<field name="zusatzattribute">E10413</field>
+			<field name="bildurl">http://d30u0kofcv45jk.cloudfront.net/E1000676/E1000676_kl.jpg</field>
+			<field name="FFAfterSearchReorder" />
+		</record>
+		<record nr="12" id="E1004586" relevancy="82.92">
+			<seoPath>/Das-Vermaechtnis-der-Drachenreiter---Eragon-E1004586.html</seoPath>
+			<field name="farbe" />
+			<field name="auswahl" />
+			<field name="masterartikelnummer">E1004586</field>
+			<field name="beschreibung">Eragon - Das Vermächtnis der Drachenreiter. Die goldene Ausgabe in der prächtigen Geschenkbox. Der Wind heulte durch die Nacht und trug einen Duft heran, der die Welt verändern sollte ... Als Eragon auf der Jagd einen glänzenden blauen
+				Stein findet, ahnt er nicht, dass dieser Fund sein Leben verändern wird. Doch plötzlich rührt sich der Stein. Feine Risse zeichnen sich auf seiner Oberfläche ab - ein Drachenjunges entschlüpft der Schale und es beschert Eragon ein Vermächtnis, das älter
+				ist als die Welt ... Über Nacht wird Eragon in eine schicksalhafte Welt voller Magie und Macht geworfen. Elfen, Zwerge und Monster bevölkern Alagaesia, dessen grenzenlos grausamer Herrscher das Volk unterjocht. Mit nichts als einem Schwert und den
+				Ratschlägen seines Lehrmeisters stellt sich Eragon dem Kampf gegen das Böse. An seiner Seite Saphira, der blaue Drache. Wird Eragon das Erbe der legendären Drachenreiter antreten können? Das Schicksal aller liegt in seiner Hand ... Mit doppelseitig
+				bedrucktem Drachenposter.</field>
+			<field name="ringgröße" />
+			<field name="hersteller" />
+			<field name="lieferbarkeit">0</field>
+			<field name="mpn" />
+			<field name="FFAutomaticSearchOptimization" />
+			<field name="DQAttributes" />
+			<field name="einband" />
+			<field name="schuhgröße" />
+			<field name="anzahlbewertungen">0</field>
+			<field name="währung">EUR</field>
+			<field name="isbn" />
+			<field name="artikelnummer">E1004586</field>
+			<field name="verkaufsrang">1955</field>
+			<field name="kategoriepfad"><![CDATA[|kategoriepfadROOT/Fantasy=Drachen & Elfen|kategoriepfadROOT/Fantasy/Bücher/Bücher nach Themen=Drachen & Elfenbücher|kategoriepfadROOT=Kino|kategoriepfadROOT/Kino=Fantasy|kategoriepfadROOT/Fantasy/Bücher=Bücher nach
+				Themen|kategoriepfadROOT/Fantasy=Bücher|kategoriepfadROOT/Kino/Fantasy=Eragon|kategoriepfadROOT=Fantasy|kategoriepfadROOT/Fantasy/Drachen & Elfen=Drachen & Elfenbücher|]]></field>
+			<field name="kategorie4"><![CDATA[..Drachen & Elfenbücher..]]></field>
+			<field name="kategorie3"><![CDATA[..Drachen & Elfenbücher..|..Bücher nach Themen..|..Eragon..]]></field>
+			<field name="metakeywords"><![CDATA[..Das Vermächtnis der Drachenreiter - Eragon..,..Fantasy..,..Drachen & Elfen..,..Drachen & Elfenbücher..]]></field>
+			<field name="kategorie2"><![CDATA[..Drachen & Elfen..|..Bücher..|..Fantasy..]]></field>
+			<field name="autor">Paolini, Christopher</field>
+			<field name="preisart" />
+			<field name="bewertung">0</field>
+			<field name="kategorie1">..Fantasy..|..Fantasy..|..Kino..</field>
+			<field name="größe" />
+			<field name="art" />
+			<field name="länge">..0..</field>
+			<field name="alterpreis">0</field>
+			<field name="neuigkeit" />
+			<field name="preis_slider">24.95</field>
+			<field name="altan">E15645</field>
+			<field name="zuggewicht" />
+			<field name="material" />
+			<field name="ean">9783570133019</field>
+			<field name="FFCliplisterQuality" />
+			<field name="titel">Das Vermächtnis der Drachenreiter - Eragon</field>
+			<field name="preis">24.95</field>
+			<field name="deeplink">/products/Fantasy/Drachen-Elfen/Drachen-Elfenbuecher/Das-Vermaechtnis-der-Drachenreiter-Eragon.html</field>
+			<field name="brand">Eragon</field>
+			<field name="menge">0</field>
+			<field name="zusatzattribute">E15645</field>
+			<field name="bildurl">http://d30u0kofcv45jk.cloudfront.net/E1004586/E1004586_kl.jpg</field>
+			<field name="FFAfterSearchReorder" />
+		</record>
+		<record nr="13" id="E1007916" relevancy="82.79">
+			<seoPath>/Lichtbringer-E1007916.html</seoPath>
+			<field name="farbe" />
+			<field name="auswahl" />
+			<field name="masterartikelnummer">E1007916</field>
+			<field name="beschreibung">Tausend Jahre nach dem Tag der Messer hat die Welt sich gewandelt. Menschen und Finstervölker sind verbündet, die Elfen in ihren fliegenden Wäldern wehren sich mit Terror gegen die Vergiftung des Landes. In dieser Zeit, da Magie und
+				Technik verschmolzen sind, gerät die Nachtalbe Frafa auf die Spur einer uralten Verschwörung. Sie muss erkennen, dass alles, woran sie jemals glaubte, eine Lüge war. Und ihre Feinde sind die größten Zauberer, die je auf Erden wandelten! Um die
+				Finstervölker und die Völker des Lichts zu retten, muss Frafa herausfinden, wo der dunkle Herrscher Leuchmadan seinen Ursprung hat. Aber Leuchmadans Heimat ist nicht von dieser Welt, und der Weg führt sie und ihre unfreiwilligen Begleiter tief in den
+				lichtlosen Abgrund ...</field>
+			<field name="ringgröße" />
+			<field name="hersteller" />
+			<field name="lieferbarkeit">0</field>
+			<field name="mpn" />
+			<field name="FFAutomaticSearchOptimization" />
+			<field name="DQAttributes" />
+			<field name="einband">kartoniert</field>
+			<field name="schuhgröße" />
+			<field name="anzahlbewertungen">0</field>
+			<field name="währung">EUR</field>
+			<field name="isbn" />
+			<field name="artikelnummer">E1007916</field>
+			<field name="verkaufsrang">1955</field>
+			<field name="kategoriepfad">|kategoriepfadROOT=Fantasy|kategoriepfadROOT/Fantasy/Bücher=Bücher nach Autoren|kategoriepfadROOT/Fantasy=Bücher|</field>
+			<field name="kategorie4" />
+			<field name="kategorie3">..Bücher nach Autoren..</field>
+			<field name="metakeywords">..Lichtbringer..,..Fantasy..,..Bücher..,..Bücher nach Autoren..</field>
+			<field name="kategorie2">..Bücher..</field>
+			<field name="autor">Lohmann, Alexander</field>
+			<field name="preisart" />
+			<field name="bewertung">0</field>
+			<field name="kategorie1">..Fantasy..</field>
+			<field name="größe" />
+			<field name="art" />
+			<field name="länge">..0..</field>
+			<field name="alterpreis">0</field>
+			<field name="neuigkeit" />
+			<field name="preis_slider">14.00</field>
+			<field name="altan">E11395</field>
+			<field name="zuggewicht" />
+			<field name="material" />
+			<field name="ean">9783404285426</field>
+			<field name="FFCliplisterQuality" />
+			<field name="titel">Lichtbringer</field>
+			<field name="preis">14.00</field>
+			<field name="deeplink">/products/Fantasy/Buecher/Buecher-nach-Autoren/Lichtbringer.html</field>
+			<field name="brand" />
+			<field name="menge">0</field>
+			<field name="zusatzattribute">E11395</field>
+			<field name="bildurl">http://d30u0kofcv45jk.cloudfront.net/E1007916/E1007916_kl.jpg</field>
+			<field name="FFAfterSearchReorder" />
+		</record>
+		<record nr="14" id="E1001510" relevancy="82.78">
+			<seoPath>/Dschinnland---Die-Sturmkoenige-Band-1-E1001510.html</seoPath>
+			<field name="farbe" />
+			<field name="auswahl" />
+			<field name="masterartikelnummer">E1001510</field>
+			<field name="beschreibung">"Mach nicht den Fehler, mir zu vertrauen!" Sabateas Geheimnis liegt in ihrem Blut - es ist Gabe und Fluch zugleich. Als sie aus der Gefangenschaft im Palast des Herrschers entkommt, führt sie ihr Weg ins Reich der Wilden Magie - und in die
+				Arme des Gesetzlosen Tarik. Der schmuggelt kostbares Drachenhaar durch ein Land, in dem die Naturgesetze keine Gültigkeit besitzen. Gemeinsam begeben sie sich auf eine Reise, an deren Ende die Welt eine andere sein wird. Der Auftakt der Trilogie um Die
+				Sturmkönige - Rebellen, die auf himmelhohen Tornados reiten.</field>
+			<field name="ringgröße" />
+			<field name="hersteller" />
+			<field name="lieferbarkeit">0</field>
+			<field name="mpn" />
+			<field name="FFAutomaticSearchOptimization" />
+			<field name="DQAttributes" />
+			<field name="einband">Taschenbuch</field>
+			<field name="schuhgröße" />
+			<field name="anzahlbewertungen">0</field>
+			<field name="währung">EUR</field>
+			<field name="isbn" />
+			<field name="artikelnummer">E1001510</field>
+			<field name="verkaufsrang">1955</field>
+			<field name="kategoriepfad">|kategoriepfadROOT=Fantasy|kategoriepfadROOT/Fantasy/Bücher=Bücher nach Autoren|kategoriepfadROOT/Fantasy=Bücher|</field>
+			<field name="kategorie4" />
+			<field name="kategorie3">..Bücher nach Autoren..</field>
+			<field name="metakeywords">..Dschinnland - Die Sturmkönige Band 1..,..Fantasy..,..Bücher..,..Bücher nach Autoren..</field>
+			<field name="kategorie2">..Bücher..</field>
+			<field name="autor">Meyer, Kai</field>
+			<field name="preisart" />
+			<field name="bewertung">0</field>
+			<field name="kategorie1">..Fantasy..</field>
+			<field name="größe" />
+			<field name="art" />
+			<field name="länge">..0..</field>
+			<field name="alterpreis">0</field>
+			<field name="neuigkeit" />
+			<field name="preis_slider">9.99</field>
+			<field name="altan">E11171</field>
+			<field name="zuggewicht" />
+			<field name="material" />
+			<field name="ean">9783404164264</field>
+			<field name="FFCliplisterQuality" />
+			<field name="titel">Dschinnland - Die Sturmkönige Band 1</field>
+			<field name="preis">9.99</field>
+			<field name="deeplink">/products/Fantasy/Buecher/Buecher-nach-Autoren/Dschinnland-Die-Sturmkoenige-Band-1.html</field>
+			<field name="brand">Die Sturmkönige</field>
+			<field name="menge">0</field>
+			<field name="zusatzattribute">E11171</field>
+			<field name="bildurl">http://d30u0kofcv45jk.cloudfront.net/E1001510/E1001510_kl.jpg</field>
+			<field name="FFAfterSearchReorder" />
+		</record>
+		<record nr="15" id="E1009410" relevancy="82.65">
+			<seoPath>/Drachenthron---Die-Drachenerde-Saga-Band-3-E1009410.html</seoPath>
+			<field name="farbe" />
+			<field name="auswahl" />
+			<field name="masterartikelnummer">E1009410</field>
+			<field name="beschreibung">Das furiose Finale: Das Kaiserreich der Drachenreiter ist dem Untergang geweiht und das Gleichgewicht zwischen den fünf Reichen endgültig zerstört. Als sich die Herrscher des Feuers, der Lüfte und der Magie zusammenschließen, drohen Chaos
+				und Vernichtung. Mit einer Hand voll Drachenreiter tritt Rajin, der Erbe des Drachenthrons, den Mächten des Unheils entgegen. Doch obwohl Rajin die drei Drachenringe des Kaisers trägt, wird ihm bald klar, dass er seine wahre Macht erst einsetzen kann, wenn
+				er sich den Schatten der Vergangenheit gestellt hat. Dritter Band der fesselnden Drachen-Trilogie von Elben-Autor Alfred Bekker.</field>
+			<field name="ringgröße" />
+			<field name="hersteller" />
+			<field name="lieferbarkeit">0</field>
+			<field name="mpn" />
+			<field name="FFAutomaticSearchOptimization" />
+			<field name="DQAttributes" />
+			<field name="einband" />
+			<field name="schuhgröße" />
+			<field name="anzahlbewertungen">0</field>
+			<field name="währung">EUR</field>
+			<field name="isbn" />
+			<field name="artikelnummer">E1009410</field>
+			<field name="verkaufsrang">1955</field>
+			<field name="kategoriepfad">|kategoriepfadROOT=Fantasy|kategoriepfadROOT/Fantasy/Bücher=Bücher nach Autoren|kategoriepfadROOT/Fantasy=Bücher|</field>
+			<field name="kategorie4" />
+			<field name="kategorie3">..Bücher nach Autoren..</field>
+			<field name="metakeywords">..Drachenthron - Die Drachenerde Saga Band 3..,..Fantasy..,..Bücher..,..Bücher nach Autoren..</field>
+			<field name="kategorie2">..Bücher..</field>
+			<field name="autor">Bekker, Alfred</field>
+			<field name="preisart" />
+			<field name="bewertung">0</field>
+			<field name="kategorie1">..Fantasy..</field>
+			<field name="größe" />
+			<field name="art" />
+			<field name="länge">..0..</field>
+			<field name="alterpreis">0</field>
+			<field name="neuigkeit" />
+			<field name="preis_slider">12.95</field>
+			<field name="altan">E10565</field>
+			<field name="zuggewicht" />
+			<field name="material" />
+			<field name="ean">9783802581656</field>
+			<field name="FFCliplisterQuality" />
+			<field name="titel">Drachenthron - Die Drachenerde Saga Band 3</field>
+			<field name="preis">12.95</field>
+			<field name="deeplink">/products/Fantasy/Buecher/Buecher-nach-Autoren/Drachenthron-Die-Drachenerde-Saga-Band-3.html</field>
+			<field name="brand">Die Drachenerde Saga</field>
+			<field name="menge">0</field>
+			<field name="zusatzattribute">E10565</field>
+			<field name="bildurl">http://d30u0kofcv45jk.cloudfront.net/E1009410/E1009410_kl.jpg</field>
+			<field name="FFAfterSearchReorder" />
+		</record>
+		<record nr="16" id="E1008695" relevancy="82.64">
+			<seoPath>/Das-Vermaechtnis-der-Drachenreiter---Eragon-Roman-E1008695.html</seoPath>
+			<field name="farbe" />
+			<field name="auswahl" />
+			<field name="masterartikelnummer">E1008695</field>
+			<field name="beschreibung">Der Roman zum Film. Über Nacht wird der junge Eragon in eine schicksalhafte Welt voller Magie und dunkler Mächte geworfen. Elfen, Zwerge und Monster bevölkern Alagaesia, dessen grenzenlos grausamer Herrscher das Volk unterjocht. Mit nichts
+				als einem Schwert und den Ratschlägen seines Lehrmeisters Brom stellt sich Eragon dem Kampf gegen König Galbatorix. An seiner Seite Saphira, ein junger blauer Drache. Wird Eragon das Erbe der legendären Drachenreiter antreten können? Das Schicksal aller
+				liegt in seiner Hand ... Der Roman zum Film mit einer exklusiven Bildstrecke!</field>
+			<field name="ringgröße" />
+			<field name="hersteller" />
+			<field name="lieferbarkeit">0</field>
+			<field name="mpn" />
+			<field name="FFAutomaticSearchOptimization" />
+			<field name="DQAttributes" />
+			<field name="einband" />
+			<field name="schuhgröße" />
+			<field name="anzahlbewertungen">0</field>
+			<field name="währung">EUR</field>
+			<field name="isbn" />
+			<field name="artikelnummer">E1008695</field>
+			<field name="verkaufsrang">1955</field>
+			<field name="kategoriepfad">|kategoriepfadROOT=Kino|kategoriepfadROOT/Kino=Fantasy|kategoriepfadROOT/Fantasy/Bücher=Bücher nach Themen|kategoriepfadROOT/Fantasy/Bücher/Bücher nach
+				Themen=Filmbücher|kategoriepfadROOT/Fantasy=Bücher|kategoriepfadROOT/Kino/Fantasy=Eragon|kategoriepfadROOT=Fantasy|</field>
+			<field name="kategorie4">..Filmbücher..</field>
+			<field name="kategorie3">..Bücher nach Themen..|..Eragon..</field>
+			<field name="metakeywords">..Das Vermächtnis der Drachenreiter - Eragon Roman..,..Fantasy..,..Bücher..,..Bücher nach Themen..,..Filmbücher..</field>
+			<field name="kategorie2">..Bücher..|..Fantasy..</field>
+			<field name="autor">Paolini, Christopher</field>
+			<field name="preisart" />
+			<field name="bewertung">0</field>
+			<field name="kategorie1">..Fantasy..|..Kino..</field>
+			<field name="größe" />
+			<field name="art" />
+			<field name="länge">..0..</field>
+			<field name="alterpreis">0</field>
+			<field name="neuigkeit" />
+			<field name="preis_slider">9.95</field>
+			<field name="altan">E15352</field>
+			<field name="zuggewicht" />
+			<field name="material" />
+			<field name="ean">9783442366064</field>
+			<field name="FFCliplisterQuality" />
+			<field name="titel">Das Vermächtnis der Drachenreiter - Eragon Roman</field>
+			<field name="preis">9.95</field>
+			<field name="deeplink">/products/Fantasy/Buecher/Buecher-nach-Themen/Filmbuecher/Das-Vermaechtnis-der-Drachenreiter-Eragon-Roman.html</field>
+			<field name="brand">Eragon</field>
+			<field name="menge">0</field>
+			<field name="zusatzattribute">E15352</field>
+			<field name="bildurl">http://d30u0kofcv45jk.cloudfront.net/E1008695/E1008695_kl.jpg</field>
+			<field name="FFAfterSearchReorder" />
+		</record>
+	</results>
+</ff>

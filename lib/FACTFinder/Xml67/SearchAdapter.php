@@ -16,6 +16,31 @@
  */
 class FACTFinder_Xml67_SearchAdapter extends FACTFinder_Xml66_SearchAdapter
 {
+	/**
+     * @return FACTFinder_ProductsPerPageOptions
+     */
+    protected function createProductsPerPageOptions()
+    {
+        $pppOptions = array(); //default
+        $xmlResult = $this->getData();
+
+        if (!empty($xmlResult->productsPerPageOptions)) {
+            $defaultOption = intval(trim($xmlResult->productsPerPageOptions->attributes()->default));
+            $selectedOption = intval(trim($xmlResult->productsPerPageOptions->attributes()->selected));
+
+            $options = array();
+            foreach($xmlResult->productsPerPageOptions->option AS $option) {
+                $value = intval(trim($option->attributes()->value));
+                $url = $this->getParamsParser()->createPageLink(
+                    $this->getParamsParser()->parseParamsFromResultString(trim($option->searchParams))
+                );
+                $options[$value] = $url;
+            }
+            $pppOptions = FF::getInstance('productsPerPageOptions', $options, $defaultOption, $selectedOption);
+        }
+        return $pppOptions;
+    }
+	
     /**
      * @return array of FACTFinder_Campaign objects
      */
