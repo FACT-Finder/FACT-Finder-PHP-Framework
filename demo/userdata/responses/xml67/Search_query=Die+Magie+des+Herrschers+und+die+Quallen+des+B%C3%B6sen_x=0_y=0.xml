@@ -21,7 +21,7 @@
 		<productsPerPage>30</productsPerPage>
 		<seoPath>/Die-Magie-des-Herrschers-und-die-Quallen-des-Boesen/q</seoPath>
 	</searchParams>
-	<paging pageCount="7" currentPage="1" productsPerPage="30">
+	<paging pageCount="1" currentPage="1" productsPerPage="30">
 		<searchParams><![CDATA[/Elbenwald/Search.ff?seoPath=%2FDie-Magie-des-Herrschers-und-die-Quallen-des-Boesen%2Fq&query=Die+Magie+des+Herrschers+und+die+Quallen+des+B%C3%B6sen&channel=de&queryFromSuggest=true&format=XML&page=]]></searchParams>
 		<settings>
 			<linkCount>100</linkCount>
