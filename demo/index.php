@@ -39,6 +39,8 @@ $config = FF::getSingleton('configuration', $zendConfig);
 $encodingHandler = FF::getInstance('encodingHandler', $config, $log);
 $paramsParser = FF::getInstance('parametersParser', $config, $encodingHandler, $log);
 $dataProvider_search = FACTFinder_Http_ParallelDataProvider::getDataProvider($paramsParser->getServerRequestParams(), $config, $log);
+//$dataProvider_search =  FF::getInstance('http/dummyProvider', $paramsParser->getServerRequestParams(), $config);
+//$dataProvider_search->setFileLocation(USERDATA_DIR.DS.'responses'.DS.'xml67');
 $dataProvider_tagCloud = FACTFinder_Http_ParallelDataProvider::getDataProvider($paramsParser->getServerRequestParams(), $config, $log);
 
 if ($paramsParser->getRequestParam('productsPerPage', 12) > 60) { $dataProvider_search->setParam('productsPerPage', 12); }
