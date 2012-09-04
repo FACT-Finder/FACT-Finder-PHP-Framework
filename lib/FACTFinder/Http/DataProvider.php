@@ -22,11 +22,17 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
     protected $curlOptions = array(
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_SSL_VERIFYPEER => false,
-                CURLOPT_SSL_VERIFYHOST => false,
-                CURLOPT_CONNECTTIMEOUT => 2,
-                CURLOPT_TIMEOUT => 4
+                CURLOPT_SSL_VERIFYHOST => false
             );
 
+	function __construct(array $params = null, FACTFinder_Abstract_Configuration $config = null, FACTFinder_Abstract_Logger $log = null) {
+		parent::__construct($params, $config, $log);
+		$this->setCurlOptions(array(
+            CURLOPT_CONNECTTIMEOUT => $this->getConfig()->getDefaultConnectTimeout(),
+            CURLOPT_TIMEOUT => $this->getConfig()->getDefaultTimeout()
+        ));
+	}
+			
     /**
      * this implementation of the data provider uses the type as request path in addition to the request context path.
      * please ensure that this is the full action name, i.e. "Search.ff"
