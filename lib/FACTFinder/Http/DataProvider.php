@@ -91,18 +91,26 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
     public function getData()
     {
 		if ($this->hasUrlChanged()) {
-			$url = $this->getAuthenticationUrl();
-            $this->previousUrl = $url;
-            $this->data = $this->loadResponse($url);
+			$this->setPreviousUrl($this->getNonAuthenticationUrl());
+            $this->data = $this->loadResponse($this->getAuthenticationUrl());
         }
         return $this->data;
     }
 	
 	/**
+	 * sets the URL that was used for the most recent request
+	 **/
+	public function setPreviousUrl($url)
+	{
+		$this->previousUrl = $url;
+	}
+	
+	/**
 	 * checks whether the URL (and thus the parameters) have changed since last loading the data
 	 **/
-	public function hasUrlChanged() {
-		return $this->getAuthenticationUrl() != $this->previousUrl;
+	public function hasUrlChanged()
+	{
+		return $this->getNonAuthenticationUrl() != $this->previousUrl;
 	}
 
     /**
