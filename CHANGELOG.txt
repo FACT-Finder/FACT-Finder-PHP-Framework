@@ -1,3 +1,9 @@
+Version 2.4.8
+	CHG: ParallelDataProvider will only retrieve data from DataProviders that are not updated (e.g. because parameters were changed).
+	CHG: ParallelDataProvider will only throw an exception if loadAllData() has not been called since the requested (!) DataProvider has changed.
+	CHG: loadAllData() will simply do nothing, if there are no DataProviders.
+	FIX: Checking when data has to be reloaded never worked, because timestamps keep changing. Fixed that.
+
 Version 2.4.7
 	ADD: Restored 3 test responses that were lost during port to Git.
 	ADD: CURL timeout options are now configurable.
