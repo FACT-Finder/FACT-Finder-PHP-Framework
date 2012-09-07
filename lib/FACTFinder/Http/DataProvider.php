@@ -17,7 +17,7 @@
 class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
 {
     protected $data;
-    protected $previousUrl;
+    protected $previousUrl = '';
     protected $httpHeader = array();
     protected $curlOptions = array(
                 CURLOPT_RETURNTRANSFER => true,
@@ -90,13 +90,20 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
      */
     public function getData()
     {
-		$url = $this->getAuthenticationUrl();
-        if ($this->data == null || $url != $this->previousUrl) {
+		if ($this->hasUrlChanged()) {
+			$url = $this->getAuthenticationUrl();
             $this->previousUrl = $url;
             $this->data = $this->loadResponse($url);
         }
         return $this->data;
     }
+	
+	/**
+	 * checks whether the URL (and thus the parameters) have changed since last loading the data
+	 **/
+	public function hasUrlChanged() {
+		return $this->getAuthenticationUrl() != $this->previousUrl;
+	}
 
     /**
      * this function sends the request to the server and loads the response data
