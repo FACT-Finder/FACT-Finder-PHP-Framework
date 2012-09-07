@@ -64,7 +64,6 @@ class HtmlGenerator
 
 		try {
 			FACTFinder_Http_ParallelDataProvider::loadAllData();
-			
 			$campaigns = $this->searchAdapter->getCampaigns();
 			if ($campaigns->hasRedirect()) {
 				throw new RedirectException($campaigns->getRedirectUrl());

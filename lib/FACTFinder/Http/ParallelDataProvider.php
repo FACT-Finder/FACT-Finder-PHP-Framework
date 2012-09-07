@@ -66,16 +66,17 @@ class FACTFinder_Http_ParallelDataProvider
 
 	protected static function initHandles($multiHandle) {
 		$handles = array();
-		foreach(self::$dataProviders AS $id => $dataProviders) {
-			if(!$dataProviders->hasUrlChanged())
+		foreach(self::$dataProviders AS $id => $dataProvider) {
+			if(!$dataProvider->hasUrlChanged())
 			{
 				$handles[$id] = null;
 				continue;
 			}
-			$handle = curl_init($dataProviders->getAuthenticationUrl());
+			$dataProvider->setPreviousUrl($dataProvider->getNonAuthenticationUrl());
+			$handle = curl_init($dataProvider->getAuthenticationUrl());
 			
-			$curlOptions = $dataProviders->getCurlOptions();
-			$curlOptions[CURLOPT_HTTPHEADER] = $dataProviders->getHttpHeader();
+			$curlOptions = $dataProvider->getCurlOptions();
+			$curlOptions[CURLOPT_HTTPHEADER] = $dataProvider->getHttpHeader();
 			$curlOptions[CURLOPT_RETURNTRANSFER] = true; // this is a must have option, so the data can be saved
 			curl_setopt_array($handle, $curlOptions);
 			
