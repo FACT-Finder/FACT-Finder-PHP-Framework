@@ -24,6 +24,8 @@
 				<defaultTimeout>4</defaultTimeout>
 				<suggestConnectTimeout>1</suggestConnectTimeout>
 				<suggestTimeout>2</suggestTimeout>
+				<scicConnectTimeout>1</scicConnectTimeout>
+				<scicTimeout>1</scicTimeout>
 				<importConnectTimeout>10</importConnectTimeout>
 				<importTimeout>360</importTimeout>
 			</timeouts>
