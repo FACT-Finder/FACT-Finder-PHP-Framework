@@ -47,12 +47,12 @@ abstract class FACTFinder_Abstract_Adapter
      */
     protected function init(){}
 
-    protected function setParam($name, $value)
+    public function setParam($name, $value)
     {
         $this->getDataProvider()->setParam($name, $value);
     }
 
-    protected function setParams($params)
+    public function setParams($params)
     {
         $this->getDataProvider()->setParams($params);
     }
