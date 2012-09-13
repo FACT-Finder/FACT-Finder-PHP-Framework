@@ -46,6 +46,16 @@ abstract class FACTFinder_Abstract_Adapter
      * @return void
      */
     protected function init(){}
+
+    protected function setParam($name, $value)
+    {
+        $this->getDataProvider()->setParam($name, $value);
+    }
+
+    protected function setParams($params)
+    {
+        $this->getDataProvider()->setParams($params);
+    }
 	
     /**
      * returns the data lazily. if it isn't available yet, it will be requested from the dataprovider.
