@@ -29,6 +29,7 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
                 CURLOPT_SSL_VERIFYPEER => false,
                 CURLOPT_SSL_VERIFYHOST => false
             );
+    protected $lastHttpCode = null;
 
 	function __construct(array $params = null, FACTFinder_Abstract_Configuration $config = null, FACTFinder_Abstract_Logger $log = null) {
         $this->urlBuilder = FF::getInstance('http/urlBuilder', $params, $config, $log);
@@ -93,7 +94,12 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
      */
     public function setType($type)
     {
-        $this->urlBuilder->setType($type);
+        $this->urlBuilder->setAction($type);
+    }
+
+    protected function getType()
+    {
+        return $this->urlBuilder->getAction();
     }
 
     /**
@@ -181,9 +187,9 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
      **/
     protected function loadResponse($url)
     {
-        if ($this->type == null) {
+        if ($this->getType() === null) {
 			$this->log->error("Request type missing.");
-            throw new Exception('request type not set! can not do a request without knowing the type.');
+            throw new Exception('Request type was not set! Cannot send request without knowing the type.');
         }
 
         $config = $this->getConfig();
@@ -242,20 +248,26 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
         }
 
         $response = curl_exec($cResource);
-        $httpCode = curl_getinfo($cResource, CURLINFO_HTTP_CODE);
+        $this->lastHttpCode = curl_getinfo($cResource, CURLINFO_HTTP_CODE);
         $curlErr  = curl_error($cResource);
         curl_close($cResource);
 
-        if (intval($httpCode) >= 400) {
-			$this->log->error("Connection failed. HTTP code: $httpCode");
-            throw new Exception("Connection failed. HTTP code: $httpCode", $httpCode);
-        } else if ($httpCode == 0) {
+        if (intval($this->lastHttpCode) >= 400) {
+			$this->log->error("Connection failed. HTTP code: $this->lastHttpCode");
+        } else if ($this->lastHttpCode == 0) {
 			$this->log->error("Connection refused. $curlErr");
-            throw new Exception("Connection refused. $curlErr");
-        } else if (floor(intval($httpCode) / 100) == 2) { // all successful status codes (2**)
+        } else if (floor(intval($this->lastHttpCode) / 100) == 2) { // all successful status codes (2**)
 			$this->log->info("Received response from ".$url.".");
 		}		
 		
         return $response;
+    }
+
+    public function getLastHttpCode()
+    {
+        if($this->lastHttpCode === null)
+            throw new Exception("Cannot return last HTTP code. No request has been sent.");
+
+        return $this->lastHttpCode;
     }
 }
