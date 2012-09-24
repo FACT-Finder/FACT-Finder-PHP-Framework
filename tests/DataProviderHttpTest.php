@@ -10,8 +10,16 @@
 /**
  * self-explanatory test
  */
+
+include LIB_DIR . DS . 'SAI' . DS . 'CurlStub.php';
+
 class DataProviderHttpTest extends PHPUnit_Framework_TestCase
 {
+    /**
+     * @var SAI_CurlStub
+     */
+    protected $curlStub;
+
     protected static $config;
     protected static $encodingHandler;
 
@@ -29,7 +37,7 @@ class DataProviderHttpTest extends PHPUnit_Framework_TestCase
 
     public static function setUpBeforeClass()
     {
-        $zendConfig = FF::getSingleton('zend/config/xml', RESOURCES_DIR.DS.'config.xml', 'production');
+        $zendConfig = FF::getSingleton('zend/config/xml', RESOURCES_DIR.DS.'config-httpauth.xml', 'production');
         self::$config = FF::getSingleton('configuration', $zendConfig);
 
         self::$log = FF::getInstance('log4PhpLogger');
@@ -41,7 +49,8 @@ class DataProviderHttpTest extends PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->dataProvider = FF::getInstance('http/dataProvider', self::$paramsParser->getServerRequestParams(), self::$config, self::$log);
+        $this->curlStub = new SAI_CurlStub();
+        $this->dataProvider = FF::getInstance('http/dataProvider', $this->curlStub, self::$paramsParser->getServerRequestParams(), self::$config, self::$log);
     }
 
     public function testSetSingleParam()
@@ -168,6 +177,17 @@ class DataProviderHttpTest extends PHPUnit_Framework_TestCase
 
     public function testGetData()
     {
+        $requiredOptions = array(
+            CURLOPT_URL => 'http://user:userpw@demoshop.fact-finder.de:80/FACT-Finder/WhatsHot.ff?format=xml&do=getTagCloud&channel=de&verbose=true'
+        );
+        $response = file_get_contents(RESOURCES_DIR . DS . 'responses' . DS . 'misc' . DS . 'WhatsHot-example.xml');
+        $info = array(
+            CURLINFO_HTTP_CODE => '200'
+        );
+
+        $this->curlStub->setResponse($response, $requiredOptions);
+        $this->curlStub->setInfo($info, $requiredOptions);
+
         $this->dataProvider->setType('WhatsHot.ff');
         $this->dataProvider->setParam('format', 'xml');
         $this->dataProvider->setParam('do', 'getTagCloud');

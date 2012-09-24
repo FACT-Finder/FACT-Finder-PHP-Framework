@@ -14,8 +14,16 @@
  * @version   $Id: DataProvider.php 25893 2010-06-29 08:19:43Z rb $
  * @package   FACTFinder\Http
  */
+
+include_once LIB_DIR . DS . 'SAI' . DS . 'CurlInterface.php';
+
 class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
 {
+    /**
+     * @var SAI_CurlInterface
+     */
+    protected $curl;
+
     protected $data;
 
     /**
@@ -31,7 +39,8 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
             );
     protected $lastHttpCode = null;
 
-	function __construct(array $params = null, FACTFinder_Abstract_Configuration $config = null, FACTFinder_Abstract_Logger $log = null) {
+	function __construct(SAI_CurlInterface $curl, array $params = null, FACTFinder_Abstract_Configuration $config = null, FACTFinder_Abstract_Logger $log = null) {
+        $this->curl = $curl;
         $this->urlBuilder = FF::getInstance('http/urlBuilder', $params, $config, $log);
 		parent::__construct($params, $config, $log);
 		$this->setCurlOptions(array(
@@ -237,20 +246,20 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
     protected function sendRequest($url)
     {
 		$this->log->info("Trying to send request to ".$url."...");
-        $cResource = curl_init($url);
+        $cResource = $this->curl->curl_init($url);
 
 		if (!empty($this->httpHeader)) {
 			$this->curlOptions[CURLOPT_HTTPHEADER] = $this->httpHeader;
 		}
 
         if (sizeof($this->curlOptions) > 0) {
-            curl_setopt_array($cResource, $this->curlOptions);
+            $this->curl->curl_setopt_array($cResource, $this->curlOptions);
         }
 
-        $response = curl_exec($cResource);
-        $this->lastHttpCode = curl_getinfo($cResource, CURLINFO_HTTP_CODE);
-        $curlErr  = curl_error($cResource);
-        curl_close($cResource);
+        $response = $this->curl->curl_exec($cResource);
+        $this->lastHttpCode = $this->curl->curl_getinfo($cResource, CURLINFO_HTTP_CODE);
+        $curlErr  = $this->curl->curl_error($cResource);
+        $this->curl->curl_close($cResource);
 
         if (intval($this->lastHttpCode) >= 400) {
 			$this->log->error("Connection failed. HTTP code: $this->lastHttpCode");

@@ -23,10 +23,10 @@ function getSearchAdapter($version, $log) {
 	// TODO: cache configuration somehow, so it must not be loaded every time from harddisk!
 	$zendConfig = FF::getSingleton('zend/config/xml', USERDATA_DIR.DS.'local.config.xml', 'production');
 	$config = FF::getSingleton('configuration', $zendConfig);
-
+    $curl = new SAI_Curl();
 	$encodingHandler = FF::getSingleton('encodingHandler', $config, $log);
 	$paramsParser = FF::getSingleton('parametersParser', $config, $encodingHandler, $log);
-	$dataProvider = FF::getInstance('http/dataProvider', $paramsParser->getServerRequestParams(), $config, $log);
+	$dataProvider = FF::getInstance('http/dataProvider', $curl, $paramsParser->getServerRequestParams(), $config, $log);
 	return FF::getSingleton($version.'/searchAdapter', $dataProvider, $paramsParser, $encodingHandler, $log);
 }
 
@@ -46,9 +46,9 @@ function getTagCloudAdapter($version, $log) {
 	// TODO: cache configuration somehow, so it must not be loaded every time from harddisk!
 	$zendConfig = FF::getSingleton('zend/config/xml', USERDATA_DIR.DS.'local.config.xml', 'production');
 	$config = FF::getSingleton('configuration', $zendConfig);
-
+    $curl = new SAI_Curl();
 	$encodingHandler = FF::getSingleton('encodingHandler', $config, $log);
 	$paramsParser = FF::getSingleton('parametersParser', $config, $encodingHandler, $log);
-	$dataProvider = FF::getInstance('http/dataProvider', $paramsParser->getServerRequestParams(), $config, $log);
+	$dataProvider = FF::getInstance('http/dataProvider', $curl, $paramsParser->getServerRequestParams(), $config, $log);
 	return FF::getSingleton($version.'/tagCloudAdapter', $dataProvider, $paramsParser, $encodingHandler, $log);
 }

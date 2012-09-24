@@ -17,9 +17,11 @@ $log->configure(USERDATA_DIR.DS.'log4php.xml');
 $zendConfig = FF::getSingleton('zend/config/xml', USERDATA_DIR.DS.'local.config.xml', 'production');
 $config = FF::getSingleton('configuration', $zendConfig);
 
+$curl = new SAI_Curl();
+
 $encodingHandler = FF::getInstance('encodingHandler', $config, $log);
 $paramsParser = FF::getInstance('parametersParser', $config, $encodingHandler, $log);
-$dataProvider = FF::getInstance('http/dataProvider', $paramsParser->getServerRequestParams(), $config, $log);
+$dataProvider = FF::getInstance('http/dataProvider', $curl, $paramsParser->getServerRequestParams(), $config, $log);
 $suggestAdapter = FF::getInstance('http/suggestAdapter', $dataProvider, $paramsParser, $encodingHandler, $log);
 
 echo $suggestAdapter->getSuggestions();

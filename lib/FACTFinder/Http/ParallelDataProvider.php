@@ -15,6 +15,8 @@
  * @version   $Id: DataProvider.php 25893 2010-06-29 08:19:43Z rb $
  * @package   FACTFinder\Http
  */
+require_once LIB_DIR.DS.'SAI'.DS.'Curl.php';
+
 class FACTFinder_Http_ParallelDataProvider
 {
 	protected static $instance;
@@ -31,11 +33,12 @@ class FACTFinder_Http_ParallelDataProvider
 	 * @return FACTFinder_Abstract_DataProvider
 	 */
 	public static function getDataProvider(array $params = null, FACTFinder_Abstract_Configuration $config = null, $log = null) {
+        $curl = new SAI_Curl();
 		if (self::$instance == null) {
 			self::$instance = new FACTFinder_Http_ParallelDataProvider();
 		}
 		$id = 'proxy' . count(self::$dataProviders); // use prefix so the id is a string
-		self::$dataProviders[$id] = new FACTFinder_Http_DataProviderProxy($params, $config, $log);
+		self::$dataProviders[$id] = new FACTFinder_Http_DataProviderProxy($curl, $params, $config, $log);
 		self::$dataProviders[$id]->register($id, self::$instance);
 		
 		return self::$dataProviders[$id];
