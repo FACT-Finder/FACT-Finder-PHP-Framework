@@ -37,8 +37,8 @@ class DataProviderHttpTest extends PHPUnit_Framework_TestCase
 
     public static function setUpBeforeClass()
     {
-        $zendConfig = FF::getSingleton('zend/config/xml', RESOURCES_DIR.DS.'config-httpauth.xml', 'production');
-        self::$config = FF::getSingleton('configuration', $zendConfig);
+        $zendConfig = FF::getInstance('zend/config/xml', RESOURCES_DIR.DS.'config-httpauth.xml', 'production');
+        self::$config = FF::getInstance('configuration', $zendConfig);
 
         self::$log = FF::getInstance('log4PhpLogger');
         self::$log->configure(RESOURCES_DIR.DS.'log4php.xml');

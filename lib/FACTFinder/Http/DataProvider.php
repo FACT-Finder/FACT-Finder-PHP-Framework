@@ -38,6 +38,7 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
                 CURLOPT_SSL_VERIFYHOST => false
             );
     protected $lastHttpCode = null;
+    protected $lastCurlError = null;
 
 	function __construct(SAI_CurlInterface $curl, array $params = null, FACTFinder_Abstract_Configuration $config = null, FACTFinder_Abstract_Logger $log = null) {
         $this->curl = $curl;
@@ -210,6 +211,11 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
 			$url .= '&verbose=true';
 			if (isset($_SERVER['HTTP_REFERER'])) $this->setCurlOption(CURLOPT_REFERER, $_SERVER['HTTP_REFERER'], false);
 		}
+
+        if (!empty($this->httpHeader)) {
+            $this->curlOptions[CURLOPT_HTTPHEADER] = $this->httpHeader;
+        }
+
 		return $this->sendRequest($url);
     }
 
@@ -248,26 +254,22 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
 		$this->log->info("Trying to send request to ".$url."...");
         $cResource = $this->curl->curl_init($url);
 
-		if (!empty($this->httpHeader)) {
-			$this->curlOptions[CURLOPT_HTTPHEADER] = $this->httpHeader;
-		}
-
         if (sizeof($this->curlOptions) > 0) {
             $this->curl->curl_setopt_array($cResource, $this->curlOptions);
         }
 
         $response = $this->curl->curl_exec($cResource);
         $this->lastHttpCode = $this->curl->curl_getinfo($cResource, CURLINFO_HTTP_CODE);
-        $curlErr  = $this->curl->curl_error($cResource);
+        $this->lastCurlError = $this->curl->curl_error($cResource);
         $this->curl->curl_close($cResource);
 
         if (intval($this->lastHttpCode) >= 400) {
 			$this->log->error("Connection failed. HTTP code: $this->lastHttpCode");
         } else if ($this->lastHttpCode == 0) {
-			$this->log->error("Connection refused. $curlErr");
+			$this->log->error("Connection refused. $this->lastCurlError");
         } else if (floor(intval($this->lastHttpCode) / 100) == 2) { // all successful status codes (2**)
 			$this->log->info("Received response from ".$url.".");
-		}		
+		}
 		
         return $response;
     }
@@ -278,5 +280,13 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
             throw new Exception("Cannot return last HTTP code. No request has been sent.");
 
         return $this->lastHttpCode;
+    }
+
+    public function getLastCurlError()
+    {
+        if($this->lastCurlError === null)
+            throw new Exception("Cannot return last curl error. No request has been sent.");
+
+        return $this->lastCurlError;
     }
 }
