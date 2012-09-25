@@ -15,7 +15,7 @@
  * @package   FACTFinder\Http
  */
 
-include_once LIB_DIR . DS . 'SAI' . DS . 'CurlInterface.php';
+include_once LIB_DIR . DS . 'SAI' . DS . 'Curl.php';
 
 class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
 {
@@ -40,7 +40,11 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
     protected $lastHttpCode = null;
     protected $lastCurlError = null;
 
-	function __construct(SAI_CurlInterface $curl, array $params = null, FACTFinder_Abstract_Configuration $config = null, FACTFinder_Abstract_Logger $log = null) {
+	function __construct(array $params = null, FACTFinder_Abstract_Configuration $config = null, FACTFinder_Abstract_Logger $log = null, SAI_CurlInterface $curl = null) {
+        if($curl === null)
+        {
+            $curl = new SAI_Curl();
+        }
         $this->curl = $curl;
         $this->urlBuilder = FF::getInstance('http/urlBuilder', $params, $config, $log);
 		parent::__construct($params, $config, $log);
@@ -167,8 +171,7 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
     public function getData()
     {
 		if ($this->hasUrlChanged()) {
-			$this->setPreviousUrl($this->urlBuilder->getNonAuthenticationUrl());
-            $this->data = $this->loadResponse($this->getAuthenticationUrl());
+            $this->data = $this->loadResponse();
         }
         return $this->data;
     }
@@ -195,10 +198,41 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
      * @throws Exception on connection error
      * @return response data
      **/
-    protected function loadResponse($url)
+    protected function loadResponse()
+    {
+        $this->prepareRequest();
+
+        $cResource = $this->curl->curl_init();
+
+        if (sizeof($this->curlOptions) > 0) {
+            $this->curl->curl_setopt_array($cResource, $this->curlOptions);
+        }
+
+        $response = $this->curl->curl_exec($cResource);
+        $this->lastHttpCode = $this->curl->curl_getinfo($cResource, CURLINFO_HTTP_CODE);
+        $this->lastCurlError = $this->curl->curl_error($cResource);
+        $this->curl->curl_close($cResource);
+
+        if (intval($this->lastHttpCode) >= 400) {
+            $this->log->error("Connection failed. HTTP code: $this->lastHttpCode");
+        } else if ($this->lastHttpCode == 0) {
+            $this->log->error("Connection refused. $this->lastCurlError");
+        } else if (floor(intval($this->lastHttpCode) / 100) == 2) { // all successful status codes (2**)
+            $this->log->info("Received response!");
+        }
+
+        return $response;
+    }
+
+    /**
+     * Sets up curl all necessary cURL options (including URL!)
+     *
+     * @throws Exception
+     */
+    public function prepareRequest()
     {
         if ($this->getType() === null) {
-			$this->log->error("Request type missing.");
+            $this->log->error("Request type missing.");
             throw new Exception('Request type was not set! Cannot send request without knowing the type.');
         }
 
@@ -207,16 +241,21 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
             $this->addHttpHeaderFields(array('Accept-Language: ' . $config->getLanguage()));
         }
 
-		if ($this->getConfig()->isDebugEnabled()) {
-			$url .= '&verbose=true';
-			if (isset($_SERVER['HTTP_REFERER'])) $this->setCurlOption(CURLOPT_REFERER, $_SERVER['HTTP_REFERER'], false);
-		}
+        $url = $this->getAuthenticationUrl();
 
-        if (!empty($this->httpHeader)) {
-            $this->curlOptions[CURLOPT_HTTPHEADER] = $this->httpHeader;
+        if ($this->getConfig()->isDebugEnabled()) {
+            $url .= '&verbose=true';
+            if (isset($_SERVER['HTTP_REFERER'])) $this->setCurlOption(CURLOPT_REFERER, $_SERVER['HTTP_REFERER'], false);
         }
 
-		return $this->sendRequest($url);
+        if (!empty($this->httpHeader)) {
+            $this->setCurlOption(CURLOPT_HTTPHEADER, $this->httpHeader);
+        }
+
+        $this->setCurlOption(CURLOPT_URL, $url);
+
+        $this->setPreviousUrl($this->urlBuilder->getNonAuthenticationUrl());
+        $this->log->info("Trying to send request to " . $url . "...");
     }
 
     /**
@@ -241,37 +280,6 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
     public function getNonAuthenticationUrl()
     {
         return $this->urlBuilder->getNonAuthenticationUrl();
-    }
-
-    /**
-     * send request and return response data
-     *
-     * @param string url
-     * @return string returned http body
-     */
-    protected function sendRequest($url)
-    {
-		$this->log->info("Trying to send request to ".$url."...");
-        $cResource = $this->curl->curl_init($url);
-
-        if (sizeof($this->curlOptions) > 0) {
-            $this->curl->curl_setopt_array($cResource, $this->curlOptions);
-        }
-
-        $response = $this->curl->curl_exec($cResource);
-        $this->lastHttpCode = $this->curl->curl_getinfo($cResource, CURLINFO_HTTP_CODE);
-        $this->lastCurlError = $this->curl->curl_error($cResource);
-        $this->curl->curl_close($cResource);
-
-        if (intval($this->lastHttpCode) >= 400) {
-			$this->log->error("Connection failed. HTTP code: $this->lastHttpCode");
-        } else if ($this->lastHttpCode == 0) {
-			$this->log->error("Connection refused. $this->lastCurlError");
-        } else if (floor(intval($this->lastHttpCode) / 100) == 2) { // all successful status codes (2**)
-			$this->log->info("Received response from ".$url.".");
-		}
-		
-        return $response;
     }
 
     public function getLastHttpCode()

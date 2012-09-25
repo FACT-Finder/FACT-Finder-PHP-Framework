@@ -15,14 +15,22 @@
  * @version   $Id: DataProvider.php 25893 2010-06-29 08:19:43Z rb $
  * @package   FACTFinder\Http
  */
-require_once LIB_DIR.DS.'SAI'.DS.'Curl.php';
 
 class FACTFinder_Http_ParallelDataProvider
 {
-	protected static $instance;
-	protected static $dataProviders = array();
+    /**
+     * @var FACTFinder_Http_ParallelDataProvider
+     */
+    protected static $instance;
+
+    /**
+     * @var array of FACTFinder_Http_DataProviderProxy
+     */
+    protected static $dataProviders = array();
 	
     protected $data;
+    protected $httpCodes;
+    protected $curlErrors;
 	
 	/**
 	 * singleton
@@ -33,12 +41,11 @@ class FACTFinder_Http_ParallelDataProvider
 	 * @return FACTFinder_Abstract_DataProvider
 	 */
 	public static function getDataProvider(array $params = null, FACTFinder_Abstract_Configuration $config = null, $log = null) {
-        $curl = new SAI_Curl();
 		if (self::$instance == null) {
 			self::$instance = new FACTFinder_Http_ParallelDataProvider();
 		}
 		$id = 'proxy' . count(self::$dataProviders); // use prefix so the id is a string
-		self::$dataProviders[$id] = new FACTFinder_Http_DataProviderProxy($curl, $params, $config, $log);
+		self::$dataProviders[$id] = new FACTFinder_Http_DataProviderProxy($params, $config, $log);
 		self::$dataProviders[$id]->register($id, self::$instance);
 		
 		return self::$dataProviders[$id];
@@ -62,26 +69,24 @@ class FACTFinder_Http_ParallelDataProvider
 		// init handles
 		$multiHandle = curl_multi_init();
         $handles = self::initHandles($multiHandle);
-		$data = self::executeHandles($multiHandle, $handles);
-		
-		self::$instance->setData($data);
+		self::executeHandles($multiHandle, $handles);
     }
 
 	protected static function initHandles($multiHandle) {
 		$handles = array();
 		foreach(self::$dataProviders AS $id => $dataProvider) {
-			if(!$dataProvider->hasUrlChanged())
+            /**
+             * @var $dataProvider FACTFinder_Http_DataProviderProxy
+             */
+            if(!$dataProvider->hasUrlChanged())
 			{
 				$handles[$id] = null;
 				continue;
 			}
-			$dataProvider->setPreviousUrl($dataProvider->getNonAuthenticationUrl());
-			$handle = curl_init($dataProvider->getAuthenticationUrl());
-			
-			$curlOptions = $dataProvider->getCurlOptions();
-			$curlOptions[CURLOPT_HTTPHEADER] = $dataProvider->getHttpHeader();
-			$curlOptions[CURLOPT_RETURNTRANSFER] = true; // this is a must have option, so the data can be saved
-			curl_setopt_array($handle, $curlOptions);
+            $dataProvider->prepareRequest();
+
+			$handle = curl_init();
+			curl_setopt_array($handle, $dataProvider->getCurlOptions());
 			
 			$handles[$id] = $handle;
 			curl_multi_add_handle($multiHandle,$handle);
@@ -109,6 +114,8 @@ class FACTFinder_Http_ParallelDataProvider
 
 		//close the handles
 		$data = array();
+        $httpCodes = array();
+        $curlErrors = array();
 		foreach($handles AS $id => $handle) {
 			if($handle == null)
 			{
@@ -116,24 +123,45 @@ class FACTFinder_Http_ParallelDataProvider
 				continue;
 			}
 			$data[$id] = curl_multi_getcontent($handle);
+            $httpCodes[$id] = curl_getinfo($handle, CURLINFO_HTTP_CODE);
+            $curlErrors[$id] = curl_error($handle);
+
 			curl_multi_remove_handle($multiHandle, $handle);
+            curl_close($handle);
 		}
 		curl_multi_close($multiHandle);
-		return $data;
+
+        self::$instance->setData($data);
+        self::$instance->setHttpCodes($httpCodes);
+        self::$instance->setCurlErrors($curlErrors);
 	}
-	
-	/**
-	 * 
-	 * internal method to apply data to 
-	 */
+
 	protected function setData(array $data) {
 		foreach($data as $id => $dataItem)
 		{
 			if($dataItem == null)
 				continue;
-			$this->data[$id] = $data[$id];
+			$this->data[$id] = $dataItem;
 		}		
 	}
+
+    protected function setHttpCodes(array $httpCodes) {
+        foreach($httpCodes as $id => $httpCode)
+        {
+            if($httpCode == null)
+                continue;
+            $this->$httpCodes[$id] = $httpCodes;
+        }
+    }
+
+    protected function setCurlErrors(array $curlErrors) {
+        foreach($curlErrors as $id => $curlError)
+        {
+            if($curlError == null)
+                continue;
+            $this->curlErrors[$id] = $curlError;
+        }
+    }
 	
     /**
 	 * this method is called by the proxy data providers on the one and only existing instance
@@ -147,6 +175,22 @@ class FACTFinder_Http_ParallelDataProvider
         }
         return isset($this->data[$id]) ? $this->data[$id] : null;
     }
+
+    public function getLastHttpCode($id)
+    {
+        if (self::$dataProviders[$id]->hasUrlChanged()) {
+            throw new DataNotLoadedException("Implementation Error: the data is not up to date. Please use 'FACTFinder_Http_ParallelDataProvider::loadAllData' before trying to get data!");
+        }
+        return isset($this->httpCodes[$id]) ? $this->httpCodes[$id] : null;
+    }
+
+    public function getLastCurlError($id)
+    {
+        if (self::$dataProviders[$id]->hasUrlChanged()) {
+            throw new DataNotLoadedException("Implementation Error: the data is not up to date. Please use 'FACTFinder_Http_ParallelDataProvider::loadAllData' before trying to get data!");
+        }
+        return isset($this->curlErrors[$id]) ? $this->curlErrors[$id] : null;
+    }
 }
 
 /**
@@ -158,7 +202,11 @@ class FACTFinder_Http_ParallelDataProvider
 class FACTFinder_Http_DataProviderProxy extends FACTFinder_Http_DataProvider
 {
 	private $id;
-	private $master;
+
+    /**
+     * @var FACTFinder_Http_ParallelDataProvider
+     */
+    private $master;
 	
 	public function register($id, FACTFinder_Http_ParallelDataProvider $master) {
 		$this->id = $id;
@@ -168,6 +216,14 @@ class FACTFinder_Http_DataProviderProxy extends FACTFinder_Http_DataProvider
 	public function getData() {
 		return $this->master->getData($this->id);
 	}
+
+    public function getLastHttpCode() {
+        return $this->master->getLastHttpCode($this->id);
+    }
+
+    public function getLastCurlError() {
+        return $this->master->getLastCurlError($this->id);
+    }
 	
 	public function getCurlOptions() {
 		return $this->curlOptions;

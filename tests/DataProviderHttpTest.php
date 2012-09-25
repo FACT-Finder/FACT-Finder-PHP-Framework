@@ -50,7 +50,7 @@ class DataProviderHttpTest extends PHPUnit_Framework_TestCase
     public function setUp()
     {
         $this->curlStub = new SAI_CurlStub();
-        $this->dataProvider = FF::getInstance('http/dataProvider', $this->curlStub, self::$paramsParser->getServerRequestParams(), self::$config, self::$log);
+        $this->dataProvider = FF::getInstance('http/dataProvider', self::$paramsParser->getServerRequestParams(), self::$config, self::$log, $this->curlStub);
     }
 
     public function testSetSingleParam()

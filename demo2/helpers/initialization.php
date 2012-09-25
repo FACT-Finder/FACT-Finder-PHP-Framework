@@ -26,7 +26,7 @@ function getSearchAdapter($version, $log) {
     $curl = new SAI_Curl();
 	$encodingHandler = FF::getSingleton('encodingHandler', $config, $log);
 	$paramsParser = FF::getSingleton('parametersParser', $config, $encodingHandler, $log);
-	$dataProvider = FF::getInstance('http/dataProvider', $curl, $paramsParser->getServerRequestParams(), $config, $log);
+	$dataProvider = FF::getInstance('http/dataProvider', $paramsParser->getServerRequestParams(), $config, $log, $curl);
 	return FF::getSingleton($version.'/searchAdapter', $dataProvider, $paramsParser, $encodingHandler, $log);
 }
 
@@ -49,6 +49,6 @@ function getTagCloudAdapter($version, $log) {
     $curl = new SAI_Curl();
 	$encodingHandler = FF::getSingleton('encodingHandler', $config, $log);
 	$paramsParser = FF::getSingleton('parametersParser', $config, $encodingHandler, $log);
-	$dataProvider = FF::getInstance('http/dataProvider', $curl, $paramsParser->getServerRequestParams(), $config, $log);
+	$dataProvider = FF::getInstance('http/dataProvider', $paramsParser->getServerRequestParams(), $config, $log, $curl);
 	return FF::getSingleton($version.'/tagCloudAdapter', $dataProvider, $paramsParser, $encodingHandler, $log);
 }

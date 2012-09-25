@@ -23,7 +23,7 @@ $curl = new SAI_Curl();
 
 $encodingHandler = FF::getInstance('encodingHandler', $config, $log);
 $paramsParser = FF::getInstance('parametersParser', $config, $encodingHandler, $log);
-$dataProvider = FF::getInstance('http/dataProvider', $curl, $paramsParser->getServerRequestParams(), $config, $log);
+$dataProvider = FF::getInstance('http/dataProvider', $paramsParser->getServerRequestParams(), $config, $log, $curl);
 $suggestAdapter = FF::getInstance('http/suggestAdapter', $dataProvider, $paramsParser, $encodingHandler, $log);
 
 try {
