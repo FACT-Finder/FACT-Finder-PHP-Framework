@@ -38,6 +38,7 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
                 CURLOPT_SSL_VERIFYHOST => false
             );
     protected $lastHttpCode = null;
+    protected $lastCurlErrno = null;
     protected $lastCurlError = null;
 
 	function __construct(array $params = null, FACTFinder_Abstract_Configuration $config = null, FACTFinder_Abstract_Logger $log = null, SAI_CurlInterface $curl = null) {
@@ -210,6 +211,7 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
 
         $response = $this->curl->curl_exec($cResource);
         $this->lastHttpCode = $this->curl->curl_getinfo($cResource, CURLINFO_HTTP_CODE);
+        $this->lastCurlErrno = $this->curl->curl_errno($cResource);
         $this->lastCurlError = $this->curl->curl_error($cResource);
         $this->curl->curl_close($cResource);
 
@@ -296,5 +298,13 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
             throw new Exception("Cannot return last curl error. No request has been sent.");
 
         return $this->lastCurlError;
+    }
+
+    public function getLastCurlErrno()
+    {
+        if($this->lastCurlErrno === null)
+            throw new Exception("Cannot return last curl errno. No request has been sent.");
+
+        return $this->lastCurlErrno;
     }
 }

@@ -28,9 +28,10 @@ class FACTFinder_Http_ParallelDataProvider
      */
     protected static $dataProviders = array();
 	
-    protected $data;
-    protected $httpCodes;
-    protected $curlErrors;
+    protected $data = array();
+    protected $httpCodes = array();
+    protected $curlErrnos = array();
+    protected $curlErrors = array();
 	
 	/**
 	 * singleton
@@ -115,6 +116,7 @@ class FACTFinder_Http_ParallelDataProvider
 		//close the handles
 		$data = array();
         $httpCodes = array();
+        $curlErrnos = array();
         $curlErrors = array();
 		foreach($handles AS $id => $handle) {
 			if($handle == null)
@@ -124,6 +126,7 @@ class FACTFinder_Http_ParallelDataProvider
 			}
 			$data[$id] = curl_multi_getcontent($handle);
             $httpCodes[$id] = curl_getinfo($handle, CURLINFO_HTTP_CODE);
+            $curlErrnos[$id] = curl_errno($handle);
             $curlErrors[$id] = curl_error($handle);
 
 			curl_multi_remove_handle($multiHandle, $handle);
@@ -133,6 +136,7 @@ class FACTFinder_Http_ParallelDataProvider
 
         self::$instance->setData($data);
         self::$instance->setHttpCodes($httpCodes);
+        self::$instance->setCurlErrnos($curlErrnos);
         self::$instance->setCurlErrors($curlErrors);
 	}
 
@@ -150,7 +154,16 @@ class FACTFinder_Http_ParallelDataProvider
         {
             if($httpCode == null)
                 continue;
-            $this->$httpCodes[$id] = $httpCodes;
+            $this->httpCodes[$id] = $httpCode;
+        }
+    }
+
+    protected function setCurlErrnos(array $curlErrnos) {
+        foreach($curlErrnos as $id => $curlErrno)
+        {
+            if($curlErrno == null)
+                continue;
+            $this->curlErrnos[$id] = $curlErrno;
         }
     }
 
@@ -182,6 +195,14 @@ class FACTFinder_Http_ParallelDataProvider
             throw new DataNotLoadedException("Implementation Error: the data is not up to date. Please use 'FACTFinder_Http_ParallelDataProvider::loadAllData' before trying to get data!");
         }
         return isset($this->httpCodes[$id]) ? $this->httpCodes[$id] : null;
+    }
+
+    public function getLastCurlErrno($id)
+    {
+        if (self::$dataProviders[$id]->hasUrlChanged()) {
+            throw new DataNotLoadedException("Implementation Error: the data is not up to date. Please use 'FACTFinder_Http_ParallelDataProvider::loadAllData' before trying to get data!");
+        }
+        return isset($this->curlErrnos[$id]) ? $this->curlErrnos[$id] : null;
     }
 
     public function getLastCurlError($id)
@@ -219,6 +240,10 @@ class FACTFinder_Http_DataProviderProxy extends FACTFinder_Http_DataProvider
 
     public function getLastHttpCode() {
         return $this->master->getLastHttpCode($this->id);
+    }
+
+    public function getLastCurlErrno() {
+        return $this->master->getLastCurlErrno($this->id);
     }
 
     public function getLastCurlError() {
