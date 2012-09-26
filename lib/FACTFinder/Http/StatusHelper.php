@@ -38,7 +38,8 @@ class FACTFinder_Http_StatusHelper
     protected $searchAdapter;
 
     public function __construct(FACTFinder_Abstract_Configuration $config,
-                                FACTFinder_Abstract_Logger $log = null)
+                                FACTFinder_Abstract_Logger $log = null,
+                                $channel = null)
     {
         if(isset($log))
             $this->log = $log;
@@ -63,6 +64,9 @@ class FACTFinder_Http_StatusHelper
             $encodingHandler
         );
 
+        if($channel !== null)
+            $this->searchAdapter->setParam('channel', $channel);
+
         $this->searchAdapter->setParam('query', 'FACT-Finder Version');
         $this->searchAdapter->setParam('productsPerPage', '1');
         $this->searchAdapter->setParam('verbose', 'true');
@@ -71,7 +75,7 @@ class FACTFinder_Http_StatusHelper
     public function getVersionNumber()
     {
         $resultCount = $this->searchAdapter->getResult()->getFoundRecordsCount();
-        return substr($resultCount, 0, 2);
+        return intval(substr($resultCount, 0, 2));
     }
 
     public function getVersionString()
@@ -82,6 +86,15 @@ class FACTFinder_Http_StatusHelper
 
     public function getStatusCode()
     {
+        try
+        {
+            $ffError = $this->searchAdapter->getError();
+        }
+        catch(Exception $e)
+        {
+            $ffError = $e->getMessage();
+        }
+
         $curlErrno = $this->dataProvider->getLastCurlErrno();
 
         switch($curlErrno)
@@ -106,7 +119,6 @@ class FACTFinder_Http_StatusHelper
             return FFE_HTTP_ERROR + $httpCode;
         }
 
-        $ffError = $this->searchAdapter->getError();
         $stackTrace = $this->searchAdapter->getStackTrace();
         preg_match('/^(.+?):?\s/', $stackTrace, $matches);
         $ffException = $matches[1];
