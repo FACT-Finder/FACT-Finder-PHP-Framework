@@ -1,0 +1,1591 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--suppress CheckTagEmptyBody -->
+<ff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ffresult.xsd">
+    <searchStatus>resultsFound</searchStatus>
+    <articleNumberSearchStatus>noArticleNumberSearch</articleNumberSearchStatus>
+    <searchTimedOut>false</searchTimedOut>
+    <productsPerPageOptions default="24" selected="12">
+        <option value="12">
+            <searchParams>
+                <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+        </option>
+        <option value="24">
+            <searchParams>
+                <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&channel=de&productsPerPage=24&followSearch=9991&format=XML]]></searchParams>
+        </option>
+        <option value="36">
+            <searchParams>
+                <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&channel=de&productsPerPage=36&followSearch=9991&format=XML]]></searchParams>
+        </option>
+    </productsPerPageOptions>
+    <searchControlParams>
+        <disableCache>false</disableCache>
+        <generateAdvisorTree>false</generateAdvisorTree>
+        <idsOnly>false</idsOnly>
+        <useAsn>true</useAsn>
+        <useCampaigns>true</useCampaigns>
+        <useFoundWords>false</useFoundWords>
+        <useKeywords>true</useKeywords>
+    </searchControlParams>
+    <searchParams>
+        <channel>de</channel>
+        <productsPerPage>12</productsPerPage>
+        <seoPath>/bmx/q</seoPath>
+
+    </searchParams>
+    <breadCrumbTrail>
+        <item nr="0" type="search" value="bmx">
+            <searchParams>
+                <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]>
+            </searchParams>
+        </item>
+    </breadCrumbTrail>
+    <campaigns>
+        <campaign nr="0" name="BMX" flavour="FEEDBACK">
+            <feedback>
+                <text nr="5" label="above search result" html="true">Want to be the next Matt Hoffman? Check out our
+                    products!
+                </text>
+            </feedback>
+        </campaign>
+    </campaigns>
+    <asn>
+        <group name="Kategorie" detailedLinks="5" style="DEFAULT">
+            <element field="category1" name="Fahrradteile" count="752" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2FFahrradteile%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]>
+                </searchParams>
+            </element>
+            <element field="category1" name="Fahrradbekleidung" count="354" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2FFahrradbekleidung%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]>
+                </searchParams>
+            </element>
+            <element field="category1" name="Fahrräder" count="109" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2FFahrraeder%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]>
+                </searchParams>
+            </element>
+            <element field="category1" name="Restposten" count="20" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2FRestposten%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]>
+                </searchParams>
+            </element>
+            <element field="category1" name="Fahrradzubehör" count="3" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2FFahrradzubehoer%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]>
+                </searchParams>
+            </element>
+        </group>
+        <group name="Preis" detailedLinks="10" unit="€" style="SLIDER">
+            <element field="products_price_min" name="Preis" count="0" clusterLevel="0" selected="false" selectedMin="1"
+                     selectedMax="2999" absoluteMin="1" absoluteMax="2999">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML&filterproducts_price_min=]]></searchParams>
+            </element>
+        </group>
+        <group name="Hersteller" detailedLinks="5" style="DEFAULT">
+            <element field="manufacturers_name" name="34R" count="56" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2F34R%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]>
+                </searchParams>
+            </element>
+            <element field="manufacturers_name" name="ACS" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FACS%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]>
+                </searchParams>
+            </element>
+            <element field="manufacturers_name" name="Affix" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FAffix%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]>
+                </searchParams>
+            </element>
+            <element field="manufacturers_name" name="ALK13" count="8" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FALK13%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]>
+                </searchParams>
+            </element>
+            <element field="manufacturers_name" name="All-City" count="5" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FAll-City%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]>
+                </searchParams>
+            </element>
+            <element field="manufacturers_name" name="Alpina" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FAlpina%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]>
+                </searchParams>
+            </element>
+            <element field="manufacturers_name" name="Atmosfair" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FAtmosfair%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]>
+                </searchParams>
+            </element>
+            <element field="manufacturers_name" name="Atomlab" count="18" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FAtomlab%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]>
+                </searchParams>
+            </element>
+            <element field="manufacturers_name" name="BBB" count="8" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FBBB%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]>
+                </searchParams>
+            </element>
+            <element field="manufacturers_name" name="Bell" count="18" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FBell%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Bern" count="36" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FBern%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Blk Market" count="8" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FBlk-Market%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="BRAVE" count="3" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FBRAVE%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Burgtec" count="3" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FBurgtec%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Carbocage" count="2" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FCarbocage%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Chris King" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FChris-King%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Chromag" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FChromag%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Commencal" count="5" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FCommencal%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Crankbrothers" count="8" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FCrankbrothers%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Deluxe" count="10" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FDeluxe%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Diverse" count="5" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FDiverse%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Eastern" count="105" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FEastern%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="EASTON" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FEASTON%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Feltbikes" count="21" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FFeltbikes%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Five Ten" count="17" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FFive-Ten%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="FlyBikes" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FFlyBikes%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Fly Racing" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FFly-Racing%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Fox" count="15" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FFox%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="FUNN" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FFUNN%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Gaerne" count="2" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FGaerne%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Giro" count="17" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FGiro%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Gran Royale" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FGran-Royale%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="G-Sport" count="14" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FG-Sport%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Highlander" count="3" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FHighlander%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Identiti" count="14" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FIdentiti%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Ilegal" count="3" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FIlegal%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Import/diverse" count="2" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FImport-diverse%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="IXS" count="28" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FIXS%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Kali" count="19" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FKali%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="KED" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FKED%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Kenda" count="3" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FKenda%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="KHE" count="34" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FKHE%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Kis Bike Co" count="12" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FKis-Bike-Co%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="KMC" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FKMC%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Kona" count="3" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FKona%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Kool Stop" count="2" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FKool-Stop%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="KORE" count="2" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FKORE%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Lake" count="2" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FLake%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Lazer" count="24" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FLazer%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Leafcycles" count="13" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FLeafcycles%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Limar" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FLimar%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Maloja" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FMaloja%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Manitou" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FManitou%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Maxxis" count="6" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FMaxxis%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Michelin" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FMichelin%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Mounty" count="5" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FMounty%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="NC-17" count="3" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FNC-17%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Nitrous" count="34" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FNitrous%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Nox" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FNox%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="NS Bikes" count="17" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FNS-Bikes%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="O'Neal" count="58" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FONeal%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Octane One" count="12" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FOctane-One%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="ODI" count="18" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FODI%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Odyssey" count="85" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FOdyssey%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Onza" count="12" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FOnza%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Park Tool" count="2" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FPark-Tool%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Pedros" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FPedros%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="POC" count="34" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FPOC%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="PRO" count="5" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FPRO%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Procraft" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FProcraft%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="ProMax" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FProMax%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Proper Bike Co" count="11" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FProper-Bike-Co%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="ProTec" count="11" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FProTec%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Radio Bikes" count="9" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FRadio-Bikes%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Raynec" count="3" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FRaynec%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Red Cycling Products" count="5" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FRed-Cycling-Products%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Revenge Industries" count="6" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FRevenge-Industries%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Reverse" count="5" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FReverse%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="S&amp;M Bikes" count="37" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FS-und-M-Bikes%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Salt" count="65" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FSalt%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="SCHWALBE" count="11" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FSCHWALBE%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="SDG" count="2" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FSDG%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Season Bikes" count="19" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FSeason-Bikes%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Serious" count="2" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FSerious%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Severed Alliance" count="2" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FSevered-Alliance%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Shaman Racing" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FShaman-Racing%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Shimano" count="3" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FShimano%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Sixpack" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FSixpack%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="SixSixOne" count="11" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FSixSixOne%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="SneaXx" count="15" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FSneaXx%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Solid Bikes" count="4" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FSolid-Bikes%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Sombrio" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FSombrio%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Spank" count="9" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FSpank%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Speed Stuff" count="5" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FSpeed-Stuff%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Straitline" count="11" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FStraitline%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Sunday" count="9" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FSunday%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Syncros" count="2" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FSyncros%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="THE" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FTHE%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Thomson" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FThomson%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Time" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FTime%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Total BMX" count="8" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FTotal-BMX%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="TroyLeeDesigns" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FTroyLeeDesigns%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Troy Lee Designs" count="6" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FTroy-Lee-Designs%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Truvativ" count="3" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FTruvativ%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="TSG" count="11" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FTSG%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="UMF" count="32" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FUMF%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Urge" count="4" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FUrge%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="UVEX" count="3" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FUVEX%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="wethepeople" count="33" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2Fwethepeople%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="XLC" count="3" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FXLC%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="manufacturers_name" name="Xpedo" count="11" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2F%2FXpedo%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+        </group>
+        <group name="Farbe" detailedLinks="5" style="DEFAULT">
+            <element field="Farbe" name="schwarz" count="477" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterFarbe=schwarz&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Farbe" name="grau" count="324" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterFarbe=grau&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Farbe" name="weiß" count="182" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterFarbe=wei%C3%9F&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Farbe" name="blau" count="118" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterFarbe=blau&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Farbe" name="grün" count="100" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterFarbe=gr%C3%BCn&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Farbe" name="rot" count="90" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterFarbe=rot&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Farbe" name="violett" count="55" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterFarbe=violett&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Farbe" name="braun" count="45" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterFarbe=braun&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Farbe" name="gelb" count="36" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterFarbe=gelb&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Farbe" name="orange" count="21" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterFarbe=orange&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Farbe" name="rosa" count="13" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterFarbe=rosa&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Farbe" name="beige" count="10" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterFarbe=beige&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Farbe" name="transparent" count="2" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterFarbe=transparent&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+        </group>
+        <group name="Größe" detailedLinks="5" style="DEFAULT">
+            <element field="Größe" name="S" count="52" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterGr%C3%B6%C3%9Fe=S&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Größe" name="M" count="50" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterGr%C3%B6%C3%9Fe=M&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Größe" name="L" count="47" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterGr%C3%B6%C3%9Fe=L&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Größe" name="XL" count="46" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterGr%C3%B6%C3%9Fe=XL&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Größe" name="XXL" count="33" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterGr%C3%B6%C3%9Fe=XXL&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Größe" name="XS" count="12" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterGr%C3%B6%C3%9Fe=XS&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+        </group>
+        <group name="Kopfumfang" detailedLinks="5" style="DEFAULT">
+            <element field="Kopfumfang" name="54" count="113" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterKopfumfang=54&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Kopfumfang" name="55" count="139" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterKopfumfang=55&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Kopfumfang" name="56" count="133" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterKopfumfang=56&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Kopfumfang" name="57" count="124" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterKopfumfang=57&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Kopfumfang" name="58" count="126" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterKopfumfang=58&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Kopfumfang" name="59" count="134" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterKopfumfang=59&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Kopfumfang" name="60" count="116" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterKopfumfang=60&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Kopfumfang" name="61" count="101" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterKopfumfang=61&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Kopfumfang" name="62" count="69" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterKopfumfang=62&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Kopfumfang" name="53" count="84" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterKopfumfang=53&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Kopfumfang" name="50" count="25" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterKopfumfang=50&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Kopfumfang" name="51" count="64" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterKopfumfang=51&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Kopfumfang" name="52" count="78" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterKopfumfang=52&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Kopfumfang" name="63" count="34" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterKopfumfang=63&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Kopfumfang" name="48" count="20" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterKopfumfang=48&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Kopfumfang" name="49" count="20" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterKopfumfang=49&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Kopfumfang" name="46" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterKopfumfang=46&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+            <element field="Kopfumfang" name="64" count="6" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&filterKopfumfang=64&channel=de&followSearch=9991&format=XML]]></searchParams>
+            </element>
+        </group>
+
+    </asn>
+    <paging pageCount="104" currentPage="1" productsPerPage="12">
+        <searchParams>
+            <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML&page=]]></searchParams>
+        <settings>
+            <linkCount>10</linkCount>
+            <nextCaption>paging.next</nextCaption>
+            <previousCaption>paging.previous</previousCaption>
+        </settings>
+    </paging>
+    <sorting>
+        <sort name="Relevancy" description="Relevance" method="desc" selected="true">
+            <searchParams>
+                <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+        </sort>
+        <sort name="products_name" description="Name (A-Z)" method="asc" selected="false">
+            <searchParams>
+                <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&sortproducts_name=asc&channel=de&followSearch=9991&format=XML]]></searchParams>
+        </sort>
+        <sort name="products_name" description="Name (Z-A)" method="desc" selected="false">
+            <searchParams>
+                <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&sortproducts_name=desc&channel=de&followSearch=9991&format=XML]]></searchParams>
+        </sort>
+        <sort name="products_price_min" description="Increasing price" method="asc" selected="false">
+            <searchParams>
+                <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&sortproducts_price_min=asc&channel=de&followSearch=9991&format=XML]]></searchParams>
+        </sort>
+        <sort name="products_price_min" description="Decreasing price" method="desc" selected="false">
+            <searchParams>
+                <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&sortproducts_price_min=desc&channel=de&followSearch=9991&format=XML]]></searchParams>
+        </sort>
+    </sorting>
+    <results count="1238">
+        <record nr="0" id="221910" relevancy="99.91">
+            <keywords>
+                <keyword>BIKES KHE</keyword>
+                <keyword>20 ZOLL</keyword>
+                <keyword>WEISSES BMX</keyword>
+                <keyword>WEISES BMX</keyword>
+                <keyword>BKMX 300</keyword>
+                <keyword>BILLIGES BMX</keyword>
+                <keyword>FAHRRAD</keyword>
+                <keyword>BMX RAEDER</keyword>
+            </keywords>
+            <seoPath>/KHE-Serious-BMX-Spot-221910.html</seoPath>
+            <field name="products_ean">..4250355585134..#..4250355585134..</field>
+            <field name="products_retail_price">299.99</field>
+            <field name="__ORIG_POSITION__">1</field>
+            <field name="products_special_offer3">0</field>
+            <field name="products_ranking_profit">19096</field>
+            <field name="FFiPhoneVariants"></field>
+            <field name="Farbe">..grau..#..weiß..</field>
+            <field name="products_special_offer2">0</field>
+            <field name="products_price_min">199.99</field>
+            <field name="products_price_max">199.99</field>
+            <field name="products_image">http://www.fahrrad.de/media/products/10_Serious_BMX_Spot_1024x768.jpg</field>
+            <field name="products_ranking_charge">26850</field>
+            <field name="shop_id">44</field>
+            <field name="products_you_save_money">100.00</field>
+            <field name="imageUrlLarge">
+                <![CDATA[http://www.fahrrad.de/media/products/10_Serious_BMX_Spot_1024x768[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="category1">..Fahrräder..</field>
+            <field name="Breite"></field>
+            <field name="category0">Katalog</field>
+            <field name="category3">..BMX Räder bis 300€..</field>
+            <field name="products_best_price">0</field>
+            <field name="category2">..BMX..</field>
+            <field name="evaluation_total"></field>
+            <field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder bis 300€</field>
+            <field name="FFCliplisterQuality"></field>
+            <field name="products_id">221910</field>
+            <field name="products_video">1</field>
+            <field name="AdditionalAttributes"></field>
+            <field name="products_description">
+                <![CDATA[Serious Spot ? Einsteiger 20 Zoll BMX mit soliden Komponenten. Jeder fängt mal an und das Serious Spot bietet hierfür den perfekten Einstieg in die BMX Szene. Der solide Stahl-Rahmen made by KHE hält grundsätzlich was er verspricht und erlaubt auch harte Tricks und manche unsanfte Landungen. Ausgestattet mit einfachen, wartungsarmen Komponenten und stabilen Laufrädern, ist das Spot der ideale Begleiter für erste Ausflüge in den Adrenalinsport BMX. Materialtyp: Stahl , Material: Hi-Ten light steel , weitere Merkmale: Rahmen mit F-Set Rotor System , BMX: Freestyle , BMX: Allround , Marke: KHE , Material: Hi-Ten Steel , Anzahl Gänge: 1 , Übersetzung Blatt 1: 36 Zähne, Bauart: 1-teilig , Bauart: V-Brake , Bauart: V-Brake , Bauart: 2-teilig , Material: Hi-Ten light steel , Typ: 1 1/8 Zoll Aluminium , Bauart: A-Head , Marke: KHE , Typ: F-Set , : Prism Jump , Typ: 14 mm Achse , Typ: 14 mm Achse , Marke: KHE , Typ: MAC  , Größe: 20 Zoll, Reifenbreite: 2 Zoll, Marke: Trax , Typ: Prism Freestyle , Größe: 20 Zoll, Reifenbreite: 2 Zoll, : PVC Allround B/B , im Lieferumfang enthalten: ja , Anzahl: 1 Paar , Marke: KHE , Typ: Grind Pegs , : 13.9 kg (ca.), : Kettenspanner, verstärkte Kettenradgarnitur  , : Sport]]></field>
+            <field name="imageUrlSmall">
+                <![CDATA[http://www.fahrrad.de/media/products/10_Serious_BMX_Spot_1024x768[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="products_name">KHE Serious BMX Spot</field>
+            <field name="AdditionalAttributes_values"></field>
+            <field name="FFAutomaticSearchOptimization">
+                <![CDATA[WEISSES BMX=11|WEISES BMX=11|BIKES KHE=80|FAHRRAD=6|BMX RA?DER=11|20 ZOLL=28|BKMX 300=11|BILLIGES BMX=11|BMX RAEDER=1]]></field>
+            <field name="cash_back_amount"></field>
+            <field name="month-campaign"></field>
+            <field name="Größe"></field>
+            <field name="products_quantity_unit"></field>
+            <field name="coupon-campaign"></field>
+            <field name="products_special_offer">0</field>
+            <field name="products_price">199.99</field>
+            <field name="availability">3</field>
+            <field name="imageUrlMid">
+                <![CDATA[http://www.fahrrad.de/media/products/10_Serious_BMX_Spot_1024x768[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="categories_free_shipping">0</field>
+            <field name="Länge"></field>
+            <field name="products_model_year">2012</field>
+            <field name="products_link_self">http://www.fahrrad.de/fahrraeder/bmx/khe-serious-bmx-spot-/221910.html
+            </field>
+            <field name="manufacturers_name">Serious</field>
+            <field name="manufacturers_image">http://www.fahrrad.de/media/products/serious.jpg</field>
+            <field name="manufacturers_free_shipping">0</field>
+            <field name="categories_image"></field>
+            <field name="FFCheckoutCount">3</field>
+            <field name="products_free_shipping">0</field>
+            <field name="manufacturers_id">445</field>
+            <field name="products_quantity"></field>
+            <field name="products_you_save_percent">33.33</field>
+            <field name="FFAfterSearchReorder"></field>
+        </record>
+        <record nr="1" id="277992" relevancy="99.82">
+            <keywords>
+                <keyword>BMX FAHRRAD UNTER 100EURO</keyword>
+                <keyword>KHE ROOT</keyword>
+                <keyword>FAHRRAD</keyword>
+                <keyword>FAHRRAD HH</keyword>
+                <keyword>BMX RAEDER</keyword>
+            </keywords>
+            <seoPath>/KHE-Root-360-pechschwarz-277992.html</seoPath>
+            <field name="products_ean">..4250583623738..#..4250583623738..</field>
+            <field name="products_retail_price">349.99</field>
+            <field name="__ORIG_POSITION__">2</field>
+            <field name="products_special_offer3">0</field>
+            <field name="products_ranking_profit">18217</field>
+            <field name="FFiPhoneVariants"></field>
+            <field name="Farbe">..schwarz..</field>
+            <field name="products_special_offer2">0</field>
+            <field name="products_price_min">319.99</field>
+            <field name="products_price_max">319.99</field>
+            <field name="products_image">http://www.fahrrad.de/media/products/1316_012_02_root_360.jpg</field>
+            <field name="products_ranking_charge">25497</field>
+            <field name="shop_id">44</field>
+            <field name="products_you_save_money">30.00</field>
+            <field name="imageUrlLarge">
+                <![CDATA[http://www.fahrrad.de/media/products/1316_012_02_root_360[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="category1">..Fahrräder..</field>
+            <field name="Breite"></field>
+            <field name="category0">Katalog</field>
+            <field name="category3">..BMX Räder ab 300€..</field>
+            <field name="products_best_price">0</field>
+            <field name="category2">..BMX..</field>
+            <field name="evaluation_total"></field>
+            <field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder ab 300€</field>
+            <field name="FFCliplisterQuality"></field>
+            <field name="products_id">277992</field>
+            <field name="products_video">0</field>
+            <field name="AdditionalAttributes">|Oberrohrlänge=20,6 Zoll|</field>
+            <field name="products_description">
+                <![CDATA[Geometriedaten:Oberrohr: 52,3 cmKettenstrebe: 34,3 cmSteuerrohrwinkel: 75° Materialtyp: Stahl , Material: Hi-Ten light steel , weitere Merkmale: integrated Headset , BMX: Street , Material: Hi-Ten Steel , Typ: 10 mm , Anzahl Gänge: 1 , Typ: 175 mm , Bauart: 3-teilig , Material: CrMo , Marke: KHE , Typ: Rotor steel , Anzahl Zähne: 25 Zähne, Typ: MidBB sealed , Bauart: gedichtet , Marke: KMC 1/2 x 1/8 " black , Marke: KHE , Typ: Prism St, soft pads , Bauart: U-Brake , Typ: Extra wide, 8" high , Bauart: 2-teilig , Material: Hi-Ten light steel , Typ: KHE Prism Frontload , Bauart: A-Head , : KHE Prism Classic , : Prism , Typ: Prism , Typ: Female axle hub, 36 Loch , Typ: semi sealed Female axle cassette hub 9T 36 Loch , Marke & Typ: Prism EasyO double wall , Marke: KHE , Typ: Prism Fat , Größe: 20 Zoll, Reifenbreite: 2.3 Zoll, Marke: KHE , Typ: Prism Fat , Größe: 20 Zoll, Reifenbreite: 2.3 Zoll, : Prism thin plastic , im Lieferumfang enthalten: ja , Anzahl: 1 Paar , Typ: steel pegs , : 11.7 kg (ca.), : Kettenspanner , : Performance]]></field>
+            <field name="imageUrlSmall">
+                <![CDATA[http://www.fahrrad.de/media/products/1316_012_02_root_360[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="products_name">KHE Root 360 pechschwarz</field>
+            <field name="AdditionalAttributes_values">20,6 Zoll</field>
+            <field name="FFAutomaticSearchOptimization">
+                <![CDATA[BMX FAHRRAD UNTER 100EURO=14|FAHRRAD=4|BMX RA?DER=12|KHE ROOT=11|FAHRRAD HH=4|BMX RAEDER=2]]></field>
+            <field name="cash_back_amount"></field>
+            <field name="month-campaign"></field>
+            <field name="Größe"></field>
+            <field name="products_quantity_unit"></field>
+            <field name="coupon-campaign"></field>
+            <field name="products_special_offer">0</field>
+            <field name="products_price">319.99</field>
+            <field name="availability">3</field>
+            <field name="imageUrlMid">
+                <![CDATA[http://www.fahrrad.de/media/products/1316_012_02_root_360[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="categories_free_shipping">0</field>
+            <field name="Länge"></field>
+            <field name="products_model_year">2012</field>
+            <field name="products_link_self">
+                <![CDATA[http://www.fahrrad.de/fahrraeder/bmx/khe-root-360-pechschwarz/277992.html]]></field>
+            <field name="manufacturers_name">KHE</field>
+            <field name="manufacturers_image">http://www.fahrrad.de/media/products/khe.jpg</field>
+            <field name="manufacturers_free_shipping">0</field>
+            <field name="categories_image"></field>
+            <field name="FFCheckoutCount">3</field>
+            <field name="products_free_shipping">0</field>
+            <field name="manufacturers_id">63</field>
+            <field name="products_quantity"></field>
+            <field name="products_you_save_percent">8.57</field>
+            <field name="FFAfterSearchReorder"></field>
+        </record>
+        <record nr="2" id="277986" relevancy="99.78">
+            <keywords>
+                <keyword>FAHRRAD</keyword>
+                <keyword>FAHRRAD HH</keyword>
+                <keyword>BMX RAEDER</keyword>
+            </keywords>
+            <seoPath>/KHE-20TH-matt-schwarz-277986.html</seoPath>
+            <field name="products_ean">..4250583623714..#..4250583623714..</field>
+            <field name="products_retail_price">369.99</field>
+            <field name="__ORIG_POSITION__">3</field>
+            <field name="products_special_offer3">0</field>
+            <field name="products_ranking_profit">17781</field>
+            <field name="FFiPhoneVariants"></field>
+            <field name="Farbe">..schwarz..</field>
+            <field name="products_special_offer2">0</field>
+            <field name="products_price_min">339.99</field>
+            <field name="products_price_max">339.99</field>
+            <field name="products_image">http://www.fahrrad.de/media/products/1314_012_33_20th.jpg</field>
+            <field name="products_ranking_charge">25944</field>
+            <field name="shop_id">44</field>
+            <field name="products_you_save_money">30.00</field>
+            <field name="imageUrlLarge">
+                <![CDATA[http://www.fahrrad.de/media/products/1314_012_33_20th[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="category1">..Fahrräder..</field>
+            <field name="Breite"></field>
+            <field name="category0">Katalog</field>
+            <field name="category3">..BMX Räder ab 300€..</field>
+            <field name="products_best_price">0</field>
+            <field name="category2">..BMX..</field>
+            <field name="evaluation_total"></field>
+            <field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder ab 300€</field>
+            <field name="FFCliplisterQuality"></field>
+            <field name="products_id">277986</field>
+            <field name="products_video">0</field>
+            <field name="AdditionalAttributes">|Oberrohrlänge=20,5 Zoll|</field>
+            <field name="products_description">
+                <![CDATA[Geometriedaten:Oberrohr: 52,1 cm Materialtyp: Stahl , Material: Hi-Ten light steel , BMX: Allround , Material: Hi-Ten Steel , Typ: 14 mm , Anzahl Gänge: 1 , Typ: 175 mm , Bauart: 3-teilig , Material: CrMo , Marke: KHE , Typ: Rotor steel , Anzahl Zähne: 25 Zähne, Typ: MidBB ball , Bauart: --- , Marke: KMC 1/2 x 1/8 " black , Marke: KHE , Typ: F-Set , Bauart: U-Brake , Marke: KHE , Typ: F-Set , Bauart: U-Brake , Marke: KHE F-Set , Typ: Extra wide, 8" high , Bauart: 2-teilig , Material: Hi-Ten light steel , Typ: Topload , Bauart: A-Head , Marke: KHE , Typ: F-Set rotor system, all around geometry , : KHE Prism Classic , : Prism Dandy , Durchmesser: 25.4 mm, Typ: 14 mm, 36 Loch , Typ: Cassette 9T, 14 mm, 36 Loch , Marke & Typ: Prism EasyO double wall , Marke: KHE , Typ: Prism Fat , Größe: 20 Zoll, Reifenbreite: 2.3 Zoll, Marke: KHE , Typ: Prism Fat , Größe: 20 Zoll, Reifenbreite: 2.3 Zoll, : Prism thin plastic , im Lieferumfang enthalten: ja , Anzahl: 1 Paar , Typ: steel pegs , : 13.3 kg (ca.), : Kettenspanner, gold valve cap , : Performance]]></field>
+            <field name="imageUrlSmall">
+                <![CDATA[http://www.fahrrad.de/media/products/1314_012_33_20th[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="products_name">KHE 20TH matt schwarz</field>
+            <field name="AdditionalAttributes_values">20,5 Zoll</field>
+            <field name="FFAutomaticSearchOptimization">FAHRRAD=16|BMX RA?DER=13|FAHRRAD HH=4|BMX RAEDER=2</field>
+            <field name="cash_back_amount"></field>
+            <field name="month-campaign"></field>
+            <field name="Größe"></field>
+            <field name="products_quantity_unit"></field>
+            <field name="coupon-campaign"></field>
+            <field name="products_special_offer">0</field>
+            <field name="products_price">339.99</field>
+            <field name="availability">3</field>
+            <field name="imageUrlMid">
+                <![CDATA[http://www.fahrrad.de/media/products/1314_012_33_20th[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="categories_free_shipping">0</field>
+            <field name="Länge"></field>
+            <field name="products_model_year">2012</field>
+            <field name="products_link_self">http://www.fahrrad.de/fahrraeder/bmx/khe-20-matt-schwarz/277986.html
+            </field>
+            <field name="manufacturers_name">KHE</field>
+            <field name="manufacturers_image">http://www.fahrrad.de/media/products/khe.jpg</field>
+            <field name="manufacturers_free_shipping">0</field>
+            <field name="categories_image"></field>
+            <field name="FFCheckoutCount">0</field>
+            <field name="products_free_shipping">0</field>
+            <field name="manufacturers_id">63</field>
+            <field name="products_quantity"></field>
+            <field name="products_you_save_percent">8.11</field>
+            <field name="FFAfterSearchReorder"></field>
+        </record>
+        <record nr="3" id="277976" relevancy="99.54">
+            <keywords>
+                <keyword>FAHRRAD HH</keyword>
+                <keyword>FAHRRAD</keyword>
+                <keyword>BMX RAEDER</keyword>
+            </keywords>
+            <seoPath>/KHE-Titus-Blackbone-black-277976.html</seoPath>
+            <field name="products_ean">..4250583623691..#..4250583623691..</field>
+            <field name="products_retail_price">279.99</field>
+            <field name="__ORIG_POSITION__">4</field>
+            <field name="products_special_offer3">0</field>
+            <field name="products_ranking_profit">15441</field>
+            <field name="FFiPhoneVariants"></field>
+            <field name="Farbe">..schwarz..</field>
+            <field name="products_special_offer2">0</field>
+            <field name="products_price_min">249.99</field>
+            <field name="products_price_max">249.99</field>
+            <field name="products_image">
+                <![CDATA[http://www.fahrrad.de/media/products/1201_012_02_titus_blackbone_01_n.jpg]]></field>
+            <field name="products_ranking_charge">25922</field>
+            <field name="shop_id">44</field>
+            <field name="products_you_save_money">30.00</field>
+            <field name="imageUrlLarge">
+                <![CDATA[http://www.fahrrad.de/media/products/1201_012_02_titus_blackbone_01_n[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="category1">..Fahrräder..</field>
+            <field name="Breite"></field>
+            <field name="category0">Katalog</field>
+            <field name="category3">..BMX Räder bis 300€..</field>
+            <field name="products_best_price">0</field>
+            <field name="category2">..BMX..</field>
+            <field name="evaluation_total"></field>
+            <field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder bis 300€</field>
+            <field name="FFCliplisterQuality"></field>
+            <field name="products_id">277976</field>
+            <field name="products_video">0</field>
+            <field name="AdditionalAttributes">|Oberrohrlänge=19 Zoll|</field>
+            <field name="products_description">
+                <![CDATA[Das Blackbone ist ein neues Modell und kommt mit F-SET Rotor und  VBrakes, sowie einer Geometrie die es zum perfekten Allrounder macht.Gewichtsangaben ohne Pegs. Materialtyp: Stahl , Material: Hi-Ten light steel , weitere Merkmale: Rahmen mit F-Set Rotor System , BMX: Allround , Marke: KHE , Material: Hi-Ten Steel , Typ: 14mm , Anzahl Gänge: 1 , Bauart: 1-teilig , Typ: Steel sproket , Anzahl Zähne: 33 Zähne, Übersetzung: 14 Zähne, Typ: US BB ball , Marke: KMC 1/2 x 1/8 Zoll black , Marke: F-Set , Bauart: V-Brake , Marke: F-Set , Bauart: V-Brake , Marke: F-Set Aluminium , Marke: KHE , Typ: Extra wide, 8" high , Bauart: 2-teilig , Material: Hi-Ten light steel , Typ: Topload , Bauart: A-Head , Marke: F-Set , : KHE Prism Classic , : Prism Dandy , Durchmesser: 25.4 mm, Typ: 36 Loch , Typ: 36 Loch , Material & sonstiges: Alloy , Marke: KHE , Typ: Prism Fat , Größe: 20 Zoll, Reifenbreite: 2.3 Zoll, Marke: KHE , Typ: Prism Fat , Größe: 20 Zoll, Reifenbreite: 2.3 Zoll, : Alloy pedals , im Lieferumfang enthalten: ja , Anzahl: 1 Paar , Typ: steel pegs , : 12.8 kg (ca.), : Kettenspanner, Totenkopf Ventilkappen , : Performance]]></field>
+            <field name="imageUrlSmall">
+                <![CDATA[http://www.fahrrad.de/media/products/1201_012_02_titus_blackbone_01_n[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="products_name">KHE Titus Blackbone black</field>
+            <field name="AdditionalAttributes_values">19 Zoll</field>
+            <field name="FFAutomaticSearchOptimization">FAHRRAD=17|BMX RA?DER=16|FAHRRAD HH=20|BMX RAEDER=5</field>
+            <field name="cash_back_amount"></field>
+            <field name="month-campaign"></field>
+            <field name="Größe"></field>
+            <field name="products_quantity_unit"></field>
+            <field name="coupon-campaign"></field>
+            <field name="products_special_offer">0</field>
+            <field name="products_price">249.99</field>
+            <field name="availability">3</field>
+            <field name="imageUrlMid">
+                <![CDATA[http://www.fahrrad.de/media/products/1201_012_02_titus_blackbone_01_n[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="categories_free_shipping">0</field>
+            <field name="Länge"></field>
+            <field name="products_model_year">2012</field>
+            <field name="products_link_self">
+                <![CDATA[http://www.fahrrad.de/fahrraeder/bmx/khe-titus-blackbone-black/277976.html]]></field>
+            <field name="manufacturers_name">KHE</field>
+            <field name="manufacturers_image">http://www.fahrrad.de/media/products/khe.jpg</field>
+            <field name="manufacturers_free_shipping">0</field>
+            <field name="categories_image"></field>
+            <field name="FFCheckoutCount">2</field>
+            <field name="products_free_shipping">0</field>
+            <field name="manufacturers_id">63</field>
+            <field name="products_quantity"></field>
+            <field name="products_you_save_percent">10.71</field>
+            <field name="FFAfterSearchReorder"></field>
+        </record>
+        <record nr="4" id="232670" relevancy="99.52">
+            <keywords>
+                <keyword>BMX KATALOG</keyword>
+                <keyword>FAHRRAD</keyword>
+                <keyword>KHE FAHRRAD</keyword>
+                <keyword>BKMX 300</keyword>
+                <keyword>BMX 100EURO</keyword>
+            </keywords>
+            <seoPath>/KHE-Maceto-Pro-silver-232670.html</seoPath>
+            <field name="products_ean">..4250454231086..#..4250454231086..</field>
+            <field name="products_retail_price">1199.00</field>
+            <field name="__ORIG_POSITION__">5</field>
+            <field name="products_special_offer3">0</field>
+            <field name="products_ranking_profit">15214</field>
+            <field name="FFiPhoneVariants"></field>
+            <field name="Farbe">..grau..#..weiß..</field>
+            <field name="products_special_offer2">0</field>
+            <field name="products_price_min">999.00</field>
+            <field name="products_price_max">999.00</field>
+            <field name="products_image">http://www.fahrrad.de/media/products/maceto_pro_silver_1.jpg</field>
+            <field name="products_ranking_charge">25710</field>
+            <field name="shop_id">44</field>
+            <field name="products_you_save_money">200.00</field>
+            <field name="imageUrlLarge">
+                <![CDATA[http://www.fahrrad.de/media/products/maceto_pro_silver_1[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="category1">..Fahrräder..</field>
+            <field name="Breite"></field>
+            <field name="category0">Katalog</field>
+            <field name="category3">..BMX Räder ab 300€..</field>
+            <field name="products_best_price">0</field>
+            <field name="category2">..BMX..</field>
+            <field name="evaluation_total"></field>
+            <field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder ab 300€</field>
+            <field name="FFCliplisterQuality"></field>
+            <field name="products_id">232670</field>
+            <field name="products_video">0</field>
+            <field name="AdditionalAttributes"></field>
+            <field name="products_description">
+                <![CDATA[Das Daniel Dhers Pro Modell ist um den 2011 Maceto Rahmen aufgebaut. Es kommt mit Pluma Gabel, Lenker und Sattel, sowie mit den neuesten Entwicklungen aus dem Hause KHE: Die Erlkönig Kurbel, die kaltgeschmiedete Bremse mit Bush Lagern und die Alpha Pedale.Gewicht: 8,9 kgFarbe: silber / blauFelge vorne: KHE BigV rim Felge hinten: KHE BigO rimSpeichen: DT SwissKette: KHE hollowpin halflinkKettenradgarnitur mit 19 mm-Titanium-Hollow-Achse Materialtyp: Stahl , Material: 4130 CrMo , weitere Merkmale: 100% wärmebehandelt , BMX: Street , Marke: Pluma Fork , Material: 4130 Cr-Mo , Anzahl Gänge: 1 , Marke: KHE Erlkönig , Übersetzung Blatt 1: 25 Zähne, Bauart: 3-teilig , Material: 4130 Cr-Mo , Marke: KHE , Bauart: U-Brake , Marke: Pluma , Bauart: 2-teilig , Typ: KHE Shola frontload , : KHE Pyramid  , : KHE Pluma Sattel/Sattelstangen Kombination , Typ: 32 Loch , Typ: 36 Loch , Marke: KHE , Typ: MAC Park , Größe: 20 Zoll, Reifenbreite: 2 Zoll, Marke: KHE , Typ: MAC Park , Größe: 20 Zoll, Reifenbreite: 1.5 Zoll, : KHE Alpha CNC Slim sealed , im Lieferumfang enthalten: ja , Marke: KHE , Typ: Alchemy Pegs , : 8.9 kg (ca.), : KHE Dubz Kettenspanner, Affix bush MidBB Lager]]></field>
+            <field name="imageUrlSmall">
+                <![CDATA[http://www.fahrrad.de/media/products/maceto_pro_silver_1[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="products_name">KHE Maceto Pro silver</field>
+            <field name="AdditionalAttributes_values"></field>
+            <field name="FFAutomaticSearchOptimization">
+                <![CDATA[BMX 100EURO=12|FAHRRAD=17|BMX RA?DER=14|BMX KATALOG=86|KHE FAHRRAD=14|BKMX 300=14]]></field>
+            <field name="cash_back_amount"></field>
+            <field name="month-campaign"></field>
+            <field name="Größe"></field>
+            <field name="products_quantity_unit"></field>
+            <field name="coupon-campaign"></field>
+            <field name="products_special_offer">0</field>
+            <field name="products_price">999.00</field>
+            <field name="availability">3</field>
+            <field name="imageUrlMid">
+                <![CDATA[http://www.fahrrad.de/media/products/maceto_pro_silver_1[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="categories_free_shipping">0</field>
+            <field name="Länge"></field>
+            <field name="products_model_year">2011</field>
+            <field name="products_link_self">http://www.fahrrad.de/fahrraeder/bmx/khe-maceto-pro/232670.html</field>
+            <field name="manufacturers_name">KHE</field>
+            <field name="manufacturers_image">http://www.fahrrad.de/media/products/khe.jpg</field>
+            <field name="manufacturers_free_shipping">0</field>
+            <field name="categories_image"></field>
+            <field name="FFCheckoutCount">0</field>
+            <field name="products_free_shipping">0</field>
+            <field name="manufacturers_id">63</field>
+            <field name="products_quantity"></field>
+            <field name="products_you_save_percent">16.68</field>
+            <field name="FFAfterSearchReorder"></field>
+        </record>
+        <record nr="5" id="278017" relevancy="99.47">
+            <keywords>
+                <keyword>FAHRRAD</keyword>
+                <keyword>KHE FAHRRAD</keyword>
+                <keyword>WHEELER</keyword>
+                <keyword>FAHRRAD HH</keyword>
+            </keywords>
+            <seoPath>/KHE-Shotgun-AD-blue-278017.html</seoPath>
+            <field name="products_ean">..4250583623790..#..4250583623790..</field>
+            <field name="products_retail_price">699.99</field>
+            <field name="__ORIG_POSITION__">6</field>
+            <field name="products_special_offer3">0</field>
+            <field name="products_ranking_profit">14726</field>
+            <field name="FFiPhoneVariants"></field>
+            <field name="Farbe">..blau..</field>
+            <field name="products_special_offer2">0</field>
+            <field name="products_price_min">629.99</field>
+            <field name="products_price_max">629.99</field>
+            <field name="products_image">http://www.fahrrad.de/media/products/1305_012_04_Shotgun_ad.jpg</field>
+            <field name="products_ranking_charge">25939</field>
+            <field name="shop_id">44</field>
+            <field name="products_you_save_money">70.00</field>
+            <field name="imageUrlLarge">
+                <![CDATA[http://www.fahrrad.de/media/products/1305_012_04_Shotgun_ad[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="category1">..Fahrräder..</field>
+            <field name="Breite"></field>
+            <field name="category0">Katalog</field>
+            <field name="category3">..BMX Räder ab 300€..</field>
+            <field name="products_best_price">0</field>
+            <field name="category2">..BMX..</field>
+            <field name="evaluation_total"></field>
+            <field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder ab 300€</field>
+            <field name="FFCliplisterQuality"></field>
+            <field name="products_id">278017</field>
+            <field name="products_video">0</field>
+            <field name="AdditionalAttributes">|Oberrohrlänge=20,6 Zoll|</field>
+            <field name="products_description">
+                <![CDATA[Geometriedaten:Oberrohr: 52,3 cmKettenstrebe: 34,3 cmSteuerrohrwinkel: 75° Materialtyp: Stahl , Material: 4130 CrMo , weitere Merkmale: integrated Headset, removable brake pivots , BMX: Street , Marke: KHE , Material: 4130 Cr-Mo , Typ: Prism, butted and tapered legs , Anzahl Gänge: 1 , Marke: KHE , Typ: Prism , Bauart: 3-teilig , Material: CrMo Arms, 19 mm CrMo spindle, 175 mm , Marke: KHE , Typ: Rotor steel chrome , Anzahl Zähne: 25 Zähne, Typ: MidBB sealed , Bauart: gedichtet , Marke: KHE Prism halflink , Marke: KHE , Typ: Prism - cold forged arms on AFFIX bushing , Bauart: U-Brake , Marke: Prism HD , Marke: KHE , Typ: Prism, multi butted, 8" high - Chrome , Bauart: 2-teilig , Material: 4130 Cr-Mo , Typ: KHE Prism Frontload , Bauart: A-Head , : KHE Shola , : KHE Exhib , Typ: KHE Exhib , Marke: KHE , Typ: Prism Female axle hub, 36 Loch , Marke: KHE , Typ: Prism Female axle cassette hub 9T, 36 Loch , Marke & Typ: Wheel Alienation Deviant vorne / Wheel Alienation Blacksheep double wall hinten , Marke: KHE , Typ: MAC2 steel , Größe: 20 Zoll, Reifenbreite: 2.1 Zoll, Marke: KHE , Typ: MAC2 steel , Größe: 20 Zoll, Reifenbreite: 2.1 Zoll, : Prism thin plastic , im Lieferumfang enthalten: ja , Marke: KHE , Typ: CrMo pegs , : 10.2 kg (ca.), : KHE CNC Seatclamp , : Performance]]></field>
+            <field name="imageUrlSmall">
+                <![CDATA[http://www.fahrrad.de/media/products/1305_012_04_Shotgun_ad[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="products_name">KHE Shotgun AD blue</field>
+            <field name="AdditionalAttributes_values">20,6 Zoll</field>
+            <field name="FFAutomaticSearchOptimization">FAHRRAD=17|BMX RA?DER=15|WHEELER=11|KHE FAHRRAD=15|FAHRRAD
+                HH=5
+            </field>
+            <field name="cash_back_amount"></field>
+            <field name="month-campaign"></field>
+            <field name="Größe"></field>
+            <field name="products_quantity_unit"></field>
+            <field name="coupon-campaign"></field>
+            <field name="products_special_offer">0</field>
+            <field name="products_price">629.99</field>
+            <field name="availability">3</field>
+            <field name="imageUrlMid">
+                <![CDATA[http://www.fahrrad.de/media/products/1305_012_04_Shotgun_ad[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="categories_free_shipping">0</field>
+            <field name="Länge"></field>
+            <field name="products_model_year">2012</field>
+            <field name="products_link_self">http://www.fahrrad.de/fahrraeder/bmx/khe-shotgun-ad-blue/278017.html
+            </field>
+            <field name="manufacturers_name">KHE</field>
+            <field name="manufacturers_image">http://www.fahrrad.de/media/products/khe.jpg</field>
+            <field name="manufacturers_free_shipping">0</field>
+            <field name="categories_image"></field>
+            <field name="FFCheckoutCount">0</field>
+            <field name="products_free_shipping">0</field>
+            <field name="manufacturers_id">63</field>
+            <field name="products_quantity"></field>
+            <field name="products_you_save_percent">10.00</field>
+            <field name="FFAfterSearchReorder"></field>
+        </record>
+        <record nr="6" id="242538" relevancy="99.46">
+            <keywords>
+                <keyword>FIVE TEN</keyword>
+                <keyword>FIVE TEN SCHUHE</keyword>
+                <keyword>DIRTBIKE</keyword>
+            </keywords>
+            <seoPath>/Five-Ten-Impact-2-Low-team-black-242538.html</seoPath>
+            <field name="products_ean">
+                <![CDATA[..0612558122686..#..0612558122686..#..0612558122686..#..0612558122709..#..0612558122709..#..0612558122716..#..0612558122716..#..0612558122716..#..0612558122778..#..0612558122778..#..0612558122785..#..0612558122785..#..0612558122693..#..0612558122693..]]></field>
+            <field name="products_retail_price"></field>
+            <field name="__ORIG_POSITION__">8</field>
+            <field name="products_special_offer3">0</field>
+            <field name="products_ranking_profit">17791</field>
+            <field name="FFiPhoneVariants"></field>
+            <field name="Farbe">
+                <![CDATA[..schwarz..#..schwarz..#..schwarz..#..schwarz..#..schwarz..#..schwarz..]]></field>
+            <field name="products_special_offer2">0</field>
+            <field name="products_price_min">115.00</field>
+            <field name="products_price_max">115.00</field>
+            <field name="products_image">http://www.fahrrad.de/media/products/4026_02.jpg</field>
+            <field name="products_ranking_charge">23613</field>
+            <field name="shop_id">44</field>
+            <field name="products_you_save_money"></field>
+            <field name="imageUrlLarge">
+                <![CDATA[http://www.fahrrad.de/media/products/4026_02[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="category1">..Fahrradbekleidung..</field>
+            <field name="Breite"></field>
+            <field name="category0">Katalog</field>
+            <field name="category3">..BMX/Dirtbike Schuhe..</field>
+            <field name="products_best_price">0</field>
+            <field name="category2">..Fahrradschuhe..</field>
+            <field name="evaluation_total"></field>
+            <field name="category">Katalog &gt;&gt; Fahrradbekleidung &gt;&gt; Fahrradschuhe &gt;&gt; BMX/Dirtbike
+                Schuhe
+            </field>
+            <field name="FFCliplisterQuality"></field>
+            <field name="products_id">242538</field>
+            <field name="products_video">1</field>
+            <field name="AdditionalAttributes">
+                <![CDATA[|Schuhgröße=39|Schuhgröße=40|Schuhgröße=41|Schuhgröße=41|Schuhgröße=42|Schuhgröße=45|Schuhgröße=46|Schuhgröße=40|]]></field>
+            <field name="products_description">
+                <![CDATA[Ursprung einer revolutionären Welle im Gravity-Bikesport. Maximaler Grip, maximale Standfestigkeit und Robustheit. Der geschlossene Impact schützt den Fahrer weitgehend vor allen Widrigkeiten, die von außen kommen können. Der hohe Schaft garantiert maximalen Schutz und Support, die gepolsterte Zunge schützt vor Schlägen. Immer noch das must-have für jeden ambitionierten Gravity-Piloten.Größenübersicht:UK (Men) 5,5 = Dt. 39UK (Men) 6 = Dt. 39,5UK (Men) 6,5 = Dt. 40UK (Men) 7 = Dt. 41UK (Men) 7,5 = Dt. 41,5UK (Men) 8 = Dt. 42UK (Men) 8,5 = Dt. 42,5UK (Men) 9 = Dt. 43UK (Men) 9,5 = Dt. 44UK (Men) 10 = Dt. 44,5UK (Men) 10,5 = Dt. 45UK (Men) 11 = Dt. 46UK (Men) 11,5 = Dt. 46,5UK (Men) 12 = Dt. 47UK (Men) 12,5 = Dt. 48UK (Men) 13 = Dt. 48,5UK (Men) 13,5 = Dt. 49UK (Men) 14 = Dt. 49,5 Zielgruppe: Herren , : Ganzjahresartikel , : BMX/DH , : Stealth S1 , : Schnürsenkel , : PU- beschichtetes Rindleder , : Größe fällt normal aus , : normal geschnitten]]></field>
+            <field name="imageUrlSmall">
+                <![CDATA[http://www.fahrrad.de/media/products/4026_02[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="products_name">Five Ten Impact 2 Low team black</field>
+            <field name="AdditionalAttributes_values">39 40 41 41 42 45 46 40</field>
+            <field name="FFAutomaticSearchOptimization">FIVE TEN SCHUHE=2|DIRTBIKE=2|FIVE TEN=6</field>
+            <field name="cash_back_amount"></field>
+            <field name="month-campaign"></field>
+            <field name="Größe"></field>
+            <field name="products_quantity_unit"></field>
+            <field name="coupon-campaign"></field>
+            <field name="products_special_offer">0</field>
+            <field name="products_price">115.00</field>
+            <field name="availability">3</field>
+            <field name="imageUrlMid">
+                <![CDATA[http://www.fahrrad.de/media/products/4026_02[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="categories_free_shipping">0</field>
+            <field name="Länge"></field>
+            <field name="products_model_year">2012</field>
+            <field name="products_link_self">
+                <![CDATA[http://www.fahrrad.de/bekleidung/fahrradschuhe/five-ten-impact-2-low-team-black/242538.html]]></field>
+            <field name="manufacturers_name">Five Ten</field>
+            <field name="manufacturers_image">http://www.fahrrad.de/media/products/five_ten.jpg</field>
+            <field name="manufacturers_free_shipping">0</field>
+            <field name="categories_image"></field>
+            <field name="FFCheckoutCount">0</field>
+            <field name="products_free_shipping">0</field>
+            <field name="manufacturers_id">1420</field>
+            <field name="products_quantity"></field>
+            <field name="products_you_save_percent"></field>
+            <field name="FFAfterSearchReorder"></field>
+        </record>
+        <record nr="7" id="242550" relevancy="99.46">
+            <keywords>
+                <keyword>BIKES KHE</keyword>
+                <keyword>DIRBIKE</keyword>
+                <keyword>FIVE TEN SCHUH</keyword>
+                <keyword>DOWNHILL BIKES</keyword>
+                <keyword>MONSTER</keyword>
+            </keywords>
+            <seoPath>/Five-Ten-Sam-Hill-monster-green-242550.html</seoPath>
+            <field name="products_ean">
+                <![CDATA[..0612558127582..#..0612558127582..#..0612558127599..#..0612558127599..#..0612558127599..#..0612558127612..#..0612558127612..#..0612558127612..#..0612558127629..#..0612558127629..#..0612558127636..#..0612558127636..#..0612558127643..#..0612558127643..#..0612558127643..#..0612558127650..#..0612558127650..#..0612558127667..#..0612558127667..#..0612558127674..#..0612558127674..#..0612558127568..#..0612558127568..#..0612558127568..#..0612558127575..#..0612558127575..]]></field>
+            <field name="products_retail_price"></field>
+            <field name="__ORIG_POSITION__">7</field>
+            <field name="products_special_offer3">0</field>
+            <field name="products_ranking_profit">17827</field>
+            <field name="FFiPhoneVariants"></field>
+            <field name="Farbe">
+                <![CDATA[..schwarz..#..schwarz..#..schwarz..#..schwarz..#..schwarz..#..schwarz..#..schwarz..#..schwarz..#..schwarz..#..schwarz..#..schwarz..]]></field>
+            <field name="products_special_offer2">0</field>
+            <field name="products_price_min">125.00</field>
+            <field name="products_price_max">125.00</field>
+            <field name="products_image">http://www.fahrrad.de/media/products/4019_02.jpg</field>
+            <field name="products_ranking_charge">23217</field>
+            <field name="shop_id">44</field>
+            <field name="products_you_save_money"></field>
+            <field name="imageUrlLarge">
+                <![CDATA[http://www.fahrrad.de/media/products/4019_02[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="category1">..Fahrradbekleidung..</field>
+            <field name="Breite"></field>
+            <field name="category0">Katalog</field>
+            <field name="category3">..BMX/Dirtbike Schuhe..</field>
+            <field name="products_best_price">0</field>
+            <field name="category2">..Fahrradschuhe..</field>
+            <field name="evaluation_total"></field>
+            <field name="category">Katalog &gt;&gt; Fahrradbekleidung &gt;&gt; Fahrradschuhe &gt;&gt; BMX/Dirtbike
+                Schuhe
+            </field>
+            <field name="FFCliplisterQuality"></field>
+            <field name="products_id">242550</field>
+            <field name="products_video">1</field>
+            <field name="AdditionalAttributes">
+                <![CDATA[|Schuhgröße=41|Schuhgröße=41|Schuhgröße=42|Schuhgröße=42|Schuhgröße=43|Schuhgröße=43|Schuhgröße=44|Schuhgröße=44|Schuhgröße=45|Schuhgröße=45|Schuhgröße=46|Schuhgröße=47|Schuhgröße=39|Schuhgröße=40|Schuhgröße=40|]]></field>
+            <field name="products_description">
+                <![CDATA[Sam Hill hat Klickschuhe schon vor langer Zeit in die Ecke gestellt, um bei Downhill Rennen in Five Ten Schlappen erfolgreich zu sein. Was soll man sagen: Drei Weltmeistertitel und unzählige Podiumplätze geben ihm Recht. Tief geschnitten und wenig gepolstert für direkte Kraftübertragung und Flexibilität, dadurch leichter als reguläre Impact Low. Perforiert für verbesserte Dampfdurchlässigkeit und die Schnürung als Schnellverschluss komplettieren Sam Hills Raceansprüche. Auch für ambitionierte Enduristen im Sommer die Waffe der Wahl, wenn es um Halt, Stabilität und Robustheit auf dem Bike geht.Größenübersicht:UK (Men) 6 = Dt. 39,5UK (Men) 6,5 = Dt. 40UK (Men) 7 = Dt. 41UK (Men) 7,5 = Dt. 41,5UK (Men) 8 = Dt. 42UK (Men) 8,5 = Dt. 42,5UK (Men) 9 = Dt. 43UK (Men) 9,5 = Dt. 44UK (Men) 10 = Dt. 44,5UK (Men) 10,5 = Dt. 45UK (Men) 11 = Dt. 46UK (Men) 11,5 = Dt. 46,5UK (Men) 12 = Dt. 47 Zielgruppe: Herren , : Ganzjahresartikel , : BMX/DH , : Stealth S1 , : Schnürsenkel , : PU- beschichtetes Rindleder , : Größe fällt normal aus , : normal geschnitten]]></field>
+            <field name="imageUrlSmall">
+                <![CDATA[http://www.fahrrad.de/media/products/4019_02[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="products_name">Five Ten Sam Hill monster green</field>
+            <field name="AdditionalAttributes_values">41 41 42 42 43 43 44 44 45 45 46 47 39 40 40</field>
+            <field name="FFAutomaticSearchOptimization">BIKES KHE=13|DIRBIKE=12|MONSTER=3|DOWNHILL BIKES=4|FIVE TEN
+                SCHUH=6
+            </field>
+            <field name="cash_back_amount"></field>
+            <field name="month-campaign"></field>
+            <field name="Größe"></field>
+            <field name="products_quantity_unit"></field>
+            <field name="coupon-campaign"></field>
+            <field name="products_special_offer">0</field>
+            <field name="products_price">125.00</field>
+            <field name="availability">3</field>
+            <field name="imageUrlMid">
+                <![CDATA[http://www.fahrrad.de/media/products/4019_02[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="categories_free_shipping">0</field>
+            <field name="Länge"></field>
+            <field name="products_model_year">2012</field>
+            <field name="products_link_self">
+                <![CDATA[http://www.fahrrad.de/bekleidung/fahrradschuhe/five-ten-sam-hill-monster-green/242550.html]]></field>
+            <field name="manufacturers_name">Five Ten</field>
+            <field name="manufacturers_image">http://www.fahrrad.de/media/products/five_ten.jpg</field>
+            <field name="manufacturers_free_shipping">0</field>
+            <field name="categories_image"></field>
+            <field name="FFCheckoutCount">0</field>
+            <field name="products_free_shipping">0</field>
+            <field name="manufacturers_id">1420</field>
+            <field name="products_quantity"></field>
+            <field name="products_you_save_percent"></field>
+            <field name="FFAfterSearchReorder"></field>
+        </record>
+        <record nr="8" id="242531" relevancy="99.45">
+            <keywords>
+                <keyword>SCHUHE</keyword>
+                <keyword>KONA DIRTBIKE</keyword>
+            </keywords>
+            <seoPath>/Five-Ten-Baron-red-242531.html</seoPath>
+            <field name="products_ean">
+                <![CDATA[..0612558138397..#..0612558138397..#..0612558138397..#..0612558138397..#..0612558138403..#..0612558138403..#..0612558138403..#..0612558138410..#..0612558138410..#..0612558138410..#..0612558138427..#..0612558138427..#..0612558138427..#..0612558138441..#..0612558138441..#..0612558138441..#..0612558138458..#..0612558138458..#..0612558138458..#..0612558138465..#..0612558138465..#..0612558138465..#..0612558138465..#..0612558138472..#..0612558138472..#..0612558138472..#..0612558138472..#..0612558138489..#..0612558138489..#..0612558138489..#..0612558138502..#..0612558138502..#..0612558138502..#..0612558138519..#..0612558138519..#..0612558138519..#..0612558138519..#..0612558138380..#..0612558138380..#..0612558138380..]]></field>
+            <field name="products_retail_price"></field>
+            <field name="__ORIG_POSITION__">10</field>
+            <field name="products_special_offer3">0</field>
+            <field name="products_ranking_profit">17683</field>
+            <field name="FFiPhoneVariants"></field>
+            <field name="Farbe">
+                <![CDATA[..rot..#..schwarz..#..rot..#..schwarz..#..rot..#..schwarz..#..rot..#..schwarz..#..rot..#..schwarz..#..rot..#..schwarz..#..rot..#..schwarz..#..rot..#..schwarz..#..rot..#..schwarz..#..rot..#..schwarz..#..rot..#..schwarz..#..rot..#..schwarz..]]></field>
+            <field name="products_special_offer2">0</field>
+            <field name="products_price_min">110.00</field>
+            <field name="products_price_max">110.00</field>
+            <field name="products_image">http://www.fahrrad.de/media/products/4076_02.jpg</field>
+            <field name="products_ranking_charge">23193</field>
+            <field name="shop_id">44</field>
+            <field name="products_you_save_money"></field>
+            <field name="imageUrlLarge">
+                <![CDATA[http://www.fahrrad.de/media/products/4076_02[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="category1">..Fahrradbekleidung..</field>
+            <field name="Breite"></field>
+            <field name="category0">Katalog</field>
+            <field name="category3">..BMX/Dirtbike Schuhe..</field>
+            <field name="products_best_price">0</field>
+            <field name="category2">..Fahrradschuhe..</field>
+            <field name="evaluation_total"></field>
+            <field name="category">Katalog &gt;&gt; Fahrradbekleidung &gt;&gt; Fahrradschuhe &gt;&gt; BMX/Dirtbike
+                Schuhe
+            </field>
+            <field name="FFCliplisterQuality">175</field>
+            <field name="products_id">242531</field>
+            <field name="products_video">1</field>
+            <field name="AdditionalAttributes">
+                <![CDATA[|Schuhgröße=39|Schuhgröße=40|Schuhgröße=40|Schuhgröße=41|Schuhgröße=41|Schuhgröße=42|Schuhgröße=43|Schuhgröße=44|Schuhgröße=45|Schuhgröße=44|Schuhgröße=45|Schuhgröße=45|Schuhgröße=47|Schuhgröße=48|Schuhgröße=49|Schuhgröße=39|]]></field>
+            <field name="products_description">
+                <![CDATA[Der Baron verkörpert die robuste Variante der äußerst erfolgreichen Freerider und schlägt die Brücke zu den Impact Modellen. Für alle Biker, die leicht und heavy-duty zugleich suchen, kommt der Baron mit verstärkter Zehenkappe und einer versenkten und somit geschützten Schnürung. Der gegossene Sohlenblock mit der Kontakt suchenden Stealth® Phantom Gummimischung klebt in der neuen Mini-Dot Anordnung nicht nur noch einzigartiger, sondern ist so solide, dass er langfristige Beziehungen kurzen Partnerschaften vorzieht. Die zur Zehenspitze sich verjüngende Sohle erleichtert das Abrollen beim Gehen und wartet mit sehr guten Dämpfungseigenschaften auf.Action Leder:Durch eine spezielle Beschichtung ist das Spaltleder widerstandsfähiger gegen Wetter und Verschleiß. Größenübersicht: UK (Men)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6 = Dt. 39,5 UK (Men)&nbsp;&nbsp; 6,5 = Dt. 40 UK (Men)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7 = Dt. 41 UK (Men)&nbsp;&nbsp; 7,5 = Dt. 41,5 UK (Men)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8 = Dt. 42 UK (Men)&nbsp;&nbsp; 8,5 = Dt. 42,5 UK (Men)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9 = Dt. 43 UK (Men)&nbsp;&nbsp; 9,5 = Dt. 44 UK (Men)&nbsp;&nbsp;&nbsp; 10 = Dt. 44,5 UK (Men) 10,5 = Dt. 45 UK (Men)&nbsp;&nbsp;&nbsp; 11 = Dt. 46  UK (Men) 11,5 = Dt. 46,5 UK (Men)&nbsp;&nbsp;&nbsp; 12 = Dt. 47  UK (Men) 12,5 = Dt. 48 UK (Men)&nbsp;&nbsp;&nbsp; 13 = Dt. 48,5  UK (Men) 13,5 = Dt. 49 UK (Men)&nbsp;&nbsp;&nbsp; 14 = Dt. 49,5 Zielgruppe: Herren , : Ganzjahresartikel , : BMX/DH , : Stealth Phantom Black , : Schnürsenkel , : Action Leder , : Größe fällt normal aus , : normal geschnitten]]></field>
+            <field name="imageUrlSmall">
+                <![CDATA[http://www.fahrrad.de/media/products/4076_02[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="products_name">Five Ten Baron red</field>
+            <field name="AdditionalAttributes_values">39 40 40 41 41 42 43 44 45 44 45 45 47 48 49 39</field>
+            <field name="FFAutomaticSearchOptimization">SCHUHE=6|KONA DIRTBIKE=4</field>
+            <field name="cash_back_amount"></field>
+            <field name="month-campaign"></field>
+            <field name="Größe"></field>
+            <field name="products_quantity_unit"></field>
+            <field name="coupon-campaign"></field>
+            <field name="products_special_offer">0</field>
+            <field name="products_price">110.00</field>
+            <field name="availability">3</field>
+            <field name="imageUrlMid">
+                <![CDATA[http://www.fahrrad.de/media/products/4076_02[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="categories_free_shipping">0</field>
+            <field name="Länge"></field>
+            <field name="products_model_year">2012</field>
+            <field name="products_link_self">
+                <![CDATA[http://www.fahrrad.de/bekleidung/fahrradschuhe/five-ten-baron-red/242531.html]]></field>
+            <field name="manufacturers_name">Five Ten</field>
+            <field name="manufacturers_image">http://www.fahrrad.de/media/products/five_ten.jpg</field>
+            <field name="manufacturers_free_shipping">0</field>
+            <field name="categories_image"></field>
+            <field name="FFCheckoutCount">0</field>
+            <field name="products_free_shipping">0</field>
+            <field name="manufacturers_id">1420</field>
+            <field name="products_quantity"></field>
+            <field name="products_you_save_percent"></field>
+            <field name="FFAfterSearchReorder"></field>
+        </record>
+        <record nr="9" id="242546" relevancy="99.45">
+            <keywords>
+                <keyword>FIVE TEN SCHUH</keyword>
+                <keyword>FIVE TEN SCHUHE</keyword>
+                <keyword>FIVETEN</keyword>
+            </keywords>
+            <seoPath>/Five-Ten-Impact-2-High-team-black-242546.html</seoPath>
+            <field name="products_ean">
+                <![CDATA[..0612558122808..#..0612558122808..#..0612558122808..#..0612558122822..#..0612558122822..#..0612558122839..#..0612558122839..#..0612558122839..#..0612558122846..#..0612558122846..#..0612558122860..#..0612558122860..#..0612558122877..#..0612558122877..#..0612558122884..#..0612558122884..#..0612558122884..#..0612558122891..#..0612558122891..#..0612558122907..#..0612558122907..#..0612558122914..#..0612558122914..#..0612558122815..#..0612558122815..]]></field>
+            <field name="products_retail_price"></field>
+            <field name="__ORIG_POSITION__">9</field>
+            <field name="products_special_offer3">0</field>
+            <field name="products_ranking_profit">17736</field>
+            <field name="FFiPhoneVariants"></field>
+            <field name="Farbe">
+                <![CDATA[..schwarz..#..schwarz..#..schwarz..#..schwarz..#..schwarz..#..schwarz..#..schwarz..#..schwarz..#..schwarz..#..schwarz..#..schwarz..]]></field>
+            <field name="products_special_offer2">0</field>
+            <field name="products_price_min">120.00</field>
+            <field name="products_price_max">120.00</field>
+            <field name="products_image">http://www.fahrrad.de/media/products/4027_02.jpg</field>
+            <field name="products_ranking_charge">23176</field>
+            <field name="shop_id">44</field>
+            <field name="products_you_save_money"></field>
+            <field name="imageUrlLarge">
+                <![CDATA[http://www.fahrrad.de/media/products/4027_02[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="category1">..Fahrradbekleidung..</field>
+            <field name="Breite"></field>
+            <field name="category0">Katalog</field>
+            <field name="category3">..BMX/Dirtbike Schuhe..</field>
+            <field name="products_best_price">0</field>
+            <field name="category2">..Fahrradschuhe..</field>
+            <field name="evaluation_total"></field>
+            <field name="category">Katalog &gt;&gt; Fahrradbekleidung &gt;&gt; Fahrradschuhe &gt;&gt; BMX/Dirtbike
+                Schuhe
+            </field>
+            <field name="FFCliplisterQuality"></field>
+            <field name="products_id">242546</field>
+            <field name="products_video">1</field>
+            <field name="AdditionalAttributes">
+                <![CDATA[|Schuhgröße=39|Schuhgröße=40|Schuhgröße=41|Schuhgröße=41|Schuhgröße=42|Schuhgröße=42|Schuhgröße=43|Schuhgröße=44|Schuhgröße=44|Schuhgröße=45|Schuhgröße=45|Schuhgröße=46|Schuhgröße=47|Schuhgröße=40|]]></field>
+            <field name="products_description">
+                <![CDATA[Ursprung einer revolutionären Welle im Gravity-Bikesport. Maximaler Grip, maximale Standfestigkeit und Robustheit. Der geschlossene Impact schützt den Fahrer weitgehend vor allen Widrigkeiten, die von außen kommen können. Der hohe Schaft garantiert maximalen Schutz und Support, die gepolsterte Zunge schützt vor Schlägen. Immer noch das must-have für jeden ambitionierten Gravity-Piloten.Größenübersicht:UK (Men) 5,5 = Dt. 39UK (Men) 6 = Dt. 39,5UK (Men) 6,5 = Dt. 40UK (Men) 7 = Dt. 41UK (Men) 7,5 = Dt. 41,5UK (Men) 8 = Dt. 42UK (Men) 8,5 = Dt. 42,5UK (Men) 9 = Dt. 43UK (Men) 9,5 = Dt. 44UK (Men) 10 = Dt. 44,5UK (Men) 10,5 = Dt. 45UK (Men) 11 = Dt. 46UK (Men) 11,5 = Dt. 46,5UK (Men) 12 = Dt. 47UK (Men) 12,5 = Dt. 48UK (Men) 13 = Dt. 48,5UK (Men) 13,5 = Dt. 49UK (Men) 14 = Dt. 49,5 Zielgruppe: Herren , : Ganzjahresartikel , : BMX/DH , : Stealth S1 , : Schnürsenkel , : PU- beschichtetes Rindleder , : Größe fällt normal aus , : normal geschnitten]]></field>
+            <field name="imageUrlSmall">
+                <![CDATA[http://www.fahrrad.de/media/products/4027_02[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="products_name">Five Ten Impact 2 High team black</field>
+            <field name="AdditionalAttributes_values">39 40 41 41 42 42 43 44 44 45 45 46 47 40</field>
+            <field name="FFAutomaticSearchOptimization">FIVE TEN SCHUHE=5|FIVE TEN SCHUH=8|FIVETEN=5</field>
+            <field name="cash_back_amount"></field>
+            <field name="month-campaign"></field>
+            <field name="Größe"></field>
+            <field name="products_quantity_unit"></field>
+            <field name="coupon-campaign"></field>
+            <field name="products_special_offer">0</field>
+            <field name="products_price">120.00</field>
+            <field name="availability">3</field>
+            <field name="imageUrlMid">
+                <![CDATA[http://www.fahrrad.de/media/products/4027_02[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="categories_free_shipping">0</field>
+            <field name="Länge"></field>
+            <field name="products_model_year">2012</field>
+            <field name="products_link_self">
+                <![CDATA[http://www.fahrrad.de/bekleidung/fahrradschuhe/five-ten-impact-2-high-team-black/242546.html]]></field>
+            <field name="manufacturers_name">Five Ten</field>
+            <field name="manufacturers_image">http://www.fahrrad.de/media/products/five_ten.jpg</field>
+            <field name="manufacturers_free_shipping">0</field>
+            <field name="categories_image"></field>
+            <field name="FFCheckoutCount">0</field>
+            <field name="products_free_shipping">0</field>
+            <field name="manufacturers_id">1420</field>
+            <field name="products_quantity"></field>
+            <field name="products_you_save_percent"></field>
+            <field name="FFAfterSearchReorder"></field>
+        </record>
+        <record nr="10" id="242514" relevancy="99.41">
+            <keywords>
+                <keyword>FIVETEN</keyword>
+            </keywords>
+            <seoPath>/Five-Ten-Freerider-white-tiger-242514.html</seoPath>
+            <field name="products_ean">
+                <![CDATA[..0612558141373..#..0612558141373..#..0612558141373..#..0612558141397..#..0612558141397..#..0612558141397..#..0612558141403..#..0612558141403..#..0612558141410..#..0612558141410..#..0612558141427..#..0612558141427..#..0612558141427..#..0612558141434..#..0612558141434..#..0612558141441..#..0612558141441..#..0612558141458..#..0612558141458..]]></field>
+            <field name="products_retail_price"></field>
+            <field name="__ORIG_POSITION__">11</field>
+            <field name="products_special_offer3">0</field>
+            <field name="products_ranking_profit">17321</field>
+            <field name="FFiPhoneVariants"></field>
+            <field name="Farbe">
+                <![CDATA[..weiß..#..weiß..#..weiß..#..weiß..#..weiß..#..weiß..#..weiß..#..weiß..]]></field>
+            <field name="products_special_offer2">0</field>
+            <field name="products_price_min">100.00</field>
+            <field name="products_price_max">100.00</field>
+            <field name="products_image">http://www.fahrrad.de/media/products/4075_02.jpg</field>
+            <field name="products_ranking_charge">21218</field>
+            <field name="shop_id">44</field>
+            <field name="products_you_save_money"></field>
+            <field name="imageUrlLarge">
+                <![CDATA[http://www.fahrrad.de/media/products/4075_02[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="category1">..Fahrradbekleidung..</field>
+            <field name="Breite"></field>
+            <field name="category0">Katalog</field>
+            <field name="category3">..BMX/Dirtbike Schuhe..</field>
+            <field name="products_best_price">0</field>
+            <field name="category2">..Fahrradschuhe..</field>
+            <field name="evaluation_total"></field>
+            <field name="category">Katalog &gt;&gt; Fahrradbekleidung &gt;&gt; Fahrradschuhe &gt;&gt; BMX/Dirtbike
+                Schuhe
+            </field>
+            <field name="FFCliplisterQuality"></field>
+            <field name="products_id">242514</field>
+            <field name="products_video">1</field>
+            <field name="AdditionalAttributes">
+                <![CDATA[|Schuhgröße=41|Schuhgröße=42|Schuhgröße=42|Schuhgröße=43|Schuhgröße=43|Schuhgröße=44|Schuhgröße=44|Schuhgröße=45|Schuhgröße=45|Schuhgröße=46|Schuhgröße=47|]]></field>
+            <field name="products_description">
+                <![CDATA[Das Erfolgsmodell, das die Klammer um praktisch alle Freeride- und Freestyle Disziplinen zieht, bekommt extrovertierten Zuwachs. Leicht, robust und Stil bewusst, das sind die Qualitäten, mit denen die Freerider aufwarten können und mittlerweile auch Trailrider und All Mountain Fahrer zum Umdenken anregen. Die in einem Block gegossene Bodengruppe aus Stealth® Rubber ist schlicht zu überzeugend in Bezug auf Reibung, Haltbarkeit und Standfläche. In Black Grey als luftig-leichte Mesh-Nubuck Version perfekt für Sommer und Alltag, in den anderen Farbstellungen als eher geschlossene, wetterfeste Variante mit PU-beschichtetem Rindleder als Oberstoff.Größenübersicht:UK (Men) 5,5 = Dt. 39UK (Men) 6 = Dt. 39,5UK (Men) 6,5 = Dt. 40UK (Men) 7 = Dt. 41UK (Men) 7,5 = Dt. 41,5UK (Men) 8 = Dt. 42UK (Men) 8,5 = Dt. 42,5UK (Men) 9 = Dt. 43UK (Men) 9,5 = Dt. 44UK (Men) 10 = Dt. 44,5UK (Men) 10,5 = Dt. 45UK (Men) 11 = Dt. 46UK (Men) 11,5 = Dt. 46,5UK (Men) 12 = Dt. 47UK (Men) 12,5 = Dt. 48UK (Men) 13 = Dt. 48,5UK (Men) 13,5 = Dt. 49UK (Men) 14 = Dt. 49,5 Zielgruppe: Herren , : Ganzjahresartikel , : BMX/DH , : Stealth S1 , : Schnürsenkel , : PU-beschichtetes Rindleder , : Größe fällt normal aus , : normal geschnitten]]></field>
+            <field name="imageUrlSmall">
+                <![CDATA[http://www.fahrrad.de/media/products/4075_02[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="products_name">Five Ten Freerider white tiger</field>
+            <field name="AdditionalAttributes_values">41 42 42 43 43 44 44 45 45 46 47</field>
+            <field name="FFAutomaticSearchOptimization">FIVETEN=5</field>
+            <field name="cash_back_amount"></field>
+            <field name="month-campaign"></field>
+            <field name="Größe"></field>
+            <field name="products_quantity_unit"></field>
+            <field name="coupon-campaign"></field>
+            <field name="products_special_offer">0</field>
+            <field name="products_price">100.00</field>
+            <field name="availability">3</field>
+            <field name="imageUrlMid">
+                <![CDATA[http://www.fahrrad.de/media/products/4075_02[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="categories_free_shipping">0</field>
+            <field name="Länge"></field>
+            <field name="products_model_year">2012</field>
+            <field name="products_link_self">
+                <![CDATA[http://www.fahrrad.de/bekleidung/fahrradschuhe/five-ten-freerider-white-tiger/242514.html]]></field>
+            <field name="manufacturers_name">Five Ten</field>
+            <field name="manufacturers_image">http://www.fahrrad.de/media/products/five_ten.jpg</field>
+            <field name="manufacturers_free_shipping">0</field>
+            <field name="categories_image"></field>
+            <field name="FFCheckoutCount">0</field>
+            <field name="products_free_shipping">0</field>
+            <field name="manufacturers_id">1420</field>
+            <field name="products_quantity"></field>
+            <field name="products_you_save_percent"></field>
+            <field name="FFAfterSearchReorder"></field>
+        </record>
+        <record nr="11" id="226879" relevancy="99.4">
+            <keywords>
+                <keyword>SIXPACK ALUPINS</keyword>
+                <keyword>ICON</keyword>
+                <keyword>BMX PEDALE</keyword>
+                <keyword>PEDALE</keyword>
+                <keyword>DIRT</keyword>
+            </keywords>
+            <seoPath>/Sixpack-Pedal-Icon-AL-226879.html</seoPath>
+            <field name="products_ean">
+                <![CDATA[..2200000650696..#..2200000650702..#..4250454288196..#..4250454288219..]]></field>
+            <field name="products_retail_price"></field>
+            <field name="__ORIG_POSITION__">12</field>
+            <field name="products_special_offer3">0</field>
+            <field name="products_ranking_profit">17158</field>
+            <field name="FFiPhoneVariants"></field>
+            <field name="Farbe">..rot..#..grau..#..blau..#..violett..</field>
+            <field name="products_special_offer2">0</field>
+            <field name="products_price_min">84.99</field>
+            <field name="products_price_max">87.99</field>
+            <field name="products_image">http://www.fahrrad.de/media/products/SIXPACK_PEDAL_ICON_AL_GROUP.jpg</field>
+            <field name="products_ranking_charge">23293</field>
+            <field name="shop_id">44</field>
+            <field name="products_you_save_money"></field>
+            <field name="imageUrlLarge">
+                <![CDATA[http://www.fahrrad.de/media/products/SIXPACK_PEDAL_ICON_AL_GROUP[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="category1">..Fahrradteile..</field>
+            <field name="Breite"></field>
+            <field name="category0">Katalog</field>
+            <field name="category3">..BMX / Dirt / FR Pedale..</field>
+            <field name="products_best_price">0</field>
+            <field name="category2">..Pedale..</field>
+            <field name="evaluation_total"></field>
+            <field name="category">Katalog &gt;&gt; Fahrradteile &gt;&gt; Pedale &gt;&gt; BMX / Dirt / FR Pedale</field>
+            <field name="FFCliplisterQuality">175</field>
+            <field name="products_id">226879</field>
+            <field name="products_video">1</field>
+            <field name="AdditionalAttributes"></field>
+            <field name="products_description">
+                <![CDATA[Der Dauerbrenner von Sixpack, das Icon -AL- low profile Pedal mit lediglich 17mm Höhe. Mit gerade mal 435g im Paar, stabil für alles, egal ob Downhill, Freeride, Dirt, das ICON macht alles mit. Für die, die das beste aus Stabilität, Grip, Gewicht und Preis rausholen wollen.Für den unglaublichen Grip verwendet SIXPACK ausschließlich austauschbare 10mm lange Innensechskant Pins.Details: - 2 gedichtete Industrielager + 1 Gleitlager- 28 Pins / Paar- 17mm flach (low profile)- inkl. 4 extra Pins/Paar : Downhill & Freeride , : Blockpedal , Pedalachse: CR-MO Achse , Pedalkörper: Aluminium 6061 CNC , : 435 g, Maße (L x B): 100x95 mm]]></field>
+            <field name="imageUrlSmall">
+                <![CDATA[http://www.fahrrad.de/media/products/SIXPACK_PEDAL_ICON_AL_GROUP[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="products_name">Sixpack Pedal Icon AL</field>
+            <field name="AdditionalAttributes_values"></field>
+            <field name="FFAutomaticSearchOptimization">BMX PEDALE=11|ICON=12|PEDALE=6|DIRT=1|SIXPACK ALUPINS=38</field>
+            <field name="cash_back_amount"></field>
+            <field name="month-campaign"></field>
+            <field name="Größe"></field>
+            <field name="products_quantity_unit"></field>
+            <field name="coupon-campaign"></field>
+            <field name="products_special_offer">0</field>
+            <field name="products_price">84.99</field>
+            <field name="availability">3</field>
+            <field name="imageUrlMid">
+                <![CDATA[http://www.fahrrad.de/media/products/SIXPACK_PEDAL_ICON_AL_GROUP[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="categories_free_shipping">0</field>
+            <field name="Länge"></field>
+            <field name="products_model_year">2012</field>
+            <field name="products_link_self">
+                <![CDATA[http://www.fahrrad.de/fahrradteile/pedale/sixpack-pedal-icon-al/226879.html]]></field>
+            <field name="manufacturers_name">Sixpack</field>
+            <field name="manufacturers_image">http://www.fahrrad.de/media/products/sixpack.jpg</field>
+            <field name="manufacturers_free_shipping">0</field>
+            <field name="categories_image"></field>
+            <field name="FFCheckoutCount">1</field>
+            <field name="products_free_shipping">0</field>
+            <field name="manufacturers_id">1219</field>
+            <field name="products_quantity"></field>
+            <field name="products_you_save_percent"></field>
+            <field name="FFAfterSearchReorder"></field>
+        </record>
+    </results>
+</ff>

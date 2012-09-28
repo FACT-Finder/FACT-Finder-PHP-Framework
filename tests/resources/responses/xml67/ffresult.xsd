@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<!-- Mit XMLSpy v2006 rel. 3 sp2 bearbeitet (http://www.altova.com) von ew (EMBRACE) -->
+	<!-- Mit XMLSpy v2006 rel. 3 sp2 bearbeitet (http://www.altova.com) von ew (EMBRACE) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="asn">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="group" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="breadCrumbTrail">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="item" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="singleWordSearch">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="item" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="campaign">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="category" />
+				<xs:element ref="target" />
+				<xs:element ref="feedback" minOccurs="0" />
+				<xs:element ref="pushedProducts" minOccurs="0" />
+				<xs:element ref="advisor" minOccurs="0" />
+			</xs:sequence>
+			<xs:attribute name="nr" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:minInclusive value="0" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="name" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:whiteSpace value="collapse" />
+						<xs:minLength value="1" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="flavour" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="ADVISOR" />
+						<xs:enumeration value="REDIRECT" />
+						<xs:enumeration value="FEEDBACK" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="campaigns">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="campaign" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="category">
+		<xs:simpleType>
+			<xs:restriction base="xs:string" />
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="channel">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:minLength value="1" />
+				<xs:whiteSpace value="collapse" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="destination" type="xs:string" />
+	<xs:element name="element">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="searchParams" />
+			</xs:sequence>
+			<xs:attribute name="field" type="xs:string"></xs:attribute>
+			<xs:attribute name="name" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="count" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:minInclusive value="0" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="clusterLevel" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:minInclusive value="0" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="selected" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:boolean" />
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="previewImage" use="optional">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="selectedMin" use="optional" type="xs:integer" />
+			<xs:attribute name="selectedMax" use="optional" type="xs:integer" />
+			<xs:attribute name="absoluteMin" use="optional" type="xs:integer" />
+			<xs:attribute name="absoluteMax" use="optional" type="xs:integer" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="feedback">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="text" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ff">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="searchStatus" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="articleNumberSearchStatus" minOccurs="0">
+				</xs:element>
+				<xs:element ref="searchTimedOut" minOccurs="0" />
+				<xs:element name="productsPerPageOptions" maxOccurs="1" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="option" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="1" maxOccurs="1">
+										<xs:element ref="searchParams" />
+									</xs:sequence>
+									<xs:attribute name="value" type="xs:integer" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="default" type="xs:integer" use="required" />
+						<xs:attribute name="selected" type="xs:integer" use="required" />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="searchControlParams">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="disableCache" type="xs:boolean" maxOccurs="1" minOccurs="1" />
+							<xs:element name="generateAdvisorTree" type="xs:boolean" maxOccurs="1" minOccurs="1" />
+							<xs:element name="idsOnly" type="xs:boolean" maxOccurs="1" minOccurs="1" />
+							<xs:element name="useAsn" type="xs:boolean" maxOccurs="1" minOccurs="1" />
+							<xs:element name="useCampaigns" type="xs:boolean" maxOccurs="1" minOccurs="1" />
+							<xs:element name="useFoundWords" type="xs:boolean" maxOccurs="1" minOccurs="1" />
+							<xs:element name="useKeywords" type="xs:boolean" maxOccurs="1" minOccurs="1" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="searchParams" maxOccurs="1" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="searchPhrase" maxOccurs="1" minOccurs="0" />
+							<xs:element ref="seoPath" maxOccurs="1" minOccurs="0" />
+							<xs:element ref="filters" minOccurs="0" />
+							<xs:element ref="channel" maxOccurs="1" minOccurs="1" />
+							<xs:element ref="productsPerPage" minOccurs="0" />
+							<xs:element name="searchField" type="xs:string" minOccurs="0" />
+							<xs:element name="sorts" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="sort" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="name" use="required">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:minLength value="1" fixed="false" />
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="method" use="required">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:enumeration value="asc" />
+															<xs:enumeration value="desc" />
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="page" minOccurs="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:int">
+										<xs:minInclusive value="1" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element ref="breadCrumbTrail" minOccurs="0" />
+				<xs:element ref="campaigns" minOccurs="0" />
+				<xs:element ref="asn" minOccurs="0" />
+				<xs:element ref="paging" minOccurs="0" />
+				<xs:element ref="sorting" minOccurs="0" />
+				<xs:element ref="singleWordSearch" minOccurs="0" />
+				<xs:element ref="results" maxOccurs="1" minOccurs="0" />
+				<xs:element ref="error" maxOccurs="1" minOccurs="0"></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="field">
+		<xs:complexType mixed="true">
+			<xs:attribute name="name" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="0" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="filters">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="filter" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="group">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="element" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute name="name" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="detailedLinks" type="xs:int" use="required" />
+			<xs:attribute name="unit" use="optional" />
+			<xs:attribute name="style" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="item">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="record" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="searchParams" />
+			</xs:sequence>
+			<xs:attribute name="nr" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:minInclusive value="0" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="type" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="search" />
+						<xs:enumeration value="filter" />
+						<xs:enumeration value="advisor" />
+						<xs:enumeration value="unspecified" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="word" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="count" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:minInclusive value="0" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="value" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="fieldName" type="xs:string" use="optional" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="name" type="xs:string" />
+	<xs:element name="paging">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="searchParams" />
+				<xs:element name="settings" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="linkCount" type="xs:int" maxOccurs="1" minOccurs="1" />
+							<xs:element name="nextCaption" type="xs:string" maxOccurs="1" minOccurs="1" />
+							<xs:element name="previousCaption" type="xs:string" maxOccurs="1" minOccurs="1" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="pageCount" type="xs:int" use="required" />
+			<xs:attribute name="currentPage" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:minInclusive value="0" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="productsPerPage" use="optional">
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:minInclusive value="1" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="product">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="field" maxOccurs="unbounded" />
+				<xs:element name="seoPath" type="xs:string" maxOccurs="1" minOccurs="0"></xs:element>
+			</xs:sequence>
+			<xs:attribute name="nr" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:byte">
+						<xs:minInclusive value="0" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="id" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="0" />
+						<xs:whiteSpace value="collapse" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="productsPerPage">
+		<xs:simpleType>
+			<xs:restriction base="xs:int">
+				<xs:minInclusive value="1" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="pushedProducts">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="product" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute name="count" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:byte">
+						<xs:minInclusive value="0" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="mode" type="xs:string"></xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="advisor">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="activeQuestions" minOccurs="1" maxOccurs="1" />
+				<xs:element ref="advisorTree" minOccurs="0" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="activeQuestions">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="question" minOccurs="1" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="question">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="text" minOccurs="1" maxOccurs="1" type="xs:string"/>
+				<xs:element ref="answer" minOccurs="1" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:integer" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="answer">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="text" minOccurs="1" maxOccurs="1" type="xs:string"/>
+				<xs:element name="params" type="xs:string" />
+				<xs:element ref="question" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:integer" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="advisorTree">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="question" minOccurs="1" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="recommendation">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="similarWords" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="record">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="keywords" type="keywordsType" maxOccurs="1" minOccurs="0"></xs:element>
+				<xs:element name="seoPath" type="xs:string" maxOccurs="1" minOccurs="0"></xs:element>
+				<xs:element ref="field" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute name="nr" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:minInclusive value="0" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="id" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="0" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="relevancy" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:float">
+						<xs:minInclusive value="0"></xs:minInclusive>
+						<xs:maxInclusive value="100"></xs:maxInclusive>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="results">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="record" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute name="count" type="xs:int" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="searchParams">
+		<xs:simpleType>
+			<xs:restriction base="xs:string" />
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="searchPhrase">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:minLength value="0"></xs:minLength>
+				<xs:whiteSpace value="collapse"></xs:whiteSpace>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="seoPath">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:minLength value="3"></xs:minLength>
+				<xs:whiteSpace value="collapse"></xs:whiteSpace>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="searchStatus">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:whiteSpace value="collapse" />
+				<xs:minLength value="0" />
+				<xs:enumeration value="resultsFound" />
+				<xs:enumeration value="nothingFound" />
+				<xs:enumeration value="errorOccured" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="searchTimedOut">
+		<xs:simpleType>
+			<xs:restriction base="xs:boolean">
+				<xs:whiteSpace value="collapse" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="similarWord">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="searchParams" />
+			</xs:sequence>
+			<xs:attribute name="name" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="similarWords">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="similarWord" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="sort">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="searchParams" />
+			</xs:sequence>
+			<xs:attribute name="name" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="0" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="description" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="0" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="method" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="asc" />
+						<xs:enumeration value="desc" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="selected" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:boolean" />
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="sorting">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="sort" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="target">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name" />
+				<xs:element ref="destination" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="text">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="nr">
+						<xs:simpleType>
+							<xs:restriction base="xs:int">
+								<xs:minInclusive value="0" />
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+					<xs:attribute name="label" use="required" type="xs:string" />
+					<xs:attribute name="html" use="required" type="xs:boolean" />
+				</xs:extension>
+			</xs:simpleContent>
+
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="filter">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="name" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:minLength value="1" />
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+					<xs:attribute name="exclude" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:boolean" />
+						</xs:simpleType>
+					</xs:attribute>
+					<xs:attribute name="valueType" type="xs:string" use="optional">
+					</xs:attribute>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="articleNumberSearchStatus">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="noArticleNumberSearch"></xs:enumeration>
+				<xs:enumeration value="nothingFound"></xs:enumeration>
+				<xs:enumeration value="resultsFound"></xs:enumeration>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="error" type="xs:string"></xs:element>
+
+	<xs:complexType name="keywordsType">
+		<xs:sequence>
+			<xs:element name="keyword" type="xs:string" maxOccurs="unbounded" minOccurs="1"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
