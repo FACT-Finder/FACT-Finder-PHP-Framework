@@ -330,6 +330,11 @@ class FACTFinder_ParametersParser
         return $this->requestTarget;
     }
 
+    public function setRequestTarget($target)
+    {
+        $this->requestTarget = $target;
+    }
+
     /**
      * do mapping for a params array with the page mapping settings from the config. so this method expects server params
      * and return params for the page
