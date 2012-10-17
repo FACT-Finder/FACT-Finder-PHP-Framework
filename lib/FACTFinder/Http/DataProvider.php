@@ -15,12 +15,10 @@
  * @package   FACTFinder\Http
  */
 
-include_once LIB_DIR . DS . 'SAI' . DS . 'Curl.php';
-
 class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
 {
     /**
-     * @var SAI_CurlInterface
+     * @var FACTFinder_CurlInterface
      */
     protected $curl;
 
@@ -41,10 +39,10 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
     protected $lastCurlErrno = null;
     protected $lastCurlError = null;
 
-	function __construct(array $params = null, FACTFinder_Abstract_Configuration $config = null, FACTFinder_Abstract_Logger $log = null, SAI_CurlInterface $curl = null) {
+	function __construct(array $params = null, FACTFinder_Abstract_Configuration $config = null, FACTFinder_Abstract_Logger $log = null, FACTFinder_CurlInterface $curl = null) {
         if($curl === null)
         {
-            $curl = new SAI_Curl();
+            $curl = FF::getInstance('curl');
         }
         $this->curl = $curl;
         $this->urlBuilder = FF::getInstance('http/urlBuilder', $params, $config, $log);

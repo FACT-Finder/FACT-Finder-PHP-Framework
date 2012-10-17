@@ -3,8 +3,8 @@
  * Implements the cURL interface by simply delegating calls to the built-in cURL functions..
  * See http://www.php.net/manual/en/book.curl.php
  **/
-class SAI_Curl
-    implements SAI_CurlInterface
+class FACTFinder_Curl
+    implements FACTFinder_CurlInterface
 {
 
     public function curl_close($ch)

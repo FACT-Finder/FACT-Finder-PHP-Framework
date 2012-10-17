@@ -3,11 +3,8 @@
  * Stubs the cURL interface without issuing any PHP requests.
  **/
 
-require_once dirname(__FILE__).DIRECTORY_SEPARATOR.'CurlInterface.php';
-require_once 'Curl/Handle.php';
-
-class SAI_CurlStub
-    implements SAI_CurlInterface
+class FACTFinder_CurlStub
+    implements FACTFinder_CurlInterface
 {
     private $_lastHandle = -1;
 
@@ -18,7 +15,7 @@ class SAI_CurlStub
     private $_mapInfo = array();
 
     /**
-     * @var array of SAI_Curl_Handle
+     * @var array of FACTFinder_CurlHandle
      */
     private $_handles = array();
 
@@ -49,7 +46,7 @@ class SAI_CurlStub
     public function curl_error($ch)
     {
         $errno = $this->curl_errno($ch);
-        return SAI_CurlStub::$errorLookup[$errno];
+        return FACTFinder_CurlStub::$errorLookup[$errno];
     }
 
     public function curl_exec($ch)
@@ -58,7 +55,7 @@ class SAI_CurlStub
             return false;
 
         /**
-         * @var $handle SAI_Curl_Handle
+         * @var $handle FACTFinder_CurlHandle
          */
         $handle = $this->_handles[$ch];
 
@@ -90,7 +87,7 @@ class SAI_CurlStub
     {
         $ch = ++$this->_lastHandle;
 
-        $handle = new SAI_Curl_Handle();
+        $handle = FF::getInstance('curlHandle');
 
         $handle->options = array(
             CURLOPT_RETURNTRANSFER => false

@@ -21,8 +21,6 @@ define('USERDATA_DIR', DEMO_DIR.DS.'userdata');
 require_once I18N_DIR.DS.'class.i18n.inc.php';
 require_once LIB_DIR.DS.'FACTFinder'.DS.'Loader.php';
 
-require_once LIB_DIR.DS.'SAI'.DS.'Curl.php';
-
 include HELPER_DIR.DS.'initialization.php';
 include HELPER_DIR.DS.'rendering.php';
 include HELPER_DIR.DS.'i18n.php';

@@ -11,12 +11,10 @@
  * self-explanatory test
  */
 
-include LIB_DIR . DS . 'SAI' . DS . 'CurlStub.php';
-
 class DataProviderHttpTest extends PHPUnit_Framework_TestCase
 {
     /**
-     * @var SAI_CurlStub
+     * @var FACTFinder_CurlStub
      */
     protected $curlStub;
 
@@ -49,7 +47,7 @@ class DataProviderHttpTest extends PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->curlStub = new SAI_CurlStub();
+        $this->curlStub = FF::getInstance('curlStub');
         $this->dataProvider = FF::getInstance('http/dataProvider', self::$paramsParser->getServerRequestParams(), self::$config, self::$log, $this->curlStub);
     }
 

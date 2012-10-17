@@ -17,7 +17,7 @@ $log->configure(USERDATA_DIR.DS.'log4php.xml');
 $zendConfig = FF::getSingleton('zend/config/xml', USERDATA_DIR.DS.'local.config.xml', 'production');
 $config = FF::getSingleton('configuration', $zendConfig);
 
-$curl = new SAI_Curl();
+$curl = FF::getInstance('curl');
 
 $encodingHandler = FF::getInstance('encodingHandler', $config, $log);
 $paramsParser = FF::getInstance('parametersParser', $config, $encodingHandler, $log);

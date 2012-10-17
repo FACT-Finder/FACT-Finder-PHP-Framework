@@ -2,7 +2,7 @@
 /**
  * Interface for PHP cURL functions.
  **/
-interface SAI_CurlInterface
+interface FACTFinder_CurlInterface
 {
     public function curl_close($ch);
     public function curl_copy_handle($ch);
