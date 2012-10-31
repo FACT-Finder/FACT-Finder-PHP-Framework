@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <config>
     <production>
-		<debug>false</debug>
+		<debug>true</debug>
 
 		<!-- search settings -->
 		<search>
@@ -11,7 +11,7 @@
 			<auth>
 				<user>user</user>
 				<password>userpw</password>
-				<type>simple</type> <!-- possible values: http, simple, advanced -->
+				<type>http</type> <!-- possible values: http, simple, advanced -->
 				<advancedPrefix>FACT-FINDER</advancedPrefix>
 				<advancedPostfix>FACT-FINDER</advancedPostfix>
 			</auth>
@@ -24,8 +24,6 @@
 				<defaultTimeout>4</defaultTimeout>
 				<suggestConnectTimeout>1</suggestConnectTimeout>
 				<suggestTimeout>2</suggestTimeout>
-				<scicConnectTimeout>1</scicConnectTimeout>
-				<scicTimeout>1</scicTimeout>
 				<importConnectTimeout>10</importConnectTimeout>
 				<importTimeout>360</importTimeout>
 			</timeouts>
@@ -35,13 +33,11 @@
 		<params>
 			<!-- parameter settings for the server -->
 			<server>
+				<ignore name="sid" />
+				<mapping from="keywords" to="query" />
 				<ignore name="password" />
 				<ignore name="username" />
 				<ignore name="timestamp" />
-				
-				<!-- Uncommenct the following to display the full advisor tree (debugging purposes only)
-				<required name="generateAdvisorTree" default="true" />
-				-->
 			</server>
 
 			<!-- parameter settings for the client -->
@@ -52,14 +48,15 @@
 				<ignore name="password" />
 				<ignore name="username" />
 				<ignore name="timestamp" />
+				<mapping from="query" to="keywords" />
 			</client>
 		</params>
 
 		<!-- encoding settings -->
 		<encoding>
+			<pageContent>UTF-8</pageContent>
 			<serverURI>UTF-8</serverURI>
-			<pageContent>ISO-8859-15</pageContent>
-			<pageURI>ISO-8859-15</pageURI>
+			<pageURI>UTF-8</pageURI>
 		</encoding>
 	</production>
 </config>

@@ -17,9 +17,11 @@ $log->configure(USERDATA_DIR.DS.'log4php.xml');
 $zendConfig = FF::getSingleton('zend/config/xml', USERDATA_DIR.DS.'local.config.xml', 'production');
 $config = FF::getSingleton('configuration', $zendConfig);
 
+$curl = FF::getInstance('curl');
+
 $encodingHandler = FF::getInstance('encodingHandler', $config, $log);
 $paramsParser = FF::getInstance('parametersParser', $config, $encodingHandler, $log);
-$dataProvider = FF::getInstance('http/dataProvider', $paramsParser->getServerRequestParams(), $config, $log);
+$dataProvider = FF::getInstance('http/dataProvider', $paramsParser->getServerRequestParams(), $config, $log, $curl);
 $scicAdapter = FF::getInstance('http/scicAdapter', $dataProvider, $paramsParser, $encodingHandler, $log);
 
 echo $scicAdapter->doTrackingFromRequest();
