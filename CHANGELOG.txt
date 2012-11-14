@@ -1,3 +1,15 @@
+Version 2.4.9
+    ADD: SCIC timeouts configurable.
+	ADD: Logging of ParallelDataProvider.
+	ADD: New class to construct request URLs (UrlBuilder).
+	ADD: Interface and Stub for cURL functionality.
+	ADD: StatusHelper class that generates one overall error code from cURL-, HTTP- and application errors.
+	ADD: Greatly increased test coverage.
+	ADD: Adapter classes for FACT-Finder 6.8.
+	CHG: Request parameters can now be set on Adapters (which will delegate the calls to their DataProvider)
+	CHG: ScicAdapter can now be reasonably used with a ParallelDataProvider
+	CHG: Request target can be set manually on ParametersParser if it should differ from the current page.
+
 Version 2.4.8
 	CHG: ParallelDataProvider will only retrieve data from DataProviders that are not updated (e.g. because parameters were changed).
 	CHG: ParallelDataProvider will only throw an exception if loadAllData() has not been called since the requested (!) DataProvider has changed.

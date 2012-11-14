@@ -2,7 +2,7 @@
 
 <project name="FACT-Finder PHP Framework" default="build">
 
-	<property name="version"  value="2.4.8" override="true" />
+	<property name="version"  value="2.4.9" override="true" />
     <property name="buildBaseDir" value="./build" override="true" />
 	<property name="packageName" value="FACTFinderPHPFramework" override="true" />
     <property name="srcdir"   value="${project.basedir}" override="true" />
@@ -32,7 +32,7 @@
     <!-- Target: document                              -->
     <!-- ============================================  -->
 	<target name="doc">
-		<phpdoc title="FACT-Finder PHP Framework 2.3"
+		<phpdoc title="FACT-Finder PHP Framework 2.4"
 			destdir="doc\phpdoc"
 			sourcecode="false"
 			output="HTML:Smarty:PHP"
