@@ -14,7 +14,7 @@
  * @version   $Id: SearchAdapter.php 25985 2010-06-30 15:31:53Z rb $
  * @package   FACTFinder\Xml65
  */
-class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Abstract_SearchAdapter
+class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
 {
     protected $status = null;
     protected $isArticleNumberSearch;

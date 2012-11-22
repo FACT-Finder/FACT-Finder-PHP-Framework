@@ -55,7 +55,7 @@ try {
 	
 	switch ($status) {
 		case FACTFinder_Default_SearchAdapter::NO_RESULT:
-			$error = $i18n->msg('error_noResult');
+			$message = $i18n->msg('error_noResult');
 			break;
 		case FACTFinder_Default_SearchAdapter::NOTHING_FOUND:
 			$message = $i18n->msg('nomatch_head_searchFor', htmlspecialchars($ffparams->getQuery()));

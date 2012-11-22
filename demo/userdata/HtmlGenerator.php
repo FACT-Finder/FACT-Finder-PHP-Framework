@@ -86,14 +86,14 @@ class HtmlGenerator
 			$util = FF::getInstance('util', $ffparams, $this->searchAdapter);
 
 			switch ($status) {
-				case FACTFinder_Abstract_SearchAdapter::RESULTS_FOUND:
+				case FACTFinder_Default_SearchAdapter::RESULTS_FOUND:
 					include $this->getTemplate('index');
 					break;
-				case FACTFinder_Abstract_SearchAdapter::NOTHING_FOUND:
+				case FACTFinder_Default_SearchAdapter::NOTHING_FOUND:
 					$message = $i18n->msg('nomatch_head_searchFor', htmlspecialchars($ffparams->getQuery()));
 					include $this->getTemplate('noMatch');
 					break;
-				case FACTFinder_Abstract_SearchAdapter::NO_RESULT:
+				case FACTFinder_Default_SearchAdapter::NO_RESULT:
 					$error = $i18n->msg('error_noResult');
 					include $this->getTemplate('error');
 					break;
@@ -103,7 +103,7 @@ class HtmlGenerator
 		} catch (Exception $e) {
 			if ($e instanceof RedirectException) {
 				$this->doRedirect($e->getMessage());
-			} else if($e->getMessage() == FACTFinder_Abstract_SearchAdapter::NO_QUERY) {
+			} else if($e->getMessage() == FACTFinder_Default_SearchAdapter::NO_QUERY) {
 				$message = $i18n->msg('error_noQuery');
 				include $this->getTemplate('noMatch');
 			} else {
