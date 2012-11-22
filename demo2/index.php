@@ -54,13 +54,13 @@ try {
 	$util = FF::getInstance('util', $ffparams, $searchAdapter);
 	
 	switch ($status) {
-		case FACTFinder_Abstract_SearchAdapter::NO_RESULT:
+		case FACTFinder_Default_SearchAdapter::NO_RESULT:
 			$error = $i18n->msg('error_noResult');
 			break;
-		case FACTFinder_Abstract_SearchAdapter::NOTHING_FOUND:
+		case FACTFinder_Default_SearchAdapter::NOTHING_FOUND:
 			$message = $i18n->msg('nomatch_head_searchFor', htmlspecialchars($ffparams->getQuery()));
 			break;
-		case FACTFinder_Abstract_SearchAdapter::RESULTS_FOUND:
+		case FACTFinder_Default_SearchAdapter::RESULTS_FOUND:
 			break;
 		default:
 			throw new Exception('No result (unknown status)');
@@ -73,11 +73,11 @@ try {
         } else {
                 echo '<meta http-equiv="refresh" content="0; URL='.$url.'"> <a href="'.$url.'"></a>';
         }
-	} elseif ($e->getMessage() == FACTFinder_Abstract_SearchAdapter::NO_QUERY) {
-		$status = FACTFinder_Abstract_SearchAdapter::NO_RESULT;
+	} elseif ($e->getMessage() == FACTFinder_Default_SearchAdapter::NO_QUERY) {
+		$status = FACTFinder_Default_SearchAdapter::NO_RESULT;
 		$message = $i18n->msg('error_noQuery');
 	} else {
-		$status = FACTFinder_Abstract_SearchAdapter::NO_RESULT;
+		$status = FACTFinder_Default_SearchAdapter::NO_RESULT;
 		$message = $e->getMessage();
 	}
 }

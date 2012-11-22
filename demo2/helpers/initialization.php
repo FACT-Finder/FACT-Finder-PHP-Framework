@@ -17,7 +17,7 @@
  * @param	string	$version						A string specifying the type and version of the
  *                              					adapter (e.g. 'xml67' for an XML-based search
  *													adapter and a shop version 6.7)
- * @return	FACTFinder_Abstract_SearchAdapter		The search adapter Singleton
+ * @return	FACTFinder_Default_SearchAdapter		The search adapter Singleton
  **/
 function getSearchAdapter($version, $log) {
 	// TODO: cache configuration somehow, so it must not be loaded every time from harddisk!
@@ -40,7 +40,7 @@ function getSearchAdapter($version, $log) {
  * @param	string	$version						A string specifying the type and version of the
  *                              					adapter (e.g. 'xml67' for an XML-based tag cloud
  *													adapter and a shop version 6.7)
- * @return	FACTFinder_Abstract_SearchAdapter		The tag cloud adapter Singleton
+ * @return	FACTFinder_Default_SearchAdapter		The tag cloud adapter Singleton
  **/
 function getTagCloudAdapter($version, $log) {
 	// TODO: cache configuration somehow, so it must not be loaded every time from harddisk!
