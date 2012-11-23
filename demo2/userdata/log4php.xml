@@ -5,7 +5,7 @@
     </appender>
 	   
 	<logger name="demoshop">
-        <level value="INFO" />
+        <level value="WARN" />
     </logger>
     <root>
         <level value="WARN" />
