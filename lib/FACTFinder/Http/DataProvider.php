@@ -199,7 +199,14 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
      **/
     protected function loadResponse()
     {
-        $this->prepareRequest();
+        try
+        {
+            $this->prepareRequest();
+        }
+        catch(NoRequestTypeException $e)
+        {
+            return "";
+        }
 
         $cResource = $this->curl->curl_init();
 
@@ -232,8 +239,8 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
     public function prepareRequest()
     {
         if ($this->getType() === null) {
-            $this->log->error("Request type missing.");
-            throw new Exception('Request type was not set! Cannot send request without knowing the type.');
+            $this->log->debug("Request type missing.");
+            throw new NoRequestTypeException('Request type was not set! Cannot send request without knowing the type.');
         }
 
         $config = $this->getConfig();
@@ -306,3 +313,11 @@ class FACTFinder_Http_DataProvider extends FACTFinder_Abstract_DataProvider
         return $this->lastCurlErrno;
     }
 }
+
+/**
+ * @internal
+ * Exception type needed for data provider
+ *
+ * @package   FACTFinder\Http
+ */
+class NoRequestTypeException extends Exception {}

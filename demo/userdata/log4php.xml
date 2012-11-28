@@ -5,10 +5,10 @@
     </appender>
 	   
 	<logger name="demoshop">
-        <level value="INFO" />
+        <level value="WARN" />
     </logger>
     <root>
-        <level value="INFO" />
+        <level value="WARN" />
         <appender_ref ref="fileAppender" />
     </root>
 </configuration>

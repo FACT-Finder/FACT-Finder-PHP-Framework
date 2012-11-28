@@ -162,17 +162,6 @@ class DataProviderHttpTest extends PHPUnit_Framework_TestCase
         $this->assertTrue(false, "Call should have thrown an Exception");
     }
 
-    public function testExceptionOnMissingType()
-    {
-        try {
-            $this->dataProvider->getData();
-        } catch(Exception $e) {
-            $this->assertEquals('Request type was not set! Cannot send request without knowing the type.', $e->getMessage());
-            return;
-        }
-        $this->assertTrue(false, "Call should have thrown an Exception");
-    }
-
     public function testGetData()
     {
         $requiredOptions = array(
