@@ -1,3 +1,6 @@
+Version 2.4.10
+    ADD: DefaultAdapters will now replace AbstractAdapters and will act as null objects in that they report empty results (instead of causing exceptions).
+
 Version 2.4.9
     ADD: SCIC timeouts configurable.
 	ADD: Logging of ParallelDataProvider.
