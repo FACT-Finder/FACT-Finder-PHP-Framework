@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+<importProgress>
+	<currentChannel></currentChannel>
+	<progress>0</progress>
+	<percentage></percentage>
+	<totalPercentage></totalPercentage>
+	<finished>false</finished>
+	<running></running>
+	<status>
+		
+			<message>Import mit 51 Feldern für Channel &#039;at&#039;</message>
+		
+			<message>Startzeit: 03.07.2012 09:25:32</message>
+		
+			<message>469 Datensätze aus &#039;Hersteller&#039; (Channel &#039;at&#039;)</message>
+		
+			<message>458 Datensätze aus &#039;Kategorie&#039; (Channel &#039;at&#039;)</message>
+		
+			<message>20.856 Datensätze aus &#039;Produktname&#039; (Channel &#039;at&#039;)</message>
+		
+			<message>122 Datensätze aus &#039;Suchbegriff&#039; (Channel &#039;at&#039;)</message>
+		
+			<message>21.905 Datensätze für Channel &#039;at&#039; in 5 Sekunden importiert</message>
+		
+			<message>Import mit 0 Feldern für Channel &#039;atu&#039;</message>
+		
+			<message>Startzeit: 03.07.2012 09:25:32</message>
+		
+			<message>Import mit 54 Feldern für Channel &#039;ch&#039;</message>
+		
+			<message>Startzeit: 03.07.2012 09:25:32</message>
+		
+			<message>465 Datensätze aus &#039;Hersteller&#039; (Channel &#039;ch&#039;)</message>
+		
+			<message>463 Datensätze aus &#039;Kategorie&#039; (Channel &#039;ch&#039;)</message>
+		
+			<message>130 Datensätze aus &#039;Suchbegriff&#039; (Channel &#039;ch&#039;)</message>
+		
+			<message>18.975 Datensätze aus &#039;Sonstiges&#039; (Channel &#039;ch&#039;)</message>
+		
+			<message>20.033 Datensätze für Channel &#039;ch&#039; in 4 Sekunden importiert</message>
+		
+			<message>Import mit 54 Feldern für Channel &#039;de&#039;</message>
+		
+			<message>Startzeit: 03.07.2012 09:25:32</message>
+		
+			<message>448 Datensätze aus &#039;Hersteller&#039; (Channel &#039;de&#039;)</message>
+		
+			<message>458 Datensätze aus &#039;Kategorie&#039; (Channel &#039;de&#039;)</message>
+		
+			<message>20.413 Datensätze aus &#039;Produktname&#039; (Channel &#039;de&#039;)</message>
+		
+			<message>816 Datensätze aus &#039;Suchbegriff&#039; (Channel &#039;de&#039;)</message>
+		
+			<message>22.135 Datensätze für Channel &#039;de&#039; in 34 Sekunden importiert</message>
+		
+			<message>Import mit 56 Feldern für Channel &#039;de_dq&#039;</message>
+		
+			<message>Startzeit: 03.07.2012 09:25:32</message>
+		
+			<message>448 Datensätze aus &#039;Hersteller&#039; (Channel &#039;de_dq&#039;)</message>
+		
+			<message>458 Datensätze aus &#039;Kategorie&#039; (Channel &#039;de_dq&#039;)</message>
+		
+			<message>20.498 Datensätze aus &#039;Produktname&#039; (Channel &#039;de_dq&#039;)</message>
+		
+			<message>21.404 Datensätze für Channel &#039;de_dq&#039; in 6 Sekunden importiert</message>
+		
+			<message>Import mit 52 Feldern für Channel &#039;fr&#039;</message>
+		
+			<message>Startzeit: 03.07.2012 09:25:32</message>
+		
+			<message>483 Datensätze aus &#039;Hersteller&#039; (Channel &#039;fr&#039;)</message>
+		
+			<message>500 Datensätze aus &#039;Kategorie&#039; (Channel &#039;fr&#039;)</message>
+		
+			<message>20.850 Datensätze aus &#039;Produktname&#039; (Channel &#039;fr&#039;)</message>
+		
+			<message>354 Datensätze aus &#039;Suchbegriff&#039; (Channel &#039;fr&#039;)</message>
+		
+			<message>22.187 Datensätze für Channel &#039;fr&#039; in 15 Sekunden importiert</message>
+		
+			<message>Import mit 53 Feldern für Channel &#039;uk&#039;</message>
+		
+			<message>Startzeit: 03.07.2012 09:25:32</message>
+		
+			<message>414 Datensätze aus &#039;Hersteller&#039; (Channel &#039;uk&#039;)</message>
+		
+			<message>425 Datensätze aus &#039;Kategorie&#039; (Channel &#039;uk&#039;)</message>
+		
+			<message>16.032 Datensätze aus &#039;Produktname&#039; (Channel &#039;uk&#039;)</message>
+		
+			<message>16.871 Datensätze für Channel &#039;uk&#039; in 4 Sekunden importiert</message>
+		
+			<message>124.535 Datensätze insgesamt in 72 Sekunden importiert</message>
+		
+			<message>1.729,65 Datensätze pro Sekunde</message>
+		
+			<message>Beendet: 03.07.2012 09:26:44</message>
+		
+	</status>
+	<errors>
+		
+			<message>Es ist ein Fehler beim Import von Channel &#039;atu&#039; aufgetreten!</message>
+		
+			<message>de.factfinder.jni.FactFinderException: Error while loading the FACT-Finder database [/home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ff.atu.db]
+	at de.factfinder.util.TableHandler$InternalTableHandler.loadTableLocked(TableHandler.java:512)
+	at de.factfinder.util.TableHandler$InternalTableHandler.getTableLocked(TableHandler.java:403)
+	at de.factfinder.util.TableHandler.getTableWithLock(TableHandler.java:183)
+	at de.factfinder.util.TableHandler.getTableWithLock(TableHandler.java:125)
+	at de.factfinder.suggest.DataCollector.getData(DataCollector.java:48)
+	at de.factfinder.suggest.SuggestImport.doImport(SuggestImport.java:130)
+	at de.factfinder.suggest.SuggestImport.doImport(SuggestImport.java:77)
+	at de.factfinder.indexer.importer.SuggestImportImpl.importSingleChannel(SuggestImportImpl.java:62)
+	at de.factfinder.adapters.struts.ImportAction.importSingleChannel(ImportAction.java:626)
+	at de.factfinder.adapters.struts.ImportAction.access$400(ImportAction.java:54)
+	at de.factfinder.adapters.struts.ImportAction$1.run(ImportAction.java:542)
+	at de.factfinder.campaignmanager.RunWithChannelWithException.&amp;lt;init&amp;gt;(RunWithChannelWithException.java:34)
+	at de.factfinder.adapters.struts.ImportAction$1.&amp;lt;init&amp;gt;(ImportAction.java:512)
+	at de.factfinder.adapters.struts.ImportAction.doImport(ImportAction.java:512)
+	at de.factfinder.adapters.struts.ImportAction.run(ImportAction.java:634)
+	at de.factfinder.adapters.struts.ImportAction.startImport(ImportAction.java:212)
+	at de.factfinder.adapters.struts.ImportAction.unspecified(ImportAction.java:162)
+	at org.apache.struts.actions.DispatchAction.dispatchMethod(DispatchAction.java:245)
+	at org.apache.struts.actions.DispatchAction.execute(DispatchAction.java:170)
+	at org.apache.struts.chain.commands.servlet.ExecuteAction.execute(ExecuteAction.java:58)
+	at org.apache.struts.chain.commands.AbstractExecuteAction.execute(AbstractExecuteAction.java:67)
+	at org.apache.struts.chain.commands.ActionCommandBase.execute(ActionCommandBase.java:51)
+	at org.apache.commons.chain.impl.ChainBase.execute(ChainBase.java:191)
+	at org.apache.commons.chain.generic.LookupCommand.execute(LookupCommand.java:305)
+	at org.apache.commons.chain.impl.ChainBase.execute(ChainBase.java:191)
+	at org.apache.struts.chain.ComposableRequestProcessor.process(ComposableRequestProcessor.java:283)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1913)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:449)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at de.factfinder.servlet.AppConfigurationContextCleanFilter.doFilter(AppConfigurationContextCleanFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at de.factfinder.servlet.SimonProfilerFilter.doFilter(SimonProfilerFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at de.factfinder.servlet.Log4jAppnameFilter.doFilter(Log4jAppnameFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at de.factfinder.servlet.ThreadNameModificationFilter.doFilter(ThreadNameModificationFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at de.factfinder.security.servlet.SecurityFilter.doFilter(SecurityFilter.java:149)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at de.factfinder.servlet.PendingParametersFilter.doFilter(PendingParametersFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at de.factfinder.servlet.Utf8RequestCharacterEncodingFilter.doFilter(Utf8RequestCharacterEncodingFilter.java:34)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at de.factfinder.servlet.ProfilerCleanFilter.doFilter(ProfilerCleanFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at de.factfinder.servlet.AppConfigurationContextCleanFilter.doFilter(AppConfigurationContextCleanFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:738)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.jstripe.tomcat.probe.Tomcat55AgentValve.invoke(Tomcat55AgentValve.java:20)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at de.factfinder.tomcat.valve.ParameterFilter.invoke(ParameterFilter.java:36)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:568)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:845)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: de.factfinder.jni.FactFinderException: Can not open table!
+	at de.factfinder.jni.Table.load(Table.java:450)
+	at de.factfinder.jni.Table.load(Table.java:429)
+	at de.factfinder.util.TableHandler$InternalTableHandler.readTableFromDisk(TableHandler.java:539)
+	at de.factfinder.util.TableHandler$InternalTableHandler.loadTableLocked(TableHandler.java:505)
+	... 74 more
+</message>
+		
+	</errors>
+</importProgress>

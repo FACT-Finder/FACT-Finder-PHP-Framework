@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<importProgress>
+	<currentChannel></currentChannel>
+	<progress></progress>
+	<percentage></percentage>
+	<totalPercentage></totalPercentage>
+	<finished></finished>
+	<running></running>
+	<status>
+			<message>RecommendationEngine import for channel &#039;fr&#039; started.</message>
+			<message>16526 purchasing items were read from the tracking logs (channel &#039;fr&#039;).</message>
+			<message>RecommendationEngine import for channel &#039;fr&#039; finished.</message>
+			<message>Recommendation import finished at 03-Jul-2012 11:59:10</message>
+	</status>
+	<errors>
+	</errors>
+</importProgress>

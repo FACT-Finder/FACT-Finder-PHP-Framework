@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ff>
+	<similarAttributes>
+				 	<attribute name="category1">..Fahrräder..</attribute>
+				 	<attribute name="category2">..BMX..</attribute>
+				 	<attribute name="category3">..BMX Rad ab 300..</attribute>
+	</similarAttributes>
+	<similarRecords>
+		<record nr="0" id="278003"></record>
+		<record nr="1" id="221911"></record>
+		<record nr="2" id="271358"></record>
+		<record nr="3" id="278006"></record>
+		<record nr="4" id="277986"></record>
+		<record nr="5" id="271353"></record>
+		<record nr="6" id="232670"></record>
+		<record nr="7" id="277998"></record>
+		<record nr="8" id="293120"></record>
+		<record nr="9" id="232672"></record>
+	</similarRecords>
+</ff>

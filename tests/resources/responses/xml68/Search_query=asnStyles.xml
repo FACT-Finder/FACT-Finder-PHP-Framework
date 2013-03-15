@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--suppress CheckTagEmptyBody -->
+<ff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ffresult.xsd">
+    <searchStatus>resultsFound</searchStatus>
+    <articleNumberSearchStatus>noArticleNumberSearch</articleNumberSearchStatus>
+    <searchTimedOut>false</searchTimedOut>
+    <productsPerPageOptions default="12" selected="12">
+        <option value="12">
+            <searchParams>
+                <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+        </option>
+    </productsPerPageOptions>
+    <searchControlParams>
+        <disableCache>false</disableCache>
+        <generateAdvisorTree>false</generateAdvisorTree>
+        <idsOnly>false</idsOnly>
+        <useAsn>true</useAsn>
+        <useCampaigns>true</useCampaigns>
+        <useFoundWords>false</useFoundWords>
+        <useKeywords>true</useKeywords>
+    </searchControlParams>
+    <searchParams>
+        <channel>de</channel>
+        <productsPerPage>12</productsPerPage>
+        <seoPath>/bmx/q</seoPath>
+
+    </searchParams>
+    <breadCrumbTrail>
+        <item nr="0" type="search" value="asnStyles">
+            <searchParams>
+                <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]>
+            </searchParams>
+        </item>
+    </breadCrumbTrail>
+    <campaigns>
+    </campaigns>
+    <asn>
+        <group name="category" detailedLinks="5" style="TREE">
+            <element field="categoryROOT" name="Electronics" count="42" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[
+                    /FACT-Finder68/Search.ff?query=*&filtercategoryROOT=Electronics&channel=dev&format=XML
+                    ]]>
+                </searchParams>
+            </element>
+            <element field="categoryROOT" name="Apparel" count="12" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[
+                    /FACT-Finder68/Search.ff?query=*&filtercategoryROOT=Apparel&channel=dev&format=XML
+                    ]]>
+                </searchParams>
+            </element>
+            <element field="categoryROOT" name="Furniture" count="6" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[
+                    /FACT-Finder68/Search.ff?query=*&filtercategoryROOT=Furniture&channel=dev&format=XML
+                    ]]>
+                </searchParams>
+            </element>
+        </group>
+        <group name="price" detailedLinks="10" unit="€" style="SLIDER">
+            <element field="price" name="price" count="0" clusterLevel="0" selected="false" selectedMin="0" selectedMax="5000" absoluteMin="0" absoluteMax="5000">
+                <searchParams>
+                    <![CDATA[
+                    /FACT-Finder68/Search.ff?query=*&channel=dev&format=XML&filterprice=
+                    ]]>
+                </searchParams>
+            </element>
+        </group>
+        <group name="megapixels" detailedLinks="5" style="DEFAULT">
+            <element field="megapixels" name="5" count="2" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[
+                    /FACT-Finder68/Search.ff?query=*&filtermegapixels=5&channel=dev&format=XML
+                    ]]>
+                </searchParams>
+            </element>
+            <element field="megapixels" name="7" count="1" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[
+                    /FACT-Finder68/Search.ff?query=*&filtermegapixels=7&channel=dev&format=XML
+                    ]]>
+                </searchParams>
+            </element>
+            <element field="megapixels" name="8" count="2" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[
+                    /FACT-Finder68/Search.ff?query=*&filtermegapixels=8&channel=dev&format=XML
+                    ]]>
+                </searchParams>
+            </element>
+        </group>
+        <group name="color" detailedLinks="5" style="MULTISELECT">
+            <element field="color" name="Black" count="14" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[
+                    /FACT-Finder68/Search.ff?query=*&filtercolor=Black&channel=dev&format=XML
+                    ]]>
+                </searchParams>
+            </element>
+            <element field="color" name="Silver" count="12" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[
+                    /FACT-Finder68/Search.ff?query=*&filtercolor=Silver&channel=dev&format=XML
+                    ]]>
+                </searchParams>
+            </element>
+            <element field="color" name="Brown" count="7" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[
+                    /FACT-Finder68/Search.ff?query=*&filtercolor=Brown&channel=dev&format=XML
+                    ]]>
+                </searchParams>
+            </element>
+            <element field="color" name="Red" count="7" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[
+                    /FACT-Finder68/Search.ff?query=*&filtercolor=Red&channel=dev&format=XML
+                    ]]>
+                </searchParams>
+            </element>
+            <element field="color" name="Green" count="3" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[
+                    /FACT-Finder68/Search.ff?query=*&filtercolor=Green&channel=dev&format=XML
+                    ]]>
+                </searchParams>
+            </element>
+        </group>
+        <group name="color" detailedLinks="5" style="COLOR">
+            <element field="color" name="Black" count="14" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[
+                    /FACT-Finder68/Search.ff?query=*&filtercolor=Black&channel=dev&format=XML
+                    ]]>
+                </searchParams>
+            </element>
+            <element field="color" name="Silver" count="12" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[
+                    /FACT-Finder68/Search.ff?query=*&filtercolor=Silver&channel=dev&format=XML
+                    ]]>
+                </searchParams>
+            </element>
+            <element field="color" name="Brown" count="7" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[
+                    /FACT-Finder68/Search.ff?query=*&filtercolor=Brown&channel=dev&format=XML
+                    ]]>
+                </searchParams>
+            </element>
+            <element field="color" name="Red" count="7" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[
+                    /FACT-Finder68/Search.ff?query=*&filtercolor=Red&channel=dev&format=XML
+                    ]]>
+                </searchParams>
+            </element>
+            <element field="color" name="Green" count="3" clusterLevel="0" selected="false">
+                <searchParams>
+                    <![CDATA[
+                    /FACT-Finder68/Search.ff?query=*&filtercolor=Green&channel=dev&format=XML
+                    ]]>
+                </searchParams>
+            </element>
+        </group>
+    </asn>
+    <paging pageCount="104" currentPage="1" productsPerPage="12">
+        <searchParams>
+            <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML&page=]]></searchParams>
+        <settings>
+            <linkCount>10</linkCount>
+            <nextCaption>paging.next</nextCaption>
+            <previousCaption>paging.previous</previousCaption>
+        </settings>
+    </paging>
+    <sorting>
+        <sort name="Relevancy" description="Relevance" method="desc" selected="true">
+            <searchParams>
+                <![CDATA[/FACT-Finder/Search.ff?seoPath=%2Fbmx%2Fq&channel=de&followSearch=9991&format=XML]]></searchParams>
+        </sort>
+    </sorting>
+    <results count="1">
+        <record nr="0" id="221910" relevancy="99.91">
+            <keywords>
+                <keyword>BIKES KHE</keyword>
+                <keyword>20 ZOLL</keyword>
+                <keyword>WEISSES BMX</keyword>
+                <keyword>WEISES BMX</keyword>
+                <keyword>BKMX 300</keyword>
+                <keyword>BILLIGES BMX</keyword>
+                <keyword>FAHRRAD</keyword>
+                <keyword>BMX RAEDER</keyword>
+            </keywords>
+            <seoPath>/KHE-Serious-BMX-Spot-221910.html</seoPath>
+            <field name="products_ean">..4250355585134..#..4250355585134..</field>
+            <field name="products_retail_price">299.99</field>
+            <field name="__ORIG_POSITION__">1</field>
+            <field name="products_special_offer3">0</field>
+            <field name="products_ranking_profit">19096</field>
+            <field name="FFiPhoneVariants"></field>
+            <field name="Farbe">..grau..#..weiß..</field>
+            <field name="products_special_offer2">0</field>
+            <field name="products_price_min">199.99</field>
+            <field name="products_price_max">199.99</field>
+            <field name="products_image">http://www.fahrrad.de/media/products/10_Serious_BMX_Spot_1024x768.jpg</field>
+            <field name="products_ranking_charge">26850</field>
+            <field name="shop_id">44</field>
+            <field name="products_you_save_money">100.00</field>
+            <field name="imageUrlLarge">
+                <![CDATA[http://www.fahrrad.de/media/products/10_Serious_BMX_Spot_1024x768[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="category1">..Fahrräder..</field>
+            <field name="Breite"></field>
+            <field name="category0">Katalog</field>
+            <field name="category3">..BMX Räder bis 300€..</field>
+            <field name="products_best_price">0</field>
+            <field name="category2">..BMX..</field>
+            <field name="evaluation_total"></field>
+            <field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Räder bis 300€</field>
+            <field name="FFCliplisterQuality"></field>
+            <field name="products_id">221910</field>
+            <field name="products_video">1</field>
+            <field name="AdditionalAttributes"></field>
+            <field name="products_description">
+                <![CDATA[Serious Spot ? Einsteiger 20 Zoll BMX mit soliden Komponenten. Jeder fängt mal an und das Serious Spot bietet hierfür den perfekten Einstieg in die BMX Szene. Der solide Stahl-Rahmen made by KHE hält grundsätzlich was er verspricht und erlaubt auch harte Tricks und manche unsanfte Landungen. Ausgestattet mit einfachen, wartungsarmen Komponenten und stabilen Laufrädern, ist das Spot der ideale Begleiter für erste Ausflüge in den Adrenalinsport BMX. Materialtyp: Stahl , Material: Hi-Ten light steel , weitere Merkmale: Rahmen mit F-Set Rotor System , BMX: Freestyle , BMX: Allround , Marke: KHE , Material: Hi-Ten Steel , Anzahl Gänge: 1 , Übersetzung Blatt 1: 36 Zähne, Bauart: 1-teilig , Bauart: V-Brake , Bauart: V-Brake , Bauart: 2-teilig , Material: Hi-Ten light steel , Typ: 1 1/8 Zoll Aluminium , Bauart: A-Head , Marke: KHE , Typ: F-Set , : Prism Jump , Typ: 14 mm Achse , Typ: 14 mm Achse , Marke: KHE , Typ: MAC  , Größe: 20 Zoll, Reifenbreite: 2 Zoll, Marke: Trax , Typ: Prism Freestyle , Größe: 20 Zoll, Reifenbreite: 2 Zoll, : PVC Allround B/B , im Lieferumfang enthalten: ja , Anzahl: 1 Paar , Marke: KHE , Typ: Grind Pegs , : 13.9 kg (ca.), : Kettenspanner, verstärkte Kettenradgarnitur  , : Sport]]></field>
+            <field name="imageUrlSmall">
+                <![CDATA[http://www.fahrrad.de/media/products/10_Serious_BMX_Spot_1024x768[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="products_name">KHE Serious BMX Spot</field>
+            <field name="AdditionalAttributes_values"></field>
+            <field name="FFAutomaticSearchOptimization">
+                <![CDATA[WEISSES BMX=11|WEISES BMX=11|BIKES KHE=80|FAHRRAD=6|BMX RA?DER=11|20 ZOLL=28|BKMX 300=11|BILLIGES BMX=11|BMX RAEDER=1]]></field>
+            <field name="cash_back_amount"></field>
+            <field name="month-campaign"></field>
+            <field name="Größe"></field>
+            <field name="products_quantity_unit"></field>
+            <field name="coupon-campaign"></field>
+            <field name="products_special_offer">0</field>
+            <field name="products_price">199.99</field>
+            <field name="availability">3</field>
+            <field name="imageUrlMid">
+                <![CDATA[http://www.fahrrad.de/media/products/10_Serious_BMX_Spot_1024x768[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+            <field name="categories_free_shipping">0</field>
+            <field name="Länge"></field>
+            <field name="products_model_year">2012</field>
+            <field name="products_link_self">http://www.fahrrad.de/fahrraeder/bmx/khe-serious-bmx-spot-/221910.html
+            </field>
+            <field name="manufacturers_name">Serious</field>
+            <field name="manufacturers_image">http://www.fahrrad.de/media/products/serious.jpg</field>
+            <field name="manufacturers_free_shipping">0</field>
+            <field name="categories_image"></field>
+            <field name="FFCheckoutCount">3</field>
+            <field name="products_free_shipping">0</field>
+            <field name="manufacturers_id">445</field>
+            <field name="products_quantity"></field>
+            <field name="products_you_save_percent">33.33</field>
+            <field name="FFAfterSearchReorder"></field>
+        </record>
+    </results>
+</ff>

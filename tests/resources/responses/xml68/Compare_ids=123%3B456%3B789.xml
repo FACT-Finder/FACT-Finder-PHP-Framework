@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ff>
+	<attributes>
+		<attribute name="Farbe" hasDifferences="true" sourceField="Farbe" />
+		<attribute name="Hersteller" hasDifferences="false" sourceField="manufacturers_name" />
+		<attribute name="Modelljahr" hasDifferences="true" sourceField="products_model_year" />
+	</attributes>
+	<results count="3">
+			<record nr="0" id="123" >
+					<field name="Schaltungstyp"></field>
+					<field name="products_ean">4250454231086 4250454231086</field>
+					<field name="products_retail_price">1199.00</field>
+					<field name="products_special_offer3">0</field>
+					<field name="products_ranking_profit">9865</field>
+					<field name="Farbe">..grau..#..weiß..</field>
+					<field name="products_special_offer2">0</field>
+					<field name="products_price_min">999.00</field>
+					<field name="products_price_max">999.00</field>
+					<field name="products_image">http://www.bikester.at/media/products/maceto_pro_silver_1.jpg</field>
+					<field name="Gepäckträger"></field>
+					<field name="products_ranking_charge">18254</field>
+					<field name="shop_id">7</field>
+					<field name="products_you_save_money">200.00</field>
+					<field name="imageUrlLarge"><![CDATA[http://www.bikester.at/media/products/maceto_pro_silver_1[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+					<field name="category1">..Fahrräder..</field>
+					<field name="Anzahl Gänge"></field>
+					<field name="category0">Katalog</field>
+					<field name="category3">..BMX Rad ab 300..</field>
+					<field name="products_best_price">0</field>
+					<field name="category2">..BMX..</field>
+					<field name="evaluation_total"></field>
+					<field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Rad ab 300</field>
+					<field name="FFCliplisterQuality"></field>
+					<field name="products_id">123</field>
+					<field name="products_video">1</field>
+					<field name="AdditionalAttributes"></field>
+					<field name="Modelljahr">2011</field>
+					<field name="products_description"><![CDATA[Das Daniel Dhers Pro Modell ist um den 2011 Maceto Rahmen aufgebaut. Es kommt mit Pluma Gabel, Lenker und Sattel, sowie mit den neuesten Entwicklungen aus dem Hause KHE: Die Erlkönig Kurbel, die kaltgeschmiedete Bremse mit Bush Lagern und die Alpha Pedale.Gewicht: 8,9 kgFarbe: silber / blauFelge vorne: KHE BigV rim Felge hinten: KHE BigO rimSpeichen: DT SwissKette: KHE hollowpin halflinkKettenradgarnitur mit 19 mm-Titanium-Hollow-Achse Materialtyp: Stahl , Material: 4130 CrMo , weitere Merkmale: 100% wärmebehandelt , BMX: Street , Marke: Pluma Fork , Material: 4130 Cr-Mo , Anzahl Gänge: 1 , Marke: KHE Erlkönig , Übersetzung Blatt 1: 25 Zähne, Bauart: 3-teilig , Material: 4130 Cr-Mo , Marke: KHE , Bauart: U-Brake , Marke: Pluma , Bauart: 2-teilig , Typ: KHE Shola frontload , : KHE Pyramid  , : KHE Pluma Sattel/Sattelstangen Kombination , Typ: 32 Loch , Typ: 36 Loch , Marke: KHE , Typ: MAC Park , Größe: 20 Zoll, Reifenbreite: 2 Zoll, Marke: KHE , Typ: MAC Park , Größe: 20 Zoll, Reifenbreite: 1.5 Zoll, : KHE Alpha CNC Slim sealed , im Lieferumfang enthalten: ja , Marke: KHE , Typ: Alchemy Pegs , : 8.9 kg (ca.), : KHE Dubz Kettenspanner, Affix bush MidBB Lager]]></field>
+					<field name="Hersteller">KHE</field>
+					<field name="Geschmack"></field>
+					<field name="imageUrlSmall"><![CDATA[http://www.bikester.at/media/products/maceto_pro_silver_1[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+					<field name="Kette"></field>
+					<field name="products_name">KHE Maceto Pro silver</field>
+					<field name="Material"></field>
+					<field name="AdditionalAttributes_values"></field>
+					<field name="FFAutomaticSearchOptimization"></field>
+					<field name="cash_back_amount"></field>
+					<field name="month-campaign"></field>
+					<field name="Größe"></field>
+					<field name="products_quantity_unit"></field>
+					<field name="coupon-campaign"></field>
+					<field name="products_special_offer">0</field>
+					<field name="products_price">999.00</field>
+					<field name="availability">3</field>
+					<field name="Schaltung"></field>
+					<field name="imageUrlMid"><![CDATA[http://www.bikester.at/media/products/maceto_pro_silver_1[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+					<field name="categories_free_shipping">0</field>
+					<field name="Länge"></field>
+					<field name="products_model_year">2011</field>
+					<field name="products_link_self">http://www.bikester.at/fahrraeder/bmx/khe-maceto-pro/123.html</field>
+					<field name="manufacturers_name">KHE</field>
+					<field name="manufacturers_image">http://www.bikester.at/media/products/khe.jpg</field>
+					<field name="manufacturers_free_shipping">0</field>
+					<field name="categories_image"></field>
+					<field name="products_free_shipping">0</field>
+					<field name="manufacturers_id">63</field>
+					<field name="products_quantity"></field>
+					<field name="Felgen"></field>
+					<field name="products_you_save_percent">16.68</field>
+					<field name="FFAfterSearchReorder"></field>
+			</record>
+			<record nr="1" id="456" >
+					<field name="Schaltungstyp"></field>
+					<field name="products_ean">4250583623738 4250583623738</field>
+					<field name="products_retail_price"></field>
+					<field name="products_special_offer3">0</field>
+					<field name="products_ranking_profit">11803</field>
+					<field name="Farbe">..schwarz..</field>
+					<field name="products_special_offer2">0</field>
+					<field name="products_price_min">349.99</field>
+					<field name="products_price_max">349.99</field>
+					<field name="products_image">http://www.bikester.at/media/products/1316_012_02_root_360.jpg</field>
+					<field name="Gepäckträger"></field>
+					<field name="products_ranking_charge">18404</field>
+					<field name="shop_id">7</field>
+					<field name="products_you_save_money"></field>
+					<field name="imageUrlLarge"><![CDATA[http://www.bikester.at/media/products/1316_012_02_root_360[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+					<field name="category1">..Fahrräder..</field>
+					<field name="Anzahl Gänge"></field>
+					<field name="category0">Katalog</field>
+					<field name="category3">..BMX Rad ab 300..</field>
+					<field name="products_best_price">0</field>
+					<field name="category2">..BMX..</field>
+					<field name="evaluation_total"></field>
+					<field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Rad ab 300</field>
+					<field name="FFCliplisterQuality"></field>
+					<field name="products_id">456</field>
+					<field name="products_video">0</field>
+					<field name="AdditionalAttributes">|Oberrohrlänge=20,6 Zoll|</field>
+					<field name="Modelljahr">2012</field>
+					<field name="products_description"><![CDATA[Geometriedaten:Oberrohr: 52,3 cmKettenstrebe: 34,3 cmSteuerrohrwinkel: 75° Materialtyp: Stahl , Material: Hi-Ten light steel , weitere Merkmale: integrated Headset , BMX: Street , Material: Hi-Ten Steel , Typ: 10 mm , Anzahl Gänge: 1 , Typ: 175 mm , Bauart: 3-teilig , Material: CrMo , Marke: KHE , Typ: Rotor steel , Anzahl Zähne: 25 Zähne, Typ: MidBB sealed , Bauart: gedichtet , Marke: KMC 1/2 x 1/8 " black , Marke: KHE , Typ: Prism St, soft pads , Bauart: U-Brake , Typ: Extra wide, 8" high , Bauart: 2-teilig , Material: Hi-Ten light steel , Typ: KHE Prism Frontload , Bauart: A-Head , : KHE Prism Classic , : Prism , Typ: Prism , Typ: Female axle hub, 36 Loch , Typ: semi sealed Female axle cassette hub 9T 36 Loch , Marke & Typ: Prism EasyO double wall , Marke: KHE , Typ: Prism Fat , Größe: 20 Zoll, Reifenbreite: 2.3 Zoll, Marke: KHE , Typ: Prism Fat , Größe: 20 Zoll, Reifenbreite: 2.3 Zoll, : Prism thin plastic , im Lieferumfang enthalten: ja , Anzahl: 1 Paar , Typ: steel pegs , : 11.7 kg (ca.), : Kettenspanner , : Performance]]></field>
+					<field name="Hersteller">KHE</field>
+					<field name="Geschmack"></field>
+					<field name="imageUrlSmall"><![CDATA[http://www.bikester.at/media/products/1316_012_02_root_360[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+					<field name="Kette"></field>
+					<field name="products_name">KHE Root 360 pechschwarz</field>
+					<field name="Material"></field>
+					<field name="AdditionalAttributes_values">20,6 Zoll</field>
+					<field name="FFAutomaticSearchOptimization"></field>
+					<field name="cash_back_amount"></field>
+					<field name="month-campaign"></field>
+					<field name="Größe"></field>
+					<field name="products_quantity_unit"></field>
+					<field name="coupon-campaign"></field>
+					<field name="products_special_offer">0</field>
+					<field name="products_price">349.99</field>
+					<field name="availability">3</field>
+					<field name="Schaltung"></field>
+					<field name="imageUrlMid"><![CDATA[http://www.bikester.at/media/products/1316_012_02_root_360[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+					<field name="categories_free_shipping">0</field>
+					<field name="Länge"></field>
+					<field name="products_model_year">2012</field>
+					<field name="products_link_self"><![CDATA[http://www.bikester.at/fahrraeder/bmx/khe-root-360-pechschwarz/456.html]]></field>
+					<field name="manufacturers_name">KHE</field>
+					<field name="manufacturers_image">http://www.bikester.at/media/products/khe.jpg</field>
+					<field name="manufacturers_free_shipping">0</field>
+					<field name="categories_image"></field>
+					<field name="products_free_shipping">0</field>
+					<field name="manufacturers_id">63</field>
+					<field name="products_quantity"></field>
+					<field name="Felgen"></field>
+					<field name="products_you_save_percent"></field>
+					<field name="FFAfterSearchReorder"></field>
+			</record>
+			<record nr="2" id="789" >
+					<field name="Schaltungstyp"></field>
+					<field name="products_ean">4250355585141 4250355585141</field>
+					<field name="products_retail_price">1099.00</field>
+					<field name="products_special_offer3">0</field>
+					<field name="products_ranking_profit">8910</field>
+					<field name="Farbe">..grau..#..schwarz..</field>
+					<field name="products_special_offer2">0</field>
+					<field name="products_price_min">799.00</field>
+					<field name="products_price_max">799.00</field>
+					<field name="products_image">http://www.bikester.at/media/products/1306_010_02_khe_shola_pro_1.jpg</field>
+					<field name="Gepäckträger"></field>
+					<field name="products_ranking_charge">18496</field>
+					<field name="shop_id">7</field>
+					<field name="products_you_save_money">300.00</field>
+					<field name="imageUrlLarge"><![CDATA[http://www.bikester.at/media/products/1306_010_02_khe_shola_pro_1[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+					<field name="category1">..Fahrräder..</field>
+					<field name="Anzahl Gänge"></field>
+					<field name="category0">Katalog</field>
+					<field name="category3">..BMX Rad ab 300..</field>
+					<field name="products_best_price">0</field>
+					<field name="category2">..BMX..</field>
+					<field name="evaluation_total"></field>
+					<field name="category">Katalog &gt;&gt; Fahrräder &gt;&gt; BMX &gt;&gt; BMX Rad ab 300</field>
+					<field name="FFCliplisterQuality"></field>
+					<field name="products_id">789</field>
+					<field name="products_video">1</field>
+					<field name="AdditionalAttributes"></field>
+					<field name="Modelljahr">2010</field>
+					<field name="products_description"><![CDATA[Bruce Crisman Signature Street Bike f&uuml;r Pro's.  Materialtyp: Stahl , Material: 4130 CrMo , weitere Merkmale: Street Geometrie, TT 20.5 Zoll, Rotorlöcher , BMX: Street , Marke: KHE , Material: 4130 Cr-Mo , Anzahl Gänge: 1 , Marke: Prism light, KHE Affix Tretlager , Übersetzung Blatt 1: 25 Zähne, Bauart: 3-teilig , Material: 4130 Cr-Mo , Marke: F-Set Strangler , Bauart: U-Brake , Marke: F-Set Strangler , Bauart: U-Brake , Marke: 8 Zoll KHE Anchor Lenker/Vorbau Kombination , Material: 4130 Cr-Mo , Typ: 8 Zoll KHE Anchor Lenker/Vorbau Kombination , Bauart: Konus , : Shola Griffe , : Shola Sattel/Sattelstangen Kobination , Marke: KHE , Typ: Astral Nabe , Marke: KHE , Typ: Easy-O 36 Loch , Marke: KHE , Typ: MAC  , Größe: 20 Zoll, Reifenbreite: 2 Zoll, Marke: KHE , Typ: MAC  , Größe: 20 Zoll, Reifenbreite: 2 Zoll, : Wellgo PVC, B/B , im Lieferumfang enthalten: ja , Anzahl: 1 Paar , Marke: KHE , Typ: Alchemy Pegs , : 9.7 kg (ca.), : Kettenspanner, Affix Bush BB Lager , : Competition]]></field>
+					<field name="Hersteller">KHE</field>
+					<field name="Geschmack"></field>
+					<field name="imageUrlSmall"><![CDATA[http://www.bikester.at/media/products/1306_010_02_khe_shola_pro_1[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+					<field name="Kette"></field>
+					<field name="products_name">KHE Shola Pro</field>
+					<field name="Material"></field>
+					<field name="AdditionalAttributes_values"></field>
+					<field name="FFAutomaticSearchOptimization"></field>
+					<field name="cash_back_amount"></field>
+					<field name="month-campaign"></field>
+					<field name="Größe"></field>
+					<field name="products_quantity_unit"></field>
+					<field name="coupon-campaign"></field>
+					<field name="products_special_offer">0</field>
+					<field name="products_price">799.00</field>
+					<field name="availability">3</field>
+					<field name="Schaltung"></field>
+					<field name="imageUrlMid"><![CDATA[http://www.bikester.at/media/products/1306_010_02_khe_shola_pro_1[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+					<field name="categories_free_shipping">0</field>
+					<field name="Länge"></field>
+					<field name="products_model_year">2010</field>
+					<field name="products_link_self">http://www.bikester.at/fahrraeder/bmx/khe-shola-pro/789.html</field>
+					<field name="manufacturers_name">KHE</field>
+					<field name="manufacturers_image">http://www.bikester.at/media/products/khe.jpg</field>
+					<field name="manufacturers_free_shipping">0</field>
+					<field name="categories_image"></field>
+					<field name="products_free_shipping">0</field>
+					<field name="manufacturers_id">63</field>
+					<field name="products_quantity"></field>
+					<field name="Felgen"></field>
+					<field name="products_you_save_percent">27.30</field>
+					<field name="FFAfterSearchReorder"></field>
+			</record>
+	</results>
+</ff>
