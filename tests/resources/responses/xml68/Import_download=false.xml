@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+<importProgress>
+	<currentChannel></currentChannel>
+	<progress>0</progress>
+	<percentage></percentage>
+	<totalPercentage></totalPercentage>
+	<finished>false</finished>
+	<running></running>
+	<status>
+		
+			<message>Import mit 51 Feldern für Channel &#039;at&#039;</message>
+		
+			<message>Startzeit: 03.07.2012 11:12:19</message>
+		
+			<message>0 Datensätze für Channel &#039;at&#039; in 2 Sekunden importiert</message>
+		
+			<message>Import mit 0 Feldern für Channel &#039;atu&#039;</message>
+		
+			<message>Startzeit: 03.07.2012 11:12:19</message>
+		
+			<message>Import mit 54 Feldern für Channel &#039;ch&#039;</message>
+		
+			<message>Startzeit: 03.07.2012 11:12:19</message>
+		
+			<message>0 Datensätze für Channel &#039;ch&#039; in 2 Sekunden importiert</message>
+		
+			<message>Import mit 54 Feldern für Channel &#039;de&#039;</message>
+		
+			<message>Startzeit: 03.07.2012 11:12:19</message>
+		
+			<message>0 Datensätze für Channel &#039;de&#039; in 4 Sekunden importiert</message>
+		
+			<message>Import mit 56 Feldern für Channel &#039;de_dq&#039;</message>
+		
+			<message>Startzeit: 03.07.2012 11:12:19</message>
+		
+			<message>0 Datensätze für Channel &#039;de_dq&#039; in 2 Sekunden importiert</message>
+		
+			<message>Import mit 52 Feldern für Channel &#039;fr&#039;</message>
+		
+			<message>Startzeit: 03.07.2012 11:12:19</message>
+		
+			<message>0 Datensätze für Channel &#039;fr&#039; in 2 Sekunden importiert</message>
+		
+			<message>Import mit 53 Feldern für Channel &#039;uk&#039;</message>
+		
+			<message>Startzeit: 03.07.2012 11:12:19</message>
+		
+			<message>0 Datensätze für Channel &#039;uk&#039; in 1 Sekunden importiert</message>
+		
+			<message>0 Datensätze insgesamt in 15 Sekunden importiert</message>
+		
+			<message>0 Datensätze pro Sekunde</message>
+		
+			<message>Beendet: 03.07.2012 11:12:35</message>
+		
+	</status>
+	<errors>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 2: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 3: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 4: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 5: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 6: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 7: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 8: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 10: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 11: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 12: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 13: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 14: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 15: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 16: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 17: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 18: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 19: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 20: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 21: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 22: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 23: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 24: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 25: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 26: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 27: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 29: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 30: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 31: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 32: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 33: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/at-factfinder-products.csv):  Line 34: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>???de_DE.import.error.minCount.xml???</message>
+		
+			<message>Es ist ein Fehler beim Import von Channel &#039;atu&#039; aufgetreten!</message>
+		
+			<message>de.factfinder.exception.ImportException: Error while importing
+	at de.factfinder.indexer.importer.DataImportImpl.importSingleChannel(DataImportImpl.java:125)
+	at de.factfinder.adapters.struts.ImportAction.importSingleChannel(ImportAction.java:626)
+	at de.factfinder.adapters.struts.ImportAction.access$400(ImportAction.java:54)
+	at de.factfinder.adapters.struts.ImportAction$1.run(ImportAction.java:542)
+	at de.factfinder.campaignmanager.RunWithChannelWithException.&amp;lt;init&amp;gt;(RunWithChannelWithException.java:34)
+	at de.factfinder.adapters.struts.ImportAction$1.&amp;lt;init&amp;gt;(ImportAction.java:512)
+	at de.factfinder.adapters.struts.ImportAction.doImport(ImportAction.java:512)
+	at de.factfinder.adapters.struts.ImportAction.run(ImportAction.java:634)
+	at de.factfinder.adapters.struts.ImportAction.startImport(ImportAction.java:212)
+	at de.factfinder.adapters.struts.ImportAction.unspecified(ImportAction.java:162)
+	at org.apache.struts.actions.DispatchAction.dispatchMethod(DispatchAction.java:245)
+	at org.apache.struts.actions.DispatchAction.execute(DispatchAction.java:170)
+	at org.apache.struts.chain.commands.servlet.ExecuteAction.execute(ExecuteAction.java:58)
+	at org.apache.struts.chain.commands.AbstractExecuteAction.execute(AbstractExecuteAction.java:67)
+	at org.apache.struts.chain.commands.ActionCommandBase.execute(ActionCommandBase.java:51)
+	at org.apache.commons.chain.impl.ChainBase.execute(ChainBase.java:191)
+	at org.apache.commons.chain.generic.LookupCommand.execute(LookupCommand.java:305)
+	at org.apache.commons.chain.impl.ChainBase.execute(ChainBase.java:191)
+	at org.apache.struts.chain.ComposableRequestProcessor.process(ComposableRequestProcessor.java:283)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1913)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:449)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at de.factfinder.servlet.AppConfigurationContextCleanFilter.doFilter(AppConfigurationContextCleanFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at de.factfinder.servlet.SimonProfilerFilter.doFilter(SimonProfilerFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at de.factfinder.servlet.Log4jAppnameFilter.doFilter(Log4jAppnameFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at de.factfinder.servlet.ThreadNameModificationFilter.doFilter(ThreadNameModificationFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at de.factfinder.security.servlet.SecurityFilter.doFilter(SecurityFilter.java:149)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at de.factfinder.servlet.PendingParametersFilter.doFilter(PendingParametersFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at de.factfinder.servlet.Utf8RequestCharacterEncodingFilter.doFilter(Utf8RequestCharacterEncodingFilter.java:34)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at de.factfinder.servlet.ProfilerCleanFilter.doFilter(ProfilerCleanFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at de.factfinder.servlet.AppConfigurationContextCleanFilter.doFilter(AppConfigurationContextCleanFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:738)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.jstripe.tomcat.probe.Tomcat55AgentValve.invoke(Tomcat55AgentValve.java:20)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at de.factfinder.tomcat.valve.ParameterFilter.invoke(ParameterFilter.java:36)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:568)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:845)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: de.factfinder.jni.FactFinderException: Parameter error!
+	at de.factfinder.jni.Table.setFieldCount(Table.java:582)
+	at de.factfinder.indexer.Import.startImport(Import.java:154)
+	at de.factfinder.indexer.importer.DataImportImpl.importSingleChannel(DataImportImpl.java:71)
+	... 67 more
+</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 2: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 3: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 4: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 5: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 6: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 7: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 8: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 10: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 11: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 12: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 13: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 14: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 15: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 16: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 17: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 18: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 19: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 20: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 21: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 22: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 23: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 24: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 25: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 26: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 27: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 29: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 30: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 31: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 32: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 33: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/ch-factfinder-products.csv):  Line 34: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 37.</message>
+		
+			<message>???de_DE.import.error.minCount.xml???</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 2: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 3: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 4: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 5: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 6: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 7: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 8: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 10: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 11: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 12: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 13: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 14: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 15: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 16: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 17: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 18: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 19: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 20: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 21: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 22: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 23: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 24: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 25: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 26: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 27: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 29: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 30: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 31: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 32: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 33: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de-factfinder-products.csv):  Line 34: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>???de_DE.import.error.minCount.xml???</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 2: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 3: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 4: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 5: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 6: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 7: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 8: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 10: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 11: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 12: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 13: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 14: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 15: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 16: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 17: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 18: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 19: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 20: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 21: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 22: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 23: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 24: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 25: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 26: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 27: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 29: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 30: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 31: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 32: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 33: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/de_dq-factfinder-products.csv):  Line 34: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>???de_DE.import.error.minCount.xml???</message>
+		
+			<message>Error occured while trying to read import file &#039;/home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/fr-factfinder-products.csv&#039;: File is smaller than min size (2011 instead of 5009602 bytes).</message>
+		
+			<message>???de_DE.import.error.minCount.xml???</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 2: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 3: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 4: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 5: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 6: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 7: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 8: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 10: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 11: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 12: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 13: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 14: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 15: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 16: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 17: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 18: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 19: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 20: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 21: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 22: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 23: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 24: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 25: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 26: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 27: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 29: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 30: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 31: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 32: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 33: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>CSV file could not be parsed (for /home/factfinder/tomcat/server/webapps/FACT-Finder_Dev/uk-factfinder-products.csv):  Line 34: There are 1 (numbered 0 to 0) columns in the import file. According to the config file, there should be 36.</message>
+		
+			<message>???de_DE.import.error.minCount.xml???</message>
+		
+	</errors>
+</importProgress>
