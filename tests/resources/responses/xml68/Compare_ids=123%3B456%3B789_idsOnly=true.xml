@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ff>
+
+	
+	<attributes>
+		
+		<attribute name="Farbe" hasDifferences="true" sourceField="Farbe" />
+		
+		<attribute name="Hersteller" hasDifferences="false" sourceField="manufacturers_name" />
+		
+		<attribute name="Modelljahr" hasDifferences="true" sourceField="products_model_year" />
+		
+	</attributes>
+	
+	
+	<results count="3">
+				
+			<record nr="0" id="232670" >
+				
+					<field name="Modelljahr">2011</field>
+				
+					<field name="Schaltung"></field>
+				
+					<field name="Hersteller">KHE</field>
+				
+					<field name="Gepäckträger"></field>
+				
+					<field name="Geschmack"></field>
+				
+					<field name="Kette"></field>
+				
+					<field name="Material"></field>
+				
+					<field name="Schaltungstyp"></field>
+				
+					<field name="Anzahl Gänge"></field>
+				
+					<field name="Größe"></field>
+				
+					<field name="Farbe">..grau..#..weiß..</field>
+				
+					<field name="AdditionalAttributes"></field>
+				
+					<field name="Felgen"></field>
+				
+			</record>
+				
+			<record nr="1" id="277992" >
+				
+					<field name="Modelljahr">2012</field>
+				
+					<field name="Schaltung"></field>
+				
+					<field name="Hersteller">KHE</field>
+				
+					<field name="Gepäckträger"></field>
+				
+					<field name="Geschmack"></field>
+				
+					<field name="Kette"></field>
+				
+					<field name="Material"></field>
+				
+					<field name="Schaltungstyp"></field>
+				
+					<field name="Anzahl Gänge"></field>
+				
+					<field name="Größe"></field>
+				
+					<field name="Farbe">..schwarz..</field>
+				
+					<field name="AdditionalAttributes"></field>
+				
+					<field name="Felgen"></field>
+				
+			</record>
+				
+			<record nr="2" id="221911" >
+				
+					<field name="Modelljahr">2010</field>
+				
+					<field name="Schaltung"></field>
+				
+					<field name="Hersteller">KHE</field>
+				
+					<field name="Gepäckträger"></field>
+				
+					<field name="Geschmack"></field>
+				
+					<field name="Kette"></field>
+				
+					<field name="Material"></field>
+				
+					<field name="Schaltungstyp"></field>
+				
+					<field name="Anzahl Gänge"></field>
+				
+					<field name="Größe"></field>
+				
+					<field name="Farbe">..grau..#..schwarz..</field>
+				
+					<field name="AdditionalAttributes"></field>
+				
+					<field name="Felgen"></field>
+				
+			</record>
+			
+	</results>
+	
+
+</ff>

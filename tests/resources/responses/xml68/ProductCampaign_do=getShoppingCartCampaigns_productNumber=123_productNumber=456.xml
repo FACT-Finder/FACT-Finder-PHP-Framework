@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ffresult.xsd">
+<campaigns>
+<campaign nr="0" name="Warenkorbkampagne" flavour="FEEDBACK">
+	<feedback>
+		<text nr="0" label="header" html="true">Warenkorbkampagne</text>
+	</feedback>
+	<pushedProducts count="3">
+		<product nr="0" id="10457">
+			<field name="products_ean"><![CDATA[..5414331312964..#..5414331312964..#..5414331312964..#..5414331312964..#..5414331312964..#..5414331312964..#..5414331312964..#..5414331312964..]]></field>
+			<field name="products_retail_price">34.95</field>
+			<field name="products_special_offer3">0</field>
+			<field name="products_ranking_profit">9437</field>
+			<field name="FFiPhoneVariants"><![CDATA[Ausführung|Lazer One Imperial St.Grey Xl-Xxl#5414331312964|58#5414331312964|59#5414331312964|60#5414331312964|61#5414331312964|62#5414331312964|grau#5414331312964|schwarz#5414331312964]]></field>
+			<field name="Farbe">..grau..#..schwarz..</field>
+			<field name="products_special_offer2">0</field>
+			<field name="products_price_min">14.99</field>
+			<field name="products_price_max">14.99</field>
+			<field name="products_image">http://www.fahrrad.de/media/products/asista/2455U.jpg</field>
+			<field name="products_ranking_charge">5995</field>
+			<field name="shop_id">44</field>
+			<field name="products_you_save_money">19.96</field>
+			<field name="imageUrlLarge"><![CDATA[http://www.fahrrad.de/media/products/asista/2455U[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			<field name="category1">..Fahrradbekleidung..</field>
+			<field name="Breite"></field>
+			<field name="category0">Katalog</field>
+			<field name="category3">..BMX / Dirt Helme..</field>
+			<field name="products_best_price">0</field>
+			<field name="category2">..Fahrradhelme..</field>
+			<field name="evaluation_total"></field>
+			<field name="category">Katalog &gt;&gt; Fahrradbekleidung &gt;&gt; Fahrradhelme &gt;&gt; BMX / Dirt Helme</field>
+			<field name="FFCliplisterQuality">175</field>
+			<field name="products_id">10457</field>
+			<field name="products_video">1</field>
+			<field name="AdditionalAttributes"><![CDATA[|Ausführung=Lazer One Imperial St.Grey Xl-Xxl|Kopfumfang=58|Kopfumfang=59|Kopfumfang=60|Kopfumfang=61|Kopfumfang=62|]]></field>
+			<field name="products_description"><![CDATA[Trendiger Freestyle-Helm mit 11 Luftöffnungen und&nbsp;herausnehmbarem Kopfpolster mit Klettverschlussbefestigung. Modische, von Künstlern entworfene Grafik.     Konstruktion:&nbsp;Technopolymer Injektion Belüftung:&nbsp;11 Öffnungen Gewicht:&nbsp;395 g Zertifizierung: CPSC, AS, TÜV Rheinland  Größen: XS-S (50-54 cm), M-L (54-58 cm), XL-XXL (58-62 cm : universal , : Technopolymer Injektion , : 11 , : 0,395 kg , : XS-S (50-54 cm), M-L (54-58 cm), XL-XXL (58-62 cm) , : CPSC, AS , : Dirt/BMX]]></field>
+			<field name="imageUrlSmall"><![CDATA[http://www.fahrrad.de/media/products/asista/2455U[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			<field name="products_name">Lazer One Imperial steel grey</field>
+			<field name="AdditionalAttributes_values">Lazer One Imperial St.Grey Xl-Xxl 58 59 60 61 62</field>
+			<field name="FFAutomaticSearchOptimization"></field>
+			<field name="cash_back_amount"></field>
+			<field name="month-campaign"></field>
+			<field name="Größe"></field>
+			<field name="products_quantity_unit"></field>
+			<field name="coupon-campaign"></field>
+			<field name="products_special_offer">0</field>
+			<field name="products_price">14.99</field>
+			<field name="availability">3</field>
+			<field name="imageUrlMid"><![CDATA[http://www.fahrrad.de/media/products/asista/2455U[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			<field name="categories_free_shipping">0</field>
+			<field name="Länge"></field>
+			<field name="products_model_year">2011</field>
+			<field name="products_link_self"><![CDATA[http://www.fahrrad.de/bekleidung/fahrradhelme/lazer-one-imperial-steelgrey/10457.html]]></field>
+			<field name="manufacturers_name">Lazer</field>
+			<field name="manufacturers_image">http://www.fahrrad.de/media/products/lazer.jpg</field>
+			<field name="manufacturers_free_shipping">0</field>
+			<field name="categories_image"></field>
+			<field name="FFCheckoutCount">0</field>
+			<field name="products_free_shipping">0</field>
+			<field name="manufacturers_id">134</field>
+			<field name="products_quantity"></field>
+			<field name="products_you_save_percent">57.11</field>
+			<field name="FFAfterSearchReorder"></field>
+		</product>
+		<product nr="1" id="291254">
+			<field name="products_ean"><![CDATA[..4046068417035..#..4046068417035..#..4046068417028..#..4046068417028..#..4046068417011..#..4046068417011..#..4046068417042..#..4046068417042..#..4046068417059..#..4046068417059..]]></field>
+			<field name="products_retail_price"></field>
+			<field name="products_special_offer3">0</field>
+			<field name="products_ranking_profit">0</field>
+			<field name="FFiPhoneVariants"><![CDATA[Handschuhgrösse|10#4046068417035|schwarz#4046068417035|9#4046068417028|schwarz#4046068417028|8#4046068417011|schwarz#4046068417011|11#4046068417042|schwarz#4046068417042|12#4046068417059|schwarz#4046068417059]]></field>
+			<field name="Farbe">..schwarz..#..schwarz..#..schwarz..#..schwarz..#..schwarz..</field>
+			<field name="products_special_offer2">0</field>
+			<field name="products_price_min">34.90</field>
+			<field name="products_price_max">34.90</field>
+			<field name="products_image"><![CDATA[http://www.fahrrad.de/media/products/two_wheel_distribution/0371-108.jpg]]></field>
+			<field name="products_ranking_charge">0</field>
+			<field name="shop_id">44</field>
+			<field name="products_you_save_money"></field>
+			<field name="imageUrlLarge"><![CDATA[http://www.fahrrad.de/media/products/two_wheel_distribution/0371-108[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			<field name="category1">..Fahrradbekleidung..</field>
+			<field name="Breite"></field>
+			<field name="category0">Katalog</field>
+			<field name="category3">..Handschuhe lang..</field>
+			<field name="products_best_price">0</field>
+			<field name="category2">..Handschuhe..</field>
+			<field name="evaluation_total"></field>
+			<field name="category">Katalog &gt;&gt; Fahrradbekleidung &gt;&gt; Handschuhe &gt;&gt; Handschuhe lang</field>
+			<field name="FFCliplisterQuality"></field>
+			<field name="products_id">291254</field>
+			<field name="products_video">0</field>
+			<field name="AdditionalAttributes"><![CDATA[|Handschuhgrösse=10|Handschuhgrösse=9|Handschuhgrösse=8|Handschuhgrösse=11|Handschuhgrösse=12|]]></field>
+			<field name="products_description"><![CDATA[Details:- designt und entwickelt in Zusammenarbeit mit Andreu Lacondeguy- superleicht, bequem und sehr gut belüftet- 4fach Spandura und Stretch Material- Stretch Lycra Seitenteile- nahtlose Fingerkuppen mit Silikondruck auf den Fingerflächen für eine gute Kontrolle an den Hebeln- extra viel Mesh für genügend Belüftung- einlagige und belüftete Chamude-Leder Handfläche für perfekte Kontrolle- ergonomisch geformte Handflächen- einfaches Slip In Design Zielgruppe: Unisex , : Ganzjahr , : Langfinger , : 35% Nylon, 34% Gummi, 14% Polyurethan, 10% Polyester, 7% Gummiaufdruck , : Größe fällt normal aus , : körpernah geschnitten]]></field>
+			<field name="imageUrlSmall"><![CDATA[http://www.fahrrad.de/media/products/two_wheel_distribution/0371-108[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			<field name="products_name">O'Neal Andreu Loves Dirt Glove black</field>
+			<field name="AdditionalAttributes_values">10 9 8 11 12</field>
+			<field name="FFAutomaticSearchOptimization"></field>
+			<field name="cash_back_amount"></field>
+			<field name="month-campaign"></field>
+			<field name="Größe"></field>
+			<field name="products_quantity_unit"></field>
+			<field name="coupon-campaign"></field>
+			<field name="products_special_offer">0</field>
+			<field name="products_price">34.90</field>
+			<field name="availability">3</field>
+			<field name="imageUrlMid"><![CDATA[http://www.fahrrad.de/media/products/two_wheel_distribution/0371-108[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			<field name="categories_free_shipping">0</field>
+			<field name="Länge"></field>
+			<field name="products_model_year">2012</field>
+			<field name="products_link_self"><![CDATA[http://www.fahrrad.de/bekleidung/handschuhe/andreu-loves-dirt-glove-black-l10/291254.html]]></field>
+			<field name="manufacturers_name">O'Neal</field>
+			<field name="manufacturers_image">http://www.fahrrad.de/media/products/o_neal.jpg</field>
+			<field name="manufacturers_free_shipping">0</field>
+			<field name="categories_image"></field>
+			<field name="FFCheckoutCount">0</field>
+			<field name="products_free_shipping">0</field>
+			<field name="manufacturers_id">317</field>
+			<field name="products_quantity"></field>
+			<field name="products_you_save_percent"></field>
+			<field name="FFAfterSearchReorder"></field>
+		</product>
+		<product nr="2" id="501">
+			<field name="products_ean">..4016167019959..#..4016167019959..</field>
+			<field name="products_retail_price">14.99</field>
+			<field name="products_special_offer3">0</field>
+			<field name="products_ranking_profit">2531</field>
+			<field name="FFiPhoneVariants">Farbe|grau#4016167019959|grün#4016167019959</field>
+			<field name="Farbe">..grau..#..grün..</field>
+			<field name="products_special_offer2">0</field>
+			<field name="products_price_min">4.99</field>
+			<field name="products_price_max">4.99</field>
+			<field name="products_image">http://www.fahrrad.de/media/products/Trelock-SK150-big.jpg</field>
+			<field name="products_ranking_charge">5312</field>
+			<field name="shop_id">44</field>
+			<field name="products_you_save_money">10.00</field>
+			<field name="imageUrlLarge"><![CDATA[http://www.fahrrad.de/media/products/Trelock-SK150-big[320x480].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			<field name="category1">..Fahrradzubehör..</field>
+			<field name="Breite"></field>
+			<field name="category0">Katalog</field>
+			<field name="category3">..Kabelschlösser..</field>
+			<field name="products_best_price">0</field>
+			<field name="category2">..Schlösser..</field>
+			<field name="evaluation_total"></field>
+			<field name="category">Katalog &gt;&gt; Fahrradzubehör &gt;&gt; Schlösser &gt;&gt; Kabelschlösser</field>
+			<field name="FFCliplisterQuality"></field>
+			<field name="products_id">501</field>
+			<field name="products_video">1</field>
+			<field name="AdditionalAttributes"></field>
+			<field name="products_description"><![CDATA[Trelock Spiralkabelschloss - Das Original 1500 x 8 mm    Ideal zur Sicherung von Zubehör wieGepäckträgern oder Fahrradsätteln ist dasoriginal Trelock Spiralkabelschloss geeignet.  Kompakt konstruiert, macht es sich besondersklein und wartet mit der praktischenSchließ-Automatik auf.  Länge: 1500 mm Durchmesser: 8 mm  incl. Halter für die Bolzenschraube derSattelklemme : Spiralkabelschloss , : 1500 mm , : 8 mm , : Schließautomatik , : incl. Halter für die Bolzenschraube der Sattelklemme]]></field>
+			<field name="imageUrlSmall"><![CDATA[http://www.fahrrad.de/media/products/Trelock-SK150-big[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			<field name="products_name">Trelock Spiralkabelschloss SK 150</field>
+			<field name="AdditionalAttributes_values"></field>
+			<field name="FFAutomaticSearchOptimization"></field>
+			<field name="cash_back_amount"></field>
+			<field name="month-campaign"></field>
+			<field name="Größe"></field>
+			<field name="products_quantity_unit"></field>
+			<field name="coupon-campaign"></field>
+			<field name="products_special_offer">0</field>
+			<field name="products_price">4.99</field>
+			<field name="availability">3</field>
+			<field name="imageUrlMid"><![CDATA[http://www.fahrrad.de/media/products/Trelock-SK150-big[200x200].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			<field name="categories_free_shipping">0</field>
+			<field name="Länge"></field>
+			<field name="products_model_year">2008</field>
+			<field name="products_link_self"><![CDATA[http://www.fahrrad.de/fahrradzubehoer/schloesser/trelock-spiralkabelschloss-sk-150/501.html]]></field>
+			<field name="manufacturers_name">Trelock</field>
+			<field name="manufacturers_image">http://www.fahrrad.de/media/products/trelock.jpg</field>
+			<field name="manufacturers_free_shipping">0</field>
+			<field name="categories_image"></field>
+			<field name="FFCheckoutCount">5</field>
+			<field name="products_free_shipping">0</field>
+			<field name="manufacturers_id">17</field>
+			<field name="products_quantity"></field>
+			<field name="products_you_save_percent">66.71</field>
+			<field name="FFAfterSearchReorder"></field>
+		</product>
+	</pushedProducts>
+</campaign>
+</campaigns>
+</ff>
