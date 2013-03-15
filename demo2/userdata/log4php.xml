@@ -1,11 +1,13 @@
 <configuration xmlns="http://logging.apache.org/log4php/">
     <appender name="fileAppender" class="LoggerAppenderFile">
-		<layout class="LoggerLayoutTTCC" />
+		<layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="%date{Y-m-d H:i:s,u} [%process] %logger %-5level - %msg%n" />
+        </layout>
         <param name="file" value="ff.log" />
     </appender>
 	   
 	<logger name="demoshop">
-        <level value="INFO" />
+        <level value="WARN" />
     </logger>
     <root>
         <level value="WARN" />

@@ -14,46 +14,48 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- *
- * @package log4php
  */
 
 /**
- * Log events to a system log using the {@link PHP_MANUAL#syslog} function.
+ * Log events to a system log using the PHP syslog() function.
  *
  * This appenders requires a layout.
  *
- * Configurable parameters:
+ * ## Configurable parameters: ##
  * 
- * - ident            - The ident of the syslog message.
- * - priority         - The priority for the syslog message (used when overriding priority).
- * - facility         - The facility for the syslog message
- * - overridePriority - If set to true, the message priority will always use 
- *                      the value defined in {@link $priority}, otherwise the
- *                      priority will be determined by the message's log level.  
- * - option           - The option value for the syslog message. 
+ * - **ident** - The ident of the syslog message.
+ * - **priority** - The priority for the syslog message (used when overriding 
+ *     priority).
+ * - **facility** - The facility for the syslog message
+ * - **overridePriority** - If set to true, the message priority will always 
+ *     use the value defined in {@link $priority}, otherwise the priority will
+ *     be determined by the message's log level.  
+ * - **option** - The option value for the syslog message. 
  *
  * Recognised syslog options are:
- * 	- CONS 	 - if there is an error while sending data to the system logger, write directly to the system console
- * 	- NDELAY - open the connection to the logger immediately
- * 	- ODELAY - delay opening the connection until the first message is logged (default)
- * 	- PERROR - print log message also to standard error
- * 	- PID    - include PID with each message
+ * 
+ * - CONS 	 - if there is an error while sending data to the system logger, write directly to the system console
+ * - NDELAY - open the connection to the logger immediately
+ * - ODELAY - delay opening the connection until the first message is logged (default)
+ * - PERROR - print log message also to standard error
+ * - PID    - include PID with each message
  * 
  * Multiple options can be set by delimiting them with a pipe character, 
  * e.g.: "CONS|PID|PERROR".
  * 
  * Recognised syslog priorities are:
- * 	- EMERG
- * 	- ALERT
- * 	- CRIT
- * 	- ERR
- * 	- WARNING
- * 	- NOTICE
- * 	- INFO
- * 	- DEBUG
+ * 
+ * - EMERG
+ * - ALERT
+ * - CRIT
+ * - ERR
+ * - WARNING
+ * - NOTICE
+ * - INFO
+ * - DEBUG
  *
  * Levels are mapped as follows:
+ * 
  * - <b>FATAL</b> to LOG_ALERT
  * - <b>ERROR</b> to LOG_ERR 
  * - <b>WARN</b> to LOG_WARNING
@@ -61,15 +63,11 @@
  * - <b>DEBUG</b> to LOG_DEBUG
  * - <b>TRACE</b> to LOG_DEBUG
  *
- * An example:
- *
- * {@example ../../examples/php/appender_syslog.php 19}
- *
- * {@example ../../examples/resources/appender_syslog.properties 18}
- *
- * @version $Revision: 1213283 $
+ * @version $Revision: 1337820 $
  * @package log4php
  * @subpackage appenders
+ * @license http://www.apache.org/licenses/LICENSE-2.0 Apache License, Version 2.0
+ * @link http://logging.apache.org/log4php/docs/appenders/syslog.html Appender documentation
  */ 
 class LoggerAppenderSyslog extends LoggerAppender {
 	
@@ -128,16 +126,6 @@ class LoggerAppenderSyslog extends LoggerAppender {
 	 * @var int
 	 */
 	private $intOption;
-	
-	/** Maps log4php levels to equivalent syslog priorities. */
-	private $levelMap = array(
-		LoggerLevel::TRACE => LOG_DEBUG,
-		LoggerLevel::DEBUG => LOG_DEBUG,
-		LoggerLevel::INFO  => LOG_INFO,
-		LoggerLevel::WARN  => LOG_WARNING,
-		LoggerLevel::ERROR => LOG_ERR,
-		LoggerLevel::FATAL => LOG_ALERT,
-	);
 
 	/**
 	 * Sets the {@link $ident}.
@@ -176,7 +164,7 @@ class LoggerAppenderSyslog extends LoggerAppender {
 	} 
 	
 	/**
-	* Sets the {@link $option}.
+	* Sets the 'option' parameter.
 	*
 	* @param string $option
 	*/
@@ -185,7 +173,7 @@ class LoggerAppenderSyslog extends LoggerAppender {
 	}
 	
 	/**
-	* Returns the {@link $ident}.
+	* Returns the 'ident' parameter.
 	*
 	* @return string $ident
 	*/
@@ -194,7 +182,7 @@ class LoggerAppenderSyslog extends LoggerAppender {
 	}
 	
 	/**
-	 * Returns the {@link $priority}.
+	 * Returns the 'priority' parameter.
 	 *
 	 * @return string
 	 */
@@ -203,7 +191,7 @@ class LoggerAppenderSyslog extends LoggerAppender {
 	}
 	
 	/**
-	 * Returns the {@link $facility}.
+	 * Returns the 'facility' parameter.
 	 *
 	 * @return string
 	 */
@@ -212,7 +200,7 @@ class LoggerAppenderSyslog extends LoggerAppender {
 	}
 	
 	/**
-	 * Returns the {@link $overridePriority}.
+	 * Returns the 'overridePriority' parameter.
 	 *
 	 * @return string
 	 */
@@ -221,7 +209,7 @@ class LoggerAppenderSyslog extends LoggerAppender {
 	}
 	
 	/**
-	 * Returns the {@link $option}.
+	 * Returns the 'option' parameter.
 	 *
 	 * @return string
 	 */
@@ -268,14 +256,7 @@ class LoggerAppenderSyslog extends LoggerAppender {
 		if($this->overridePriority) {
 			return $this->intPriority;
 		}
-		
-		$int = $level->toInt();
-		
-		if (isset($this->levelMap[$int])) {
-			return $this->levelMap[$int];
-		} else {
-			return LOG_DEBUG;
-		}
+		return $level->getSyslogEquivalent();
 	}
 	
 	/** Parses a syslog option string and returns the correspodning int value. */

@@ -85,11 +85,11 @@
 
 			<div id="content">
 			<?php switch($status):
-			case FACTFinder_Abstract_SearchAdapter::NO_RESULT:
-			case FACTFinder_Abstract_SearchAdapter::NOTHING_FOUND: ?>
+			case FACTFinder_Default_SearchAdapter::NO_RESULT:
+			case FACTFinder_Default_SearchAdapter::NOTHING_FOUND: ?>
 				<h2><?php echo $message; ?></h2>
 			<?php break;
-			case FACTFinder_Abstract_SearchAdapter::RESULTS_FOUND: ?>
+			case FACTFinder_Default_SearchAdapter::RESULTS_FOUND: ?>
 				<div id="asnColumn" class="<?php echo $i18n->msg('resultpage_asnHintCssClass'); ?>" >
 					<?php
 					if(isset($campaigns)) echo $campaigns->getFeedback('above asn');
