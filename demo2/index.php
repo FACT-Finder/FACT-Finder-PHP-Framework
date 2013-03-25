@@ -18,8 +18,8 @@ FF::setLogger($log);
 // if required a second logger with a different configuration can be created to handle logging outside of the library differently
 
 // construct application
-$searchAdapter = getSearchAdapter('xml67', $log);
-$tagCloudAdapter = getTagCloudAdapter('xml67', $log);
+$searchAdapter = getSearchAdapter('xml69', $log);
+$tagCloudAdapter = getTagCloudAdapter('xml68', $log);
 
 // get data from FACT-Finder
 

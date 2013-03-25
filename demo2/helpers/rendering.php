@@ -474,7 +474,7 @@ function renderProduct($record, $util, $i18n) {
 		<div class="productWrap">
 			<div class="product">
 				<div class="picture">
-					<a href="', $detailUrl, '" onclick="', $util->createJavaScriptClickCode($record, $title, $sid), '">
+					<a href="', $detailUrl, '" onclick="', $util->createJavaScriptClickCode($record, $title, $sid, false), '">
 						<img valign="top" src="', $imageUrl, '" alt="', $i18n->msg('product_noPicture'), '"
 							title="', addslashes($title), '" onload="resizePicture(this, 120, 170)" onerror="imageNotFound(this)"
 							onmouseover="TagToTip(\'descr', $articleNr, '\', SHADOW, true)" onmouseout="UnTip()" />
@@ -490,7 +490,7 @@ function renderProduct($record, $util, $i18n) {
 				</div>
 
 				<div class="title">
-					<a href="', $detailUrl, '" onclick="', $util->createJavaScriptClickCode($record, $title, $sid), '">', mb_strimwidth($title, 0, 23, '..'), '</a>
+					<a href="', $detailUrl, '" onclick="', $util->createJavaScriptClickCode($record, $title, $sid, false), '">', mb_strimwidth($title, 0, 23, '..'), '</a>
 				</div>
 				<div class="price">', $price, $i18n->msg('product_priceUnit'), '</div>
 			</div>
