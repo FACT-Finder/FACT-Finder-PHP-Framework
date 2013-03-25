@@ -253,7 +253,8 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
     }
 
     protected function getGroupStyle($xmlGroup) {
-        return strval($xmlGroup->attributes()->style) == 'SLIDER';
+        $style = strval($xmlGroup->attributes()->style);
+        return $style == 'SLIDER' ? $style : 'DEFAULT';
     }
 
     protected function createFilter($xmlFilter, $group, $encodingHandler, $params) {
