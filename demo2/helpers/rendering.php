@@ -85,11 +85,12 @@ function getInitialSearchQuery($ffparams, $i18n) {
  * This function renders a column with all the After Search Navigation elements to the standard output.
  *
  * @param	FACTFinder_Asn					$asn		the asn object returned by the search adapter
+ * @param	FACTFinder_Util					$util		a utility object for the current search adapter
  * @param	FACTFinder_Parameters			$ffparams	the params object returned by the params parser
  * @param	i18n							$i18n		internationalization object
  * @param	FACTFinder_CampaignIterator		$campaigns	the campaigns object returned by the search adapter
  **/
-function renderAsnColumn($asn, $ffparams, $i18n, $campaigns = NULL) {
+function renderAsnColumn($asn, $util, $ffparams, $i18n, $campaigns = NULL) {
 	if (isset($asn)) {
 		foreach($asn AS $group) {
 			echo '<div class="asnGroup"> <h3>'.$group->getName().'</h3>';
@@ -99,14 +100,14 @@ function renderAsnColumn($asn, $ffparams, $i18n, $campaigns = NULL) {
 					if ($element->isSelected()) {
 						// show deselect links
 						echo '<p class="asnElement selected lvl'. $element->getClusterLevel() .'">
-								<a href="'.$element->getUrl().'">'.$element->getValue().' '.$group->getUnit().'<br>
+								<a href="'.$element->getUrl().'" onclick="'.$util->createJavaScriptTrackingCode("refine", $element->getRefKey()).'">'.$element->getValue().' '.$group->getUnit().'<br>
 									<span>', $i18n->msg('asn_removeFilter'), '</span></a>
 							</p>';
 					} else {
 						if ($linkCount < $group->getDetailedLinkCount()) {
 							// show filters as usual links
 							echo '<p class="asnElement lvl'. $element->getClusterLevel() .'">
-									<a href="'.$element->getUrl().'">'.$element->getValue().' '.$group->getUnit();
+									<a href="'.$element->getUrl().'" onclick="'.$util->createJavaScriptTrackingCode("refine", $element->getRefKey()).'">'.$element->getValue().' '.$group->getUnit();
 							if (!$ffparams->isNavigation()) {
 								echo '<span>('.$element->getMatchCount().')</span>';
 							}
@@ -154,6 +155,7 @@ function renderAsnColumn($asn, $ffparams, $i18n, $campaigns = NULL) {
 						}
 
 						function sliderSelect(left, right) {
+							'.$util->createJavaScriptTrackingCode("refine", $slider->getRefKey()).'
 							window.location.href="'.$slider->getBaseUrl().'"+left+" - "+right;
 						}
 					</script>
