@@ -68,11 +68,11 @@ class FACTFinder_Xml69_TrackingAdapter extends FACTFinder_Abstract_Adapter
         if (strlen($refKey) == 0)
             throw new UnexpectedValueException("No RefKey in parameters");
 
-        $params = array(refKey => $refKey, sid => $sid);
+        $params = array('refKey' => $refKey, 'sid' => $sid);
 
-        $optParams = preg_split("/[\b|\s]+/", "userId cookieId price amount positive message");
+        $optParams = array('userId', 'cookieId', 'price', 'amount', 'positive', 'message');
         foreach ($optParams AS $optParam) {
-            if (strlen($inputParams[$optParam]) > 0)
+            if (isset($inputParams[$optParam]) && strlen($inputParams[$optParam]) > 0)
                 $params[$optParam] = $inputParams[$optParam];
         }
 
