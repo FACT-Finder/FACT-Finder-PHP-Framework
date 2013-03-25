@@ -34,7 +34,9 @@ class FACTFinder_Util
         }
     }
 
-    private function createJavaScriptTrackingCode($event, $refKey, $sid, $channel) {
+    public function createJavaScriptTrackingCode($event, $refKey, $sid = null, $channel = null) {
+        if (strlen($sid) == 0) $sid = session_id();
+        if (strlen($channel) == 0) $channel = $this->ffparams->getChannel();
         $refKey = addslashes($refKey);
         $sid = addslashes($sid);
         return "trackEvent('$event', '$refKey', '$sid', '$channel')";

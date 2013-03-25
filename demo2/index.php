@@ -53,6 +53,10 @@ try {
 
 	$util = FF::getInstance('util', $ffparams, $searchAdapter);
 	
+	// Demo-session, needed to make tracking work
+	$sid = session_id();
+	if ($sid == '') session_start();
+
 	switch ($status) {
 		case FACTFinder_Default_SearchAdapter::NO_RESULT:
 			$message = $i18n->msg('error_noResult');

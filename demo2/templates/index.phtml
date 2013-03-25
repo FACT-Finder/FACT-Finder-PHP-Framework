@@ -93,7 +93,7 @@
 				<div id="asnColumn" class="<?php echo $i18n->msg('resultpage_asnHintCssClass'); ?>" >
 					<?php
 					if(isset($campaigns)) echo $campaigns->getFeedback('above asn');
-					renderAsnColumn($asn, $ffparams, $i18n, isset($campaigns) ? $campaigns : NULL);
+					renderAsnColumn($asn, $util, $ffparams, $i18n, isset($campaigns) ? $campaigns : NULL);
 					if(isset($campaigns)) echo $campaigns->getFeedback('below asn');
 					?>
 				</div>
