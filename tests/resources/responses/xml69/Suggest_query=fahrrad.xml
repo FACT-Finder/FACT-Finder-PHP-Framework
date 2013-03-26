@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+
+
+
+
+
+
+
+
+
+<ff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ffsuggest.xsd">
+
+		<suggest nr="0" query="Fahrrad-Wandhalter 2-teilig" hitcount="0" type="productName"  refKey="4v0PpHlxr">
+			
+			<attributes> 
+				
+				<attribute name="id">8666</attribute>
+				
+				<attribute name="deeplink">Detail.ff?id=8666&amp;channel=de</attribute>
+				
+			</attributes>
+			
+			<searchParams><![CDATA[/Search.ff?query=Fahrrad-Wandhalter+2-teilig&channel=de&ignoreForCache=queryFromSuggest&queryFromSuggest=true&ignoreForCache=userInput&userInput=fahrrad&format=XML]]></searchParams>
+			
+		</suggest>
+		
+		<suggest nr="1" query="Basil Fahrradkorb Weide Dublin" hitcount="0" type="productName"  refKey="aj2tMFhwe">
+			
+			<attributes> 
+				
+				<attribute name="id">265359</attribute>
+				
+				<attribute name="deeplink">Detail.ff?id=265359&amp;channel=de</attribute>
+				
+			</attributes>
+			
+			<searchParams><![CDATA[/Search.ff?query=Basil+Fahrradkorb+Weide+Dublin&channel=de&ignoreForCache=queryFromSuggest&queryFromSuggest=true&ignoreForCache=userInput&userInput=fahrrad&format=XML]]></searchParams>
+			
+		</suggest>
+		
+		<suggest nr="2" query="AIR-SEAT - Der luftgefederte Fahrradsattel" hitcount="0" type="productName"  refKey="arJaozdL_">
+			
+			<attributes> 
+				
+				<attribute name="id">226</attribute>
+				
+				<attribute name="deeplink">Detail.ff?id=226&amp;channel=de</attribute>
+				
+			</attributes>
+			
+			<searchParams><![CDATA[/Search.ff?query=AIR-SEAT+-+Der+luftgefederte+Fahrradsattel&channel=de&ignoreForCache=queryFromSuggest&queryFromSuggest=true&ignoreForCache=userInput&userInput=fahrrad&format=XML]]></searchParams>
+			
+		</suggest>
+		
+		<suggest nr="3" query="XLC Comp Yellowstone BH-C09 Fahrradhelm weiß/schwarz/blau" hitcount="0" type="productName"  refKey="_-oXbBBu_">
+			
+			<attributes> 
+				
+				<attribute name="id">283182</attribute>
+				
+				<attribute name="deeplink">Detail.ff?id=283182&amp;channel=de</attribute>
+				
+			</attributes>
+			
+			<searchParams><![CDATA[/Search.ff?query=XLC+Comp+Yellowstone+BH-C09+Fahrradhelm+wei%C3%9F%2Fschwarz%2Fblau&channel=de&ignoreForCache=queryFromSuggest&queryFromSuggest=true&ignoreForCache=userInput&userInput=fahrrad&format=XML]]></searchParams>
+			
+		</suggest>
+		
+		<suggest nr="4" query="Roeckl Fahrrad-Handschuh Nauen black" hitcount="0" type="productName"  refKey="dd--OSud6">
+			
+			<attributes> 
+				
+				<attribute name="id">239737</attribute>
+				
+				<attribute name="deeplink">Detail.ff?id=239737&amp;channel=de</attribute>
+				
+			</attributes>
+			
+			<searchParams><![CDATA[/Search.ff?query=Roeckl+Fahrrad-Handschuh+Nauen+black&channel=de&ignoreForCache=queryFromSuggest&queryFromSuggest=true&ignoreForCache=userInput&userInput=fahrrad&format=XML]]></searchParams>
+			
+		</suggest>
+		
+		<suggest nr="5" query="B+M Fahrradspiegel Cyclestar" hitcount="0" type="productName"  refKey="rH5WKBXwN">
+			
+			<attributes> 
+				
+				<attribute name="id">8798</attribute>
+				
+				<attribute name="deeplink">Detail.ff?id=8798&amp;channel=de</attribute>
+				
+			</attributes>
+			
+			<searchParams><![CDATA[/Search.ff?query=B%2BM+Fahrradspiegel+Cyclestar&channel=de&ignoreForCache=queryFromSuggest&queryFromSuggest=true&ignoreForCache=userInput&userInput=fahrrad&format=XML]]></searchParams>
+			
+		</suggest>
+		
+		<suggest nr="6" query="Bioracer fahrrad.de Men Team Windblock Jacke" hitcount="0" type="productName"  refKey="bqfpC035n">
+			
+			<attributes> 
+				
+				<attribute name="id">253420</attribute>
+				
+				<attribute name="deeplink">Detail.ff?id=253420&amp;channel=de</attribute>
+				
+			</attributes>
+			
+			<searchParams><![CDATA[/Search.ff?query=Bioracer+fahrrad.de+Men+Team+Windblock+Jacke&channel=de&ignoreForCache=queryFromSuggest&queryFromSuggest=true&ignoreForCache=userInput&userInput=fahrrad&format=XML]]></searchParams>
+			
+		</suggest>
+		
+		<suggest nr="7" query="BBB Fahrradschloss CodeLock BBL-46 schwarz" hitcount="0" type="productName"  refKey="8YxBB33Pt">
+			
+			<attributes> 
+				
+				<attribute name="id">252187</attribute>
+				
+				<attribute name="deeplink">Detail.ff?id=252187&amp;channel=de</attribute>
+				
+			</attributes>
+			
+			<searchParams><![CDATA[/Search.ff?query=BBB+Fahrradschloss+CodeLock+BBL-46+schwarz&channel=de&ignoreForCache=queryFromSuggest&queryFromSuggest=true&ignoreForCache=userInput&userInput=fahrrad&format=XML]]></searchParams>
+			
+		</suggest>
+		
+		<suggest nr="8" query="Cat Eye Fahrradklingel PB 200 gelb" hitcount="0" type="productName"  refKey="UYcAf-_1G">
+			
+			<attributes> 
+				
+				<attribute name="id">260924</attribute>
+				
+				<attribute name="deeplink">Detail.ff?id=260924&amp;channel=de</attribute>
+				
+			</attributes>
+			
+			<searchParams><![CDATA[/Search.ff?query=Cat+Eye+Fahrradklingel+PB+200+gelb&channel=de&ignoreForCache=queryFromSuggest&queryFromSuggest=true&ignoreForCache=userInput&userInput=fahrrad&format=XML]]></searchParams>
+			
+		</suggest>
+		
+		<suggest nr="9" query="Croozer Fahrradanhänger Mini" hitcount="0" type="productName"  refKey="Q_BVAetfO">
+			
+			<attributes> 
+				
+				<attribute name="id">267611</attribute>
+				
+				<attribute name="deeplink">Detail.ff?id=267611&amp;channel=de</attribute>
+				
+			</attributes>
+			
+			<searchParams><![CDATA[/Search.ff?query=Croozer+Fahrradanh%C3%A4nger+Mini&channel=de&ignoreForCache=queryFromSuggest&queryFromSuggest=true&ignoreForCache=userInput&userInput=fahrrad&format=XML]]></searchParams>
+			
+		</suggest>
+		
+</ff>

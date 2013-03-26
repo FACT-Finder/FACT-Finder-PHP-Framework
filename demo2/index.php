@@ -19,7 +19,7 @@ FF::setLogger($log);
 
 // construct application
 $searchAdapter = getSearchAdapter('xml69', $log);
-$tagCloudAdapter = getTagCloudAdapter('xml68', $log);
+$tagCloudAdapter = getTagCloudAdapter('xml69', $log);
 
 // get data from FACT-Finder
 

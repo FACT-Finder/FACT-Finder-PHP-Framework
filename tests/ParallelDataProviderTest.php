@@ -49,9 +49,9 @@ class ParallaDataProviderTest extends PHPUnit_Framework_TestCase
 		
 		$dataProvider_search->setParam('query', 'bmx');
 		
-		$this->tagCloudAdapter = FF::getInstance('xml65/tagCloudAdapter', $dataProvider_tagCloud, self::$paramsParser, self::$encodingHandler, self::$log);
-		$this->tagCloudAdapter2 = FF::getInstance('xml65/tagCloudAdapter', $dataProvider_tagCloud2, self::$paramsParser2, self::$encodingHandler2, self::$log);
-		$this->searchAdapter = FF::getInstance('xml65/searchAdapter', $dataProvider_search, self::$paramsParser, self::$encodingHandler, self::$log);
+		$this->tagCloudAdapter = FF::getInstance('xml69/tagCloudAdapter', $dataProvider_tagCloud, self::$paramsParser, self::$encodingHandler, self::$log);
+		$this->tagCloudAdapter2 = FF::getInstance('xml69/tagCloudAdapter', $dataProvider_tagCloud2, self::$paramsParser2, self::$encodingHandler2, self::$log);
+		$this->searchAdapter = FF::getInstance('xml69/searchAdapter', $dataProvider_search, self::$paramsParser, self::$encodingHandler, self::$log);
 	}
 	
 	/**

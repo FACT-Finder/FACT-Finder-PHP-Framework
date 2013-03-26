@@ -57,14 +57,14 @@ class StatusHelperHttpTest extends PHPUnit_Framework_TestCase
     {
         $actualVersionNumber = $this->statusHelper->getVersionNumber();
 
-        $this->assertEquals(68, $actualVersionNumber);
+        $this->assertEquals(69, $actualVersionNumber);
     }
 
     public function testGetVersionString()
     {
         $actualVersionNumber = $this->statusHelper->getVersionString();
 
-        $this->assertEquals('6.8', $actualVersionNumber);
+        $this->assertEquals('6.9', $actualVersionNumber);
     }
 
     public function testGetStatusCode()

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+
+
+
+
+
+<ff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ffsimilarrecords.xsd">
+
+	<similarAttributes>
+		
+				 	<attribute name="Category3">..Kinder Helm / Jugend Helm..|..Radhelme..</attribute>
+				
+				 	<attribute name="Category2">..Fahrradhelm..|..Bekleidung Sale..</attribute>
+				
+				 	<attribute name="Category1">..Bekleidung..|..SALE..</attribute>
+					
+	</similarAttributes>
+	<similarRecords>
+		
+						<record nr="0" id="232867">
+							
+						</record>
+					 
+						<record nr="1" id="291905">
+							
+						</record>
+					 
+						<record nr="2" id="291784">
+							
+						</record>
+					 
+						<record nr="3" id="335071">
+							
+						</record>
+					 
+						<record nr="4" id="319106">
+							
+						</record>
+					 
+						<record nr="5" id="11903">
+							
+						</record>
+					 
+						<record nr="6" id="233267">
+							
+						</record>
+					 
+						<record nr="7" id="329756">
+							
+						</record>
+					 
+						<record nr="8" id="232866">
+							
+						</record>
+					 
+						<record nr="9" id="11900">
+							
+						</record>
+					 	
+	</similarRecords>
+</ff>

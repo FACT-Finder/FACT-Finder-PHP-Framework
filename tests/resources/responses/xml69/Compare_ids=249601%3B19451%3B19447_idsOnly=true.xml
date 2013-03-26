@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ffcompare.xsd">
+
+	
+	<attributes>
+		
+		<attribute name="Hersteller" hasDifferences="true" sourceField="Brand" />
+		
+		<attribute name="Colors" hasDifferences="true" sourceField="Colors" />
+		
+		<attribute name="Modelljahr" hasDifferences="true" sourceField="ProductModelYear" />
+		
+	</attributes>
+	
+	
+	<results count="3">
+				
+			<record nr="0" id="249601" >
+				
+					<field name="Modelljahr">2012</field>
+				
+					<field name="Hersteller">MET</field>
+				
+					<field name="Colors">..rosa..|..weiß..</field>
+				
+					<field name="Features"></field>
+				
+			</record>
+				
+			<record nr="1" id="19451" >
+				
+					<field name="Modelljahr">2011</field>
+				
+					<field name="Hersteller">Bell</field>
+				
+					<field name="Colors">..grau..|..weiß..</field>
+				
+					<field name="Features"></field>
+				
+			</record>
+				
+			<record nr="2" id="19447" >
+				
+					<field name="Modelljahr">2011</field>
+				
+					<field name="Hersteller">Bell</field>
+				
+					<field name="Colors">..schwarz..|..grau..</field>
+				
+					<field name="Features"></field>
+				
+			</record>
+			
+	</results>
+	
+
+</ff>
