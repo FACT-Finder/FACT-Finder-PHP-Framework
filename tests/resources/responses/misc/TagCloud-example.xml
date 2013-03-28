@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+
+
+
+
+
+
+
+
+
+<tagCloud xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="fftagcloud.xsd">
+	
+	<entry nr="0" weight="0.7678348800262406" searchCount="16" url="?seoPath=%2Fcube%2Fq&amp;channel=de">cube</entry>
+		
+	<entry nr="1" weight="1.0" searchCount="37" url="?seoPath=%2Fhelm%2Fq&amp;channel=de">helm</entry>
+		
+	<entry nr="2" weight="0.0" searchCount="1" url="?seoPath=%2Frad%2Fq&amp;channel=de">rad</entry>
+		
+	<entry nr="3" weight="0.30424737289682985" searchCount="3" url="?seoPath=%2Fwerkzeug%2Fq&amp;channel=de">werkzeug</entry>
+		
+</tagCloud>
+
+

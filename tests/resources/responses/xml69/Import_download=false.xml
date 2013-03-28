@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+<importProgress>
+	<currentChannel>de</currentChannel>
+	<progress>0</progress>
+	<percentage></percentage>
+	<totalPercentage></totalPercentage>
+	<finished>false</finished>
+	<running></running>
+	<status>
+		
+			<message>Import mit 37 Feldern für Channel &#039;at&#039;</message>
+		
+			<message>Startzeit: 26.03.2013 14:05:30</message>
+		
+			<message>17.485 Datensätze für Channel &#039;at&#039; in 16 Sekunden importiert</message>
+		
+			<message>Import mit 37 Feldern für Channel &#039;ch&#039;</message>
+		
+			<message>Startzeit: 26.03.2013 14:05:30</message>
+		
+			<message>16.438 Datensätze für Channel &#039;ch&#039; in 11 Sekunden importiert</message>
+		
+			<message>Import mit 37 Feldern für Channel &#039;de&#039;</message>
+		
+			<message>Startzeit: 26.03.2013 14:05:30</message>
+		
+			<message>18.418 Datensätze für Channel &#039;de&#039; in 15 Sekunden importiert</message>
+		
+			<message>Import mit 37 Feldern für Channel &#039;de_dq&#039;</message>
+		
+			<message>Startzeit: 26.03.2013 14:05:30</message>
+		
+			<message>18.418 Datensätze für Channel &#039;de_dq&#039; in 18 Sekunden importiert</message>
+		
+			<message>Import mit 37 Feldern für Channel &#039;fr&#039;</message>
+		
+			<message>Startzeit: 26.03.2013 14:05:30</message>
+		
+			<message>16.409 Datensätze für Channel &#039;fr&#039; in 9 Sekunden importiert</message>
+		
+			<message>87.168 Datensätze insgesamt in 71 Sekunden importiert</message>
+		
+			<message>1.227,72 Datensätze pro Sekunde</message>
+		
+			<message>Beendet: 26.03.2013 14:06:41</message>
+		
+	</status>
+	<errors>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de.csv): Line 621 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de.csv): Line 8082 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de.csv): Line 8106 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de.csv): Line 17940 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de.csv): Line 17941 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de.csv): Line 17942 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de.csv): Line 17948 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de.csv): Line 17951 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de.csv): Line 17952 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de.csv): Line 17953 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de.csv): Line 17954 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de.csv): Line 18050 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de.csv): Line 18051 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de.csv): Line 18052 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de_dq.csv): Line 621 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de_dq.csv): Line 8082 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de_dq.csv): Line 8106 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de_dq.csv): Line 17940 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de_dq.csv): Line 17941 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de_dq.csv): Line 17942 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de_dq.csv): Line 17948 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de_dq.csv): Line 17951 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de_dq.csv): Line 17952 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de_dq.csv): Line 17953 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de_dq.csv): Line 17954 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de_dq.csv): Line 18050 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de_dq.csv): Line 18051 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.de_dq.csv): Line 18052 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.fr.csv): Line 624 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.fr.csv): Line 7893 couldn&#039;t be imported.</message>
+		
+			<message>CSV file could not be parsed (for /home/ec/dev/ffres/trnk/FF/export.fr.csv): Line 7911 couldn&#039;t be imported.</message>
+		
+	</errors>
+</importProgress>

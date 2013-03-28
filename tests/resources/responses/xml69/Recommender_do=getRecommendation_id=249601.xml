@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ffrecommender.xsd">
+
+	<results count="10">
+		
+		<record nr="0" id="6497"> 
+			
+				<field name="Brand">SCHWALBE</field>
+			
+				<field name="PricePurchase">0.00</field>
+			
+				<field name="PriceRetail">21.90</field>
+			
+				<field name="ImageURL"><![CDATA[http://images.internetstores.de/products/bikeparts/b75a548f44ab152206e0f71ba8ddd2c2[219x140].JPG?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="ProductRankingCharge">1998</field>
+			
+				<field name="EAN">4032191676685</field>
+			
+				<field name="RatingAverage">4.5714</field>
+			
+				<field name="ArticleNumber">6497</field>
+			
+				<field name="FFAutomaticSearchOptimization">=5E-4,-4E0;</field>
+			
+				<field name="TargetGroupBike">..MTB..|..Gravity..|..Urban..</field>
+			
+				<field name="RatingQuantity">7</field>
+			
+				<field name="ProductReductionMoney">0.00</field>
+			
+				<field name="ProductURL"><![CDATA[fahrradteile/reifen-schlaeuche/reifen-schwalbe-bmx-crazy-bob-hs-356/6497.html]]></field>
+			
+				<field name="Category3">..BMX / Dirt Reifen..</field>
+			
+				<field name="Category2">..Reifen &amp; Schläuche..</field>
+			
+				<field name="Availability">3</field>
+			
+				<field name="Category1">..Fahrradteile..</field>
+			
+				<field name="ProductRankingProfit">13510</field>
+			
+				<field name="ProductReductionPercent">0</field>
+			
+				<field name="Description"><![CDATA[Bob ist ganz verrückt auf wilde Tricks und steile Rampen.Auch in extremer Schräglage bietet das weit umlaufende Profil noch Grip.Robuste Fahreigenschaften verwöhnen den Athleten sowohl imVorwärtsgang als auch beim Rückwärtsrollen. 20 x 2.1 Zoll (54-406)24 x 2.35 Zoll (60-507)]]></field>
+			
+				<field name="ImageSmallURL"><![CDATA[http://images.internetstores.de/products/bikeparts/b75a548f44ab152206e0f71ba8ddd2c2[85x85].JPG?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="Colors">..schwarz..</field>
+			
+				<field name="Options"></field>
+			
+				<field name="TargetGroupOutdoor"></field>
+			
+				<field name="Features">|78=BMX &amp; Dirt|114=Schwalbe|</field>
+			
+				<field name="Name">Schwalbe Crazy Bob BMX Reifen</field>
+			
+				<field name="BrandId">44</field>
+			
+				<field name="Category">Katalog/Fahrradteile/Reifen &amp; Schläuche/BMX %2F Dirt Reifen</field>
+			
+				<field name="FFCliplisterQuality">175</field>
+			
+				<field name="Sizes"></field>
+			
+				<field name="ProductProperty"></field>
+			
+				<field name="Gender">..Damen..|..Herren..|..Kinder..</field>
+			
+				<field name="Price">21.90</field>
+			
+				<field name="CategoryIds">36896 &gt;&gt; 36911 &gt;&gt; 36947 &gt;&gt; 37138</field>
+			
+				<field name="SlowSeller"></field>
+			
+				<field name="ProductModelYear">2012</field>
+			
+				<field name="FFAfterSearchReorder"></field>
+			
+		</record>
+		
+		<record nr="1" id="262112"> 
+			
+				<field name="Brand">Michelin</field>
+			
+				<field name="PricePurchase">0.00</field>
+			
+				<field name="PriceRetail">23.99</field>
+			
+				<field name="ImageURL"><![CDATA[http://images.internetstores.de/products/paul_lange/BI_FA003466026[219x140].JPG?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="ProductRankingCharge">1852</field>
+			
+				<field name="EAN">3528706486067</field>
+			
+				<field name="RatingAverage"></field>
+			
+				<field name="ArticleNumber">262112</field>
+			
+				<field name="FFAutomaticSearchOptimization">=5E-4,-4E0;</field>
+			
+				<field name="TargetGroupBike">..Urban..</field>
+			
+				<field name="RatingQuantity"></field>
+			
+				<field name="ProductReductionMoney">0.00</field>
+			
+				<field name="ProductURL"><![CDATA[fahrradteile/reifen-schlaeuche/reifen-city-gw-37-40620x150schw-reflekt-28-622/262112.html]]></field>
+			
+				<field name="Category3">..Reifen sonstige..</field>
+			
+				<field name="Category2">..Reifen &amp; Schläuche..</field>
+			
+				<field name="Availability">3</field>
+			
+				<field name="Category1">..Fahrradteile..</field>
+			
+				<field name="ProductRankingProfit">0</field>
+			
+				<field name="ProductReductionPercent">0</field>
+			
+				<field name="Description"><![CDATA[Mit Michelin City ist man schnell und sicher in der Stadt unterwegs! Der City von Michelin bietet ? wie der Pilot City ? die Protek Compound Mischung, die perfekt gegen Rissbildung durch schädliche Umwelteinflüsse wirkt. Sein Leichtlauf-Profil ist speziell auf Asphalt und Pflaster abgestimmt ? der Cityreifen für Extra-Fahrspaß.- Die neue Protek Compound Mischung mit Anti-Oxydantien wirkt effektiv gegen Rissbildung durch Ozon, UV-Strahlung, Temperaturschwankungen, Lösungsmittel auf der Fahrbahn.- Die 1 mm Protek Shield Pannenschutzlage unter der Lauffläche schirmt vor Stich-und Schnittverletzungen ab.- Speziell für Asphalt und Pflaster entwickeltes Profildesign.- Schlauchgröße: G4]]></field>
+			
+				<field name="ImageSmallURL"><![CDATA[http://images.internetstores.de/products/paul_lange/BI_FA003466026[85x85].JPG?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="Colors">..schwarz..</field>
+			
+				<field name="Options"></field>
+			
+				<field name="TargetGroupOutdoor"></field>
+			
+				<field name="Features"><![CDATA[|75=455|242=20|491=20 x 1.50|114=Michelin|496=1|495=1|492=37-406|493=Drahtreifen|78=Kind & Jugend / Anhänger|4380=2.5|]]></field>
+			
+				<field name="Name">Michelin City 37-406 schwarz reflektierend</field>
+			
+				<field name="BrandId">364</field>
+			
+				<field name="Category">Katalog/Fahrradteile/Reifen &amp; Schläuche/Reifen sonstige</field>
+			
+				<field name="FFCliplisterQuality">175</field>
+			
+				<field name="Sizes"></field>
+			
+				<field name="ProductProperty"></field>
+			
+				<field name="Gender">..Damen..|..Herren..|..Kinder..</field>
+			
+				<field name="Price">23.99</field>
+			
+				<field name="CategoryIds">36896 &gt;&gt; 36911 &gt;&gt; 36947 &gt;&gt; 37141</field>
+			
+				<field name="SlowSeller"></field>
+			
+				<field name="ProductModelYear">2012</field>
+			
+				<field name="FFAfterSearchReorder"></field>
+			
+		</record>
+		
+		<record nr="2" id="290902"> 
+			
+				<field name="Brand">O'Neal</field>
+			
+				<field name="PricePurchase">0.00</field>
+			
+				<field name="PriceRetail">169.90</field>
+			
+				<field name="ImageURL"><![CDATA[http://images.internetstores.de/products/two_wheel_distribution/0583M-904[219x140].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="ProductRankingCharge">15893</field>
+			
+				<field name="EAN">4046068417417</field>
+			
+				<field name="RatingAverage">4.0000</field>
+			
+				<field name="ArticleNumber">290902</field>
+			
+				<field name="FFAutomaticSearchOptimization">=5E-4,-4E0;</field>
+			
+				<field name="TargetGroupBike">..Gravity..</field>
+			
+				<field name="RatingQuantity">1</field>
+			
+				<field name="ProductReductionMoney">0.00</field>
+			
+				<field name="ProductURL"><![CDATA[bekleidung/fahrradhelme/712-helmet-monster-blackgreen-l-5960-cm/290902.html]]></field>
+			
+				<field name="Category3">..DH / Fullface Helme..</field>
+			
+				<field name="Category2">..Fahrradhelme..</field>
+			
+				<field name="Availability">3</field>
+			
+				<field name="Category1">..Fahrradbekleidung..</field>
+			
+				<field name="ProductRankingProfit">18604</field>
+			
+				<field name="ProductReductionPercent">0</field>
+			
+				<field name="Description"><![CDATA[Details:- überdimensionierte Luftführungen im EPS-Schaumstoff- herausnehm- und waschbares, schweißabsorbierendes Komfortfutter]]></field>
+			
+				<field name="ImageSmallURL"><![CDATA[http://images.internetstores.de/products/two_wheel_distribution/0583M-904[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="Colors">..schwarz..</field>
+			
+				<field name="Options"></field>
+			
+				<field name="TargetGroupOutdoor"></field>
+			
+				<field name="Features"><![CDATA[|98=Polycarbonat Schale, EPS Schaum|102=XS (53-54 cm), S (55-56 cm), M (57-58 cm), L (59-60 cm), XL (61-62 cm), XXL (63-64 cm)|75=1450|105=ECE-Norm 22-05|100=In-Mold Technologie|103=1|104=13|106=Motocross|]]></field>
+			
+				<field name="Name">O'Neal 712 Helmet Monster black/green</field>
+			
+				<field name="BrandId">317</field>
+			
+				<field name="Category">Katalog/Fahrradbekleidung/Fahrradhelme/DH %2F Fullface Helme</field>
+			
+				<field name="FFCliplisterQuality"></field>
+			
+				<field name="Sizes"></field>
+			
+				<field name="ProductProperty"></field>
+			
+				<field name="Gender">..Damen..|..Herren..</field>
+			
+				<field name="Price">169.90</field>
+			
+				<field name="CategoryIds">36896 &gt;&gt; 36951 &gt;&gt; 36926 &gt;&gt; 37261</field>
+			
+				<field name="SlowSeller"></field>
+			
+				<field name="ProductModelYear">2012</field>
+			
+				<field name="FFAfterSearchReorder"></field>
+			
+		</record>
+		
+		<record nr="3" id="291131"> 
+			
+				<field name="Brand">O'Neal</field>
+			
+				<field name="PricePurchase">0.00</field>
+			
+				<field name="PriceRetail">199.90</field>
+			
+				<field name="ImageURL"><![CDATA[http://images.internetstores.de/products/two_wheel_distribution/0801T-511[219x140].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="ProductRankingCharge">18522</field>
+			
+				<field name="EAN">0842346098033</field>
+			
+				<field name="RatingAverage"></field>
+			
+				<field name="ArticleNumber">291131</field>
+			
+				<field name="FFAutomaticSearchOptimization">=5E-4,-4E0;</field>
+			
+				<field name="TargetGroupBike">..Gravity..</field>
+			
+				<field name="RatingQuantity"></field>
+			
+				<field name="ProductReductionMoney">0.00</field>
+			
+				<field name="ProductURL"><![CDATA[bekleidung/fahrradhelme/rockhard-ii-mx-helmet-hustler-l-5960-cm/291131.html]]></field>
+			
+				<field name="Category3">..DH / Fullface Helme..</field>
+			
+				<field name="Category2">..Fahrradhelme..</field>
+			
+				<field name="Availability">3</field>
+			
+				<field name="Category1">..Fahrradbekleidung..</field>
+			
+				<field name="ProductRankingProfit">18661</field>
+			
+				<field name="ProductReductionPercent">0</field>
+			
+				<field name="Description"><![CDATA[Details:- höhenverstellbares Visier- hintere Belüftungen sorgen für eine bessere Aerodynamik und höhere Belüftung- Limited Edition mit nur 9.999 Stück weltweit- jeder Helm hat eine Seriennummer- entspricht auch den Normen DOT und ASExklusiv! Die Helme wurden in Zusammenarbeit mit O?Neal und dem jeweiligen Künstler designt.]]></field>
+			
+				<field name="ImageSmallURL"><![CDATA[http://images.internetstores.de/products/two_wheel_distribution/0801T-511[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="Colors">..schwarz..</field>
+			
+				<field name="Options"></field>
+			
+				<field name="TargetGroupOutdoor"></field>
+			
+				<field name="Features"><![CDATA[|102=XS (53-54 cm), S (55-56 cm), M (57-58 cm), L (59-60 cm), XL (61-62 cm), XXL (63-64 cm)|75=1500|103=1|101=Doppel D-Ring Verschluß|105=ECE-Norm 22-05|105=SNELL|98=100% Polycarbonat|106=Motocross|]]></field>
+			
+				<field name="Name">O'Neal Rockhard II MX Helmet Hustler</field>
+			
+				<field name="BrandId">317</field>
+			
+				<field name="Category">Katalog/Fahrradbekleidung/Fahrradhelme/DH %2F Fullface Helme</field>
+			
+				<field name="FFCliplisterQuality"></field>
+			
+				<field name="Sizes"></field>
+			
+				<field name="ProductProperty"></field>
+			
+				<field name="Gender">..Damen..|..Herren..</field>
+			
+				<field name="Price">199.90</field>
+			
+				<field name="CategoryIds">36896 &gt;&gt; 36951 &gt;&gt; 36926 &gt;&gt; 37261</field>
+			
+				<field name="SlowSeller"></field>
+			
+				<field name="ProductModelYear">2012</field>
+			
+				<field name="FFAfterSearchReorder"></field>
+			
+		</record>
+		
+		<record nr="4" id="227058"> 
+			
+				<field name="Brand">Shimano</field>
+			
+				<field name="PricePurchase">0.00</field>
+			
+				<field name="PriceRetail">145.32</field>
+			
+				<field name="ImageURL"><![CDATA[http://images.internetstores.de/products/Shimano_Saint_Schaltwerk[219x140].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="ProductRankingCharge">31147</field>
+			
+				<field name="EAN">4524667245421|4524667245414</field>
+			
+				<field name="RatingAverage">4.7500</field>
+			
+				<field name="ArticleNumber">227058</field>
+			
+				<field name="FFAutomaticSearchOptimization">=5E-4,-4E0;</field>
+			
+				<field name="TargetGroupBike">..MTB..|..Gravity..|..Urban..</field>
+			
+				<field name="RatingQuantity">12</field>
+			
+				<field name="ProductReductionMoney">0.00</field>
+			
+				<field name="ProductURL"><![CDATA[fahrradteile/schaltwerke-umwerfer/schaltwerk-saint-9-fach-gs-08top-normal-low-profdirektmont/227058.html]]></field>
+			
+				<field name="Category3">..Schaltwerke &amp; Umwerfer..</field>
+			
+				<field name="Category2">..Schaltung..</field>
+			
+				<field name="Availability">3</field>
+			
+				<field name="Category1">..Fahrradteile..</field>
+			
+				<field name="ProductRankingProfit">20390</field>
+			
+				<field name="ProductReductionPercent">0</field>
+			
+				<field name="Description"><![CDATA[- extrabreites inneres Leitblech für überragende Festigkeit und robuste Schaltung- speziell geformter Stoßschutz für höhere Schlagfestigkeit- höhere Federspannung (Führung und Spannung)- 100g leichter als das M800 VorgängermodellGesamtkapazität: SS 17/23* Zähne, GS 31/37 Zähne (*Mode Converter)Shadow DesignLow-Profile-Design und Top-Normal-Ausführung für aggressiveren Fahrstil.Mode Converter für Kompatibilität mit zwei unterschiedlichen KassettenDownhill-Modus: Einstellung für enge Abstufung für Downhill (größtes Ritzel 23-28 Zähne)All Mountain Modus: Breite Abstufung für Freeride/All-Mountain (größtes Ritzel 28-34 Zähne)Achtung: SS für Einfach-Kettenblatt vorn]]></field>
+			
+				<field name="ImageSmallURL"><![CDATA[http://images.internetstores.de/products/Shimano_Saint_Schaltwerk[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="Colors">..schwarz..|..grau..</field>
+			
+				<field name="Options"><![CDATA[|Ausführung=GS - mittlerer Käfig - top normal - shadow|Ausführung=SS - kurzer Käfig - top normal - Shadow|]]></field>
+			
+				<field name="TargetGroupOutdoor"></field>
+			
+				<field name="Features"><![CDATA[|504=---|248=9-fach|86=Saint|265=Rahmenmontage|431=MTB|114=Shimano|98=Aluminium|]]></field>
+			
+				<field name="Name">Shimano Saint Schaltwerk RD-M810</field>
+			
+				<field name="BrandId">34</field>
+			
+				<field name="Category">Katalog/Fahrradteile/Schaltung/Schaltwerke &amp; Umwerfer/MTB Schaltwerk</field>
+			
+				<field name="FFCliplisterQuality">175</field>
+			
+				<field name="Sizes"></field>
+			
+				<field name="ProductProperty"></field>
+			
+				<field name="Gender">..Damen..|..Herren..|..Kinder..</field>
+			
+				<field name="Price">145.32</field>
+			
+				<field name="CategoryIds">36896 &gt;&gt; 36911 &gt;&gt; 84756 &gt;&gt; 36939 &gt;&gt; 37120</field>
+			
+				<field name="SlowSeller"></field>
+			
+				<field name="ProductModelYear">2013</field>
+			
+				<field name="FFAfterSearchReorder"></field>
+			
+		</record>
+		
+		<record nr="5" id="232928"> 
+			
+				<field name="Brand">ABUS</field>
+			
+				<field name="PricePurchase">0.00</field>
+			
+				<field name="PriceRetail">74.90</field>
+			
+				<field name="ImageURL"><![CDATA[http://images.internetstores.de/products/232928_3[219x140].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="ProductRankingCharge">30448</field>
+			
+				<field name="EAN">4003318517969</field>
+			
+				<field name="RatingAverage">4.8750</field>
+			
+				<field name="ArticleNumber">232928</field>
+			
+				<field name="FFAutomaticSearchOptimization">=5E-4,-4E0;</field>
+			
+				<field name="TargetGroupBike">..MTB..|..Gravity..|..Road..|..Urban..</field>
+			
+				<field name="RatingQuantity">8</field>
+			
+				<field name="ProductReductionMoney">4.95</field>
+			
+				<field name="ProductURL"><![CDATA[fahrradzubehoer/schloesser/abus-bordo-combo-610-faltschloss-90-cm/232928.html]]></field>
+			
+				<field name="Category3">..Kettenschlösser..</field>
+			
+				<field name="Category2">..Schlösser..</field>
+			
+				<field name="Availability">3</field>
+			
+				<field name="Category1">..Fahrradzubehör..</field>
+			
+				<field name="ProductRankingProfit">20548</field>
+			
+				<field name="ProductReductionPercent">7</field>
+			
+				<field name="Description"><![CDATA[Einsatz und Anwendung:- guter Schutz bei mittlerem Diebstahlrisiko- empfohlen für die Absicherung guter Zweiräder- je größer das Längenmaß, um so einfacher das Anschließen an einem festen GegenstandTechnologie: - 5 mm starke Stäbe mit extra-weicher 2-Komponenten-Ummantelung zum Schutz vor Lackschäden- Farblich abgestiommte Kunststoffummantelung für den Schlosskörper- Gelenkkonstruktion ermöglicht kompaktes Zusammenfalten- Verbindung der Stäbe durch Spezialnieten- 2-Komponenten-Zahlenwalzen gewährleisten dauerhafte Sichtbarkeit der Ziffern- Zahlencode individuell einstellbarLänge: 90 cm]]></field>
+			
+				<field name="ImageSmallURL"><![CDATA[http://images.internetstores.de/products/232928_3[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="Colors">..violett..|..grau..</field>
+			
+				<field name="Options">|Farbe=black|</field>
+			
+				<field name="TargetGroupOutdoor"></field>
+			
+				<field name="Features">|86=Faltschloss|</field>
+			
+				<field name="Name">Abus Bordo Combo 6100 Faltschloss 90 cm</field>
+			
+				<field name="BrandId">190</field>
+			
+				<field name="Category">Katalog/Fahrradzubehör/Schlösser/Kettenschlösser</field>
+			
+				<field name="FFCliplisterQuality"></field>
+			
+				<field name="Sizes"></field>
+			
+				<field name="ProductProperty"></field>
+			
+				<field name="Gender">..Damen..|..Herren..|..Kinder..</field>
+			
+				<field name="Price">69.95</field>
+			
+				<field name="CategoryIds">36896 &gt;&gt; 36910 &gt;&gt; 36915 &gt;&gt; 37007</field>
+			
+				<field name="SlowSeller"></field>
+			
+				<field name="ProductModelYear">2012</field>
+			
+				<field name="FFAfterSearchReorder"></field>
+			
+		</record>
+		
+		<record nr="6" id="303076"> 
+			
+				<field name="Brand">Trelock</field>
+			
+				<field name="PricePurchase">0.00</field>
+			
+				<field name="PriceRetail">160.00</field>
+			
+				<field name="ImageURL"><![CDATA[http://images.internetstores.de/products/neufs450manufaktur[219x140].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="ProductRankingCharge">21208</field>
+			
+				<field name="EAN">4016167031036</field>
+			
+				<field name="RatingAverage">4.5000</field>
+			
+				<field name="ArticleNumber">303076</field>
+			
+				<field name="FFAutomaticSearchOptimization">=5E-4,-4E0;</field>
+			
+				<field name="TargetGroupBike">..MTB..|..Gravity..|..Road..|..Urban..</field>
+			
+				<field name="RatingQuantity">2</field>
+			
+				<field name="ProductReductionMoney">0.00</field>
+			
+				<field name="ProductURL"><![CDATA[fahrradzubehoer/schloesser/trelock-fs-450-faltschloss-manufaktur/303076.html]]></field>
+			
+				<field name="Category3">..Kettenschlösser..</field>
+			
+				<field name="Category2">..Schlösser..</field>
+			
+				<field name="Availability">3</field>
+			
+				<field name="Category1">..Fahrradzubehör..</field>
+			
+				<field name="ProductRankingProfit">0</field>
+			
+				<field name="ProductReductionPercent">0</field>
+			
+				<field name="Description"><![CDATA[TRELOCK hat ein Faltschloss entwickelt, das modernste Sicherheitstechnik mit Klasse bietet. Im stilvollen Etui aus echtem Leder ist dieses Faltschloss während der Fahrt rüttelfest gesichert, weil der Etui-Rücken mit einer Vorrichtung für die Anbringung an Flaschenhalter oder Rahmen verstärkt ist. Mit echten Lederintarsien versehen und in einer geschmackvollen Holzkiste präsentiert, ist das exklusive Faltschloss auch eine Geschenkidee.Technologie:ARMADON® 360° ATTACK PROTECTION:TRELOCK schützt Stahlkabel oder Schließkörper mit einer eigenen Technologie: Der ARMADON® 360º Panzerung. Speziell ausgeformte Stahlkörper ummanteln dabei die von Profidieben bevorzugten ?Knackpunkte?.- Sicherheit gegen intelligente und brutalste Aufbruchversuche- Schutz des Schließzylinders und SchließwerksTREDUR:Die bewährte Dimension der Widerstandsfähigkeit: TREDUR Stahl. Harter Mantel und zäher Kern ? das ist die Stärke der von TRELOCK verwendeten, gehärteten Stahllegierung, die das jeweilige Optimum verschiedener Stahlsorten miteinander verbindet.Details:ermöglicht höchste Sicherheitsstufen bei moderatem Gewichtzäher Kern: kältespray- und biegeresistentKorrosionsschutzharter Mantel: schlag-, schneid- und sägeresistentPLC Schliesszylinder:Nur das Original setzt Maßstäbe für höchste Präzision: PLC Schließzylinder von TRELOCK mit Antipick-Stift- oder Scheibenzylinder mit Antipickund Aufbohrschutz zeichnen sich durch höchste Qualität aus und bieten Sicherheit gegen Manipulationsversuche. Zulassungen: Sold Secure Bicycle SilverVerriegelung:&nbsp;Bolzenzusätzliche Features:besonders starke GelenkbolzenKorrosionsschutzSchlüsselwegfallsperreStaubschutzkappeSchlüsselserviceFaltmaß: 20 x 6,5 x 4 cm]]></field>
+			
+				<field name="ImageSmallURL"><![CDATA[http://images.internetstores.de/products/neufs450manufaktur[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="Colors">..grau..</field>
+			
+				<field name="Options">|Länge=850 mm|</field>
+			
+				<field name="TargetGroupOutdoor"></field>
+			
+				<field name="Features">|473=5-Stiftzylinder|86=Faltschloss|475=4|</field>
+			
+				<field name="Name">Trelock FS 450 Faltschloss Manufaktur</field>
+			
+				<field name="BrandId">17</field>
+			
+				<field name="Category">Katalog/Fahrradzubehör/Schlösser/Kettenschlösser</field>
+			
+				<field name="FFCliplisterQuality">175</field>
+			
+				<field name="Sizes"></field>
+			
+				<field name="ProductProperty"></field>
+			
+				<field name="Gender">..Damen..|..Herren..|..Kinder..</field>
+			
+				<field name="Price">160.00</field>
+			
+				<field name="CategoryIds">36896 &gt;&gt; 36910 &gt;&gt; 36915 &gt;&gt; 37007</field>
+			
+				<field name="SlowSeller"></field>
+			
+				<field name="ProductModelYear">2012</field>
+			
+				<field name="FFAfterSearchReorder"></field>
+			
+		</record>
+		
+		<record nr="7" id="336196"> 
+			
+				<field name="Brand">Lupine Lighting Systems</field>
+			
+				<field name="PricePurchase">0.00</field>
+			
+				<field name="PriceRetail">339.00</field>
+			
+				<field name="ImageURL"><![CDATA[http://images.internetstores.de/products/Piko3b2[219x140].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="ProductRankingCharge">27300</field>
+			
+				<field name="EAN">4260262594723</field>
+			
+				<field name="RatingAverage"></field>
+			
+				<field name="ArticleNumber">336196</field>
+			
+				<field name="FFAutomaticSearchOptimization">=5E-4,-4E0;</field>
+			
+				<field name="TargetGroupBike">..MTB..|..Gravity..|..Road..|..Urban..</field>
+			
+				<field name="RatingQuantity"></field>
+			
+				<field name="ProductReductionMoney">0.00</field>
+			
+				<field name="ProductURL"><![CDATA[fahrradzubehoer/fahrradbeleuchtung/lupine-piko-6-helmlampe-komplett-set-/336196.html]]></field>
+			
+				<field name="Category3">..Helmlampe..</field>
+			
+				<field name="Category2">..Fahrradbeleuchtung..</field>
+			
+				<field name="Availability">3</field>
+			
+				<field name="Category1">..Fahrradzubehör..</field>
+			
+				<field name="ProductRankingProfit">17438</field>
+			
+				<field name="ProductReductionPercent">0</field>
+			
+				<field name="Description"><![CDATA[Ein Bike-Helm schützt nicht nur unser Köpfchen, sondern ermöglicht auch die Montage der winzigen Helmlampe Piko. Eine Helmleuchte sorgt dafür, dass das Licht immer genau dort hinfällt wohin man blickt, ein absolutes muss in Passagen mit engen Kurven. Steigt man ab, ist man immer noch mit einer autonomen Beleuchtung ausgerüstet und tappt nicht im Dunklen.Neben der Helligkeit und Akkulaufzeit steht bei einer Helmlampe vor allem die Frage des Gewichts im Vordergrund und mit nur 55 Gramm ist der Piko Lampenkopf ein echtes Fliegengewicht.Keine andere Lampe bietet so viele Alternativen der Befestigung. Selbst geschlossene Helme sind Dank unseres optionalen 3M Klettsystems kein Problem und mit dem Schnellspanner von Lupine, ist auch eine Stangenmontage in nahezu perfekter Art und Weise möglich.]]></field>
+			
+				<field name="ImageSmallURL"><![CDATA[http://images.internetstores.de/products/Piko3b2[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="Colors"></field>
+			
+				<field name="Options"></field>
+			
+				<field name="TargetGroupOutdoor">..Bergsport..|..Trekking &amp; Wandern..|..Klettern..</field>
+			
+				<field name="Features"><![CDATA[|277=1|244=Akku / Batterie|276=1|86=Helmlampe|267=2 LED|280=1|99=Farbtemperatur: 6000k (5% Toleranz)|99=Lieferumfang: Piko Lampenkopf (13 W), 5,6 Ah SmartCore Akku, Ladegerät Wiesel V4, Helmhalter, 120 cm Verlängerungskabel, Klettband|115=Piko 6|99=Gesamtgewicht: 180 g|99=Spezialstufen: SOS, Alpines Notsignal, RVLR|99=bis zu 900 Lumen|99=Schutzklasse: IP 68 (Wasserdichtigkeit), IK 09 (Schlagfestigkeit)|114=Lupine|99=Leuchtstufen: 5 Stufen von 0.4W (50 Lumen) bis 13W (900 Lumen)|99=Umgebungstemperatur: -30 C° bis +55 C°|99=Leuchtdauer: 100 min. bis 45 Stunden|274=SmartCore Akku 5,6 Ah|]]></field>
+			
+				<field name="Name">Lupine Piko 6 Helmlampe Komplett-Set</field>
+			
+				<field name="BrandId">2109</field>
+			
+				<field name="Category">Katalog/Fahrradzubehör/Fahrradbeleuchtung/Helmlampe</field>
+			
+				<field name="FFCliplisterQuality"></field>
+			
+				<field name="Sizes"></field>
+			
+				<field name="ProductProperty"></field>
+			
+				<field name="Gender">..Damen..|..Herren..|..Kinder..</field>
+			
+				<field name="Price">339.00</field>
+			
+				<field name="CategoryIds">36896 &gt;&gt; 36910 &gt;&gt; 36914 &gt;&gt; 48534</field>
+			
+				<field name="SlowSeller"></field>
+			
+				<field name="ProductModelYear">2013</field>
+			
+				<field name="FFAfterSearchReorder"></field>
+			
+		</record>
+		
+		<record nr="8" id="288094"> 
+			
+				<field name="Brand">Cube</field>
+			
+				<field name="PricePurchase">0.00</field>
+			
+				<field name="PriceRetail">59.95</field>
+			
+				<field name="ImageURL"><![CDATA[http://images.internetstores.de/products/11000_1[219x140].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="ProductRankingCharge">13756</field>
+			
+				<field name="EAN">4250589400029</field>
+			
+				<field name="RatingAverage">5.0000</field>
+			
+				<field name="ArticleNumber">288094</field>
+			
+				<field name="FFAutomaticSearchOptimization">=5E-4,-4E0;</field>
+			
+				<field name="TargetGroupBike">..MTB..|..Road..|..Urban..</field>
+			
+				<field name="RatingQuantity">6</field>
+			
+				<field name="ProductReductionMoney">0.00</field>
+			
+				<field name="ProductURL">bekleidung/radtrikots/cube-trikot-kurzarm-teamline/288094.html</field>
+			
+				<field name="Category3">..Radtrikot kurz sportiv..</field>
+			
+				<field name="Category2">..Radtrikots..</field>
+			
+				<field name="Availability">3</field>
+			
+				<field name="Category1">..Fahrradbekleidung..</field>
+			
+				<field name="ProductRankingProfit">21063</field>
+			
+				<field name="ProductReductionPercent">0</field>
+			
+				<field name="Description"><![CDATA[Für die CUBE Teamline werden besonders strapazierfähige und hochelastische Materialien mit ergonomischen Schnitten eingesetzt.Sie eignet sich vor allem für den Renneinsatz und zeichnet sich durch besten Tragekomfort aus. Die CUBE Teamline ist durch Ihre Materialauswahl und Ihren Schnitt die optimale Bekleidung für den rennbegeisterten CUBE Fahrer. Sie gilt als Aushängeschild dieser Bekleidungslinie und kommt dieses Jahr mit neuem modernisiertem Design.]]></field>
+			
+				<field name="ImageSmallURL"><![CDATA[http://images.internetstores.de/products/11000_1[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="Colors">..weiß..|..rot..</field>
+			
+				<field name="Options"></field>
+			
+				<field name="TargetGroupOutdoor"></field>
+			
+				<field name="Features"><![CDATA[|86=Kurzarm|4229=Größe fällt normal aus|98=100% Polyester|78=Road|114=Cube|85=Frühjahr/Sommer|94=durchgehend|87=Sport|2975=körpernah geschnitten|96=Rückentaschen und Zusatztaschen mit RV|2975=sportiv geschnitten|115=Teamline|]]></field>
+			
+				<field name="Name">Cube Teamline Trikot kurzarm Men weiß/schwarz/rot/blau</field>
+			
+				<field name="BrandId">175</field>
+			
+				<field name="Category">Katalog/Fahrradbekleidung/Radtrikots/Radtrikot kurz sportiv</field>
+			
+				<field name="FFCliplisterQuality">175</field>
+			
+				<field name="Sizes"></field>
+			
+				<field name="ProductProperty">..Verpackung ist faltbar..</field>
+			
+				<field name="Gender">..Herren..</field>
+			
+				<field name="Price">59.95</field>
+			
+				<field name="CategoryIds">36896 &gt;&gt; 36951 &gt;&gt; 36979 &gt;&gt; 36955</field>
+			
+				<field name="SlowSeller"></field>
+			
+				<field name="ProductModelYear">2013</field>
+			
+				<field name="FFAfterSearchReorder"></field>
+			
+		</record>
+		
+		<record nr="9" id="287610"> 
+			
+				<field name="Brand">Cube</field>
+			
+				<field name="PricePurchase">0.00</field>
+			
+				<field name="PriceRetail">2799.00</field>
+			
+				<field name="ImageURL"><![CDATA[http://images.internetstores.de/products/CUBE_agree_gtc_di2[219x140].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="ProductRankingCharge">31714</field>
+			
+				<field name="EAN">4250583661532|4250583661549|4250583661556</field>
+			
+				<field name="RatingAverage">4.5000</field>
+			
+				<field name="ArticleNumber">287610</field>
+			
+				<field name="FFAutomaticSearchOptimization">=5E-4,-4E0;</field>
+			
+				<field name="TargetGroupBike">..Road..</field>
+			
+				<field name="RatingQuantity">2</field>
+			
+				<field name="ProductReductionMoney">280.00</field>
+			
+				<field name="ProductURL">fahrraeder/rennraeder/cube-agree-gtc-di2-carbonnwhitengrey/287610.html</field>
+			
+				<field name="Category3">..Rennräder..|..Roadbikes..</field>
+			
+				<field name="Category2">..Rennrad..|..Fahrräder..</field>
+			
+				<field name="Availability">3</field>
+			
+				<field name="Category1">..Fahrräder..|..SALE..</field>
+			
+				<field name="ProductRankingProfit">21068</field>
+			
+				<field name="ProductReductionPercent">10</field>
+			
+				<field name="Description"><![CDATA[Carbon-Rennrad für Profis und technikaffine Fahrer.Rahmen:- RFR-Geometrie mit sportlich-gestreckter Sitzposition - für maximalen Vortrieb und wendiges Fahrverhalten- Rahmengewicht 1150 g- konisches Steuerrohr 1 1/2" - 1 1/8" für optimale Steifigkeitswerte und besten Kraftfluss bei hoher Sicherheit- Oversized-Carbonrohre bei Hauptrahmen und Kettenstreben - für maximale Stabilität und beste STW-Werte- dünne Sitzstreben und flaches Oberrohr für Komfortflex- besonders verwindungssteife Carbon Ausfallenden- breitere Anbindung von Kettenstreben, Unterrohr und Sitzrohr zum Tretlager - höchste Steifigkeit- Di2 Akku befindet sich zurückgesetzt unter dem&nbsp; Tretlager, befestigt auf dem Verschlussdeckel der Zugführung unter dem Tretlager- innenverlegter Bremszug- Anti Chain Suck Plate an rechter Kettenstrebe- Flaschenhaltermontage an Sitz- und Unterrohr möglich- Oberfläche mehrschichtig nasslack-versiegelt- entspricht neuen EU-Normen - nach Velotech DINplus getestetTechnologie:FSS Frame Save System:Zum Schutz der hochwertigen Aluminiumrahmen werden diese mit dem CUBE-Frame-Save-System-Schaltauge ausgestattet. Bei diesem System sitzt das Gewinde im Schaltauge selbst und nicht, wie üblich, im Rahmen. Somit kann es bei Beschädigungen einfach und schnell getauscht werden.Tapered Steerer:Diese neue Steuerrohrform ist steifer und erzeugt auch in schwierigem Gelände ein sicheres Fahrgefühl. Durch die direkte Kraftübertragung entsteht höchste Lenkpräzision. Durch den größeren Gabelschaft wird auch die Gabel steifer. Gleichzeitig spart man durch entfallende Lagerschalen Gewicht, da die unteren Lager voll integriert sind. Bei den CUBE Carbonmodellen befinden sich auch die oberen Lagerschalen direkt im Rahmen, so dass nochmals einige Gramm gespart werden.press fit BB:Bei Press-Fit-Innenlagern werden die Lagerschalen direkt in das Gehäuse eingepresst und nicht eingeschraubt. Das breitere Gehäuse ermöglicht, Unterrohr und Kettenstreben ebenfalls breiter anzubinden. Dies beeinflusst die Tretlagersteifigkeit des Rahmens und so ergibt sich mit jedem zusätzlichen Millimeter eine deutliche Erhöhung der Seitensteifigkeit. Der komforterzeugende vertikale Flex der Kettenstreben bleibt jedoch voll erhalten. Press-Fit-Innenlager finden ab diesem Jahr auch beim ELITE SUPER HPC und allen neuen AMS Modellen Verwendung.ready for race Geometry:Fahrräder mit RFR-Geometrie zeichnen sich durch besonders sportliches Fahrverhalten aus. Dabei wird den Fahreigenschaften, dem Komfort und ganz besonders auch der Fahrsicherheit der jeweiligen Fahrradkategorie entsprechend Rechnung getragen.wet paint surface:Das Nasslackverfahren spart Gewicht. Auf polierten oder gebürsteten Alurahmen sowie auf allen HPC- Rahmen werden Logos und Schriftzüge von mehreren Schichten Lack, der nass aufgetragen wird, geschützt.hybrid cable Routing:Die problemlose Funktion überzeugt immer mehr Rennradfahrer von der elektronischen Schaltung. Selbst gestandene Verfechter der klassischen Schaltung sind nur schwer wieder von der neuen Schaltung zu trennen. Aus diesem Grund hat Cube den neuen AGREE GTC und LITENING SUPER HPC Rahmen die Fähigkeit verliehen, beide Schaltungsarten zu beherbergen. So kann man auch nachträglich auf die zukunftsweisende Schaltung umsteigen und braucht hierfür lediglich andere Zuganschläge für das Unterrohr und eine andere Tretlagerabdeckung, die den Shimano Short Battery Mount formschlüssig aufnimmt.advanced Twin Mold:Bei diesem Verfahren wird eine gefährliche Faltenbildung durch eine durchgängige Kontrolle der Carbonfasern während des Backvorgangs ausgeschlossen. Dies ermöglicht eine Innenform, die bereits beim Layup-Vorgang die perfekte Rahmenform bereitstellt. Jede einzelne Faser bleibt beim Backvorgang genau an ihrer Position. Diese Fertigungsmethode erlaubt zudem die Erhöhung des Carbonfaseranteils entsprechend der zu erwartenden Belastungen an spezifischen Rahmenpositionen.multi purpose Hanger:Bei den neuen AGREE GTC und LITENING SUPER HPC Modellen verbaut Cube ihren Multi Purpose Hanger. Einerseits erleichtert er die Montage der integrierten Kabelführung, da sich im demontierten Zustand eine großzügige Öffnung in der Kettenstrebe ergibt. Zusätzlich bietet er die Möglichkeit für beide Schaltungsarten, klassisch und elektronisch, die optimale Zug- bzw. Kabelführung bereit zu stellen. Gleichzeitig bietet er natürlich Cubes bewährtes Frame Save System für zusätzlichen Schutz des Ausfallendes.Geometriedaten bei einer Rahmengröße von 58 cm:Sitzrohr: 54 cmOberrohr: 54,4 cmSitzwinkel: 73°Steuerrohrwinkel: 73°Kettenstrebe: 40,6 cmSteuerrohr: 16,5 cmRadstand: 98,8 cm]]></field>
+			
+				<field name="ImageSmallURL"><![CDATA[http://images.internetstores.de/products/CUBE_agree_gtc_di2[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+			
+				<field name="Colors">..weiß..|..schwarz..</field>
+			
+				<field name="Options">|Rahmengrösse=56 cm|Rahmengrösse=58 cm|Rahmengrösse=60 cm|</field>
+			
+				<field name="TargetGroupOutdoor"></field>
+			
+				<field name="Features"><![CDATA[|41=Alu|154=Cube Grip Control, weiss|28=Shimano|50=DT Swiss|68=23|67=28|42=Syntace|33=Felgenbremse|64=23|10=Shimano|61=Schwalbe|17=Shimano|36=Shimano|30=Felgenbremse|20=Shimano|75=7.9|46=Patentstütze|153=Carbon-Carbon|65=Schwalbe|40=Rennlenker|4=Starrgabel|44=A-Head|1=Race|8=Kettenschaltung|62=Ultremo ZX|66=Ultremo ZX|157=34|38=Syntace|3=GTC Monocoque Advanced Twin Mold Technology|9=20|13=Shimano|39=Racelite 2014 Oversized 	|2=Carbon|31=Shimano|12=2-fach|47=27.2|19=50|70=FSA Orbit I-T|78=Race|49=Carbon|22=Kompakt|63=28|37=Di2 Ultegra ST-6770, Schalt-/Brems-Griffeinheit|74=Sattelklemme: Scape Close SL 31,8 mm, Schläuche: Schwalbe RR leicht SV15|7=CSL Evo, 1 1/8 - 1 1/2"|14=Ultegra Di2|71=Selle Italia X1 Road|29=BR-R561|51=CSW RA 2.0 Race|48=Syntace P6 RaceFlex|32=BR-R561|11=Ultegra Di2|18=Ultegra FC-6750 Hollowtech II Compact|43=F149 Oversized 	|21=Press-Fit (vollintegriertes Innenlagersystem)|5957=Carbon|6=Cube|]]></field>
+			
+				<field name="Name">Cube Agree GTC DI2 carbon'n'white'n'grey</field>
+			
+				<field name="BrandId">175</field>
+			
+				<field name="Category">Katalog/Fahrräder/Rennrad/Rennräder|Katalog/SALE/Fahrräder/Roadbikes</field>
+			
+				<field name="FFCliplisterQuality"></field>
+			
+				<field name="Sizes"></field>
+			
+				<field name="ProductProperty"></field>
+			
+				<field name="Gender">..Damen..|..Herren..</field>
+			
+				<field name="Price">2519.00</field>
+			
+				<field name="CategoryIds">36896 &gt;&gt; 36897 &gt;&gt; 36901 &gt;&gt; 37178|36896 &gt;&gt; 38500 &gt;&gt; 37451 &gt;&gt; 37211</field>
+			
+				<field name="SlowSeller"></field>
+			
+				<field name="ProductModelYear">2012</field>
+			
+				<field name="FFAfterSearchReorder"></field>
+			
+		</record>
+		
+	</results>
+
+</ff>

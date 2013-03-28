@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+<importProgress>
+	<currentChannel>de</currentChannel>
+	<progress>0</progress>
+	<percentage></percentage>
+	<totalPercentage></totalPercentage>
+	<finished>false</finished>
+	<running></running>
+	<status>
+		
+			<message>Import mit 37 Feldern für Channel &#039;at&#039;</message>
+		
+			<message>Startzeit: 26.03.2013 14:09:33</message>
+		
+			<message>17.485 Datensätze aus &#039;Hersteller&#039; (Channel &#039;at&#039;)</message>
+		
+			<message>17.402 Datensätze aus &#039;Produktname&#039; (Channel &#039;at&#039;)</message>
+		
+			<message>34.887 Datensätze für Channel &#039;at&#039; in 5 Sekunden importiert</message>
+		
+			<message>Import mit 37 Feldern für Channel &#039;ch&#039;</message>
+		
+			<message>Startzeit: 26.03.2013 14:09:33</message>
+		
+			<message>16.438 Datensätze aus &#039;Hersteller&#039; (Channel &#039;ch&#039;)</message>
+		
+			<message>16.372 Datensätze aus &#039;Produktname&#039; (Channel &#039;ch&#039;)</message>
+		
+			<message>32.810 Datensätze für Channel &#039;ch&#039; in 4 Sekunden importiert</message>
+		
+			<message>Import mit 37 Feldern für Channel &#039;de&#039;</message>
+		
+			<message>Startzeit: 26.03.2013 14:09:33</message>
+		
+			<message>18.418 Datensätze aus &#039;Hersteller&#039; (Channel &#039;de&#039;)</message>
+		
+			<message>18.344 Datensätze aus &#039;Produktname&#039; (Channel &#039;de&#039;)</message>
+		
+			<message>36.762 Datensätze für Channel &#039;de&#039; in 4 Sekunden importiert</message>
+		
+			<message>Import mit 37 Feldern für Channel &#039;de_dq&#039;</message>
+		
+			<message>Startzeit: 26.03.2013 14:09:33</message>
+		
+			<message>18.418 Datensätze aus &#039;Hersteller&#039; (Channel &#039;de_dq&#039;)</message>
+		
+			<message>18.344 Datensätze aus &#039;Produktname&#039; (Channel &#039;de_dq&#039;)</message>
+		
+			<message>36.762 Datensätze für Channel &#039;de_dq&#039; in 3 Sekunden importiert</message>
+		
+			<message>Import mit 37 Feldern für Channel &#039;fr&#039;</message>
+		
+			<message>Startzeit: 26.03.2013 14:09:33</message>
+		
+			<message>16.409 Datensätze aus &#039;Hersteller&#039; (Channel &#039;fr&#039;)</message>
+		
+			<message>16.233 Datensätze aus &#039;Produktname&#039; (Channel &#039;fr&#039;)</message>
+		
+			<message>32.642 Datensätze für Channel &#039;fr&#039; in 3 Sekunden importiert</message>
+		
+			<message>173.863 Datensätze insgesamt in 21 Sekunden importiert</message>
+		
+			<message>8.279,19 Datensätze pro Sekunde</message>
+		
+			<message>Beendet: 26.03.2013 14:09:54</message>
+		
+	</status>
+	<errors>
+		
+	</errors>
+</importProgress>

@@ -176,31 +176,37 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
                 $position = $positionOffset + $positionCounter;
                 $positionCounter++;
 
-                // fetch record values
-                $fieldValues = array();
-                foreach($currentRecord->field AS $current_field){
-                    $currentFieldname = (string) $current_field->attributes()->name;
-                    $fieldValues[$currentFieldname] = (string) $current_field;
-                }
-
-                // get original position
-                if (isset($fieldValues['__ORIG_POSITION__'])) {
-                    $origPosition = $fieldValues['__ORIG_POSITION__'];
-                    unset($fieldValues['__ORIG_POSITION__']);
-                } else {
-                    $origPosition = $position;
-                }
-
-                $result[] = FF::getInstance('record',
-                    $currentRecord->attributes()->id,
-                    floatval($currentRecord->attributes()->relevancy),
-                    $position,
-                    $origPosition,
-                    $encodingHandler->encodeServerContentForPage($fieldValues)
-                );
+                $result[] = $this->createRecord($currentRecord, $position);
             }
         }
         return FF::getInstance('result', $result, $resultCount);
+    }
+
+    protected function createRecord(SimpleXmlElement $rawRecord, $position) {
+        // fetch record values
+        $fieldValues = array();
+        foreach($rawRecord->field AS $current_field){
+            $currentFieldname = (string) $current_field->attributes()->name;
+            $fieldValues[$currentFieldname] = (string) $current_field;
+        }
+
+        // get original position
+        if (isset($fieldValues['__ORIG_POSITION__'])) {
+            $origPosition = $fieldValues['__ORIG_POSITION__'];
+            unset($fieldValues['__ORIG_POSITION__']);
+        } else {
+            $origPosition = $position;
+        }
+
+        $record = FF::getInstance('record',
+            $rawRecord->attributes()->id,
+            floatval($rawRecord->attributes()->relevancy),
+            $position,
+            $origPosition,
+            $this->getEncodingHandler()->encodeServerContentForPage($fieldValues)
+        );
+
+        return $record;
     }
 
     /**
@@ -216,51 +222,11 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
             $params = $this->getParamsParser()->getRequestParams();
 
             foreach ($xmlResult->asn->group AS $xmlGroup) {
-                $groupName = $encodingHandler->encodeServerContentForPage((string)$xmlGroup->attributes()->name);
-                $groupUnit = '';
-                if (isset($xmlGroup->attributes()->unit)) {
-                    $groupUnit = strval($xmlGroup->attributes()->unit);
-                }
-
-                $group = FF::getInstance('asnGroup',
-                    array(),
-                    $encodingHandler->encodeServerContentForPage((string)$xmlGroup->attributes()->name),
-                    $encodingHandler->encodeServerContentForPage((string)$xmlGroup->attributes()->detailedLinks),
-                    $groupUnit,
-                    strval($xmlGroup->attributes()->style) == 'SLIDER'
-                );
+                $group = $this->createGroupInstance($xmlGroup, $encodingHandler);
 
                 //get filters of the current group
                 foreach ($xmlGroup->element AS $xmlFilter) {
-                    $filterLink = $this->getParamsParser()->createPageLink(
-                        $this->getParamsParser()->parseParamsFromResultString(trim($xmlFilter->searchParams))
-                    );
-
-                    if ($group->isSliderStyle()) {
-                        // get last (empty) parameter from the search params property
-                        $params = $this->getParamsParser()->parseParamsFromResultString(trim($xmlFilter->searchParams));
-                        end($params);
-                        $filterLink .= '&'.key($params).'=';
-
-                        $filter = FF::getInstance('asnSliderFilter',
-                            $filterLink,
-                            strval($xmlFilter->attributes()->absoluteMin),
-                            strval($xmlFilter->attributes()->absoluteMax),
-                            strval($xmlFilter->attributes()->selectedMin),
-                            strval($xmlFilter->attributes()->selectedMax),
-                            isset($xmlFilter->attributes()->field) ? strval($xmlFilter->attributes()->field) : ''
-                        );
-                    } else {
-                        $filter = FF::getInstance('asnFilterItem',
-                            $encodingHandler->encodeServerContentForPage(trim($xmlFilter->attributes()->name)),
-                            $filterLink,
-                            strval($xmlFilter->attributes()->selected) == 'true',
-                            strval($xmlFilter->attributes()->count),
-                            strval($xmlFilter->attributes()->clusterLevel),
-                            strval($xmlFilter->attributes()->previewImage),
-                            isset($xmlFilter->attributes()->field) ? strval($xmlFilter->attributes()->field) : ''
-                        );
-                    }
+                    $filter = $this->createFilter($xmlFilter, $group, $encodingHandler, $params);
 
                     $group->addFilter($filter);
                 }
@@ -269,6 +235,60 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
             }
         }
         return FF::getInstance('asn', $asn);
+    }
+
+    protected function createGroupInstance($xmlGroup, $encodingHandler) {
+        $groupUnit = '';
+        if (isset($xmlGroup->attributes()->unit)) {
+            $groupUnit = strval($xmlGroup->attributes()->unit);
+        }
+
+        return FF::getInstance('asnGroup',
+            array(),
+            $encodingHandler->encodeServerContentForPage((string)$xmlGroup->attributes()->name),
+            $encodingHandler->encodeServerContentForPage((string)$xmlGroup->attributes()->detailedLinks),
+            $groupUnit,
+            $this->getGroupStyle($xmlGroup)
+        );
+    }
+
+    protected function getGroupStyle($xmlGroup) {
+        $style = strval($xmlGroup->attributes()->style);
+        return $style == 'SLIDER' ? $style : 'DEFAULT';
+    }
+
+    protected function createFilter($xmlFilter, $group, $encodingHandler, $params) {
+        $filterLink = $this->getParamsParser()->createPageLink(
+            $this->getParamsParser()->parseParamsFromResultString(trim($xmlFilter->searchParams))
+        );
+
+        if ($group->isSliderStyle()) {
+            // get last (empty) parameter from the search params property
+            $params = $this->getParamsParser()->parseParamsFromResultString(trim($xmlFilter->searchParams));
+            end($params);
+            $filterLink .= '&'.key($params).'=';
+
+            $filter = FF::getInstance('asnSliderFilter',
+                $filterLink,
+                strval($xmlFilter->attributes()->absoluteMin),
+                strval($xmlFilter->attributes()->absoluteMax),
+                strval($xmlFilter->attributes()->selectedMin),
+                strval($xmlFilter->attributes()->selectedMax),
+                isset($xmlFilter->attributes()->field) ? strval($xmlFilter->attributes()->field) : ''
+            );
+        } else {
+            $filter = FF::getInstance('asnFilterItem',
+                $encodingHandler->encodeServerContentForPage(trim($xmlFilter->attributes()->name)),
+                $filterLink,
+                strval($xmlFilter->attributes()->selected) == 'true',
+                strval($xmlFilter->attributes()->count),
+                strval($xmlFilter->attributes()->clusterLevel),
+                strval($xmlFilter->attributes()->previewImage),
+                isset($xmlFilter->attributes()->field) ? strval($xmlFilter->attributes()->field) : ''
+            );
+        }
+
+        return $filter;
     }
 
     /**

@@ -1,8 +1,8 @@
 <?php
-	$fieldname['id']          = 'products_id';
-	$fieldname['title']       = 'products_name';
-	$fieldname['artNo']       = 'ean';
-	$fieldname['price']       = 'products_price';
-	$fieldname['description'] = 'products_description';
-	$fieldname['imageUrl']    = 'imageUrlSmall';
-	$fieldname['detailUrl']   = 'products_link_self';
+	$fieldname['id']          = 'ArticleNumber';
+	$fieldname['title']       = 'Name';
+	$fieldname['artNo']       = 'EAN';
+	$fieldname['price']       = 'Price';
+	$fieldname['description'] = 'Description';
+	$fieldname['imageUrl']    = 'ImageSmallURL';
+	$fieldname['detailUrl']   = 'ProductURL';

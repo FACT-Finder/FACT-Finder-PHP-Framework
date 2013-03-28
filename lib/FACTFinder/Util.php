@@ -24,10 +24,28 @@ class FACTFinder_Util
         $this->searchAdapter = $searchAdapter;
     }
 
+    public function createJavaScriptClickCode($record, $title, $sid, $useLegacyTracking = true) {
+        if (strlen($sid) == 0) $sid = session_id();
+        if ($useLegacyTracking) {
+            return $this->createLegacyJavaScriptClickCode($record, $title, $sid);
+        } else {
+            $channel = $this->ffparams->getChannel();
+            return $this->createJavaScriptTrackingCode('inspect', $record->getRefKey(), $sid, $channel);
+        }
+    }
+
+    public function createJavaScriptTrackingCode($event, $refKey, $sid = null, $channel = null) {
+        if (strlen($sid) == 0) $sid = session_id();
+        if (strlen($channel) == 0) $channel = $this->ffparams->getChannel();
+        $refKey = addslashes($refKey);
+        $sid = addslashes($sid);
+        return "trackEvent('$event', '$refKey', '$sid', '$channel')";
+    }
+
     /**
      * @return string javascript method call "clickProduct" with all needed arguments
      */
-    public function createJavaScriptClickCode($record, $title, $sid)
+    private function createLegacyJavaScriptClickCode($record, $title, $sid)
     {
         $query             = addcslashes(htmlspecialchars($this->ffparams->getQuery()), "'");
         $channel           = $this->ffparams->getChannel();
@@ -39,8 +57,8 @@ class FACTFinder_Util
         $position          = $record->getPosition();
         if ($position != 0 && $query != '') {
             $originalPosition  = $record->getOriginalPosition();
-			if (!$originalPosition) $originalPosition = $position;
-			
+            if (!$originalPosition) $originalPosition = $position;
+
             $similarity        = number_format($record->getSimilarity(), 2, '.', '');
             $id                = $record->getId();
 
