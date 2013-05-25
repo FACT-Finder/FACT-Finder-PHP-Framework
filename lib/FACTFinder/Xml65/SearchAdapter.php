@@ -230,7 +230,6 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
 
                     $group->addFilter($filter);
                 }
-
                 $asn[] = $group;
             }
         }

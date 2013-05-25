@@ -20,8 +20,8 @@
 			<language>de</language>
 			<!-- all timeouts given in seconds -->
 			<timeouts>
-				<defaultConnectTimeout>2</defaultConnectTimeout>
-				<defaultTimeout>4</defaultTimeout>
+				<defaultConnectTimeout>10</defaultConnectTimeout>
+				<defaultTimeout>20</defaultTimeout>
 				<suggestConnectTimeout>1</suggestConnectTimeout>
 				<suggestTimeout>2</suggestTimeout>
 				<scicConnectTimeout>1</scicConnectTimeout>
