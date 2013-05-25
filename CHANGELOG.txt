@@ -1,3 +1,8 @@
+Version 2.4.11
+    ADD: Support new FF 6.8 ASN group styles (TREE, MULTISELECT)
+    CHG: Updated log4php version.
+    FIX: Added workaround for bug: https://bugs.php.net/bug.php?id=63842
+
 Version 2.4.10
     ADD: DefaultAdapters will now replace AbstractAdapters and will act as null objects in that they report empty results (instead of causing exceptions).
 

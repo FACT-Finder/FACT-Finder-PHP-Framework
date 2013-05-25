@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+<importProgress>
+	<currentChannel>de</currentChannel>
+	<progress></progress>
+	<percentage></percentage>
+	<totalPercentage></totalPercentage>
+	<finished></finished>
+	<running></running>
+	<status>
+		
+			<message>RecommendationEngine import for channel &#039;at&#039; started.</message>
+		
+			<message>0 purchasing items were read from the tracking logs (channel &#039;at&#039;).</message>
+		
+			<message>RecommendationEngine import for channel &#039;at&#039; finished.</message>
+		
+			<message>RecommendationEngine import for channel &#039;ch&#039; started.</message>
+		
+			<message>0 purchasing items were read from the tracking logs (channel &#039;ch&#039;).</message>
+		
+			<message>RecommendationEngine import for channel &#039;ch&#039; finished.</message>
+		
+			<message>RecommendationEngine import for channel &#039;de&#039; started.</message>
+		
+			<message>0 purchasing items were read from the tracking logs (channel &#039;de&#039;).</message>
+		
+			<message>RecommendationEngine import for channel &#039;de&#039; finished.</message>
+		
+			<message>RecommendationEngine import for channel &#039;de_dq&#039; started.</message>
+		
+			<message>0 purchasing items were read from the tracking logs (channel &#039;de_dq&#039;).</message>
+		
+			<message>RecommendationEngine import for channel &#039;de_dq&#039; finished.</message>
+		
+			<message>RecommendationEngine import for channel &#039;fr&#039; started.</message>
+		
+			<message>0 purchasing items were read from the tracking logs (channel &#039;fr&#039;).</message>
+		
+			<message>RecommendationEngine import for channel &#039;fr&#039; finished.</message>
+		
+			<message>Recommendation import finished at 26.03.2013 14:11:24</message>
+		
+	</status>
+	<errors>
+		
+			<message>An error occurred during RecommendationEngine import: Could not calculate matrices. No purchase data found.</message>
+		
+			<message>An error occurred during RecommendationEngine import: Could not calculate matrices. No purchase data found.</message>
+		
+			<message>An error occurred during RecommendationEngine import: Could not calculate matrices. No purchase data found.</message>
+		
+			<message>An error occurred during RecommendationEngine import: Could not calculate matrices. No purchase data found.</message>
+		
+			<message>An error occurred during RecommendationEngine import: Could not calculate matrices. No purchase data found.</message>
+		
+	</errors>
+</importProgress>
