@@ -247,7 +247,7 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
             array(),
             $encodingHandler->encodeServerContentForPage((string)$xmlGroup->attributes()->name),
             $encodingHandler->encodeServerContentForPage((string)$xmlGroup->attributes()->detailedLinks),
-            $groupUnit,
+            $encodingHandler->encodeServerContentForPage($groupUnit),
             $this->getGroupStyle($xmlGroup)
         );
     }

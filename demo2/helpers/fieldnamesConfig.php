@@ -4,5 +4,5 @@
 	$fieldname['artNo']       = 'EAN';
 	$fieldname['price']       = 'Price';
 	$fieldname['description'] = 'Description';
-	$fieldname['imageUrl']    = 'ImageSmallURL';
+	$fieldname['imageUrl']    = 'ImageURL';
 	$fieldname['detailUrl']   = 'ProductURL';

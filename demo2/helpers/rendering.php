@@ -107,9 +107,10 @@ function renderAsnColumn($asn, $util, $ffparams, $i18n, $campaigns = NULL) {
 						if ($linkCount < $group->getDetailedLinkCount()) {
 							// show filters as usual links
 							echo '<p class="asnElement lvl'. $element->getClusterLevel() .'">
-									<a href="'.$element->getUrl().'" onclick="'.$util->createJavaScriptTrackingCode("refine", $element->getRefKey()).'">'.$element->getValue().' '.$group->getUnit();
+									<a href="'.$element->getUrl().'" onclick="'.$util->createJavaScriptTrackingCode("refine", $element->getRefKey()).'">'.$element->getValue();
+                            if($group->getUnit()) echo ' ', $group->getUnit();
 							if (!$ffparams->isNavigation()) {
-								echo '<span>('.$element->getMatchCount().')</span>';
+								echo ' <span>('.$element->getMatchCount().')</span>';
 							}
 							echo '</a></p>';
 							$linkCount++;
@@ -119,9 +120,12 @@ function renderAsnColumn($asn, $util, $ffparams, $i18n, $campaigns = NULL) {
 								echo '<select onchange="if (this.value != \'\') {document.location.href=this.value;}">
 										<option value="">', $i18n->msg('asn_moreGroupElements', (count($group) - $linkCount)), '</option>';
 							}
-							echo '<option value="'.$element->getUrl().'">'.$element->getValue().' '.$group->getUnit();
+							echo '<option value="'.$element->getUrl().'">'.$element->getValue();
+                            if ($group->getUnit()) {
+                                echo ' ', $group->getUnit();
+                            }
 							if (!$ffparams->isNavigation()) {
-								echo '('.$element->getMatchCount().')';
+								echo ' ('.$element->getMatchCount().')';
 							}
 							echo '</option>';
 							$linkCount++;
@@ -162,7 +166,13 @@ function renderAsnColumn($asn, $util, $ffparams, $i18n, $campaigns = NULL) {
 					';
 					echo '<div id="price-slider" style="padding:20px;"> </div>';
 				}
-			}
+			} elseif ($group->isColorStyle()) {
+                echo $i18n->msg('asn_styleNotSupported', 'COLOR');
+            } elseif ($group->isTreeStyle()) {
+                echo $i18n->msg('asn_styleNotSupported', 'TREE');
+            } elseif ($group->isMultiSelectStyle()) {
+                echo $i18n->msg('asn_styleNotSupported', 'MULTISELECT');
+            }
 			echo '</div>'; // eof group
 			if(isset($campaigns)) echo $campaigns->getFeedback('below each asn group');
 		}
