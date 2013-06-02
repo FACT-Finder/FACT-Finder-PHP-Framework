@@ -3,7 +3,7 @@ result_head_searchFor = Ihre Suche nach "{0}" ergab {1} Treffer
 result_sort = Sortierung:
 result_pushedProducts = Unsere Topseller
 result_productsPerPage = {0} Artikel pro Seite
-result_searchTimedOut = Die Suche hat die maximal erlaube Zeitspanne überschritten. Das Suchergebnis ist unter Umständen nicht vollständig. Die Ursache ist ein überlasteter Demo-Suchserver.
+result_searchTimedOut = Die Suche hat die maximal erlaubte Zeitspanne überschritten. Das Suchergebnis ist unter Umständen nicht vollständig. Die Ursache ist ein überlasteter Demo-Suchserver.
 result_error = Leider ist bei ihrer Anfrage ein Fehler aufgetreten.<br>Bitte wenden Sie sich an den Shopbetreiber für weitere Infos.
 result_badMatchingQueryParts = Für Teile Ihrer Suchanfrage konnten folgende Ergebnisanzahlen ermittelt werden:
 
@@ -14,7 +14,7 @@ header_imageURL = ./files/images/demoshop/head_logo_de.gif
 sorting_selected = gewählt
 
 #footer
-footer_copyright = FACT-Finder ist eine Technologie der Omikron Data Quality GmbH Copyright 2000-2008
+footer_copyright = FACT-Finder ist eine Technologie der Omikron Data Quality GmbH Copyright 2000-2013
 footer_contact = Kontakt
 
 #asn
@@ -55,7 +55,7 @@ nomatch_topseller = Alternativ möchten wir Ihnen die beliebtesten Artikel vorst
 
 #info
 info_placeholder = <h3>Infospalte</h3><p>Wenn Sie den Infomodus aktivieren (Fragezeichensymbol oben), dann erscheint hier eine Beschreibung beim überfahren der entsprechenden Bereiche</p>
-info_asn = <h3>ASN-Gruppe</h3><p>Hier können Sie das Suchergebnis weiter einschränken.
+info_asn = <h3>ASN-Gruppe</h3><p>Hier können Sie das Suchergebnis weiter einschränken.</p>
 info_result = <h3>Suchergebnis</h3><p>Hier sehen Sie die Produkte, die durch die Suchanfrage gefunden wurden.</p>
 info_breadcrumb = <h3>Breadcrumbs</h3><p>Durch die Breadcrumbs kann man zu einem vorherigen Stand der Anfrage springen.</p>
 info_sort = <h3>Sortierung</h3><p>Hier können Sie das Suchergebnis sortieren.</p>
