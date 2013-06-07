@@ -1,3 +1,16 @@
+Version 2.4.12
+    ADD: The tag cloud' word count can now be set manually.
+    ADD: FF 6.9 compatibility (most notably the new tracking API)
+    ADD: Demo shops support Tree and Multiselect ASN groups.
+    CHG: Demo shops changed to accommodate new demo data.
+    CHG: Demo now displays a notice for yet unsupported ASN group styles.
+    CHG: Demo gets slider unit from ASN group instead of i18n.
+    CHG: Changed all configuration files to use advanced authentication (so that they work with the FF 6.9 demo server).
+    FIX: Several PHP notices and warnings.
+    FIX: Several internationalization strings.
+    FIX: ASN group styles are actually used in FF 6.5 now.
+    FIX: Added encoding conversion for ASN group unit.
+
 Version 2.4.11
     ADD: Support new FF 6.8 ASN group styles (TREE, MULTISELECT)
     CHG: Updated log4php version.
