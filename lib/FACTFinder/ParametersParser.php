@@ -279,7 +279,7 @@ class FACTFinder_ParametersParser
         $returnParams = array();
         foreach($params as $key => $value) {
             // copy each param and do not set to null, because mappings are stored as references in the params array
-            if(!isset($ignoredParams[$key]) && strlen($value) > 0) {
+            if(!isset($ignoredParams[$key]) && ((is_array($value) && count($value) > 0) || strlen($value) > 0 )) {
                 $returnParams[$key] = $value;
             }
         }

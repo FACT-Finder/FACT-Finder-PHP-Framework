@@ -12,13 +12,12 @@
 	$sid         = '';
 ?>
 
-
 <div class="productWrap">
 	<div class="product">
 		<div class="picture">
-			<a href="<?php echo $detailUrl; ?>" onclick="<?php echo $util->createJavaScriptClickCode($record, $title, $sid); ?>">
+			<a href="<?php echo $detailUrl; ?>" onclick="<?php echo $util->createJavaScriptClickCode($record, $title, $sid, false); ?>">
 				<img valign="top" src="<?php echo $imageUrl; ?>" alt="<?php echo $i18n->msg('product_noPicture'); ?>"
-					title="<?php echo addslashes($title); ?>" onload="resizePicture(this, 120, 170)" onerror="imageNotFound(this)"
+					title="<?php echo addslashes($title); ?>" onload="resizePicture(this, 120, 170)" 
 					onmouseover="TagToTip('descr<?php echo $articleNr; ?>', SHADOW, true)" onmouseout="UnTip()" />
 			</a>
 		</div>

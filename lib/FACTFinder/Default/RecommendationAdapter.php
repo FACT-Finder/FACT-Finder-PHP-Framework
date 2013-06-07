@@ -90,7 +90,7 @@ class FACTFinder_Default_RecommendationAdapter extends FACTFinder_Abstract_Adapt
                 $this->productIds = array($requestParams['id']);
             }
             if (empty($this->productIds)) {
-                trigger_error('recommendations can not be loaded without id. could not load id from request', E_USER_WARNING);
+                trigger_error('Recommendations cannot be loaded without id. Could not load id from request.', E_USER_WARNING);
                 return array();
             }
         }
