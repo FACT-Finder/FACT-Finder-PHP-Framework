@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ffresult.xsd">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<campaigns><campaign nr="0" name="SCCP" category="SC" flavour="FEEDBACK"><target><name></name><destination>http://www.google.com</destination></target><feedback><text nr="0" label="header" html="true">Warenkorbkampagne</text></feedback><pushedProducts count="1"><product nr="0" id="17552"><field name="Brand">Puky</field><field name="PricePurchase">0.00</field><field name="PriceRetail">99.99</field><field name="ImageURL"><![CDATA[http://images.internetstores.de/products/puky_lr1lbr_sharkyblue[219x140].jpg?forceSize=true&forceAspectRatio=true]]></field><field name="ProductRankingCharge">31221</field><field name="EAN">4015731040382</field><field name="RatingAverage"></field><field name="ArticleNumber">17552</field><field name="FFAutomaticSearchOptimization">=5E-4,-4E0;</field><field name="TargetGroupBike">..Urban..</field><field name="RatingQuantity"></field><field name="ProductReductionMoney">0.00</field><field name="ProductURL">fahrraeder/kinderfahrraeder/puky-lr-1-br-captn-sharky/17552.html</field><field name="Category3">..Lauflernräder..</field><field name="Category2">..Kinderfahrräder..</field><field name="Availability">3</field><field name="Category1">..Fahrräder..</field><field name="ProductRankingProfit">20070</field><field name="ProductReductionPercent">0</field><field name="Description"><![CDATA[Für Piraten ab einer Körpergröße von 90 cm oder 3 Jahren.Wenn der Matrose statt zu Laufen noch schunkelt ist das Laufrad von PUKY ein tüchtiger Helfer und eine Alternative zum klassischen Roller. Wie bei einem Roller kann ein Fuß aufs Trittbrett gestellt werden, während das andere Bein für Tempo sorgt. Der ergonomisch geformte Sattel macht aber auch eine Laufbewegung, mit beiden Beinen sicher auf der Erde, möglich. Mit ein bisschen Übung wird der kleine Capt?n auf seinem Laufrad bald sicher auf dem ganzen Schiff umher düsen können. Ein kindergerechtes Bremssystem gibt die Möglichkeit das Bremsen und die Kontrolle der Geschwindigkeit zu lernen, um nicht mit anderen Leichtmatrosen zu kollidieren. Der Umstieg aufs Fahrrad wird einfach sein, wer schon Gleichgewicht halten kann und die Technik drauf hat. Ein Seemann schunkelt nicht beim Laufen!PUKY ist Spezialist für Kinderfahrzeuge und konstruiert seine Laufräder auf hohen Sicherheitsstandards. Durch seine soften Luftreifen ist dieser PUKY für unebene Spaziergänge auf dem Feldweg, wie auch für die Stadt und Hafen geeignet. Der Lenker ist nicht einschlagsbegrenzt, damit bei das Rad bei einem Sturz möglichst flach fällt und nichts quetscht. Mit einem Ständer ausgestattet kann es schon wie die großen Räder vor der Kajüte geparkt werden.Übersicht:- Rahmen mit tiefem Einstieg und Trittbrett- spezieller Laufradsattel- Räder und Lenkung sind kugelgelagert- Sicherheitslenkergriffe- luftbereifte Räder 47-203 (12 Zoll)- Sattel und Lenker höhenverstellbar- Ständer- stoßfeste Pulverlackierung - empfohlen ab 3 Jahre / 90 cm KörpergrößeSicherheitsmerkmale:- Sicherheitslenkergriffe- kindgerechtes BremssystemGewicht: ca. 5 KG]]></field><field name="ImageSmallURL"><![CDATA[http://images.internetstores.de/products/puky_lr1lbr_sharkyblue[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field><field name="Colors">..blau..</field><field name="Options"></field><field name="TargetGroupOutdoor"></field><field name="Features"><![CDATA[|5494=Lauflernrad|5503=90|5517=12|5506=Handbremse hinten|5511=1|5501=spezieller Laufradsattel|5502=3|5507=Sicherheitslenkergriffe|5499=Luftreifen|]]></field><field name="Name">Puky LR 1L BR Laufrad Capt'n Sharky</field><field name="BrandId">188</field><field name="Category">Katalog/Fahrräder/Kinderfahrräder/Lauflernräder</field><field name="FFCliplisterQuality"></field><field name="Sizes"></field><field name="ProductProperty"></field><field name="Gender">..Kinder..</field><field name="Price">99.99</field><field name="CategoryIds">36896 &gt;&gt; 36897 &gt;&gt; 36906 &gt;&gt; 37189</field><field name="SlowSeller"></field><field name="ProductModelYear">2013</field><field name="FFAfterSearchReorder"></field></product></pushedProducts></campaign></campaigns>
+</ff>

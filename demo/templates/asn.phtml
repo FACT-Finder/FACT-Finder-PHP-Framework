@@ -2,22 +2,23 @@
 	if (isset($asn)) {
 		foreach($asn AS $group) {
 			echo '<div class="asnGroup"> <h3>'.$group->getName().'</h3>';
-			if ($group->isDefaultStyle()) {
+			if ($group->isDefaultStyle() || $group->isMultiSelectStyle()) {
 				$linkCount = 0;
 				foreach($group AS $element) {
 					if ($element->isSelected()) {
 						// show deselect links
 						echo '<p class="asnElement selected lvl'. $element->getClusterLevel() .'">
-								<a href="'.$element->getUrl().'">'.$element->getValue().' '.$group->getUnit().'<br>
+								<a href="'.$element->getUrl().'" onclick="'.$util->createJavaScriptTrackingCode("refine", $element->getRefKey()).'">'.$element->getValue().' '.$group->getUnit().'<br />
 									<span>'.$i18n->msg('asn_removeFilter').'</span></a>
 							</p>';
 					} else {
 						if ($linkCount < $group->getDetailedLinkCount()) {
 							// show filters as usual links
 							echo '<p class="asnElement lvl'. $element->getClusterLevel() .'">
-									<a href="'.$element->getUrl().'">'.$element->getValue().' '.$group->getUnit();
+									<a href="'.$element->getUrl().'" onclick="'.$util->createJavaScriptTrackingCode("refine", $element->getRefKey()).'">'.$element->getValue();
+                            if($group->getUnit()) echo ' ', $group->getUnit();
 							if (!$ffparams->isNavigation()) {
-								echo '<span>('.$element->getMatchCount().')</span>';
+								echo ' <span>('.$element->getMatchCount().')</span>';
 							}
 							echo '</a></p>';
 							$linkCount++;
@@ -27,9 +28,12 @@
 								echo '<select onchange="if (this.value != \'\') {document.location.href=this.value;}">
 										<option value="">'.$i18n->msg('asn_moreGroupElements', count($group) - $linkCount).'</option>';
 							}
-							echo '<option value="'.$element->getUrl().'">'.$element->getValue().' '.$group->getUnit();
+							echo '<option value="'.$element->getUrl().'">'.$element->getValue();
+                            if ($group->getUnit()) {
+                                echo ' ', $group->getUnit();
+                            }
 							if (!$ffparams->isNavigation()) {
-								echo '('.$element->getMatchCount().')';
+								echo ' ('.$element->getMatchCount().')';
 							}
 							echo '</option>';
 							$linkCount++;
@@ -57,19 +61,62 @@
 								rightBorder:'.$slider->getAbsoluteMax().',
 								currentLeft:'.$slider->getSelectedMin().',
 								currentRight:'.$slider->getSelectedMax().',
-								unit:htmlDecode(\''.$i18n->msg('product_priceUnit').'\'),
+								unit:htmlDecode(\''.$group->getUnit().'\'),
 								callback:sliderSelect
 							});
 						}
 
 						function sliderSelect(left, right) {
+							'.$util->createJavaScriptTrackingCode("refine", $slider->getRefKey()).'
 							window.location.href="'.$slider->getBaseUrl().'"+left+" - "+right;
 						}
 					</script>
 					';
 					echo '<div id="price-slider" style="padding:20px;"> </div>';
 				}
-			}
+			} elseif ($group->isTreeStyle()) {
+                $linkCount = 0;
+				foreach($group AS $element) {
+					if ($element->isSelected()) {
+						// show deselect links
+						echo '<p class="lvl'. $element->getClusterLevel() .'" style="padding-left:'.(5*$element->getClusterLevel()).'px; color:#AD0E3F;">[-]
+								<a href="'.$element->getUrl().'" onclick="'.$util->createJavaScriptTrackingCode("refine", $element->getRefKey()).'" style="color:#AD0E3F;">'.$element->getValue().' '.$group->getUnit().'</a>
+							</p>';
+					} else {
+						if ($linkCount < $group->getDetailedLinkCount()) {
+							// show filters as usual links
+							echo '<p class="lvl'. $element->getClusterLevel() .'">[+]
+									<a href="'.$element->getUrl().'" onclick="'.$util->createJavaScriptTrackingCode("refine", $element->getRefKey()).'">'.$element->getValue();
+                            if($group->getUnit()) echo ' ', $group->getUnit();
+							if (!$ffparams->isNavigation()) {
+								echo ' <span>('.$element->getMatchCount().')</span>';
+							}
+							echo '</a></p>';
+							$linkCount++;
+						} else {
+							// show filters as drop down
+							if ($linkCount == $group->getDetailedLinkCount()) {
+								echo '<select onchange="if (this.value != \'\') {document.location.href=this.value;}">
+										<option value="">'.$i18n->msg('asn_moreGroupElements', count($group) - $linkCount).'</option>';
+							}
+							echo '<option value="'.$element->getUrl().'">'.$element->getValue();
+                            if ($group->getUnit()) {
+                                echo ' ', $group->getUnit();
+                            }
+							if (!$ffparams->isNavigation()) {
+								echo ' ('.$element->getMatchCount().')';
+							}
+							echo '</option>';
+							$linkCount++;
+						}
+					}
+				}
+				if ($linkCount >= $group->getDetailedLinkCount()) {
+					echo '</select>';	
+				}
+            } elseif ($group->isColorStyle()) {
+                echo $i18n->msg('asn_styleNotSupported', 'COLOR');
+            }
 			echo '</div>'; // eof group
 			echo $campaigns->getFeedback('below each asn group');
 		}

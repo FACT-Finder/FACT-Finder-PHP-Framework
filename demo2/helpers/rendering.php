@@ -85,30 +85,32 @@ function getInitialSearchQuery($ffparams, $i18n) {
  * This function renders a column with all the After Search Navigation elements to the standard output.
  *
  * @param	FACTFinder_Asn					$asn		the asn object returned by the search adapter
+ * @param	FACTFinder_Util					$util		a utility object for the current search adapter
  * @param	FACTFinder_Parameters			$ffparams	the params object returned by the params parser
  * @param	i18n							$i18n		internationalization object
  * @param	FACTFinder_CampaignIterator		$campaigns	the campaigns object returned by the search adapter
  **/
-function renderAsnColumn($asn, $ffparams, $i18n, $campaigns = NULL) {
+function renderAsnColumn($asn, $util, $ffparams, $i18n, $campaigns = NULL) {
 	if (isset($asn)) {
 		foreach($asn AS $group) {
 			echo '<div class="asnGroup"> <h3>'.$group->getName().'</h3>';
-			if ($group->isDefaultStyle()) {
+			if ($group->isDefaultStyle() || $group->isMultiSelectStyle()) {
 				$linkCount = 0;
 				foreach($group AS $element) {
 					if ($element->isSelected()) {
 						// show deselect links
 						echo '<p class="asnElement selected lvl'. $element->getClusterLevel() .'">
-								<a href="'.$element->getUrl().'">'.$element->getValue().' '.$group->getUnit().'<br>
+								<a href="'.$element->getUrl().'" onclick="'.$util->createJavaScriptTrackingCode("refine", $element->getRefKey()).'">'.$element->getValue().' '.$group->getUnit().'<br>
 									<span>', $i18n->msg('asn_removeFilter'), '</span></a>
 							</p>';
 					} else {
 						if ($linkCount < $group->getDetailedLinkCount()) {
 							// show filters as usual links
 							echo '<p class="asnElement lvl'. $element->getClusterLevel() .'">
-									<a href="'.$element->getUrl().'">'.$element->getValue().' '.$group->getUnit();
+									<a href="'.$element->getUrl().'" onclick="'.$util->createJavaScriptTrackingCode("refine", $element->getRefKey()).'">'.$element->getValue();
+                            if($group->getUnit()) echo ' ', $group->getUnit();
 							if (!$ffparams->isNavigation()) {
-								echo '<span>('.$element->getMatchCount().')</span>';
+								echo ' <span>('.$element->getMatchCount().')</span>';
 							}
 							echo '</a></p>';
 							$linkCount++;
@@ -118,9 +120,12 @@ function renderAsnColumn($asn, $ffparams, $i18n, $campaigns = NULL) {
 								echo '<select onchange="if (this.value != \'\') {document.location.href=this.value;}">
 										<option value="">', $i18n->msg('asn_moreGroupElements', (count($group) - $linkCount)), '</option>';
 							}
-							echo '<option value="'.$element->getUrl().'">'.$element->getValue().' '.$group->getUnit();
+							echo '<option value="'.$element->getUrl().'">'.$element->getValue();
+                            if ($group->getUnit()) {
+                                echo ' ', $group->getUnit();
+                            }
 							if (!$ffparams->isNavigation()) {
-								echo '('.$element->getMatchCount().')';
+								echo ' ('.$element->getMatchCount().')';
 							}
 							echo '</option>';
 							$linkCount++;
@@ -154,13 +159,56 @@ function renderAsnColumn($asn, $ffparams, $i18n, $campaigns = NULL) {
 						}
 
 						function sliderSelect(left, right) {
+							'.$util->createJavaScriptTrackingCode("refine", $slider->getRefKey()).'
 							window.location.href="'.$slider->getBaseUrl().'"+left+" - "+right;
 						}
 					</script>
 					';
 					echo '<div id="price-slider" style="padding:20px;"> </div>';
 				}
-			}
+			} elseif ($group->isTreeStyle()) {
+                $linkCount = 0;
+				foreach($group AS $element) {
+					if ($element->isSelected()) {
+						// show deselect links
+						echo '<p class="lvl'. $element->getClusterLevel() .'" style="padding-left:'.(5*$element->getClusterLevel()).'px; color:#AD0E3F;">[-]
+								<a href="'.$element->getUrl().'" onclick="'.$util->createJavaScriptTrackingCode("refine", $element->getRefKey()).'" style="color:#AD0E3F;">'.$element->getValue().' '.$group->getUnit().'</a>
+							</p>';
+					} else {
+						if ($linkCount < $group->getDetailedLinkCount()) {
+							// show filters as usual links
+							echo '<p class="lvl'. $element->getClusterLevel() .'">[+]
+									<a href="'.$element->getUrl().'" onclick="'.$util->createJavaScriptTrackingCode("refine", $element->getRefKey()).'">'.$element->getValue();
+                            if($group->getUnit()) echo ' ', $group->getUnit();
+							if (!$ffparams->isNavigation()) {
+								echo ' <span>('.$element->getMatchCount().')</span>';
+							}
+							echo '</a></p>';
+							$linkCount++;
+						} else {
+							// show filters as drop down
+							if ($linkCount == $group->getDetailedLinkCount()) {
+								echo '<select onchange="if (this.value != \'\') {document.location.href=this.value;}">
+										<option value="">'.$i18n->msg('asn_moreGroupElements', count($group) - $linkCount).'</option>';
+							}
+							echo '<option value="'.$element->getUrl().'">'.$element->getValue();
+                            if ($group->getUnit()) {
+                                echo ' ', $group->getUnit();
+                            }
+							if (!$ffparams->isNavigation()) {
+								echo ' ('.$element->getMatchCount().')';
+							}
+							echo '</option>';
+							$linkCount++;
+						}
+					}
+				}
+				if ($linkCount >= $group->getDetailedLinkCount()) {
+					echo '</select>';	
+				}
+            } elseif ($group->isColorStyle()) {
+                echo $i18n->msg('asn_styleNotSupported', 'COLOR');
+            }
 			echo '</div>'; // eof group
 			if(isset($campaigns)) echo $campaigns->getFeedback('below each asn group');
 		}
@@ -474,7 +522,7 @@ function renderProduct($record, $util, $i18n) {
 		<div class="productWrap">
 			<div class="product">
 				<div class="picture">
-					<a href="', $detailUrl, '" onclick="', $util->createJavaScriptClickCode($record, $title, $sid), '">
+					<a href="', $detailUrl, '" onclick="', $util->createJavaScriptClickCode($record, $title, $sid, false), '">
 						<img valign="top" src="', $imageUrl, '" alt="', $i18n->msg('product_noPicture'), '"
 							title="', addslashes($title), '" onload="resizePicture(this, 120, 170)" onerror="imageNotFound(this)"
 							onmouseover="TagToTip(\'descr', $articleNr, '\', SHADOW, true)" onmouseout="UnTip()" />
@@ -490,7 +538,7 @@ function renderProduct($record, $util, $i18n) {
 				</div>
 
 				<div class="title">
-					<a href="', $detailUrl, '" onclick="', $util->createJavaScriptClickCode($record, $title, $sid), '">', mb_strimwidth($title, 0, 23, '..'), '</a>
+					<a href="', $detailUrl, '" onclick="', $util->createJavaScriptClickCode($record, $title, $sid, false), '">', mb_strimwidth($title, 0, 23, '..'), '</a>
 				</div>
 				<div class="price">', $price, $i18n->msg('product_priceUnit'), '</div>
 			</div>

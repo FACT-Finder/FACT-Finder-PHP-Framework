@@ -3,7 +3,6 @@
  * initscript for the FACT-Finder PHP Framework demo using render functions
  *
  * @author    Rudolf Batt <rb@omikron.net>, Martin Buettner <martin.buettner@omikron.net>
- * @revision  $Rev: -1 $
  * @update    $LastChangedDate: $
  **/
 
@@ -18,11 +17,10 @@ FF::setLogger($log);
 // if required a second logger with a different configuration can be created to handle logging outside of the library differently
 
 // construct application
-$searchAdapter = getSearchAdapter('xml67', $log);
-$tagCloudAdapter = getTagCloudAdapter('xml67', $log);
+$searchAdapter = getSearchAdapter('xml69', $log);
+$tagCloudAdapter = getTagCloudAdapter('xml69', $log);
 
 // get data from FACT-Finder
-
 $config 		= FF::getSingleton('configuration');
 $paramsParser 	= FF::getSingleton('parametersParser');
 
@@ -53,6 +51,10 @@ try {
 
 	$util = FF::getInstance('util', $ffparams, $searchAdapter);
 	
+	// Demo-session, needed to make tracking work
+	$sid = session_id();
+	if ($sid == '') session_start();
+
 	switch ($status) {
 		case FACTFinder_Default_SearchAdapter::NO_RESULT:
 			$message = $i18n->msg('error_noResult');

@@ -6,7 +6,7 @@
  * @author    Rudolf Batt <rb@omikron.net>, Martin Buettner <martin.buettner@omikron.net>
  * @revision  $Rev: -1 $
  * @update    $LastChangedDate: $
-**/
+ **/
 
 require_once 'init.php';
 
@@ -22,6 +22,7 @@ $curl = FF::getInstance('curl');
 $encodingHandler = FF::getInstance('encodingHandler', $config, $log);
 $paramsParser = FF::getInstance('parametersParser', $config, $encodingHandler, $log);
 $dataProvider = FF::getInstance('http/dataProvider', $paramsParser->getServerRequestParams(), $config, $log, $curl);
-$scicAdapter = FF::getInstance('http/scicAdapter', $dataProvider, $paramsParser, $encodingHandler, $log);
+//$trackingAdapter = FF::getInstance('http/scicAdapter', $dataProvider, $paramsParser, $encodingHandler, $log);
+$trackingAdapter = FF::getInstance('xml69/trackingAdapter', $dataProvider, $paramsParser, $encodingHandler, $log);
 
-echo $scicAdapter->doTrackingFromRequest();
+echo $trackingAdapter->doTrackingFromRequest();
