@@ -3,7 +3,6 @@
  * initscript for the FACT-Finder PHP Framework demo using render functions
  *
  * @author    Rudolf Batt <rb@omikron.net>, Martin Buettner <martin.buettner@omikron.net>
- * @revision  $Rev: -1 $
  * @update    $LastChangedDate: $
  **/
 
@@ -22,7 +21,6 @@ $searchAdapter = getSearchAdapter('xml69', $log);
 $tagCloudAdapter = getTagCloudAdapter('xml69', $log);
 
 // get data from FACT-Finder
-
 $config 		= FF::getSingleton('configuration');
 $paramsParser 	= FF::getSingleton('parametersParser');
 
