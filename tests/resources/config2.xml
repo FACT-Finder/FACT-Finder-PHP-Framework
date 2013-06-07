@@ -11,7 +11,7 @@
 			<auth>
 				<user>user</user>
 				<password>userpw</password>
-				<type>simple</type> <!-- possible values: http, simple, advanced -->
+				<type>advanced</type> <!-- possible values: http, simple, advanced -->
 				<advancedPrefix>FACT-FINDER</advancedPrefix>
 				<advancedPostfix>FACT-FINDER</advancedPostfix>
 			</auth>
