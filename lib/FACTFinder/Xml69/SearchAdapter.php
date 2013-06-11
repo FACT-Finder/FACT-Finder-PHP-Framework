@@ -34,6 +34,14 @@ class FACTFinder_Xml69_SearchAdapter extends FACTFinder_Xml68_SearchAdapter
         return $filter;
     }
 
+    protected function createLink($item) {
+        $refKey = strval($item->attributes()->refKey);
+        return $this->getParamsParser()->createPageLink(
+            $this->getParamsParser()->parseParamsFromResultString(trim($item->searchParams)),
+            array('refKey' => $refKey)
+        );
+    }
+
     protected function getRecordFromRawRecord(SimpleXmlElement $rawRecord, $position) {
         $record = parent::getRecordFromRawRecord($rawRecord, $position);
 
