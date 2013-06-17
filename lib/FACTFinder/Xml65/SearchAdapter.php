@@ -25,7 +25,7 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
      */
     protected function init()
     {
-		$this->log->info("Initializing new search adapter.");
+        $this->log->info("Initializing new search adapter.");
         $this->getDataProvider()->setParam('format', 'xml');
         $this->getDataProvider()->setType('Search.ff');
     }
@@ -51,7 +51,8 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
      *
      * @return string status
      **/
-    public function getArticleNumberSearchStatus() {
+    public function getArticleNumberSearchStatus()
+    {
         if ($this->articleNumberSearchStatus == null) {
 
             $this->isArticleNumberSearch = false;
@@ -69,7 +70,8 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
      *
      * @return boolean isArticleNumberSearch
      **/
-    public function isArticleNumberSearch() {
+    public function isArticleNumberSearch()
+    {
         if ($this->isArticleNumberSearch === null) {
 
             $this->isArticleNumberSearch = false;
@@ -86,9 +88,10 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
      *
      * @return void
      */
-    private function loadArticleNumberSearchInformations() {
+    private function loadArticleNumberSearchInformations()
+    {
         $xmlResult = $this->getData();
-        switch($xmlResult->articleNumberSearchStatus){
+        switch ($xmlResult->articleNumberSearchStatus) {
             case 'nothingFound':
                 $this->isArticleNumberSearch = true;
                 $this->articleNumberSearchStatus = self::NOTHING_FOUND;
@@ -112,7 +115,7 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
     public function isSearchTimedOut()
     {
         $xmlResult = $this->getData();
-        if($xmlResult->searchTimedOut == 'true') {
+        if ($xmlResult->searchTimedOut == 'true') {
             return true;
         } else {
             return false;
@@ -128,7 +131,7 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
     {
         if ($this->status == null) {
             $xmlResult = $this->getData();
-            switch($xmlResult->searchStatus){
+            switch ($xmlResult->searchStatus) {
                 case 'nothingFound':
                     $this->status = self::NOTHING_FOUND;
                     break;
@@ -146,7 +149,7 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
     {
         $breadCrumbTrail = $this->getBreadCrumbTrail();
         if (sizeof($breadCrumbTrail) > 0) {
-            $paramString = $breadCrumbTrail[sizeof($breadCrumbTrail)-1]->getUrl();
+            $paramString = $breadCrumbTrail[sizeof($breadCrumbTrail) - 1]->getUrl();
             $searchParams = $this->getParamsParser()->getFactfinderParamsFromString($paramString);
         } else {
             $searchParams = $this->getParamsParser()->getFactfinderParams();
@@ -157,13 +160,13 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
     protected function createResult()
     {
         //init default values
-        $result      = array();
+        $result = array();
         $resultCount = 0;
         $xmlResult = $this->getData();
 
         //load result values from the xml element
         if (!empty($xmlResult->results)) {
-            $resultCount = (int) $xmlResult->results->attributes()->count;
+            $resultCount = (int)$xmlResult->results->attributes()->count;
             $encodingHandler = $this->getEncodingHandler();
 
             $paging = $this->getPaging();
@@ -171,7 +174,7 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
 
             //load result
             $positionCounter = 1;
-            foreach($xmlResult->results->record AS $currentRecord){
+            foreach ($xmlResult->results->record AS $currentRecord) {
                 // get current position
                 $position = $positionOffset + $positionCounter;
                 $positionCounter++;
@@ -182,12 +185,13 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
         return FF::getInstance('result', $result, $resultCount);
     }
 
-    protected function createRecord(SimpleXmlElement $rawRecord, $position) {
+    protected function createRecord(SimpleXmlElement $rawRecord, $position)
+    {
         // fetch record values
         $fieldValues = array();
-        foreach($rawRecord->field AS $current_field){
-            $currentFieldname = (string) $current_field->attributes()->name;
-            $fieldValues[$currentFieldname] = (string) $current_field;
+        foreach ($rawRecord->field AS $current_field) {
+            $currentFieldname = (string)$current_field->attributes()->name;
+            $fieldValues[$currentFieldname] = (string)$current_field;
         }
 
         // get original position
@@ -236,7 +240,8 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
         return FF::getInstance('asn', $asn);
     }
 
-    protected function createGroupInstance($xmlGroup, $encodingHandler) {
+    protected function createGroupInstance($xmlGroup, $encodingHandler)
+    {
         $groupUnit = '';
         if (isset($xmlGroup->attributes()->unit)) {
             $groupUnit = strval($xmlGroup->attributes()->unit);
@@ -251,21 +256,21 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
         );
     }
 
-    protected function getGroupStyle($xmlGroup) {
+    protected function getGroupStyle($xmlGroup)
+    {
         $style = strval($xmlGroup->attributes()->style);
         return $style == 'SLIDER' ? $style : 'DEFAULT';
     }
 
-    protected function createFilter($xmlFilter, $group, $encodingHandler, $params) {
-        $filterLink = $this->getParamsParser()->createPageLink(
-            $this->getParamsParser()->parseParamsFromResultString(trim($xmlFilter->searchParams))
-        );
+    protected function createFilter($xmlFilter, $group, $encodingHandler, $params)
+    {
+        $filterLink = $this->createLink($xmlFilter);
 
         if ($group->isSliderStyle()) {
             // get last (empty) parameter from the search params property
             $params = $this->getParamsParser()->parseParamsFromResultString(trim($xmlFilter->searchParams));
             end($params);
-            $filterLink .= '&'.key($params).'=';
+            $filterLink .= '&' . key($params) . '=';
 
             $filter = FF::getInstance('asnSliderFilter',
                 $filterLink,
@@ -290,6 +295,12 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
         return $filter;
     }
 
+    protected function createLink($item) {
+        return $this->getParamsParser()->createPageLink(
+            $this->getParamsParser()->parseParamsFromResultString(trim($item->searchParams))
+        );
+    }
+
     /**
      * @return array of FACTFinder_SortItem objects
      **/
@@ -302,9 +313,7 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
             $encodingHandler = $this->getEncodingHandler();
 
             foreach ($xmlResult->sorting->sort AS $xmlSortItem) {
-                $sortLink = $this->getParamsParser()->createPageLink(
-                    $this->getParamsParser()->parseParamsFromResultString(trim($xmlSortItem->searchParams))
-                );
+                $sortLink = $this->createLink($xmlSortItem);
                 $sortItem = FF::getInstance('item',
                     $encodingHandler->encodeServerContentForPage(trim($xmlSortItem->attributes()->description)),
                     $sortLink,
@@ -349,7 +358,7 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
             $selectedOption = intval(trim($xmlResult->productsPerPageOptions->attributes()->selected));
 
             $options = array();
-            foreach($xmlResult->productsPerPageOptions->option AS $option) {
+            foreach ($xmlResult->productsPerPageOptions->option AS $option) {
                 $value = intval(trim($option->attributes()->value));
                 $url = $this->getParamsParser()->createPageLink(
                     $this->getParamsParser()->parseParamsFromResultString(trim($option->searchParams))
@@ -375,9 +384,7 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
             $breadCrumbCount = count($xmlResult->breadCrumbTrail->item);
             $i = 1;
             foreach ($xmlResult->breadCrumbTrail->item AS $item) {
-                $link = $this->getParamsParser()->createPageLink(
-                    $this->getParamsParser()->parseParamsFromResultString(trim($item->searchParams))
-                );
+                $link = $this->createLink($item);
 
                 $fieldName = '';
                 $fieldUnit = '';
@@ -402,6 +409,7 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
         }
         return $breadCrumbTrail;
     }
+
 
     /**
      * @return array of FACTFinder_Campaign objects
@@ -445,9 +453,9 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
 
                         // fetch product values
                         $fieldValues = array();
-                        foreach($xmlProduct->field AS $current_field){
-                            $currentFieldname = (string) $current_field->attributes()->name;
-                            $fieldValues[$currentFieldname] = (string) $current_field;
+                        foreach ($xmlProduct->field AS $current_field) {
+                            $currentFieldname = (string)$current_field->attributes()->name;
+                            $fieldValues[$currentFieldname] = (string)$current_field;
                         }
                         $product->setValues($encodingHandler->encodeServerContentForPage($fieldValues));
                         $pushedProducts[] = $product;
@@ -465,7 +473,8 @@ class FACTFinder_Xml65_SearchAdapter extends FACTFinder_Default_SearchAdapter
     /**
      * @return array of FACTFinder_SuggestQuery objects
      */
-    protected function createSingleWordSearch() {
+    protected function createSingleWordSearch()
+    {
         $xmlResult = $this->getData();
         $singleWordSearch = array();
         if (isset($xmlResult->singleWordSearch)) {
