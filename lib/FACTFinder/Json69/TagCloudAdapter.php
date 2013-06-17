@@ -1,8 +1,8 @@
 <?php
 /**
- * tag cloud adapter using the xml interface
+ * tag cloud adapter using the json interface
  */
-class FACTFinder_Xml69_TagCloudAdapter extends FACTFinder_Xml68_TagCloudAdapter
+class FACTFinder_Json69_TagCloudAdapter extends FACTFinder_Json68_TagCloudAdapter
 {
     public function init() {
         parent::init();
