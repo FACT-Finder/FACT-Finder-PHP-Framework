@@ -31,7 +31,7 @@ class FACTFinder_Json67_RecommendationAdapter extends FACTFinder_Json66_Recommen
             $this->jsonData = json_decode(parent::getData(), true); // the second parameter turns JSON-objects into associative arrays which makes extracting the record fields easier
             if ($this->jsonData === null)
                 throw new InvalidArgumentException("json_decode() raised error ".json_last_error());
-            $this->recommendationUpToData = true;
+            $this->recommendationUpToDate = true;
         }
         return $this->jsonData;
     }
