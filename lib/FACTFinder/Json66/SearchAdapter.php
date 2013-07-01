@@ -155,9 +155,9 @@ class FACTFinder_Json66_SearchAdapter extends FACTFinder_Default_SearchAdapter
         $resultCount = 0;
 
         $searchResultData = $jsonData['searchResult'];
-        
+
         if (!empty($searchResultData['records'])) {
-            $resultCount = (int)$searchResultData['resultCount'];
+            $resultCount = $searchResultData['resultCount'];
             $encodingHandler = $this->getEncodingHandler();
 
             $paging = $this->getPaging();
@@ -213,16 +213,15 @@ class FACTFinder_Json66_SearchAdapter extends FACTFinder_Default_SearchAdapter
         $asn = array();
         $jsonData = $this->getData();
         if (!empty($jsonData['searchResult']['groups'])) {
-            $encodingHandler = $this->getEncodingHandler();
 
             foreach ($jsonData['searchResult']['groups'] AS $groupData) {
-                $group = $this->createGroupInstance($groupData, $encodingHandler);
+                $group = $this->createGroupInstance($groupData);
                 
                 $elements = array_merge($groupData['selectedElements'], $groupData['elements']);
                 
                 //get filters of the current group
                 foreach ($elements AS $elementData) {
-                    $filter = $this->createFilter($elementData, $group, $encodingHandler);
+                    $filter = $this->createFilter($elementData, $group);
 
                     $group->addFilter($filter);
                 }
@@ -232,21 +231,21 @@ class FACTFinder_Json66_SearchAdapter extends FACTFinder_Default_SearchAdapter
         return FF::getInstance('asn', $asn);
     }
 
-    protected function createGroupInstance($groupData, $encodingHandler)
+    protected function createGroupInstance($groupData)
     {
         $groupName = $groupData['name'];
         $groupUnit = $groupData['unit'];
         
         return FF::getInstance('asnGroup',
             array(),
-            $encodingHandler->encodeServerContentForPage($groupName),
+            $this->getEncodingHandler()->encodeServerContentForPage($groupName),
             $groupData['detailedLinks'],
-            $encodingHandler->encodeServerContentForPage($groupUnit),
+            $this->getEncodingHandler()->encodeServerContentForPage($groupUnit),
             $groupData['filterStyle']
         );
     }
 
-    protected function createFilter($elementData, $group, $encodingHandler)
+    protected function createFilter($elementData, $group)
     {
         $filterLink = $this->createLink($elementData);
 
@@ -266,7 +265,7 @@ class FACTFinder_Json66_SearchAdapter extends FACTFinder_Default_SearchAdapter
             );
         } else {
             $filter = FF::getInstance('asnFilterItem',
-                $encodingHandler->encodeServerContentForPage($elementData['name']),
+                $this->getEncodingHandler()->encodeServerContentForPage($elementData['name']),
                 $filterLink,
                 $elementData['selected'],
                 $elementData['recordCount'],
@@ -408,12 +407,10 @@ class FACTFinder_Json66_SearchAdapter extends FACTFinder_Default_SearchAdapter
         $jsonData = $this->getData();
         
         if (isset($jsonData['campaigns'])) {
-            $encodingHandler = $this->getEncodingHandler();
-
             foreach ($jsonData['campaigns'] as $campaignData) {
-                $campaign = $this->createEmptyCampaignObject($campaignData, $encodingHandler);
+                $campaign = $this->createEmptyCampaignObject($campaignData);
                 
-                $this->fillCampaignObject($campaign, $campaignData, $encodingHandler);
+                $this->fillCampaignObject($campaign, $campaignData);
                 
                 $campaigns[] = $campaign;
             }
@@ -422,27 +419,27 @@ class FACTFinder_Json66_SearchAdapter extends FACTFinder_Default_SearchAdapter
         return $campaignIterator;
     }
     
-    protected function createEmptyCampaignObject($campaignData, $encodingHandler)
+    protected function createEmptyCampaignObject($campaignData)
     {
         return FF::getInstance('campaign',
-            $encodingHandler->encodeServerContentForPage($campaignData['name']),
-            $encodingHandler->encodeServerContentForPage($campaignData['category']),
-            $encodingHandler->encodeServerUrlForPageUrl($campaignData['target']['destination'])
+            $this->getEncodingHandler()->encodeServerContentForPage($campaignData['name']),
+            $this->getEncodingHandler()->encodeServerContentForPage($campaignData['category']),
+            $this->getEncodingHandler()->encodeServerUrlForPageUrl($campaignData['target']['destination'])
         );
     }
     
-    protected function fillCampaignObject($campaign, $campaignData, $encodingHandler)
+    protected function fillCampaignObject($campaign, $campaignData)
     {
-        $this->fillCampaignWithFeedback($campaign, $campaignData, $encodingHandler);
-        $this->fillCampaignWithPushedProducts($campaign, $campaignData, $encodingHandler);
+        $this->fillCampaignWithFeedback($campaign, $campaignData);
+        $this->fillCampaignWithPushedProducts($campaign, $campaignData);
     }
     
-    protected function fillCampaignWithFeedback($campaign, $campaignData, $encodingHandler)
+    protected function fillCampaignWithFeedback($campaign, $campaignData)
     {
-        $campaign->addFeedback($encodingHandler->encodeServerContentForPage($campaignData['feedbackTexts']));
+        $campaign->addFeedback($this->getEncodingHandler()->encodeServerContentForPage($campaignData['feedbackTexts']));
     }
     
-    protected function fillCampaignWithPushedProducts($campaign, $campaignData, $encodingHandler)
+    protected function fillCampaignWithPushedProducts($campaign, $campaignData)
     {
         if (!empty($campaignData['pushedProducts'])) {
             $pushedProducts = array();
@@ -455,7 +452,7 @@ class FACTFinder_Json66_SearchAdapter extends FACTFinder_Default_SearchAdapter
                     if ($pushedProductData['record'][$fieldName] == $fieldValue)
                     {
                     $record = FF::getInstance('record', $pushedProductData['id']);
-                    $record->setValues($encodingHandler->encodeServerContentForPage($pushedProductData['record']));
+                    $record->setValues($this->getEncodingHandler()->encodeServerContentForPage($pushedProductData['record']));
                     
                     $pushedProducts[] = $record;
                     break;
@@ -471,61 +468,29 @@ class FACTFinder_Json66_SearchAdapter extends FACTFinder_Default_SearchAdapter
      */
     protected function createSingleWordSearch()
 	{
-        $xmlResult = $this->getData();
+        $jsonData = $this->getData();
         $singleWordSearch = array();
-        if (isset($xmlResult->singleWordSearch)) {
+        
+        if (!empty($jsonData['searchResults']['singleWordResults'])) {
             $encodingHandler = $this->getEncodingHandler();
-            foreach ($xmlResult->singleWordSearch->item AS $item) {
-                $query = $encodingHandler->encodeServerContentForPage(strval($item->attributes()->word));
+            foreach ($jsonData['searchResults']['singleWordResults'] as $swsData) {
+                $query = $encodingHandler->encodeServerContentForPage($swsData['word']);
                 $singleWordSearchItem = FF::getInstance('singleWordSearchItem',
                     $query,
                     $this->getParamsParser()->createPageLink(array('query' => $query)),
-                    intval(trim($item->attributes()->count))
+                    $swsData['count']
                 );
 
-				//add preview records
-				if (isset($item->record)) {
-					$position = 1;
-					foreach($item->record AS $rawRecord) {
-						$record = $this->getRecordFromRawRecord($rawRecord, $position);
-						$singleWordSearchItem->addPreviewRecord($record);
-						$position++;
-					}
-				}
+                $position = 1;
+                foreach($swsData['previewRecords'] as $recordData) {
+                    $record = $this->getRecordFromRawRecord($recordData, $position);
+                    $singleWordSearchItem->addPreviewRecord($record);
+                    $position++;
+                }
 
 				$singleWordSearch[] = $singleWordSearchItem;
             }
         }
         return $singleWordSearch;
-    }
-
-    /**
-     * get error if there is one
-     *
-     * @return string if error exists, else null
-     */
-    public function getError()
-    {
-        $error = null;
-        $xmlResult = $this->getData();
-        if (!empty($xmlResult->error)) {
-            $error = trim(strval($xmlResult->error));
-        }
-        return $error;
-    }
-
-    /**
-     * get stacktrace if there is one
-     *
-     * @return string if stacktrace exists, else null
-     */
-    public function getStackTrace()
-    {
-        $stackTrace = null;
-        $xmlResult = $this->getData();
-        if (!empty($xmlResult->stacktrace)) {
-            $stackTrace = trim(strval($xmlResult->stacktrace));
-        }
-        return $stackTrace;
     }
 }
