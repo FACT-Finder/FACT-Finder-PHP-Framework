@@ -73,7 +73,7 @@ class FACTFinder_Json66_SearchAdapter extends FACTFinder_Default_SearchAdapter
     }
 
     /**
-     * fetch article number search status from the xml result
+     * fetch article number search status from the json result
      *
      * @return void
      */
@@ -156,7 +156,6 @@ class FACTFinder_Json66_SearchAdapter extends FACTFinder_Default_SearchAdapter
 
         $searchResultData = $jsonData['searchResult'];
         
-        //load result values from the xml element
         if (!empty($searchResultData['records'])) {
             $resultCount = (int)$searchResultData['resultCount'];
             $encodingHandler = $this->getEncodingHandler();
@@ -194,7 +193,7 @@ class FACTFinder_Json66_SearchAdapter extends FACTFinder_Default_SearchAdapter
             $recordData['searchSimilarity'],
             $position,
             $originalPosition,
-            $fieldValues
+            $this->getEncodingHandler()->encodeServerContentForPage($fieldValues)
         );
 
 		$record->setSeoPath(strval($recordData['seoPath']));
@@ -211,19 +210,19 @@ class FACTFinder_Json66_SearchAdapter extends FACTFinder_Default_SearchAdapter
      **/
     protected function createAsn()
     {
-        $xmlResult = $this->getData();
         $asn = array();
-
-        if (!empty($xmlResult->asn)) {
+        $jsonData = $this->getData();
+        if (!empty($jsonData['searchResult']['groups'])) {
             $encodingHandler = $this->getEncodingHandler();
-            $params = $this->getParamsParser()->getRequestParams();
 
-            foreach ($xmlResult->asn->group AS $xmlGroup) {
-                $group = $this->createGroupInstance($xmlGroup, $encodingHandler);
-
+            foreach ($jsonData['searchResult']['groups'] AS $groupData) {
+                $group = $this->createGroupInstance($groupData, $encodingHandler);
+                
+                $elements = array_merge($groupData['selectedElements'], $groupData['elements']);
+                
                 //get filters of the current group
-                foreach ($xmlGroup->element AS $xmlFilter) {
-                    $filter = $this->createFilter($xmlFilter, $group, $encodingHandler, $params);
+                foreach ($elements AS $elementData) {
+                    $filter = $this->createFilter($elementData, $group, $encodingHandler);
 
                     $group->addFilter($filter);
                 }
@@ -233,55 +232,47 @@ class FACTFinder_Json66_SearchAdapter extends FACTFinder_Default_SearchAdapter
         return FF::getInstance('asn', $asn);
     }
 
-    protected function createGroupInstance($xmlGroup, $encodingHandler)
+    protected function createGroupInstance($groupData, $encodingHandler)
     {
-        $groupUnit = '';
-        if (isset($xmlGroup->attributes()->unit)) {
-            $groupUnit = strval($xmlGroup->attributes()->unit);
-        }
-
+        $groupName = $groupData['name'];
+        $groupUnit = $groupData['unit'];
+        
         return FF::getInstance('asnGroup',
             array(),
-            $encodingHandler->encodeServerContentForPage((string)$xmlGroup->attributes()->name),
-            $encodingHandler->encodeServerContentForPage((string)$xmlGroup->attributes()->detailedLinks),
+            $encodingHandler->encodeServerContentForPage($groupName),
+            $groupData['detailedLinks'],
             $encodingHandler->encodeServerContentForPage($groupUnit),
-            $this->getGroupStyle($xmlGroup)
+            $groupData['filterStyle']
         );
     }
 
-    protected function getGroupStyle($xmlGroup)
+    protected function createFilter($elementData, $group, $encodingHandler)
     {
-        $style = strval($xmlGroup->attributes()->style);
-        return $style == 'SLIDER' ? $style : 'DEFAULT';
-    }
-
-    protected function createFilter($xmlFilter, $group, $encodingHandler, $params)
-    {
-        $filterLink = $this->createLink($xmlFilter);
+        $filterLink = $this->createLink($elementData);
 
         if ($group->isSliderStyle()) {
             // get last (empty) parameter from the search params property
-            $params = $this->getParamsParser()->parseParamsFromResultString(trim($xmlFilter->searchParams));
+            $params = $this->getParamsParser()->parseParamsFromResultString(trim($elementData['searchParams']));
             end($params);
             $filterLink .= '&' . key($params) . '=';
 
             $filter = FF::getInstance('asnSliderFilter',
                 $filterLink,
-                strval($xmlFilter->attributes()->absoluteMin),
-                strval($xmlFilter->attributes()->absoluteMax),
-                strval($xmlFilter->attributes()->selectedMin),
-                strval($xmlFilter->attributes()->selectedMax),
-                isset($xmlFilter->attributes()->field) ? strval($xmlFilter->attributes()->field) : ''
+                $elementData['absoluteMinValue'],
+                $elementData['absoluteMaxValue'],
+                $elementData['selectedMinValue'],
+                $elementData['selectedMaxValue'],
+                $elementData['associatedFieldName']
             );
         } else {
             $filter = FF::getInstance('asnFilterItem',
-                $encodingHandler->encodeServerContentForPage(trim($xmlFilter->attributes()->name)),
+                $encodingHandler->encodeServerContentForPage($elementData['name']),
                 $filterLink,
-                strval($xmlFilter->attributes()->selected) == 'true',
-                strval($xmlFilter->attributes()->count),
-                strval($xmlFilter->attributes()->clusterLevel),
-                strval($xmlFilter->attributes()->previewImage),
-                isset($xmlFilter->attributes()->field) ? strval($xmlFilter->attributes()->field) : ''
+                $elementData['selected'],
+                $elementData['recordCount'],
+                $elementData['clusterLevel'],
+                ($elementData['previewImageURL'] ? $elementData['previewImageURL'] : ''),
+                $elementData['associatedFieldName']
             );
         }
 
@@ -414,57 +405,65 @@ class FACTFinder_Json66_SearchAdapter extends FACTFinder_Default_SearchAdapter
     protected function createCampaigns()
     {
         $campaigns = array();
-        $xmlResult = $this->getData();
-
-        if (!empty($xmlResult->campaigns)) {
+        $jsonData = $this->getData();
+        
+        if (isset($jsonData['campaigns'])) {
             $encodingHandler = $this->getEncodingHandler();
 
-            foreach ($xmlResult->campaigns->campaign AS $xmlCampaign) {
-                //get redirect
-                $redirectUrl = '';
-                if (!empty($xmlCampaign->target->destination)) {
-                    $redirectUrl = $encodingHandler->encodeServerUrlForPageUrl(strval($xmlCampaign->target->destination));
-                }
-
-                $campaign = FF::getInstance('campaign',
-                    $encodingHandler->encodeServerContentForPage(strval($xmlCampaign->attributes()->name)),
-                    $encodingHandler->encodeServerContentForPage(strval($xmlCampaign->attributes()->category)),
-                    $redirectUrl
-                );
-
-                //get feedback
-                if (!empty($xmlCampaign->feedback)) {
-                    $feedback = array();
-                    foreach ($xmlCampaign->feedback->text as $text) {
-                        $nr = intval(trim($text->attributes()->nr));
-                        $feedback[$nr] = $encodingHandler->encodeServerContentForPage((string)$text);
-                    }
-                    $campaign->addFeedback($feedback);
-                }
-
-                //get pushed products
-                if (!empty($xmlCampaign->pushedProducts)) {
-                    $pushedProducts = array();
-                    foreach ($xmlCampaign->pushedProducts->product AS $xmlProduct) {
-                        $product = FF::getInstance('record', $xmlProduct->attributes()->id, 100);
-
-                        // fetch product values
-                        $fieldValues = array();
-                        foreach ($xmlProduct->field AS $current_field) {
-                            $currentFieldname = (string)$current_field->attributes()->name;
-                            $fieldValues[$currentFieldname] = (string)$current_field;
-                        }
-                        $product->setValues($encodingHandler->encodeServerContentForPage($fieldValues));
-                        $pushedProducts[] = $product;
-                    }
-                    $campaign->addPushedProducts($pushedProducts);
-                }
-
+            foreach ($jsonData['campaigns'] as $campaignData) {
+                $campaign = $this->createEmptyCampaignObject($campaignData, $encodingHandler);
+                
+                $this->fillCampaignObject($campaign, $campaignData, $encodingHandler);
+                
                 $campaigns[] = $campaign;
             }
         }
         $campaignIterator = FF::getInstance('campaignIterator', $campaigns);
         return $campaignIterator;
+    }
+    
+    protected function createEmptyCampaignObject($campaignData, $encodingHandler)
+    {
+        return FF::getInstance('campaign',
+            $encodingHandler->encodeServerContentForPage($campaignData['name']),
+            $encodingHandler->encodeServerContentForPage($campaignData['category']),
+            $encodingHandler->encodeServerUrlForPageUrl($campaignData['target']['destination'])
+        );
+    }
+    
+    protected function fillCampaignObject($campaign, $campaignData, $encodingHandler)
+    {
+        $this->fillCampaignWithFeedback($campaign, $campaignData, $encodingHandler);
+        $this->fillCampaignWithPushedProducts($campaign, $campaignData, $encodingHandler);
+    }
+    
+    protected function fillCampaignWithFeedback($campaign, $campaignData, $encodingHandler)
+    {
+        $campaign->addFeedback($encodingHandler->encodeServerContentForPage($campaignData['feedbackTexts']));
+    }
+    
+    protected function fillCampaignWithPushedProducts($campaign, $campaignData, $encodingHandler)
+    {
+        if (!empty($campaignData['pushedProducts'])) {
+            $pushedProducts = array();
+            foreach ($campaignData['pushedProducts'] AS $recordData) {
+                $fieldName = $recordData['field'];
+                $fieldValue = $recordData['name'];
+                $jsonData = $this->getData();
+                foreach ($jsonData['pushedProducts'] as $pushedProductData)
+                {
+                    if ($pushedProductData['record'][$fieldName] == $fieldValue)
+                    {
+                    $record = FF::getInstance('record', $pushedProductData['id']);
+                    $record->setValues($encodingHandler->encodeServerContentForPage($pushedProductData['record']));
+                    
+                    $pushedProducts[] = $record;
+                    break;
+                    }
+                }
+            }
+            $campaign->addPushedProducts($pushedProducts);
+        }
     }
 
     /**

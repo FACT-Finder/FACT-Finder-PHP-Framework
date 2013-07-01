@@ -94,7 +94,7 @@ class JsonSearchAdapter66Test extends PHPUnit_Framework_TestCase
         
         $this->assertTrue($asn[3]->isSliderStyle());
         $this->assertEquals('Preis', $asn[3]->getName());
-        $this->assertEquals('€', $asn[3]->getUnit());
+        $this->assertEquals('â‚¬', $asn[3]->getUnit());
         $this->assertEquals(10, $asn[3]->getDetailedLinkCount());
         $slider = $asn[3][0];
         $this->assertEquals(20.0, $slider->getAbsoluteMax(), '', 0.001);
@@ -167,7 +167,7 @@ class JsonSearchAdapter66Test extends PHPUnit_Framework_TestCase
 
     public function testCampaignLoading()
     {
-        $this->searchAdapter->setParam('query', 'bmx');
+        $this->searchAdapter->setParam('query', 'campaigns');
 
         $campaigns = $this->searchAdapter->getCampaigns();
 
@@ -175,15 +175,16 @@ class JsonSearchAdapter66Test extends PHPUnit_Framework_TestCase
         $this->assertInstanceOf('FACTFinder_Campaign', $campaigns[0]);
         
         $this->assertTrue($campaigns->hasRedirect());
-        $tihs->assertEquals('http://www.fact-finder.de', $campaigns->getRedirectUrl());
+        $this->assertEquals('http://www.fact-finder.de', $campaigns->getRedirectUrl());
         
         $this->assertTrue($campaigns->hasFeedback());
-        $expectedFeedback = implode("\n", array("test feedback 1", "test feedback 2", ""));
-        $this->assertEquals($expectedFeedback, $campaigns->getFeedbackFor('0'));
+        $expectedFeedback = implode(PHP_EOL, array("test feedback 1", "test feedback 2", ""));
+        $this->assertEquals($expectedFeedback, $campaigns->getFeedback('0'));
         
         $this->assertTrue($campaigns->hasPushedProducts());
         $products = $campaigns->getPushedProducts();
         $this->assertEquals(3, count($products));
         $this->assertEquals('11660', $products[0]->getId());
+        $this->assertEquals('Katalog >> Geschenkgutscheine', $products[0]->getValue('category'));
     }
 }
