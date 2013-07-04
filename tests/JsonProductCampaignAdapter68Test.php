@@ -1,5 +1,5 @@
 <?php
-class JsonProductCampaignAdapter69Test extends PHPUnit_Framework_TestCase
+class JsonProductCampaignAdapter68Test extends PHPUnit_Framework_TestCase
 {
 	protected static $config;
 	protected static $encodingHandler;
@@ -24,20 +24,20 @@ class JsonProductCampaignAdapter69Test extends PHPUnit_Framework_TestCase
 	public function setUp()
 	{
 		$this->dataProvider = FF::getInstance('http/dummyProvider', self::$paramsParser->getServerRequestParams(), self::$config, self::$log);
-		$this->dataProvider->setFileLocation(RESOURCES_DIR.DS.'responses'.DS.'json69');
+		$this->dataProvider->setFileLocation(RESOURCES_DIR.DS.'responses'.DS.'json68');
         $this->dataProvider->setFileExtension(".json");
-		$this->productCampaignAdapter = FF::getInstance('json69/productCampaignAdapter', $this->dataProvider, self::$paramsParser, self::$encodingHandler, self::$log);
+		$this->productCampaignAdapter = FF::getInstance('json68/productCampaignAdapter', $this->dataProvider, self::$paramsParser, self::$encodingHandler, self::$log);
 	}
 	
 	public function testProductCampaignLoading()
 	{
 		$productIds = array();
-		$productIds[] = 249601;
+		$productIds[] = 123;
 		$this->productCampaignAdapter->setProductIds($productIds);
 		$campaigns = $this->productCampaignAdapter->getCampaigns();
 		
 		$this->assertGreaterThan(0, count($campaigns), 'no campaign delivered');
-		$this->assertInstanceOf('FACTFinder_Campaign', $campaigns[0], 'is not a campaign');
+		$this->assertInstanceOf('FACTFinder_Campaign', $campaigns[0], 'similar product is no record');
 		$this->assertNotEmpty($campaigns[0], 'first campaign is empty');
 		
 		$this->assertTrue($campaigns[0]->hasFeedback('header'));
@@ -48,14 +48,14 @@ class JsonProductCampaignAdapter69Test extends PHPUnit_Framework_TestCase
 	public function testShoppingCartCampaignLoading()
 	{
 		$productIds = array();
-		$productIds[] = 249601;
-		$productIds[] = 19451;
+		$productIds[] = 123;
+		$productIds[] = 456;
 		$this->productCampaignAdapter->makeShoppingCartCampaign();
 		$this->productCampaignAdapter->setProductIds($productIds);
 		$campaigns = $this->productCampaignAdapter->getCampaigns();
 		
 		$this->assertGreaterThan(0, count($campaigns), 'no campaign delivered');
-		$this->assertInstanceOf('FACTFinder_Campaign', $campaigns[0], 'is not a campaign');
+		$this->assertInstanceOf('FACTFinder_Campaign', $campaigns[0], 'similar product is no record');
 		$this->assertNotEmpty($campaigns[0], 'first campaign is empty');
 		
 		$this->assertTrue($campaigns[0]->hasFeedback('header'));
