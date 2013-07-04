@@ -1,5 +1,5 @@
 <?php
-class JsonCompareAdapter69Test extends PHPUnit_Framework_TestCase
+class JsonCompareAdapter68Test extends PHPUnit_Framework_TestCase
 {
 	protected static $config;
 	protected static $encodingHandler;
@@ -24,9 +24,9 @@ class JsonCompareAdapter69Test extends PHPUnit_Framework_TestCase
 	public function setUp()
 	{
 		$this->dataProvider = FF::getInstance('http/dummyProvider', self::$paramsParser->getServerRequestParams(), self::$config, self::$log);
-		$this->dataProvider->setFileLocation(RESOURCES_DIR.DS.'responses'.DS.'json69');
+		$this->dataProvider->setFileLocation(RESOURCES_DIR.DS.'responses'.DS.'json68');
         $this->dataProvider->setFileExtension(".json");
-		$this->compareAdapter = FF::getInstance('json69/compareAdapter', $this->dataProvider, self::$paramsParser, self::$encodingHandler, self::$log);
+		$this->compareAdapter = FF::getInstance('json68/compareAdapter', $this->dataProvider, self::$paramsParser, self::$encodingHandler, self::$log);
 	}
 	
 	public function testComparisonLoading()
@@ -42,7 +42,7 @@ class JsonCompareAdapter69Test extends PHPUnit_Framework_TestCase
 		$this->assertInstanceOf('FACTFinder_Record', $comparedRecords[0], 'similar product is no record');
 		$this->assertNotEmpty($comparedRecords[0], 'first similar record is empty');
         $this->assertEquals('123', $comparedRecords[0]->getId());
-        $this->assertEquals('..schwarz..', $comparedRecords[0]->getValue('Farbe'));
+        $this->assertEquals('KHE', $comparedRecords[0]->getValue('Marke'));
 	}
 	
 	public function testIdsOnlyComparisonLoading()
@@ -70,10 +70,8 @@ class JsonCompareAdapter69Test extends PHPUnit_Framework_TestCase
 		$this->compareAdapter->setProductIds($productIds);
         $comparableAttributes = $this->compareAdapter->getComparableAttributes();
 		
-        $this->assertEquals(7, count($comparableAttributes));
-        $this->assertFalse($comparableAttributes['Hersteller']);
-        $this->assertTrue($comparableAttributes['Farbe']);
-        $this->assertTrue($comparableAttributes['Material']);
-        $this->assertFalse($comparableAttributes['Modelljahr']);
+        $this->assertEquals(2, count($comparableAttributes));
+        $this->assertTrue($comparableAttributes['Marke']);
+        $this->assertFalse($comparableAttributes['Geschlecht']);
 	}
 }
