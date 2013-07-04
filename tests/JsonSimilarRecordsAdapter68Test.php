@@ -1,5 +1,5 @@
 <?php
-class JsonSimilarRecordsAdapter67Test extends PHPUnit_Framework_TestCase
+class JsonSimilarRecordsAdapter68Test extends PHPUnit_Framework_TestCase
 {
 	protected static $config;
 	protected static $encodingHandler;
@@ -24,9 +24,9 @@ class JsonSimilarRecordsAdapter67Test extends PHPUnit_Framework_TestCase
 	public function setUp()
 	{
 		$this->dataProvider = FF::getInstance('http/dummyProvider', self::$paramsParser->getServerRequestParams(), self::$config, self::$log);
-		$this->dataProvider->setFileLocation(RESOURCES_DIR.DS.'responses'.DS.'json67');
+		$this->dataProvider->setFileLocation(RESOURCES_DIR.DS.'responses'.DS.'json68');
         $this->dataProvider->setFileExtension(".json");
-		$this->similarRecordsAdapter = FF::getInstance('json67/similarRecordsAdapter', $this->dataProvider, self::$paramsParser, self::$encodingHandler, self::$log);
+		$this->similarRecordsAdapter = FF::getInstance('json68/similarRecordsAdapter', $this->dataProvider, self::$paramsParser, self::$encodingHandler, self::$log);
 	}
 	
 	public function testSimilarRecordLoading()
@@ -37,8 +37,8 @@ class JsonSimilarRecordsAdapter67Test extends PHPUnit_Framework_TestCase
 		$this->assertEquals(10, count($similarRecords), 'wrong number of similar records delivered');
 		$this->assertInstanceOf('FACTFinder_Record', $similarRecords[0], 'similar product is no record');
 		$this->assertNotEmpty($similarRecords[0], 'first similar record is empty');
-        $this->assertEquals('277986', $similarRecords[0]->getId());
-        $this->assertEquals('..Fahrräder..', $similarRecords[0]->getValue('category1'));
+        $this->assertEquals('293398', $similarRecords[0]->getId());
+        $this->assertEquals('..Fahrräder..', $similarRecords[0]->getValue('Category1'));
 	}
 	
 	public function testSimilarIdLoading()
@@ -50,7 +50,7 @@ class JsonSimilarRecordsAdapter67Test extends PHPUnit_Framework_TestCase
 		$this->assertEquals(10, count($similarRecords), 'wrong number of similar records delivered');
 		$this->assertInstanceOf('FACTFinder_Record', $similarRecords[0], 'similar product is no record');
 		$this->assertNotEmpty($similarRecords[0], 'first similar record is empty');
-        $this->assertEquals('278034', $similarRecords[0]->getId());
+        $this->assertEquals('232670', $similarRecords[0]->getId());
 	}
 	
 	public function testSimilarRecordAfterIdLoading()
@@ -64,12 +64,12 @@ class JsonSimilarRecordsAdapter67Test extends PHPUnit_Framework_TestCase
 		$this->assertEquals(10, count($similarIds), 'wrong number of similar records delivered');
 		$this->assertInstanceOf('FACTFinder_Record', $similarIds[0], 'similar product is no record');
 		$this->assertNotEmpty($similarIds[0], 'first similar record is empty');
-        $this->assertEquals('278034', $similarIds[0]->getId());
+        $this->assertEquals('232670', $similarIds[0]->getId());
 		
 		$this->assertInstanceOf('FACTFinder_Record', $similarRecords[0], 'similar product is no record');
 		$this->assertNotEmpty($similarRecords[0], 'first similar record is empty');
-        $this->assertEquals('277986', $similarRecords[0]->getId());
-        $this->assertEquals('..Fahrräder..', $similarRecords[0]->getValue('category1'), 'first similar record does not contain all fields');
+        $this->assertEquals('293398', $similarRecords[0]->getId());
+        $this->assertEquals('..Fahrräder..', $similarRecords[0]->getValue('Category1'), 'first similar record does not contain all fields');
 	}
 	
 	public function testMaxRecordCount()
@@ -89,7 +89,7 @@ class JsonSimilarRecordsAdapter67Test extends PHPUnit_Framework_TestCase
 		$this->similarRecordsAdapter->setProductId('123');
 		$similarAttributes = $this->similarRecordsAdapter->getSimilarAttributes();
 		
-		$this->assertEquals(3, count($similarAttributes), 'wrong number of similar attributes delivered');
-        $this->assertEquals('..Fahrräder..', $similarAttributes['category1'], 'wrong attribute value delivered');
+		$this->assertEquals(6, count($similarAttributes), 'wrong number of similar attributes delivered');
+        $this->assertEquals('..Fahrräder..', $similarAttributes['Category1'], 'wrong attribute value delivered');
 	}
 }

@@ -1,7 +1,4 @@
 <?php
-/**
- * product comparison adapter using the json interface
- */
 class FACTFinder_Json66_CompareAdapter extends FACTFinder_Default_CompareAdapter
 {
     /**

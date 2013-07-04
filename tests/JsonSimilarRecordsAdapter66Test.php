@@ -1,15 +1,4 @@
 <?php
-/**
- * FACT-Finder PHP Framework
- *
- * @category  Test
- * @package   FACTFinder\Xml66
- * @copyright Copyright (c) 2012 Omikron Data Quality GmbH (www.omikron.net)
- */
-
- /**
-  * self-explanatory test
-  */
 class JsonSimilarRecordsAdapter66Test extends PHPUnit_Framework_TestCase
 {
 	protected static $config;
@@ -36,6 +25,7 @@ class JsonSimilarRecordsAdapter66Test extends PHPUnit_Framework_TestCase
 	{
 		$this->dataProvider = FF::getInstance('http/dummyProvider', self::$paramsParser->getServerRequestParams(), self::$config, self::$log);
 		$this->dataProvider->setFileLocation(RESOURCES_DIR.DS.'responses'.DS.'json66');
+        $this->dataProvider->setFileExtension(".json");
 		$this->similarRecordsAdapter = FF::getInstance('json66/similarRecordsAdapter', $this->dataProvider, self::$paramsParser, self::$encodingHandler, self::$log);
 	}
 	
@@ -44,20 +34,23 @@ class JsonSimilarRecordsAdapter66Test extends PHPUnit_Framework_TestCase
 		$this->similarRecordsAdapter->setProductId('123');
 		$similarRecords = $this->similarRecordsAdapter->getSimilarRecords();
 		
-		$this->assertGreaterThan(0, count($similarRecords), 'no similar records delivered');
+		$this->assertEquals(10, count($similarRecords), 'wrong number of similar records delivered');
 		$this->assertInstanceOf('FACTFinder_Record', $similarRecords[0], 'similar product is no record');
 		$this->assertNotEmpty($similarRecords[0], 'first similar record is empty');
+        $this->assertEquals('298744', $similarRecords[0]->getId());
+        $this->assertEquals('..Fahrräder..', $similarRecords[0]->getValue('category1'));
 	}
 	
 	public function testSimilarIdLoading()
 	{
 		$this->similarRecordsAdapter->setProductId('123');
 		$this->similarRecordsAdapter->setIdsOnly(true);
-		$similarIds = $this->similarRecordsAdapter->getSimilarRecords();
+		$similarRecords = $this->similarRecordsAdapter->getSimilarRecords();
 		
-		$this->assertGreaterThan(0, count($similarIds), 'no similar ids delivered');
-		$this->assertInstanceOf('FACTFinder_Record', $similarIds[0], 'similar product is no record');
-		$this->assertNotEmpty($similarIds[0], 'first similar record is empty');
+		$this->assertEquals(10, count($similarRecords), 'wrong number of similar records delivered');
+		$this->assertInstanceOf('FACTFinder_Record', $similarRecords[0], 'similar product is no record');
+		$this->assertNotEmpty($similarRecords[0], 'first similar record is empty');
+        $this->assertEquals('301997', $similarRecords[0]->getId());
 	}
 	
 	public function testSimilarRecordAfterIdLoading()
@@ -68,23 +61,25 @@ class JsonSimilarRecordsAdapter66Test extends PHPUnit_Framework_TestCase
 		$this->similarRecordsAdapter->setIdsOnly(false);
 		$similarRecords = $this->similarRecordsAdapter->getSimilarRecords();
 		
-		$this->assertGreaterThan(0, count($similarIds), 'no similar ids delivered');
+		$this->assertEquals(10, count($similarIds), 'wrong number of similar records delivered');
 		$this->assertInstanceOf('FACTFinder_Record', $similarIds[0], 'similar product is no record');
 		$this->assertNotEmpty($similarIds[0], 'first similar record is empty');
+        $this->assertEquals('301997', $similarIds[0]->getId());
 		
 		$this->assertInstanceOf('FACTFinder_Record', $similarRecords[0], 'similar product is no record');
 		$this->assertNotEmpty($similarRecords[0], 'first similar record is empty');
-		$this->assertEquals('..grau..', $similarRecords[0]->getValue('Farbe'), 'first similar record does not contain all fields');
+        $this->assertEquals('298744', $similarRecords[0]->getId());
+        $this->assertEquals('..Fahrräder..', $similarRecords[0]->getValue('category1'), 'first similar record does not contain all fields');
 	}
 	
 	public function testMaxRecordCount()
 	{
 		$this->similarRecordsAdapter->setProductId('123');
+		$this->similarRecordsAdapter->setIdsOnly(true);
 		$this->similarRecordsAdapter->setMaxRecordCount(3);
 		$similarRecords = $this->similarRecordsAdapter->getSimilarRecords();
 		
-		$this->assertGreaterThan(0, count($similarRecords), 'no similar records delivered');
-		$this->assertLessThan(4, count($similarRecords), 'more similar records delivered than specified');
+		$this->assertEquals(3, count($similarRecords), 'wrong number of similar records delivered');
 		$this->assertInstanceOf('FACTFinder_Record', $similarRecords[0], 'similar product is no record');
 		$this->assertNotEmpty($similarRecords[0], 'first similar record is empty');
 	}
@@ -94,6 +89,7 @@ class JsonSimilarRecordsAdapter66Test extends PHPUnit_Framework_TestCase
 		$this->similarRecordsAdapter->setProductId('123');
 		$similarAttributes = $this->similarRecordsAdapter->getSimilarAttributes();
 		
-		$this->assertGreaterThan(0, count($similarAttributes), 'no similar attributes delivered');
+		$this->assertEquals(4, count($similarAttributes), 'wrong number of similar attributes delivered');
+        $this->assertEquals('..Fahrräder..', $similarAttributes['category1'], 'wrong attribute value delivered');
 	}
 }
