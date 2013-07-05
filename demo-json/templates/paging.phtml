@@ -1,0 +1,37 @@
+<div class="paging">
+	<?php if (!empty($paging) && $paging->getPageCount() > 1) { ?>
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="previousPage">
+					<?php
+					if ($paging->getPreviousPageLink() != '') {
+						echo '<a href="'.$paging->getPreviousPageLink().'">'.$i18n->msg('prev_link_text').'</a>';
+					}
+					?>
+				</td>
+				<td class="pageLinks">
+					<?php
+					foreach ($paging AS $page) {
+						if ($page->isSelected()) {
+							echo '<span class="paging currentPage">'.$page->getValue().'</span>';
+						} else {
+							echo '<a class="paging" href="'.$page->getUrl().'">'.$page->getValue().'</a>';
+						}
+					}
+					?>
+				</td>
+				<td class="nextPage">
+					<?php
+					if ($paging->getNextPageLink() != '') {
+						echo '<a href="'.$paging->getNextPageLink().'">'.$i18n->msg('next_link_text').'</a>';
+					}
+					?>
+				</td>
+			</tr>
+		</table>
+	<?php
+	} else {
+		echo $i18n->msg('paging_onePageOnly');
+	}
+	?>	
+</div>

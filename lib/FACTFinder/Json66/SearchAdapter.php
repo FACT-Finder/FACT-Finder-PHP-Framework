@@ -87,7 +87,7 @@ class FACTFinder_Json66_SearchAdapter extends FACTFinder_Default_SearchAdapter
     private function loadArticleNumberSearchInformations()
     {
         $jsonData = $this->getData();
-        switch ($jsonData["searchResult"]["articleNumberSearchStatus"]) {
+        switch ($jsonData["searchResult"]["resultArticleNumberStatus"]) {
             case 'nothingFound':
                 $this->isArticleNumberSearch = true;
                 $this->articleNumberSearchStatus = self::NOTHING_FOUND;
