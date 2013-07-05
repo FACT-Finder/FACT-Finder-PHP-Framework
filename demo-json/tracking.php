@@ -21,6 +21,6 @@ $encodingHandler = FF::getInstance('encodingHandler', $config, $log);
 $paramsParser = FF::getInstance('parametersParser', $config, $encodingHandler, $log);
 $dataProvider = FF::getInstance('http/dataProvider', $paramsParser->getServerRequestParams(), $config, $log, $curl);
 //$trackingAdapter = FF::getInstance('http/scicAdapter', $dataProvider, $paramsParser, $encodingHandler, $log);
-$trackingAdapter = FF::getInstance('xml69/trackingAdapter', $dataProvider, $paramsParser, $encodingHandler, $log);
+$trackingAdapter = FF::getInstance('http/trackingAdapter', $dataProvider, $paramsParser, $encodingHandler, $log);
 
 echo $trackingAdapter->doTrackingFromRequest();
