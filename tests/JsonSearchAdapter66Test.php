@@ -187,4 +187,20 @@ class JsonSearchAdapter66Test extends PHPUnit_Framework_TestCase
         $this->assertEquals('11660', $products[0]->getId());
         $this->assertEquals('Katalog >> Geschenkgutscheine', $products[0]->getValue('category'));
     }
+    
+    public function testNoError()
+    {
+        $this->searchAdapter->setParam('query', 'bmx');
+        
+        $this->assertNull($this->searchAdapter->getError());
+        $this->assertNull($this->searchAdapter->getStackTrace());
+    }
+    
+    public function testError()
+    {
+        $this->searchAdapter->setParam('query', 'error');
+        
+        $this->assertEquals('500', $this->searchAdapter->getError());
+        $this->assertEquals('stacktrace', $this->searchAdapter->getStackTrace());
+    }
 }

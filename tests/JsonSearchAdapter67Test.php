@@ -203,4 +203,20 @@ class JsonSearchAdapter67Test extends PHPUnit_Framework_TestCase
         $this->assertEquals('answer text 2', $answers[1]->getText());
         $this->assertFalse($answers[1]->hasSubquestions());
     }
+    
+    public function testNoError()
+    {
+        $this->searchAdapter->setParam('query', 'bmx');
+        
+        $this->assertNull($this->searchAdapter->getError());
+        $this->assertNull($this->searchAdapter->getStackTrace());
+    }
+    
+    public function testError()
+    {
+        $this->searchAdapter->setParam('query', 'error');
+        
+        $this->assertEquals('500', $this->searchAdapter->getError());
+        $this->assertEquals('stacktrace', $this->searchAdapter->getStackTrace());
+    }
 }

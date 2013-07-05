@@ -28,9 +28,16 @@ class FACTFinder_Json66_SearchAdapter extends FACTFinder_Default_SearchAdapter
     {
         if($this->jsonData === null)
         {
-            $this->jsonData = json_decode(parent::getData(), true); // the second parameter turns JSON-objects into associative arrays which makes extracting the record fields easier
+            $rawData = parent::getData();
+            $this->jsonData = json_decode($rawData, true); // the second parameter turns JSON-objects into associative arrays which makes extracting the record fields easier
             if ($this->jsonData === null)
-                throw new InvalidArgumentException("json_decode() raised error ".json_last_error());
+            {
+                $error = json_last_error();
+                // In case of an error 500, FF 6.6 does not return valid JSON; try to fix it
+                $this->jsonData = json_decode('{'.$rawData.'}', true);
+                if ($this->jsonData === null)
+                    throw new InvalidArgumentException('json_decode() raised error '.$error);
+            }
         }
         return $this->jsonData;
     }
@@ -492,5 +499,17 @@ class FACTFinder_Json66_SearchAdapter extends FACTFinder_Default_SearchAdapter
             }
         }
         return $singleWordSearch;
+    }
+    
+    public function getError()
+    {
+        $jsonData = $this->getData();
+        return isset($jsonData['error']) ? $jsonData['error'] : null;
+    }
+    
+    public function getStackTrace()
+    {
+        $jsonData = $this->getData();
+        return isset($jsonData['stacktrace']) ? $jsonData['stacktrace'] : null;
     }
 }
