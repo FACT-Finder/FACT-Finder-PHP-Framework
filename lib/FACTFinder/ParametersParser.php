@@ -121,7 +121,8 @@ class FACTFinder_ParametersParser
             isset($params['page']) ? $params['page'] : 1,
             $filters,
             $sortings,
-            (isset($params['catalog']) && $params['catalog'] == 'true'),
+            ((isset($params['catalog']) && $params['catalog'] == 'true') ||
+             (isset($params['navigation']) && $params['navigation'] == 'true')),
             isset($params['followSearch']) ? $params['followSearch'] : 10000
         );
     }

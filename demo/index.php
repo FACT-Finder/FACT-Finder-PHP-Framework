@@ -48,10 +48,6 @@ if ($paramsParser->getRequestParam('productsPerPage', 12) > 60) { $dataProvider_
 $searchAdapter = FF::getInstance('xml69/searchAdapter', $dataProvider_search, $paramsParser, $encodingHandler, $log);
 $tagCloudAdapter = FF::getInstance('xml69/tagCloudAdapter', $dataProvider_tagCloud, $paramsParser, $encodingHandler, $log);
 
-// Demo-session, needed to make tracking work
-$sid = session_id();
-if ($sid == '') session_start();
-
 // run / show view
 $htmlGenerator = new HtmlGenerator($searchAdapter, $tagCloudAdapter, $paramsParser, $config, $log, TEMPLATE_DIR);
 $output = $htmlGenerator->getHtmlCode();

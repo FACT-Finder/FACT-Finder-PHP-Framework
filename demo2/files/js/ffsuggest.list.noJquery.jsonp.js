@@ -81,7 +81,7 @@ function FFSuggest() {
 			url = removeParam(url, 'format');
 			url = removeParam(url, '_');
 			url = removeParam(url, 'omitContextName');
-            url = addParam(url, 'refKey', pSuggest[pCurrentSelection].refKey);
+			url = addParam(url, 'sourceRefKey', pSuggest[pCurrentSelection].refKey);
 			url = document[pFormName].action + cutParamsUrl(url);
 
 			window.location = url;
@@ -250,9 +250,9 @@ function FFSuggest() {
   }
 
 	// calls the callback for "outside" listeners if the callback is implemented
-	function fireSuggestCompleted(suggestLayerIsVisible) {
+	function fireSuggestCompleted(suggestLayerIsVisible, suggestResult) {
 		if (typeof(onSuggestCompleted) == 'function') {
-			onSuggestCompleted(suggestLayerIsVisible);
+			onSuggestCompleted(suggestLayerIsVisible, suggestResult);
 		}
 	}
 
@@ -338,13 +338,13 @@ function FFSuggest() {
 			}
 
 			// calback for "outside" listeners
-			fireSuggestCompleted(true);
+			fireSuggestCompleted(true, jsonObj);
 		} else {
 			hideLayer();
 			pLayer.innerHTML = '';
 
 			// callback for "outside" listeners
-			fireSuggestCompleted(false);
+			fireSuggestCompleted(false, jsonObj);
 		}
 	};
 
