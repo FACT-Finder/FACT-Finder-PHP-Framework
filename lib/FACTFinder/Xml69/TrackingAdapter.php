@@ -87,10 +87,19 @@ class FACTFinder_Xml69_TrackingAdapter extends FACTFinder_Abstract_Adapter
     }
 
     public function trackEvent($event, $inputParams) {
-        $params = prepareDefaultParams($inputParams);
+        $params = $this->prepareDefaultParams($inputParams);
 
-        $events = array(EVENT_INSPECT, EVENT_AVAILABILITY_CHECK, EVENT_CART, EVENT_BUY, EVENT_REFINE,
-                        EVENT_FEEDBACK, EVENT_DISPLAY, EVENT_DISPLAY_ALL, EVENT_CACHE_HIT);
+        $events = array(
+            self::EVENT_INSPECT,
+            self::EVENT_AVAILABILITY_CHECK,
+            self::EVENT_CART,
+            self::EVENT_BUY,
+            self::EVENT_REFINE,
+            self::EVENT_FEEDBACK,
+            self::EVENT_DISPLAY,
+            self::EVENT_DISPLAY_ALL,
+            self::EVENT_CACHE_HIT
+        );
 
         if (!in_array($event, $events, true)) {
             throw new UnexpectedValueException("Event $event not known.");
