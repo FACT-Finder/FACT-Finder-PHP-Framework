@@ -1,16 +1,6 @@
 <?php
 /**
- * FACT-Finder PHP Framework
- *
- * @category  Library
- * @package   FACTFinder\Xml69
- * @copyright Copyright (c) 2013 Omikron Data Quality GmbH (www.omikron.net)
- */
-
-/**
  * Search adapter using the xml interface.
- *
- * @package   FACTFinder\Xml69
  */
 class FACTFinder_Xml69_SearchAdapter extends FACTFinder_Xml68_SearchAdapter
 {
@@ -41,20 +31,11 @@ class FACTFinder_Xml69_SearchAdapter extends FACTFinder_Xml68_SearchAdapter
      **/
     protected function createPaging()
     {
-        $paging = null;
-        $xmlResult = $this->getData();
+        $paging = parent::createPaging();
 
-        if (!empty($xmlResult->paging)) {
-            $paging = FF::getInstance('paging',
-                intval(trim($xmlResult->paging->attributes()->currentPage)),
-                intval(trim($xmlResult->paging->attributes()->pageCount)),
-                $this->getParamsParser()
-            );
-            if (isset($xmlResult->refKey))
+        if (!empty($xmlResult->paging) && isset($xmlResult->refKey))
                 $paging->setSourceRefKey((string) $xmlResult->refKey);
-        } else {
-            $paging = FF::getInstance('paging', 1, 1, $this->getParamsParser());
-        }
+
         return $paging;
     }
 

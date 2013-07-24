@@ -25,15 +25,15 @@ class JsonSearchAdapter69Test extends PHPUnit_Framework_TestCase
      * @var FACTFinder_Xml69_SearchAdapter
      */
     protected $searchAdapter;
-	
+
 	public static function setUpBeforeClass()
 	{
 		$zendConfig = FF::getSingleton('zend/config/xml', RESOURCES_DIR.DS.'config.xml', 'production');
 		self::$config = FF::getSingleton('configuration', $zendConfig);
-		
+
         self::$log = FF::getInstance('log4PhpLogger');
 		self::$log->configure(RESOURCES_DIR.DS.'log4php.xml');
-		
+
 		self::$encodingHandler = FF::getInstance('encodingHandler', self::$config);
 		self::$paramsParser = FF::getInstance('parametersParser', self::$config, self::$encodingHandler);
 	}
@@ -57,7 +57,6 @@ class JsonSearchAdapter69Test extends PHPUnit_Framework_TestCase
         $this->assertEquals('WOwfiHGNS', $result->getRefKey());
         $this->assertEquals(1, count($result));
         $this->assertEquals('278003', $result[0]->getId());
-        $this->assertEquals('3Xo4zcM8W', $result[0]->getRefKey());
     }
 
     public function testGetStatus()
@@ -84,16 +83,14 @@ class JsonSearchAdapter69Test extends PHPUnit_Framework_TestCase
         $this->assertEquals(4, count($asn));
         $this->assertTrue($asn[0]->isDefaultStyle());
         $this->assertEquals('Für Wen?', $asn[0]->getName());
-        $this->assertEquals('MPAL3O7l0', $asn[0]->getRefKey());
         $this->assertEquals(5, $asn[0]->getDetailedLinkCount());
-        
+
         $this->assertEquals(3, count($asn[0]));
         $this->assertFalse($asn[0][0]->isSelected());
         $this->assertFalse($asn[0][1]->isSelected());
         $this->assertFalse($asn[0][2]->isSelected());
-        $this->assertEquals('A6ERS6aWX', $asn[0][2]->getRefKey());
         $this->assertEquals(1, $asn[0][2]->getMatchCount());
-        
+
         $this->assertTrue($asn[1]->isTreeStyle());
         $this->assertEquals('Kategorie', $asn[1]->getName());
         $this->assertEquals(5, $asn[1]->getDetailedLinkCount());
@@ -102,12 +99,12 @@ class JsonSearchAdapter69Test extends PHPUnit_Framework_TestCase
         $this->assertTrue($asn[1][1]->isSelected());
         $this->assertTrue($asn[1][2]->isSelected());
         $this->assertEquals(0, $asn[1][2]->getMatchCount());
-        
+
         $this->assertTrue($asn[2]->isMultiSelectStyle());
         $this->assertFalse($asn[2][0]->isSelected());
         $this->assertFalse($asn[2][1]->isSelected());
         $this->assertFalse($asn[2][2]->isSelected());
-        
+
         $this->assertTrue($asn[3]->isSliderStyle());
         $this->assertEquals('Bewertung', $asn[3]->getName());
         $this->assertEquals('', $asn[3]->getUnit());
@@ -125,7 +122,7 @@ class JsonSearchAdapter69Test extends PHPUnit_Framework_TestCase
         $this->searchAdapter->setParam('query', 'bmx');
 
         $pppo = $this->searchAdapter->getProductsPerPageOptions();
-        
+
         $this->assertNotEmpty($pppo, 'products per page options should be loaded');
         $this->assertInstanceOf('FACTFinder_ProductsPerPageOptions', $pppo);
         $options = $pppo->getIterator();
@@ -173,11 +170,11 @@ class JsonSearchAdapter69Test extends PHPUnit_Framework_TestCase
         $this->assertEquals('bmx', $breadCrumb[0]->getValue());
         $this->assertEquals('Category1', $breadCrumb[1]->getFieldName());
     }
-    
+
     public function testEmptyCampaigns()
     {
         $this->searchAdapter->setParam('query', 'bmx');
-        
+
         $this->assertEquals(0, count($this->searchAdapter->getCampaigns()));
     }
 
@@ -189,10 +186,10 @@ class JsonSearchAdapter69Test extends PHPUnit_Framework_TestCase
 
         $this->assertInstanceOf('FACTFinder_CampaignIterator', $campaigns);
         $this->assertInstanceOf('FACTFinder_Campaign', $campaigns[0]);
-        
+
         $this->assertTrue($campaigns->hasRedirect());
         $this->assertEquals('http://www.fact-finder.de', $campaigns->getRedirectUrl());
-        
+
         $this->assertTrue($campaigns->hasFeedback());
         $expectedFeedback = implode(PHP_EOL, array("test feedback 1", "test feedback 2", ""));
         $this->assertEquals($expectedFeedback, $campaigns->getFeedback('html header'));
@@ -200,13 +197,13 @@ class JsonSearchAdapter69Test extends PHPUnit_Framework_TestCase
         $expectedFeedback = PHP_EOL . "test feedback 3" . PHP_EOL;
         $this->assertEquals($expectedFeedback, $campaigns->getFeedback('below header'));
         $this->assertEquals($expectedFeedback, $campaigns->getFeedback('6'));
-        
+
         $this->assertTrue($campaigns->hasPushedProducts());
         $products = $campaigns->getPushedProducts();
         $this->assertEquals(1, count($products));
         $this->assertEquals('17552', $products[0]->getId());
         $this->assertEquals('..Fahrräder..', $products[0]->getValue('Category1'));
-        
+
         $this->assertTrue($campaigns->hasActiveQuestions());
         $questions = $campaigns->getActiveQuestions();
         $this->assertEquals(1, count($questions));
@@ -218,19 +215,19 @@ class JsonSearchAdapter69Test extends PHPUnit_Framework_TestCase
         $this->assertEquals('answer text 2', $answers[1]->getText());
         $this->assertFalse($answers[1]->hasSubquestions());
     }
-    
+
     public function testNoError()
     {
         $this->searchAdapter->setParam('query', 'bmx');
-        
+
         $this->assertNull($this->searchAdapter->getError());
         $this->assertNull($this->searchAdapter->getStackTrace());
     }
-    
+
     public function testError()
     {
         $this->searchAdapter->setParam('query', 'error');
-        
+
         $this->assertEquals('500', $this->searchAdapter->getError());
         $this->assertEquals('stacktrace', $this->searchAdapter->getStackTrace());
     }

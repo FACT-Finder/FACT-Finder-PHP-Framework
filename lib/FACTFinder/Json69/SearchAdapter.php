@@ -4,41 +4,16 @@
  */
 class FACTFinder_Json69_SearchAdapter extends FACTFinder_Json68_SearchAdapter
 {
-    protected function createGroupInstance($groupData) {
-        $group = parent::createGroupInstance($groupData);
-
-        if (isset($groupData['refKey'])) {
-            $group->setRefKey($groupData['refKey']);
-        }
-
-        return $group;
-    }
-
-    protected function createFilter($elementData, $group) {
-        $filter = parent::createFilter($elementData, $group);
-
-        if (isset($elementData['refKey'])) {
-            $filter->setRefKey($elementData['refKey']);
-        }
-
-        return $filter;
-    }
+    protected $refKey = null;
 
     protected function createLink($item) {
+        if ($this->refKey == null)
+            $this->refKey = $this->getResultFromRawResult($this->getData())->getRefKey();
+
         return $this->getParamsParser()->createPageLink(
             $this->getParamsParser()->parseParamsFromResultString(trim($item['searchParams'])),
-            array('refKey' => $item['refKey'])
+            array('sourceRefKey' => $item['refKey'])
         );
-    }
-
-    protected function getRecordFromRawRecord($recordData, $position) {
-        $record = parent::getRecordFromRawRecord($recordData, $position);
-
-        if (isset($recordData['refKey'])) {
-            $record->setRefKey($recordData['refKey']);
-        }
-
-        return $record;
     }
 
     protected function getResultFromRawResult($jsonData) {
@@ -49,5 +24,50 @@ class FACTFinder_Json69_SearchAdapter extends FACTFinder_Json68_SearchAdapter
         }
 
         return $result;
+    }
+
+    /**
+     * @return array of FACTFinder_Item objects
+     **/
+    protected function createPaging()
+    {
+        $paging = parent::createPaging();
+
+        if (!empty($jsonData['searchResult']['paging']) && isset($jsonData['searchResult']['refKey']))
+            $paging->setSourceRefKey($jsonData['searchResult']['refKey']);
+
+        return $paging;
+    }
+
+    /**
+     * @return FACTFinder_ProductsPerPageOptions
+     */
+    protected function createProductsPerPageOptions()
+    {
+        $pppOptions = array(); //default
+        $jsonData = $this->getData();
+
+        if (!empty($jsonData['searchResult']['resultsPerPageList']))
+        {
+            $defaultOption = -1;
+            $selectedOption = -1;
+            $options = array();
+            foreach ($jsonData['searchResult']['resultsPerPageList'] AS $optionData) {
+                $value = $optionData['value'];
+
+                if($optionData['default'])
+                    $defaultOption = $value;
+                if($optionData['selected'])
+                    $selectedOption = $value;
+
+                $searchParams = $this->getParamsParser()->parseParamsFromResultString(trim($optionData['searchParams']));
+                $searchParams['sourceRefKey'] = $jsonData['searchResult']['refKey'];
+                $url = $this->getParamsParser()->createPageLink($searchParams);
+
+                $options[$value] = $url;
+            }
+            $pppOptions = FF::getInstance('productsPerPageOptions', $options, $defaultOption, $selectedOption);
+        }
+        return $pppOptions;
     }
 }
