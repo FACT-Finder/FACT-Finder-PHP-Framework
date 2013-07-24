@@ -20,6 +20,7 @@ footer_contact = Contact
 #asn
 asn_removeFilter = (remove filter)
 asn_moreGroupElements = more...
+asn_styleNotSupported = {0} groups are not yet supported by this demo.
 
 #tagcloud
 tagcloud_title = Tag Cloud

@@ -47,9 +47,10 @@
 
 		<link rel="shortcut icon" href="./files/images/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="./files/css/demoshop.css">
-		
-		<script language="JavaScript" type="text/javascript" src="./files/js/ffsuggest.js"></script>
-		<script language="JavaScript" type="text/javascript" src="./files/js/ffscic.js"></script>
+		<link rel="stylesheet" type="text/css" href="./files/css/suggest.css">
+
+		<script language="JavaScript" type="text/javascript" src="./files/js/ffsuggest.list.noJquery.jsonp.js"></script>
+		<script language="JavaScript" type="text/javascript" src="./files/js/fftracking.js"></script>
 		<script language="JavaScript" type="text/javascript" src="./files/js/jquery/jquery-1.2.6.min.js"></script>
 		<script language="javascript" type="text/javascript" src="http://static.express.fact-finder.com/onetouchslider-1.0/de.factfinder.asn.slider.OneTouchSlider.nocache.js"></script>
 
@@ -93,7 +94,7 @@
 				<div id="asnColumn" class="<?php echo $i18n->msg('resultpage_asnHintCssClass'); ?>" >
 					<?php
 					if(isset($campaigns)) echo $campaigns->getFeedback('above asn');
-					renderAsnColumn($asn, $ffparams, $i18n, isset($campaigns) ? $campaigns : NULL);
+					renderAsnColumn($asn, $util, $ffparams, $i18n, isset($campaigns) ? $campaigns : NULL);
 					if(isset($campaigns)) echo $campaigns->getFeedback('below asn');
 					?>
 				</div>

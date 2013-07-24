@@ -2,7 +2,7 @@
 
 <project name="FACT-Finder PHP Framework" default="build">
 
-	<property name="version"  value="2.4.11" override="true" />
+	<property name="version"  value="2.4.12" override="true" />
     <property name="buildBaseDir" value="./build" override="true" />
 	<property name="packageName" value="FACTFinderPHPFramework" override="true" />
     <property name="srcdir"   value="${project.basedir}" override="true" />

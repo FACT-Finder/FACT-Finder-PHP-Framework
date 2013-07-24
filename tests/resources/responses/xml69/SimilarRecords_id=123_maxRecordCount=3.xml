@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+
+
+
+
+
+<ff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ffsimilarrecords.xsd">
+
+	<similarAttributes>
+		
+				 	<attribute name="Category3">..Kinder Helm / Jugend Helm..|..Radhelme..</attribute>
+				
+				 	<attribute name="Category2">..Fahrradhelm..|..Bekleidung Sale..</attribute>
+				
+				 	<attribute name="Category1">..Bekleidung..|..SALE..</attribute>
+					
+	</similarAttributes>
+	<similarRecords>
+		
+						<record nr="0" id="11900">
+							
+								<field name="Brand">Bell</field>
+							
+								<field name="PricePurchase">0.00</field>
+							
+								<field name="PriceRetail">29.99</field>
+							
+								<field name="ImageURL"><![CDATA[http://images.internetstores.de/products/08_BellinoBlueFish_1024x768[219x140].jpg?forceSize=true&forceAspectRatio=true]]></field>
+							
+								<field name="ProductRankingCharge">20295</field>
+							
+								<field name="EAN">0768686770838</field>
+							
+								<field name="RatingAverage"></field>
+							
+								<field name="ArticleNumber">11900</field>
+							
+								<field name="FFAutomaticSearchOptimization"></field>
+							
+								<field name="TargetGroupBike">..MTB..|..Gravity..|..Road..|..Urban..</field>
+							
+								<field name="RatingQuantity"></field>
+							
+								<field name="ProductReductionMoney">10.00</field>
+							
+								<field name="ProductURL">bekleidung/fahrradhelme/bell-kids-bellino-blue-fish/11900.html</field>
+							
+								<field name="Category3">..Kinder Helm / Jugend Helm..</field>
+							
+								<field name="Category2">..Fahrradhelm..</field>
+							
+								<field name="Availability">3</field>
+							
+								<field name="Category1">..Bekleidung..</field>
+							
+								<field name="ProductRankingProfit">16</field>
+							
+								<field name="ProductReductionPercent">33</field>
+							
+								<field name="Description"><![CDATA[Der Kinderhelm-Klassiker von Bell und Bestseller der letzten Jahre! Dank bewährtem Ergo Dial System und Twin-Shell Konstruktion sind die Kids immer sicher unterwegs und haben dabei noch Spaß mit den lustigen, bunten Graphics der Helme! Es gibt wohl kaum einen Kinderkopf, der diesen Helm nicht kennt!Erhältlich in den Größen: S/M (48-52cm), M/L (52-56cm)]]></field>
+							
+								<field name="ImageSmallURL"><![CDATA[http://images.internetstores.de/products/08_BellinoBlueFish_1024x768[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+							
+								<field name="Colors">..weiß..|..blau..</field>
+							
+								<field name="Options">|Ausführung=S/M|</field>
+							
+								<field name="TargetGroupOutdoor"></field>
+							
+								<field name="Features"><![CDATA[|75=250|103=1|98=Twin-Shell|101=Ergo Dial|99=Insektennetz|104=6|106=Allround|]]></field>
+							
+								<field name="Name">Bell Kids Bellino blue fish</field>
+							
+								<field name="BrandId">110</field>
+							
+								<field name="Category">Katalog/Bekleidung/Fahrradhelm/Kinder Helm %2F Jugend Helm</field>
+							
+								<field name="FFCliplisterQuality">175</field>
+							
+								<field name="Sizes"></field>
+							
+								<field name="ProductProperty"></field>
+							
+								<field name="Gender">..Kinder..</field>
+							
+								<field name="Price">19.99</field>
+							
+								<field name="CategoryIds">5934 &gt;&gt; 2582 &gt;&gt; 2557 &gt;&gt; 2599</field>
+							
+								<field name="SlowSeller"></field>
+							
+								<field name="ProductModelYear">2011</field>
+							
+								<field name="FFAfterSearchReorder"></field>
+							
+						</record>
+					 
+						<record nr="1" id="232866">
+							
+								<field name="Brand">Bell</field>
+							
+								<field name="PricePurchase">0.00</field>
+							
+								<field name="PriceRetail">34.99</field>
+							
+								<field name="ImageURL"><![CDATA[http://images.internetstores.de/products/Splash_blue_super_heroes[219x140].jpg?forceSize=true&forceAspectRatio=true]]></field>
+							
+								<field name="ProductRankingCharge">22043</field>
+							
+								<field name="EAN">0768686808814</field>
+							
+								<field name="RatingAverage">4.9091</field>
+							
+								<field name="ArticleNumber">232866</field>
+							
+								<field name="FFAutomaticSearchOptimization"></field>
+							
+								<field name="TargetGroupBike">..MTB..|..Gravity..|..Road..|..Urban..</field>
+							
+								<field name="RatingQuantity">11</field>
+							
+								<field name="ProductReductionMoney">0.00</field>
+							
+								<field name="ProductURL"><![CDATA[bekleidung/fahrradhelme/bell-splash-10-blue-super-heroes-uni/232866.html]]></field>
+							
+								<field name="Category3">..Kinder Helm / Jugend Helm..</field>
+							
+								<field name="Category2">..Fahrradhelm..</field>
+							
+								<field name="Availability">3</field>
+							
+								<field name="Category1">..Bekleidung..</field>
+							
+								<field name="ProductRankingProfit">-1000000000</field>
+							
+								<field name="ProductReductionPercent">0</field>
+							
+								<field name="Description"><![CDATA[Der neue Kinderhelm für die ganz Kleinen mit der One-Step Einstelltechnologie. Kinder werden die witzigen Designs und integrierten Lichter lieben, während Eltern vor allem die extrem einfache Einstellung und den dauerhaft guten Sitz des Helms dank der neuen One-Step-Technologie schätzen werden. Keine aufwändige Justierung der Ohr- und Hinterkopfriemen mehr nötig. Lediglich der Kinnriemen muss einmal eingestellt werden, anschließend sitzt der Helm gut und sicher auf dem Kinderkopf, ohne dass ein Nachstellen nötig wird.]]></field>
+							
+								<field name="ImageSmallURL"><![CDATA[http://images.internetstores.de/products/Splash_blue_super_heroes[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+							
+								<field name="Colors">..gelb..|..blau..</field>
+							
+								<field name="Options"></field>
+							
+								<field name="TargetGroupOutdoor"></field>
+							
+								<field name="Features"><![CDATA[|98=---|103=1|99=Insektennetz|105=SNELL|105=DIN EN|75=300|100=Schalenkonstruktion|104=7|105=ANSI|105=TÜV GS|102=Kleinkinder Unisize 46-50 cm|101=One-Step|99=Rücklichter|106=Allround|]]></field>
+							
+								<field name="Name">Bell SPLASH blue super heroes</field>
+							
+								<field name="BrandId">110</field>
+							
+								<field name="Category">Katalog/Bekleidung/Fahrradhelm/Kinder Helm %2F Jugend Helm</field>
+							
+								<field name="FFCliplisterQuality">175</field>
+							
+								<field name="Sizes"></field>
+							
+								<field name="ProductProperty"></field>
+							
+								<field name="Gender">..Kinder..</field>
+							
+								<field name="Price">34.99</field>
+							
+								<field name="CategoryIds">5934 &gt;&gt; 2582 &gt;&gt; 2557 &gt;&gt; 2599</field>
+							
+								<field name="SlowSeller"></field>
+							
+								<field name="ProductModelYear">2011</field>
+							
+								<field name="FFAfterSearchReorder"></field>
+							
+						</record>
+					 
+						<record nr="2" id="233267">
+							
+								<field name="Brand">Bell</field>
+							
+								<field name="PricePurchase">0.00</field>
+							
+								<field name="PriceRetail">34.95</field>
+							
+								<field name="ImageURL"><![CDATA[http://images.internetstores.de/products/233267_bell[219x140].jpg?forceSize=true&forceAspectRatio=true]]></field>
+							
+								<field name="ProductRankingCharge">21396</field>
+							
+								<field name="EAN">0768686806698</field>
+							
+								<field name="RatingAverage">4.6667</field>
+							
+								<field name="ArticleNumber">233267</field>
+							
+								<field name="FFAutomaticSearchOptimization"></field>
+							
+								<field name="TargetGroupBike">..MTB..|..Gravity..|..Road..|..Urban..</field>
+							
+								<field name="RatingQuantity">3</field>
+							
+								<field name="ProductReductionMoney">0.00</field>
+							
+								<field name="ProductURL"><![CDATA[bekleidung/fahrradhelme/bell-splash-pg-10-silver-ice-cream-uni/233267.html]]></field>
+							
+								<field name="Category3">..Kinder Helm / Jugend Helm..</field>
+							
+								<field name="Category2">..Fahrradhelm..</field>
+							
+								<field name="Availability">3</field>
+							
+								<field name="Category1">..Bekleidung..</field>
+							
+								<field name="ProductRankingProfit">2</field>
+							
+								<field name="ProductReductionPercent">0</field>
+							
+								<field name="Description"><![CDATA[Der neue Kinderhelm für die ganz Kleinen mit der One-Step Einstelltechnologie. Kinder werden die witzigen Designs und integrierten Lichter lieben, während Eltern vor allem die extrem einfache Einstellung und den dauerhaft guten Sitz des Helms dank der neuen One-Step-Technologie schätzen werden. Keine aufwändige Justierung der Ohr- und Hinterkopfriemen mehr nötig. Lediglich der Kinnriemen muss einmal eingestellt werden, anschließend sitzt der Helm gut und sicher auf dem Kinderkopf, ohne dass ein Nachstellen nötig wird.]]></field>
+							
+								<field name="ImageSmallURL"><![CDATA[http://images.internetstores.de/products/233267_bell[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+							
+								<field name="Colors">..weiß..|..grau..</field>
+							
+								<field name="Options"></field>
+							
+								<field name="TargetGroupOutdoor"></field>
+							
+								<field name="Features"><![CDATA[|104=7|106=Allround|102=Kleinkinder Unisize 46-50 cm|103=1|101=One-Step|99=Insektennetz|105=ANSI|105=SNELL|99=Rücklichter|98=---|75=300|105=DIN EN|100=Schalenkonstruktion|105=TÜV GS|]]></field>
+							
+								<field name="Name">Bell SPLASH PG 10 silver ice cream</field>
+							
+								<field name="BrandId">110</field>
+							
+								<field name="Category">Katalog/Bekleidung/Fahrradhelm/Kinder Helm %2F Jugend Helm</field>
+							
+								<field name="FFCliplisterQuality">175</field>
+							
+								<field name="Sizes"></field>
+							
+								<field name="ProductProperty"></field>
+							
+								<field name="Gender">..Kinder..</field>
+							
+								<field name="Price">34.95</field>
+							
+								<field name="CategoryIds">5934 &gt;&gt; 2582 &gt;&gt; 2557 &gt;&gt; 2599</field>
+							
+								<field name="SlowSeller"></field>
+							
+								<field name="ProductModelYear">2010</field>
+							
+								<field name="FFAfterSearchReorder"></field>
+							
+						</record>
+					 	
+	</similarRecords>
+</ff>

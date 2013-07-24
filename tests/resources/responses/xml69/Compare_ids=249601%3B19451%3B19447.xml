@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ffcompare.xsd">
+
+	
+	<attributes>
+		
+		<attribute name="Hersteller" hasDifferences="true" sourceField="Brand" />
+		
+		<attribute name="Colors" hasDifferences="true" sourceField="Colors" />
+		
+		<attribute name="Modelljahr" hasDifferences="true" sourceField="ProductModelYear" />
+		
+	</attributes>
+	
+	
+	<results count="3">
+				
+			<record nr="0" id="249601" >
+				
+					<field name="Modelljahr">2012</field>
+				
+					<field name="Brand">MET</field>
+				
+					<field name="PricePurchase">0.00</field>
+				
+					<field name="PriceRetail">49.95</field>
+				
+					<field name="ImageURL"><![CDATA[http://images.internetstores.de/products/sportimport/MET11_Crackerj_pinkhea[219x140].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				
+					<field name="Hersteller">MET</field>
+				
+					<field name="ProductRankingCharge">10685</field>
+				
+					<field name="EAN">8015190213538</field>
+				
+					<field name="RatingAverage"></field>
+				
+					<field name="ArticleNumber">249601</field>
+				
+					<field name="FFAutomaticSearchOptimization"></field>
+				
+					<field name="TargetGroupBike">..MTB..|..Gravity..|..Road..|..Urban..</field>
+				
+					<field name="RatingQuantity"></field>
+				
+					<field name="ProductReductionMoney">9.99</field>
+				
+					<field name="ProductURL"><![CDATA[bekleidung/fahrradhelme/met-mtb-helm-crackerjack-weiss-rosa/249601.html]]></field>
+				
+					<field name="Category3">..Kinder Helm / Jugend Helm..|..Radhelme..</field>
+				
+					<field name="Category2">..Fahrradhelm..|..Bekleidung Sale..</field>
+				
+					<field name="Availability">3</field>
+				
+					<field name="Category1">..Bekleidung..|..SALE..</field>
+				
+					<field name="ProductRankingProfit">-1000000000</field>
+				
+					<field name="ProductReductionPercent">20</field>
+				
+					<field name="Description"><![CDATA[Abnehmbares VisierSchütz das Gesicht vor Zweigen, Dreck und SonneIn-Mold KonstruktionDie fortschrittlichste Konstruktion für Haltbarkeit und geringes GewichtSafe-T E-TwistTwist 2 mit einer roten LED-LampeInsektennetzInsekten gelangen nicht in den HelmWaschbare und antiallergische PadsSorgt für einen trockenen Kopf und so für perfekten KomfortHCSDieser Wert gibt in % an, wie groß die Kontaktfläche des Kopfes mit dem Helm ist. Es ist offensichtlich, dass überall dort wo sich Helm und Kopf berühren nur wenig oder gar keine Luft zirkulieren kann. HCS liefert den entscheidenden Wert, die Ventilationsfähigkeit richtig einschätzen zu können. Je niedriger der HCS-Wert, desto besser ist die Ventilation.Kühl-FaktorDie Kühlung errechnet sich durch die Strömungsanalysen. Durch dieses High-Tech-Computer-Analyse-System, werden Teilchenspuren verwendet, um die Bewegung der Teilchen zu visualisieren und zu messen. Es wird die Geschwindigkeit und die Temperatur der Luft, die durch den Helm läuft, gemessen, damit der Helm sicher auf dem Kopf sitzen bleibt. Je höher der Faktor, desto kühler der Kopf.]]></field>
+				
+					<field name="ImageSmallURL"><![CDATA[http://images.internetstores.de/products/sportimport/MET11_Crackerj_pinkhea[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				
+					<field name="Colors">..rosa..|..weiß..</field>
+				
+					<field name="Options"></field>
+				
+					<field name="TargetGroupOutdoor"></field>
+				
+					<field name="Features"><![CDATA[|75=270|104=11|99=abnehmbares Visier|99=Anti-allergische und waschbare Innenpolster|100=In-Mold Technologie|99=Insektennetz|106=Allround|103=1|99=HCS (Kopf-Kontaktfläche mit dem Helm in %) 65|99=Reflexstreifen hinten|99=Cooling Factor 5|98=Außenschale: Kunststoff; Innenschale: Polysterolhartschaum|101=Safe-T E-Twist2 Halterungs- und Anpassungssystem mit LED-Rücklicht|102=52 - 57 cm|]]></field>
+				
+					<field name="Name">MET MTB Helm Crackerjack weiss-rosa</field>
+				
+					<field name="BrandId">339</field>
+				
+					<field name="Category"><![CDATA[Katalog/Bekleidung/Fahrradhelm/Kinder Helm %2F Jugend Helm|Katalog/SALE/Bekleidung Sale/Radhelme]]></field>
+				
+					<field name="FFCliplisterQuality">175</field>
+				
+					<field name="Sizes"></field>
+				
+					<field name="ProductProperty"></field>
+				
+					<field name="Gender">..Kinder..</field>
+				
+					<field name="Price">39.96</field>
+				
+					<field name="CategoryIds">5934 &gt;&gt; 2582 &gt;&gt; 2557 &gt;&gt; 2599|5934 &gt;&gt; 71346 &gt;&gt; 24518 &gt;&gt; 71353</field>
+				
+					<field name="SlowSeller"></field>
+				
+					<field name="ProductModelYear">2012</field>
+				
+					<field name="FFAfterSearchReorder"></field>
+				
+			</record>
+				
+			<record nr="1" id="19451" >
+				
+					<field name="Modelljahr">2011</field>
+				
+					<field name="Brand">Bell</field>
+				
+					<field name="PricePurchase">0.00</field>
+				
+					<field name="PriceRetail">44.95</field>
+				
+					<field name="ImageURL"><![CDATA[http://images.internetstores.de/products/09_Bell_Sport_Solar_white[219x140].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				
+					<field name="Hersteller">Bell</field>
+				
+					<field name="ProductRankingCharge">22454</field>
+				
+					<field name="EAN">2019451000000</field>
+				
+					<field name="RatingAverage">4.7778</field>
+				
+					<field name="ArticleNumber">19451</field>
+				
+					<field name="FFAutomaticSearchOptimization"></field>
+				
+					<field name="TargetGroupBike">..Road..</field>
+				
+					<field name="RatingQuantity">27</field>
+				
+					<field name="ProductReductionMoney">10.00</field>
+				
+					<field name="ProductURL">bekleidung/fahrradhelme/bell-solar-white/19451.html</field>
+				
+					<field name="Category3">..Rennradhelm..|..Radhelme..</field>
+				
+					<field name="Category2">..Fahrradhelm..|..Bekleidung Sale..</field>
+				
+					<field name="Availability">3</field>
+				
+					<field name="Category1">..Bekleidung..|..SALE..</field>
+				
+					<field name="ProductRankingProfit">11</field>
+				
+					<field name="ProductReductionPercent">22</field>
+				
+					<field name="Description"><![CDATA[Der sportliche Einstiegshelm bietet viel Helmtechnik fürs Geld. Der Solar im Rennhelmdesign bietet alles, was man von einem Sport-Helm erwarten sollte: perfekte Passform, federleicht, dazu sportives Design aber dennoch flexibel im Einsatzbereich.Fusion In-Mold Microshell:Der EPS-Schaum wird in die dünne Microshell-Schale gespritzt, während sie sich noch in der Pressform (bzw. der "Mold", was den Namen erklärt) befindet, anstatt diese separat zu formen und später anzukleben. Dieser Prozess wurde erstmals durch Bell vorgestellt und ist heute der Standart für alle anspruchsvollen Helme.]]></field>
+				
+					<field name="ImageSmallURL"><![CDATA[http://images.internetstores.de/products/09_Bell_Sport_Solar_white[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				
+					<field name="Colors">..grau..|..weiß..</field>
+				
+					<field name="Options"></field>
+				
+					<field name="TargetGroupOutdoor"></field>
+				
+					<field name="Features"><![CDATA[|75=290|99=Insektennetz|98=In-Mold|102=Unisize 54-61cm|101=Ergo Dial|106=Allround|100=In-Mold Technologie|104=22|]]></field>
+				
+					<field name="Name">Bell Solar white unisize</field>
+				
+					<field name="BrandId">110</field>
+				
+					<field name="Category"><![CDATA[Katalog/Bekleidung/Fahrradhelm/Rennradhelm|Katalog/SALE/Bekleidung Sale/Radhelme]]></field>
+				
+					<field name="FFCliplisterQuality">175</field>
+				
+					<field name="Sizes"></field>
+				
+					<field name="ProductProperty"></field>
+				
+					<field name="Gender">..Damen..|..Herren..</field>
+				
+					<field name="Price">34.95</field>
+				
+					<field name="CategoryIds">5934 &gt;&gt; 2582 &gt;&gt; 2557 &gt;&gt; 2597|5934 &gt;&gt; 71346 &gt;&gt; 24518 &gt;&gt; 71353</field>
+				
+					<field name="SlowSeller"></field>
+				
+					<field name="ProductModelYear">2011</field>
+				
+					<field name="FFAfterSearchReorder"></field>
+				
+			</record>
+				
+			<record nr="2" id="19447" >
+				
+					<field name="Modelljahr">2011</field>
+				
+					<field name="Brand">Bell</field>
+				
+					<field name="PricePurchase">0.00</field>
+				
+					<field name="PriceRetail">49.95</field>
+				
+					<field name="ImageURL"><![CDATA[http://images.internetstores.de/products/19447_Bell_Solar_Black_Helm_2655x1770[219x140].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				
+					<field name="Hersteller">Bell</field>
+				
+					<field name="ProductRankingCharge">20291</field>
+				
+					<field name="EAN">0768686780172</field>
+				
+					<field name="RatingAverage">4.7727</field>
+				
+					<field name="ArticleNumber">19447</field>
+				
+					<field name="FFAutomaticSearchOptimization"></field>
+				
+					<field name="TargetGroupBike">..Road..</field>
+				
+					<field name="RatingQuantity">22</field>
+				
+					<field name="ProductReductionMoney">15.00</field>
+				
+					<field name="ProductURL">bekleidung/fahrradhelme/bell-solar-blackcharcoal/19447.html</field>
+				
+					<field name="Category3">..Rennradhelm..|..Radhelme..</field>
+				
+					<field name="Category2">..Fahrradhelm..|..Bekleidung Sale..</field>
+				
+					<field name="Availability">3</field>
+				
+					<field name="Category1">..Bekleidung..|..SALE..</field>
+				
+					<field name="ProductRankingProfit">87</field>
+				
+					<field name="ProductReductionPercent">30</field>
+				
+					<field name="Description"><![CDATA[Der sportliche Einstiegshelm bietet viel Helmtechnik fürs Geld. Der Solar im Rennhelmdesign bietet alles, was man von einem Sport-Helm erwarten sollte: perfekte Passform, federleicht, dazu sportives Design aber dennoch flexibel im Einsatzbereich.Fusion In-Mold Microshell:Der EPS-Schaum wird in die dünne Microshell-Schale gespritzt, während sie sich noch in der Pressform (bzw. der "Mold", was den Namen erklärt) befindet, anstatt diese seperat zu formen und später anzukleben. Dieser Prozess wurde erstmals durch Bell vorgestellt und ist heute der Standart für alle anspruchsvollen Helme.]]></field>
+				
+					<field name="ImageSmallURL"><![CDATA[http://images.internetstores.de/products/19447_Bell_Solar_Black_Helm_2655x1770[85x85].jpg?forceSize=true&forceAspectRatio=true]]></field>
+				
+					<field name="Colors">..schwarz..|..grau..</field>
+				
+					<field name="Options"></field>
+				
+					<field name="TargetGroupOutdoor"></field>
+				
+					<field name="Features"><![CDATA[|104=22|75=290|99=Insektennetz|100=In-Mold Technologie|106=Allround|101=Ergo Dial|102=Unisize 54-61cm|98=In-Mold|]]></field>
+				
+					<field name="Name">Bell Solar black charcoal unisize</field>
+				
+					<field name="BrandId">110</field>
+				
+					<field name="Category"><![CDATA[Katalog/Bekleidung/Fahrradhelm/Rennradhelm|Katalog/SALE/Bekleidung Sale/Radhelme]]></field>
+				
+					<field name="FFCliplisterQuality">175</field>
+				
+					<field name="Sizes"></field>
+				
+					<field name="ProductProperty"></field>
+				
+					<field name="Gender">..Damen..|..Herren..</field>
+				
+					<field name="Price">34.95</field>
+				
+					<field name="CategoryIds">5934 &gt;&gt; 2582 &gt;&gt; 2557 &gt;&gt; 2597|5934 &gt;&gt; 71346 &gt;&gt; 24518 &gt;&gt; 71353</field>
+				
+					<field name="SlowSeller"></field>
+				
+					<field name="ProductModelYear">2011</field>
+				
+					<field name="FFAfterSearchReorder"></field>
+				
+			</record>
+			
+	</results>
+	
+
+</ff>

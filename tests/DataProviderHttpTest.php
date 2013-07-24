@@ -165,9 +165,9 @@ class DataProviderHttpTest extends PHPUnit_Framework_TestCase
     public function testGetData()
     {
         $requiredOptions = array(
-            CURLOPT_URL => 'http://user:userpw@demoshop.fact-finder.de:80/FACT-Finder/WhatsHot.ff?format=xml&do=getTagCloud&channel=de&verbose=true'
+            CURLOPT_URL => 'http://user:userpw@demoshop.fact-finder.de:80/FACT-Finder/TagCloud.ff?format=xml&do=getTagCloud&channel=de&verbose=true'
         );
-        $response = file_get_contents(RESOURCES_DIR . DS . 'responses' . DS . 'misc' . DS . 'WhatsHot-example.xml');
+        $response = file_get_contents(RESOURCES_DIR . DS . 'responses' . DS . 'misc' . DS . 'TagCloud-example.xml');
         $info = array(
             CURLINFO_HTTP_CODE => '200'
         );
@@ -175,7 +175,7 @@ class DataProviderHttpTest extends PHPUnit_Framework_TestCase
         $this->curlStub->setResponse($response, $requiredOptions);
         $this->curlStub->setInfo($info, $requiredOptions);
 
-        $this->dataProvider->setType('WhatsHot.ff');
+        $this->dataProvider->setType('TagCloud.ff');
         $this->dataProvider->setParam('format', 'xml');
         $this->dataProvider->setParam('do', 'getTagCloud');
 
