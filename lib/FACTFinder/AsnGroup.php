@@ -35,7 +35,6 @@ class FACTFinder_AsnGroup extends ArrayIterator
     private $hasPreviewImages = false;
     private $hasSelectedItems = false;
     private $style = FACTFinder_FilterStyle::Regular;
-    private $refKey;
 
     /**
      * constructor
@@ -174,25 +173,5 @@ class FACTFinder_AsnGroup extends ArrayIterator
      */
     public function getDetailedLinkCount() {
         return $this->detailedLinkCount;
-    }
-
-    /**
-     * Set this ASN Group's reference Key.
-     *
-     * @version since FF6.9
-     * @param reference Key, used for tracking
-     */
-    public final function setRefKey($refKey) {
-        $this->refKey = $refKey;
-    }
-
-    /**
-     * Get this ASN Group's reference Key.
-     *
-     * @version since FF6.9
-     * @return the reference Key used for tracking
-     */
-    public final function getRefKey() {
-        return $this->refKey;
     }
 }

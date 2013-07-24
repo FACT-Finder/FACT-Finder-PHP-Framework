@@ -30,16 +30,30 @@ class FACTFinder_Util
             return $this->createLegacyJavaScriptClickCode($record, $title, $sid);
         } else {
             $channel = $this->ffparams->getChannel();
-            return $this->createJavaScriptTrackingCode('inspect', $record->getRefKey(), $sid, $channel);
+            $id = $record->getId();
+            return $this->createJavaScriptTrackingCode('inspect', $this->searchAdapter->getResult()->getRefKey(), $sid, $channel, array("id" => $id));
         }
     }
 
-    public function createJavaScriptTrackingCode($event, $refKey, $sid = null, $channel = null) {
+    public function createJavaScriptTrackingCode($event, $sourceRefKey, $sid = null, $channel = null, $extraParams = array()) {
         if (strlen($sid) == 0) $sid = session_id();
         if (strlen($channel) == 0) $channel = $this->ffparams->getChannel();
-        $refKey = addslashes($refKey);
         $sid = addslashes($sid);
-        return "trackEvent('$event', '$refKey', '$sid', '$channel')";
+        $extString = '{';
+        foreach ($extraParams AS $extKey => $extVal) {
+            $extString .= $extKey . ": '" . $extVal . '\'';
+        }
+        $extString .= '}';
+        return "trackEvent('$event', '$sourceRefKey', '$sid', '$channel', $extString);";
+    }
+
+    public function createJavaScriptEventCode($trackingEvents, $sid, $channel) {
+        $result = "";
+        $sourceRefKey = $this->searchAdapter->getResult()->getRefKey();
+        foreach ($trackingEvents AS $event => $extraParams) {
+            $result .= $this->createJavaScriptTrackingCode($event, $sourceRefKey, $sid, $channel, $extraParams);
+        }
+        return "$(document).ready( function (){ $result });";
     }
 
     /**

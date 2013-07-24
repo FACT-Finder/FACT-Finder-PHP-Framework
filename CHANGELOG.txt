@@ -1,3 +1,7 @@
+Version 2.4.13
+    ADD: Added support for refKey in Suggest, BreadCrumb, ASN and Sorting
+    CHG: Using new version ffsuggest.js script
+
 Version 2.4.12
     ADD: The tag cloud' word count can now be set manually.
     ADD: FF 6.9 compatibility (most notably the new tracking API)
