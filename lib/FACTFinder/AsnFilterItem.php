@@ -20,7 +20,6 @@ class FACTFinder_AsnFilterItem extends FACTFinder_Item
     private $clusterLevel;
     private $previewImage = null;
     private $field;
-    private $refKey;
 
     public function __construct($value, $url, $isSelected = false, $matchCount = 0, $clusterLevel = 0, $previewImage = null, $field = ''){
         parent::__construct($value, $url, $isSelected);
@@ -69,25 +68,5 @@ class FACTFinder_AsnFilterItem extends FACTFinder_Item
      */
     public function hasPreviewImage() {
         return strlen($this->previewImage) > 0;
-    }
-
-    /**
-     * Set this ASN Filter's reference Key.
-     *
-     * @version since FF6.9
-     * @param reference Key, used for tracking
-     */
-    public final function setRefKey($refKey) {
-        $this->refKey = $refKey;
-    }
-
-    /**
-     * Get this ASN Filter's reference Key.
-     *
-     * @version since FF6.9
-     * @return the reference Key used for tracking
-     */
-    public final function getRefKey() {
-        return $this->refKey;
     }
 }

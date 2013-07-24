@@ -1,40 +1,70 @@
 Testsuite: CompareAdapter66Test
-Tests run: 3, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.14793 s
-Testsuite: CompareAdapter67Test
-Tests run: 3, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.02375 s
-Testsuite: ImportAdapter65Test
-Tests run: 2, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.02293 s
-Testsuite: ImportAdapter66Test
-Tests run: 2, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.02110 s
+Tests run: 3, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.05811 s
+Testsuite: CompareAdapter69Test
+Tests run: 3, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.02501 s
+Testsuite: SearchAdapter68Test
+Tests run: 9, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.19796 s
 Testsuite: ImportAdapter67Test
-Tests run: 2, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.02027 s
-Testsuite: ParallaDataProviderTest
-Tests run: 3, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 2.69278 s
-Testsuite: ParameterParserTest
-Tests run: 2, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.02979 s
-Testsuite: ProductCampaignAdapter67Test
-Tests run: 2, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.03509 s
-Testsuite: RecommendationAdapter65Test
-Tests run: 3, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.03676 s
-Testsuite: RecommendationAdapter66Test
-Tests run: 3, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.02929 s
-Testsuite: RecommendationAdapter67Test
-Tests run: 4, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.03565 s
+Tests run: 3, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.01939 s
 Testsuite: SearchAdapter67Test
-Tests run: 1, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.02073 s
-Testsuite: SimilarRecordsAdapter66Test
-Tests run: 5, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.04917 s
-Testsuite: SimilarRecordsAdapter67Test
-Tests run: 5, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.04326 s
-Testsuite: SuggestAdapter65Test
-Tests run: 1, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.02909 s
-Testsuite: SuggestAdapter66Test
-Tests run: 1, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.01851 s
-Testsuite: SuggestAdapter67Test
-Tests run: 1, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.01709 s
-Testsuite: TagCloudAdapter65Test
-Tests run: 1, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.01850 s
-Testsuite: TagCloudAdapter66Test
-Tests run: 1, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.02137 s
+Tests run: 8, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.30777 s
 Testsuite: TagCloudAdapter67Test
-Tests run: 1, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.01627 s
+Tests run: 1, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.01402 s
+Testsuite: SearchAdapter66Test
+Tests run: 8, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.36719 s
+Testsuite: TagCloudAdapter66Test
+Tests run: 1, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.03113 s
+Testsuite: DataProviderHttpTest
+Tests run: 8, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.05831 s
+Testsuite: UrlBuilderTest
+Tests run: 11, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.06045 s
+Testsuite: ProductCampaignAdapter69Test
+Tests run: 2, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.01906 s
+Testsuite: ScicAdapterTest
+Tests run: 4, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.02327 s
+Testsuite: ImportAdapter66Test
+Tests run: 3, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.01839 s
+Testsuite: ParameterParserTest
+Tests run: 2, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.01134 s
+Testsuite: RecommendationAdapter67Test
+Tests run: 4, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.07564 s
+Testsuite: SimilarRecordsAdapter67Test
+Tests run: 5, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.11955 s
+Testsuite: TagCloudAdapter69Test
+Tests run: 1, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.01156 s
+Testsuite: ImportAdapter65Test
+Tests run: 3, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.01873 s
+Testsuite: SuggestAdapter65Test
+Tests run: 1, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.01368 s
+Testsuite: RecommendationAdapter66Test
+Tests run: 3, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.05037 s
+Testsuite: CompareAdapter67Test
+Tests run: 3, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.02829 s
+Testsuite: SimilarRecordsAdapter69Test
+Tests run: 5, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.06255 s
+Testsuite: SuggestAdapter69Test
+Tests run: 1, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.01271 s
+Testsuite: ImportAdapter69Test
+Tests run: 3, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.01893 s
+Testsuite: SimilarRecordsAdapter66Test
+Tests run: 5, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.08301 s
+Testsuite: ParallaDataProviderTest
+Tests run: 3, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.33043 s
+Testsuite: RecommendationAdapter69Test
+Tests run: 4, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.06349 s
+Testsuite: SearchAdapter65Test
+Tests run: 8, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.18553 s
+Testsuite: SuggestAdapter67Test
+Tests run: 1, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.01171 s
+Testsuite: StatusHelperHttpTest
+Tests run: 3, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.20737 s
+Testsuite: RecommendationAdapter65Test
+Tests run: 3, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.04194 s
+Testsuite: SearchAdapter69Test
+Tests run: 9, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 2.22631 s
+Testsuite: TagCloudAdapter65Test
+Tests run: 1, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.02971 s
+Testsuite: ProductCampaignAdapter67Test
+Tests run: 2, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.02698 s
+Testsuite: SuggestAdapter66Test
+Tests run: 1, Failures: 0, Errors: 0, Incomplete: 0, Skipped: 0, Time elapsed: 0.01039 s

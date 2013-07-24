@@ -27,6 +27,7 @@ $paramsParser 	= FF::getSingleton('parametersParser');
 $encoding	= $config->getPageContentEncoding();
 $i18n		= getI18n($config, $paramsParser);
 $ffparams	= $paramsParser->getFactfinderParams();
+$trackingEvents = array();
 
 // This sets all variables needed to display the shop and also takes care of some basic routing
 try {
@@ -46,14 +47,21 @@ try {
 	$sorting                = $searchAdapter->getSorting();
 	$asn                    = $searchAdapter->getAsn();
 	$result                 = $searchAdapter->getResult();
-			
+
 	$tagCloud				= $tagCloudAdapter->getTagCloud();
 
 	$util = FF::getInstance('util', $ffparams, $searchAdapter);
-	
+
 	// Demo-session, needed to make tracking work
 	$sid = session_id();
-	if ($sid == '') session_start();
+	if ($sid == '') {
+		session_start();
+		$sid = session_id();
+		if(!isset($_SESSION['started'])) {
+			$trackingEvents['sessionStart'] = array();
+			$_SESSION['started'] = true;
+		}
+	}
 
 	switch ($status) {
 		case FACTFinder_Default_SearchAdapter::NO_RESULT:
@@ -63,6 +71,7 @@ try {
 			$message = $i18n->msg('nomatch_head_searchFor', htmlspecialchars($ffparams->getQuery()));
 			break;
 		case FACTFinder_Default_SearchAdapter::RESULTS_FOUND:
+			$trackingEvents['display'] = array();
 			break;
 		default:
 			throw new Exception('No result (unknown status)');

@@ -1,12 +1,17 @@
-function trackEvent(eventName, refKey, sessionId, channel) {
+function trackEvent(eventName, sourceRefKey, sessionId, channel, extraParams) {
     var request;
     var debug      = false;
 
     var requestUrl = 'tracking.php?';
     requestUrl += 'event=' + eventName;
-    requestUrl += '&refKey=' + refKey;
+    requestUrl += '&sourceRefKey=' + sourceRefKey;
     requestUrl += '&channel=' + channel;
     requestUrl += '&sid=' + sessionId;
+
+    for (var param in extraParams) {
+        if (extraParams[param] != null)
+            requestUrl += '&' + param + '=' + extraParams[param];
+    }
 
     try {
 
