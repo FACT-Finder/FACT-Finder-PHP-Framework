@@ -1,55 +1,19 @@
 <?php
 /**
- * FACT-Finder PHP Framework
- *
- * @category  Library
- * @package   FACTFinder\Xml69
- * @copyright Copyright (c) 2013 Omikron Data Quality GmbH (www.omikron.net)
- */
-
-/**
  * Search adapter using the xml interface.
- *
- * @package   FACTFinder\Xml69
  */
 class FACTFinder_Xml69_SearchAdapter extends FACTFinder_Xml68_SearchAdapter
 {
-    protected function createGroupInstance($xmlGroup, $encodingHandler) {
-        $group = parent::createGroupInstance($xmlGroup, $encodingHandler);
-
-        if (isset($xmlGroup->attributes()->refKey)) {
-            $group->setRefKey($xmlGroup->attributes()->refKey);
-        }
-
-        return $group;
-    }
-
-    protected function createFilter($xmlFilter, $group, $encodingHandler, $params) {
-        $filter = parent::createFilter($xmlFilter, $group, $encodingHandler, $params);
-
-        if (isset($xmlFilter->attributes()->refKey)) {
-            $filter->setRefKey($xmlFilter->attributes()->refKey);
-        }
-
-        return $filter;
-    }
+    protected $refKey = null;
 
     protected function createLink($item) {
-        $refKey = strval($item->attributes()->refKey);
+        if ($this->refKey == null)
+            $this->refKey = $this->getResultFromRawResult($this->getData())->getRefKey();
+
         return $this->getParamsParser()->createPageLink(
             $this->getParamsParser()->parseParamsFromResultString(trim($item->searchParams)),
-            array('refKey' => $refKey)
+            array('sourceRefKey' => $this->refKey)
         );
-    }
-
-    protected function getRecordFromRawRecord(SimpleXmlElement $rawRecord, $position) {
-        $record = parent::getRecordFromRawRecord($rawRecord, $position);
-
-        if (isset($rawRecord->attributes()->refKey)) {
-            $record->setRefKey(strval($rawRecord->attributes()->refKey));
-        }
-
-        return $record;
     }
 
     protected function getResultFromRawResult($xmlResult) {
@@ -60,5 +24,43 @@ class FACTFinder_Xml69_SearchAdapter extends FACTFinder_Xml68_SearchAdapter
         }
 
         return $result;
+    }
+
+    /**
+     * @return array of FACTFinder_Item objects
+     **/
+    protected function createPaging()
+    {
+        $paging = parent::createPaging();
+
+        if (!empty($xmlResult->paging) && isset($xmlResult->refKey))
+                $paging->setSourceRefKey((string) $xmlResult->refKey);
+
+        return $paging;
+    }
+
+    /**
+     * @return FACTFinder_ProductsPerPageOptions
+     */
+    protected function createProductsPerPageOptions()
+    {
+        $pppOptions = array(); //default
+        $xmlResult = $this->getData();
+
+        if (!empty($xmlResult->productsPerPageOptions)) {
+            $defaultOption = intval(trim($xmlResult->productsPerPageOptions->attributes()->default));
+            $selectedOption = intval(trim($xmlResult->productsPerPageOptions->attributes()->selected));
+
+            $options = array();
+            foreach ($xmlResult->productsPerPageOptions->option AS $option) {
+                $value = intval(trim($option->attributes()->value));
+                $searchParams = $this->getParamsParser()->parseParamsFromResultString(trim($option->searchParams));
+                $searchParams['sourceRefKey'] = (string) $xmlResult->refKey;
+                $url = $this->getParamsParser()->createPageLink($searchParams);
+                $options[$value] = $url;
+            }
+            $pppOptions = FF::getInstance('productsPerPageOptions', $options, $defaultOption, $selectedOption);
+        }
+        return $pppOptions;
     }
 }

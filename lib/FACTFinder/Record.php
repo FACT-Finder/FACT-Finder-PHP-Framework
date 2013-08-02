@@ -29,12 +29,6 @@ class FACTFinder_Record
 	protected $seoPath = '';
 	protected $keywords = array();
 
-
-    /**
-     * new in 6.9
-     */
-    private $refKey;
-
     /**
      * class constructor - creates a record using the given values. if the array contains fieldnames as array-keys, they
      * could be used to get the values again
@@ -260,25 +254,5 @@ class FACTFinder_Record
         foreach ($fieldValues AS $name => $value) {
             $this->setValue($name, $value);
         }
-    }
-
-    /**
-     * Set this record's reference Key.
-     *
-     * @version since FF6.9
-     * @param reference Key, used for tracking
-     */
-    public final function setRefKey($refKey) {
-        $this->refKey = $refKey;
-    }
-
-    /**
-     * Get this record's reference Key.
-     *
-     * @version since FF6.9
-     * @return the reference Key used for tracking
-     */
-    public final function getRefKey() {
-        return $this->refKey;
     }
 }

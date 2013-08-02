@@ -1,0 +1,33 @@
+function activateInfomodus(){
+	$('img#infoButton').attr('src', 'files/images/demoshop/modus_info_on.png');
+
+	bindInfo('#asnColumn', '<?php echo $i18n->msg('info_asn'); ?>');
+	bindInfo('#resultWrap', '<?php echo $i18n->msg('info_result'); ?>');
+	bindInfo('#breadCrumbTrail', '<?php echo $i18n->msg('info_breadcrumb'); ?>');
+	bindInfo('div.sortBox', '<?php echo $i18n->msg('info_sort'); ?>');
+	bindInfo('div.paging', '<?php echo $i18n->msg('info_paging'); ?>');
+}
+
+function deactivateInfomodus(){
+	$('img#infoButton').attr('src', 'files/images/demoshop/modus_info_off.png');
+
+	$('div#infoPlaceHolder').html('<?php echo $i18n->msg('info_placeholder'); ?>');
+
+	unbindInfo('#asnColumn');
+	unbindInfo('#resultWrap');
+	unbindInfo('#breadCrumbTrail');
+	unbindInfo('div.sortBox');
+	unbindInfo('div.paging');
+}
+
+function bindInfo(object, text){
+	$(object).mouseover(function(){
+	  $('div#infoPlaceHolder').html(text);
+	});
+	$(object).addClass('infoblock');
+}
+
+function unbindInfo(object) {
+	$(object).unbind('mouseover');
+	$(object).removeClass('infoblock');
+}

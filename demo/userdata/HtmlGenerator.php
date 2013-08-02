@@ -62,6 +62,18 @@ class HtmlGenerator
 		$i18n		= $this->getI18n();
 		$ffparams	= $this->paramsParser->getFactfinderParams();
 
+		$trackingEvents = array();
+
+		// Demo-session, needed to make tracking work
+		$sid = session_id();
+		if ($sid === "") {
+			session_start();
+			$sid = session_id();
+			if(!isset($_SESSION['started'])) {
+				$trackingEvents['sessionStart'] = array();
+				$_SESSION['started'] = true;
+			}
+		}
 		try {
 			FACTFinder_Http_ParallelDataProvider::loadAllData();
 			$campaigns = $this->searchAdapter->getCampaigns();
@@ -87,6 +99,7 @@ class HtmlGenerator
 
 			switch ($status) {
 				case FACTFinder_Default_SearchAdapter::RESULTS_FOUND:
+					$trackingEvents['display'] = array();
 					include $this->getTemplate('index');
 					break;
 				case FACTFinder_Default_SearchAdapter::NOTHING_FOUND:

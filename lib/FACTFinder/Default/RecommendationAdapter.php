@@ -69,7 +69,7 @@ class FACTFinder_Default_RecommendationAdapter extends FACTFinder_Abstract_Adapt
 
     public function setIdsOnly($idsOnly) {
         // Reset the recommendations, if more detail is wanted than before
-        if($this->idsOnly && !$idsOnly) $recommendationUpToDate = false;
+        if($this->idsOnly && !$idsOnly) $this->recommendationUpToDate = false;
         $this->idsOnly = $idsOnly;
         $this->getDataProvider()->setParam('idsOnly', $idsOnly ? 'true' : 'false');
     }

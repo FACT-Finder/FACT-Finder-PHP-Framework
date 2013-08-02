@@ -1,0 +1,8 @@
+	<div id="tagCloud">
+		<h3><?php echo $i18n->msg('tagcloud_title'); ?></h3>
+		<p>
+		<?php foreach($tagCloud AS $tagQuery) { ?>
+			<a href="<?php echo $tagQuery->getUrl(); ?>" style="padding-left:0px; font-size:<?php echo (100 + $tagQuery->getWeight()*100); ?>%"><?php echo $tagQuery->getValue(); ?></a>
+		<?php } ?>
+		</p>
+	</div>
