@@ -62,13 +62,26 @@ class HtmlGenerator
 		$i18n		= $this->getI18n();
 		$ffparams	= $this->paramsParser->getFactfinderParams();
 
+        $trackingEvents = array();
+
+        // Demo-session, needed to make tracking work
+        $sid = session_id();
+        if ($sid === "") {
+            session_start();
+            $sid = session_id();
+            if(!isset($_SESSION['started'])) {
+                $trackingEvents['sessionStart'] = array();
+                $_SESSION['started'] = true;
+            }
+        }
+
 		try {
 			FACTFinder_Http_ParallelDataProvider::loadAllData();
 			$campaigns = $this->searchAdapter->getCampaigns();
 			if ($campaigns->hasRedirect()) {
 				throw new RedirectException($campaigns->getRedirectUrl());
 			}
-			
+
 			$status                 = $this->searchAdapter->getStatus();
 			$isArticleNumberSearch  = $this->searchAdapter->isArticleNumberSearch();
 			$isSearchTimedOut       = $this->searchAdapter->isSearchTimedOut();
@@ -80,13 +93,14 @@ class HtmlGenerator
 			$sorting                = $this->searchAdapter->getSorting();
 			$asn                    = $this->searchAdapter->getAsn();
 			$result                 = $this->searchAdapter->getResult();
-			
+
 			$tagCloud				= $this->tagCloudAdapter->getTagCloud();
-			
+
 			$util = FF::getInstance('util', $ffparams, $this->searchAdapter);
 
 			switch ($status) {
 				case FACTFinder_Default_SearchAdapter::RESULTS_FOUND:
+                    $trackingEvents['display'] = array();
 					include $this->getTemplate('index');
 					break;
 				case FACTFinder_Default_SearchAdapter::NOTHING_FOUND:
