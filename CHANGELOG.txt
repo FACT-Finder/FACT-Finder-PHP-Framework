@@ -1,3 +1,8 @@
+Version 2.5.0
+    ADD: Support for FACT-Finder's JSON-API starting with FF 6.6.
+    CHG: Integrated changes to new tracking API.
+    CHG: Xml69/TrackingAdapter is now deprecated. Use Http/TrackingAdapter instead.
+
 Version 2.4.13
     ADD: Added support for refKey in Suggest, BreadCrumb, ASN and Sorting
     CHG: Using new version ffsuggest.js script
@@ -121,7 +126,7 @@ Version 2.3.19
 	ADD: UserID der SCIC Schnittstelle für das Cart- und Checkout-Tracking hinzugefügt
 	FIX: es wird kein Suchrequest gesendet, wenn der Query nicht gesetzt bzw. leer ist (Achtung: es wird eine Exception geworfen)
 	CHG: Demo optimiert: Encoding Einstellungen in der config werden berücksichtigt; Fehler Seite optimiert
-	
+
 Version 2.3.18
 	FIX: legacy code für altere Konfigurationen hinzugefügt
 	FIX: Workaround "283751" nicht mehr global verwenden; nur noch intern
