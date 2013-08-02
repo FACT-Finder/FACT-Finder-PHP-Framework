@@ -2,7 +2,7 @@
 
 <project name="FACT-Finder PHP Framework" default="build">
 
-	<property name="version"  value="2.4.12" override="true" />
+	<property name="version"  value="2.5.0" override="true" />
     <property name="buildBaseDir" value="./build" override="true" />
 	<property name="packageName" value="FACTFinderPHPFramework" override="true" />
     <property name="srcdir"   value="${project.basedir}" override="true" />
@@ -17,7 +17,7 @@
 				<include name="demo/**.php"/>
 			</fileset>
 		</phplint>
-		
+
 		<phpunit bootstrap="tests/bootstrap.php" haltonerror="true" haltonfailure="true" printsummary="true">
 			<formatter todir="tests/reports" type="plain"/>
 			<batchtest>
@@ -27,7 +27,7 @@
 			</batchtest>
 		</phpunit>
 	</target>
-	
+
 	<!-- ============================================  -->
     <!-- Target: document                              -->
     <!-- ============================================  -->
@@ -37,7 +37,7 @@
 			sourcecode="false"
 			output="HTML:Smarty:PHP"
 			quiet="true">
-			
+
 			<fileset dir="./lib">
 			  <include name="FACTFinder*/**" />
 			</fileset>
@@ -46,7 +46,7 @@
 			</projdocfileset>
 		</phpdoc>
 	</target>
-	
+
     <!-- ============================================  -->
     <!-- Target: clean                                 -->
     <!-- ============================================  -->
@@ -55,7 +55,7 @@
 		<delete file="${buildBaseDir}/${packageName}.${version}.zip" verbose="false" failonerror="true" />
 		<echo msg="cleaned up OK" />
 	</target>
-	
+
     <!-- ============================================  -->
     <!-- Target: build                                 -->
     <!-- ============================================  -->
@@ -75,7 +75,7 @@
 				<include name="doc/**" />
 			</fileset>
 		</copy>
-		
+
 		<zip destfile="${buildBaseDir}/${packageName}.${version}.zip">
             <fileset dir="${buildBaseDir}/">
                 <include name="${packageName}/**" />

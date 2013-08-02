@@ -100,14 +100,14 @@ function renderAsnColumn($asn, $util, $ffparams, $i18n, $campaigns = NULL) {
 					if ($element->isSelected()) {
 						// show deselect links
 						echo '<p class="asnElement selected lvl'. $element->getClusterLevel() .'">
-								<a href="'.$element->getUrl().'" onclick="'.$util->createJavaScriptTrackingCode("refine", $element->getRefKey()).'">'.$element->getValue().' '.$group->getUnit().'<br>
+								<a href="'.$element->getUrl().'">'.$element->getValue().' '.$group->getUnit().'<br>
 									<span>', $i18n->msg('asn_removeFilter'), '</span></a>
 							</p>';
 					} else {
 						if ($linkCount < $group->getDetailedLinkCount()) {
 							// show filters as usual links
 							echo '<p class="asnElement lvl'. $element->getClusterLevel() .'">
-									<a href="'.$element->getUrl().'" onclick="'.$util->createJavaScriptTrackingCode("refine", $element->getRefKey()).'">'.$element->getValue();
+									<a href="'.$element->getUrl().'">'.$element->getValue();
                             if($group->getUnit()) echo ' ', $group->getUnit();
 							if (!$ffparams->isNavigation()) {
 								echo ' <span>('.$element->getMatchCount().')</span>';
@@ -159,7 +159,6 @@ function renderAsnColumn($asn, $util, $ffparams, $i18n, $campaigns = NULL) {
 						}
 
 						function sliderSelect(left, right) {
-							'.$util->createJavaScriptTrackingCode("refine", $slider->getRefKey()).'
 							window.location.href="'.$slider->getBaseUrl().'"+left+" - "+right;
 						}
 					</script>
@@ -172,13 +171,13 @@ function renderAsnColumn($asn, $util, $ffparams, $i18n, $campaigns = NULL) {
 					if ($element->isSelected()) {
 						// show deselect links
 						echo '<p class="lvl'. $element->getClusterLevel() .'" style="padding-left:'.(5*$element->getClusterLevel()).'px; color:#AD0E3F;">[-]
-								<a href="'.$element->getUrl().'" onclick="'.$util->createJavaScriptTrackingCode("refine", $element->getRefKey()).'" style="color:#AD0E3F;">'.$element->getValue().' '.$group->getUnit().'</a>
+								<a href="'.$element->getUrl().'" style="color:#AD0E3F;">'.$element->getValue().' '.$group->getUnit().'</a>
 							</p>';
 					} else {
 						if ($linkCount < $group->getDetailedLinkCount()) {
 							// show filters as usual links
 							echo '<p class="lvl'. $element->getClusterLevel() .'">[+]
-									<a href="'.$element->getUrl().'" onclick="'.$util->createJavaScriptTrackingCode("refine", $element->getRefKey()).'">'.$element->getValue();
+									<a href="'.$element->getUrl().'">'.$element->getValue();
                             if($group->getUnit()) echo ' ', $group->getUnit();
 							if (!$ffparams->isNavigation()) {
 								echo ' <span>('.$element->getMatchCount().')</span>';

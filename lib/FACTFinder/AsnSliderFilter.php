@@ -22,7 +22,6 @@ class FACTFinder_AsnSliderFilter
     private $selectedMax;
     private $baseUrl;
     private $field;
-    private $refKey;
 
     /**
      * @param string base url - it should be possible to simply append the selected min and max value
@@ -137,24 +136,4 @@ class FACTFinder_AsnSliderFilter
 	public function getValue() {
 		return 'filter'.$this->getField().'Absolute='.$this->getAbsoluteMin().' - '.$this->getAbsoluteMax().'&filter'.$this->getField().'=';
 	}
-
-    /**
-     * Set this ASN Filter's reference Key.
-     *
-     * @version since FF6.9
-     * @param reference Key, used for tracking
-     */
-    public final function setRefKey($refKey) {
-        $this->refKey = $refKey;
-    }
-
-    /**
-     * Get this ASN Filter's reference Key.
-     *
-     * @version since FF6.9
-     * @return the reference Key used for tracking
-     */
-    public final function getRefKey() {
-        return $this->refKey;
-    }
 }
