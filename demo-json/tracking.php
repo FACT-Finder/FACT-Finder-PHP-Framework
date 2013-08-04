@@ -7,7 +7,7 @@ define('LIB_DIR', dirname(DEMO_DIR).DS.'lib');
 define('USERDATA_DIR', DEMO_DIR.DS.'userdata');
 
 require_once LIB_DIR.DS.'FACTFinder'.DS.'Loader.php';
--
+
 $log = FF::getInstance('log4PhpLogger');
 $log->configure(USERDATA_DIR.DS.'log4php.xml');
 

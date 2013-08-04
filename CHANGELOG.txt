@@ -1,3 +1,6 @@
+Version 2.5.1
+    FIX: Several fixes to make new tracking work.
+
 Version 2.5.0
     ADD: Support for FACT-Finder's JSON-API starting with FF 6.6.
     CHG: Integrated changes to new tracking API.
