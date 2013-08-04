@@ -2,7 +2,7 @@
 /**
  * Tracking adapter using the new tracking API introduced with FF 6.9.
  */
-class FACTFinder_Http_TrackingAdapter extends FACTFinder_Abstract_Adapter
+class FACTFinder_Http_TrackingAdapter extends FACTFinder_Default_TrackingAdapter
 {
     /**
      * Set up the tracking adapter for 6.9.
