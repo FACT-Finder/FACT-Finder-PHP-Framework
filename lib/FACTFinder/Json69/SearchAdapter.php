@@ -1,6 +1,6 @@
 <?php
 /**
- * Search adapter using the xml interface.
+ * Search adapter using the json interface.
  */
 class FACTFinder_Json69_SearchAdapter extends FACTFinder_Json68_SearchAdapter
 {
@@ -12,7 +12,7 @@ class FACTFinder_Json69_SearchAdapter extends FACTFinder_Json68_SearchAdapter
 
         return $this->getParamsParser()->createPageLink(
             $this->getParamsParser()->parseParamsFromResultString(trim($item['searchParams'])),
-            array('sourceRefKey' => $item['refKey'])
+            array('sourceRefKey' => $this->refKey)
         );
     }
 

@@ -1,14 +1,12 @@
 <?php
 
-/**
- * Script for AJAX requests to notify the Shopping Cart Information Collector
- *
- * @author    Rudolf Batt <rb@omikron.net>, Martin Buettner <martin.buettner@omikron.net>
- * @revision  $Rev: -1 $
- * @update    $LastChangedDate: $
- **/
+define('DS', DIRECTORY_SEPARATOR);
 
-require_once 'init.php';
+define('DEMO_DIR', dirname(__FILE__));
+define('LIB_DIR', dirname(DEMO_DIR).DS.'lib');
+define('USERDATA_DIR', DEMO_DIR.DS.'userdata');
+
+require_once LIB_DIR.DS.'FACTFinder'.DS.'Loader.php';
 
 $log = FF::getInstance('log4PhpLogger');
 $log->configure(USERDATA_DIR.DS.'log4php.xml');
@@ -23,6 +21,6 @@ $encodingHandler = FF::getInstance('encodingHandler', $config, $log);
 $paramsParser = FF::getInstance('parametersParser', $config, $encodingHandler, $log);
 $dataProvider = FF::getInstance('http/dataProvider', $paramsParser->getServerRequestParams(), $config, $log, $curl);
 //$trackingAdapter = FF::getInstance('http/scicAdapter', $dataProvider, $paramsParser, $encodingHandler, $log);
-$trackingAdapter = FF::getInstance('xml69/trackingAdapter', $dataProvider, $paramsParser, $encodingHandler, $log);
+$trackingAdapter = FF::getInstance('http/trackingAdapter', $dataProvider, $paramsParser, $encodingHandler, $log);
 
 echo $trackingAdapter->doTrackingFromRequest();

@@ -20,7 +20,7 @@ class FACTFinder_Default_TrackingAdapter extends FACTFinder_Abstract_Adapter
     const EVENT_CACHE_HIT = 'cacheHit';
     // A new session has been created for a user.
     const EVENT_SESSION_START = 'sessionStart';
-    
+
     /**
      * let the data provider save the tracking params
      *
@@ -56,7 +56,7 @@ class FACTFinder_Default_TrackingAdapter extends FACTFinder_Abstract_Adapter
     public function doTrackingFromRequest()
     {
         $params = $this->getParamsParser()->getServerRequestParams();
-        $this->prepareDefaultParams($params);
+        $this->getDataProvider()->setParams($params);
         return $this->applyTracking();
     }
 
@@ -64,13 +64,13 @@ class FACTFinder_Default_TrackingAdapter extends FACTFinder_Abstract_Adapter
         $params = $this->prepareDefaultParams($inputParams);
 
         $events = array(
-			self::EVENT_DISPLAY, 
-			self::EVENT_FEEDBACK, 
-			self::EVENT_INSPECT, 
-			self::EVENT_AVAILABILITY_CHECK, 
-			self::EVENT_CART, 
+			self::EVENT_DISPLAY,
+			self::EVENT_FEEDBACK,
+			self::EVENT_INSPECT,
+			self::EVENT_AVAILABILITY_CHECK,
+			self::EVENT_CART,
 			self::EVENT_BUY,
-            self::EVENT_CACHE_HIT, 
+            self::EVENT_CACHE_HIT,
 			self::EVENT_SESSION_START
 		);
 
