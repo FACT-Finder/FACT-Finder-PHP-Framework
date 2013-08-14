@@ -42,8 +42,6 @@
 				<!-- Uncommenct the following to display the full advisor tree (debugging purposes only)
 				<required name="generateAdvisorTree" default="true" />
 				-->
-
-				<mapping from="sourceRefKey" to="refKey" />
 			</server>
 
 			<!-- parameter settings for the client -->
