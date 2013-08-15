@@ -1,3 +1,8 @@
+Version 2.5.2
+    FIX: Removed parameter mappings for deprecated tracking API.
+    FIX: Added missing parameters to tracking API (thanks @cm-mfc).
+    FIX: Some tracking events do not require a sourceRefKey (thanks @cm-mfc).
+
 Version 2.5.1
     FIX: Several fixes to make new tracking work.
 
