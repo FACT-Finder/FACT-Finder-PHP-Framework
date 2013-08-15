@@ -32,19 +32,25 @@ class FACTFinder_Default_TrackingAdapter extends FACTFinder_Abstract_Adapter
         return false;
     }
 
-    public function prepareDefaultParams($inputParams) {
+    public function prepareDefaultParams($inputParams, $event) {
+        $eventsNoSourceRefKeyRequired = array(
+            self::EVENT_INSPECT,
+            self::EVENT_CART,
+            self::EVENT_BUY,
+            self::EVENT_SESSION_START
+        );
 
         $sid = $inputParams['sid'];
         if (strlen($sid) == 0)
             $sid = session_id();
 
         $sourceRefKey = $inputParams['sourceRefKey'];
-        if (strlen($sourceRefKey) == 0)
+        if (!in_array($event, $eventsNoSourceRefKeyRequired, true) && strlen($sourceRefKey) == 0)
             throw new UnexpectedValueException("No sourceRefKey in parameters");
 
         $params = array('sourceRefKey' => $sourceRefKey, 'sid' => $sid);
 
-        $optParams = array('userId', 'cookieId', 'price', 'amount', 'positive', 'message');
+        $optParams = array('userId', 'cookieId', 'price', 'amount', 'positive', 'message', 'site', 'id', 'mid');
         foreach ($optParams AS $optParam) {
             if (isset($inputParams[$optParam]) && strlen($inputParams[$optParam]) > 0)
                 $params[$optParam] = $inputParams[$optParam];
@@ -61,18 +67,18 @@ class FACTFinder_Default_TrackingAdapter extends FACTFinder_Abstract_Adapter
     }
 
     public function trackEvent($event, $inputParams) {
-        $params = $this->prepareDefaultParams($inputParams);
+        $params = $this->prepareDefaultParams($inputParams, $event);
 
         $events = array(
-			self::EVENT_DISPLAY,
-			self::EVENT_FEEDBACK,
-			self::EVENT_INSPECT,
-			self::EVENT_AVAILABILITY_CHECK,
-			self::EVENT_CART,
-			self::EVENT_BUY,
+            self::EVENT_DISPLAY,
+            self::EVENT_FEEDBACK,
+            self::EVENT_INSPECT,
+            self::EVENT_AVAILABILITY_CHECK,
+            self::EVENT_CART,
+            self::EVENT_BUY,
             self::EVENT_CACHE_HIT,
-			self::EVENT_SESSION_START
-		);
+            self::EVENT_SESSION_START
+        );
 
         if (!in_array($event, $events, true)) {
             throw new UnexpectedValueException("Event $event not known.");
