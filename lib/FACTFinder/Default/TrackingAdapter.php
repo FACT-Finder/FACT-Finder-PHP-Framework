@@ -61,7 +61,7 @@ class FACTFinder_Default_TrackingAdapter extends FACTFinder_Abstract_Adapter
 
     public function doTrackingFromRequest()
     {
-        setupTrackingFromRequest();
+        $this->setupTrackingFromRequest();
         return $this->applyTracking();
     }
 
@@ -73,7 +73,7 @@ class FACTFinder_Default_TrackingAdapter extends FACTFinder_Abstract_Adapter
 
     public function trackEvent($event, $inputParams)
     {
-        setupEventTracking($event, $inputParams);
+        $this->setupEventTracking($event, $inputParams);
         return $this->applyTracking();
     }
 
