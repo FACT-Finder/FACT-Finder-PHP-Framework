@@ -38,6 +38,10 @@
 				<ignore name="password" />
 				<ignore name="username" />
 				<ignore name="timestamp" />
+                
+                <mapping from="SID" to="sid" />
+                <mapping from="session" to="sid" />
+                <mapping from="PHPSESSID" to="sid" />
 
 				<!-- Uncommenct the following to display the full advisor tree (debugging purposes only)
 				<required name="generateAdvisorTree" default="true" />
