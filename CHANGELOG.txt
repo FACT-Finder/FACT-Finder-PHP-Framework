@@ -1,3 +1,11 @@
+Versuib 2.5.3
+    FIX: accept the navigation parameter as it is accepted with FF6.9
+    FIX: added missing $this on setupEventTracking execution
+    FIX: Fixed bugs when creating paging data in 6.9 search adapters.
+    FIX: Fixed parameter name in TrackingAdapter.
+    ADD: Added methods to TrackingAdapter to separate configuration from request.
+    ADD: some mapping rules to get the required sid parameter
+
 Version 2.5.2
     FIX: Removed parameter mappings for deprecated tracking API.
     FIX: Added missing parameters to tracking API (thanks @cm-mfc).
