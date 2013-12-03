@@ -1,8 +1,11 @@
+Version 2.5.5
+    CHG: SCIC adapters now exist for all versions (and both interfaces), because the action changes in FF 6.8.
+
 Version 2.5.4
     FIX: build the slider base URL the correct way (it's not ensured the empty parameter is at the end)
     FIX: all events must have a source ref key except of session start
     FIX: accept the navigation parameter as it is accepted with FF6.9
-    
+
 Version 2.5.3
     FIX: accept the navigation parameter as it is accepted with FF6.9
     FIX: added missing $this on setupEventTracking execution
