@@ -37,10 +37,17 @@ class FACTFinder_Default_SearchAdapter extends FACTFinder_Abstract_Adapter
     protected function getData()
     {
         $params = $this->getDataProvider()->getParams();
+
+        $isNavigation = false;
+        if (isset($params['catalog'])) {
+            $isNavigation = ($params['catalog'] === '1' || $params['catalog'] === 'true');
+        } elseif (isset($params['navigation'])) {
+            $isNavigation = ($params['navigation'] === '1' || $params['navigation'] === 'true');
+        }
+
         if ((!isset($params['query']) || strlen($params['query']) == 0)
             && (!isset($params['seoPath']) || strlen($params['seoPath']) == 0)
-            && (!isset($params['catalog']) || $params['catalog'] != 'true')
-            && (!isset($params['navigation']) || $params['navigation'] != 'true')) {
+            && $isNavigation === false ) {
             $this->log->error("No query was set.");
             throw new Exception(self::NO_QUERY);
         }
