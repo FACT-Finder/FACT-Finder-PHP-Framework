@@ -1,3 +1,6 @@
+Version 2.5.6
+    FIX: products per page options may be null at json response although result exists
+
 Version 2.5.5
     CHG: SCIC adapters now exist for all versions (and both interfaces), because the action changes in FF 6.8.
     ADD: Legacy Tracking Adapter which can be used for FF6.8 and 6.9
