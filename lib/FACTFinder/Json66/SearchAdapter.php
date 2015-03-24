@@ -168,7 +168,11 @@ class FACTFinder_Json66_SearchAdapter extends FACTFinder_Default_SearchAdapter
             $encodingHandler = $this->getEncodingHandler();
 
             $paging = $this->getPaging();
-            $positionOffset = ($paging->getCurrentPageNumber() - 1) * $this->getProductsPerPageOptions()->getSelectedOption()->getValue();
+            if ($paging != null && $this->getProductsPerPageOptions() != null && $this->getProductsPerPageOptions()->getSelectedOption() != null) {
+                $positionOffset = ($paging->getCurrentPageNumber() - 1) * $this->getProductsPerPageOptions()->getSelectedOption()->getValue();
+            } else {
+                $positionOffset = 0;
+            }
 
             //load result
             $positionCounter = 1;
