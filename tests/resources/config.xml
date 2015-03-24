@@ -15,7 +15,7 @@
 				<advancedPrefix>FACT-FINDER</advancedPrefix>
 				<advancedPostfix>FACT-FINDER</advancedPostfix>
 			</auth>
-			<context>FACT-Finder</context>
+			<context>FACT-Finder6.9</context>
 			<channel>de</channel>
 			<language>de</language>
 			<!-- all timeouts given in seconds -->

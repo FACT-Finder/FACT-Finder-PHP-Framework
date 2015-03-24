@@ -15,3 +15,4 @@
 /.idea/codeStyleSettings.xml
 /demo-json/ff.log
 /.idea
+build/
