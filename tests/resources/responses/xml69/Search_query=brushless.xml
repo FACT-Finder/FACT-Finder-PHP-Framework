@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ffresult.xsd">
+	<searchStatus>resultsFound</searchStatus>
+	<articleNumberSearchStatus>nothingFound</articleNumberSearchStatus>
+	<searchTimedOut>false</searchTimedOut>
+	<productsPerPageOptions default="20" selected="0">
+		
+			<option value="12">
+				<searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&channel=D-Edition&productsPerPage=12&followSearch=9999&internal=true&format=XML]]></searchParams>
+			</option>
+		
+			<option value="24">
+				<searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&channel=D-Edition&productsPerPage=24&followSearch=9999&internal=true&format=XML]]></searchParams>
+			</option>
+		
+			<option value="36">
+				<searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&channel=D-Edition&productsPerPage=36&followSearch=9999&internal=true&format=XML]]></searchParams>
+			</option>
+		
+			<option value="20">
+				<searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+			</option>
+		
+	</productsPerPageOptions>
+	<searchControlParams>
+		<disableCache>false</disableCache>
+		<generateAdvisorTree>false</generateAdvisorTree>
+		<idsOnly>false</idsOnly>
+		<useAsn>true</useAsn>
+		<useCampaigns>true</useCampaigns>
+		<useFoundWords>false</useFoundWords>
+		<useKeywords>false</useKeywords>
+	</searchControlParams>
+	<searchParams>
+		
+			<searchPhrase>brushless</searchPhrase>
+		
+		
+		
+		<channel>D-Edition</channel>
+		
+		
+		
+		
+			<customParameters>
+			
+				<customParameter>
+					<name>internal</name>
+					
+					<values>
+						
+							<value>true</value>
+						
+					</values>
+					
+				</customParameter>
+				
+			</customParameters>
+		
+	</searchParams>
+	
+			<breadCrumbTrail>
+			
+					<item nr="0" type="search" value="brushless">
+					
+						<searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+					</item>
+					
+			</breadCrumbTrail>
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<campaigns><campaign nr="0" name="Brushless" category="Landingpages" flavour="FEEDBACK"><feedback><text nr="2" label="above asn" html="true"><![CDATA[<h2>Hochwertige Brushless Motoren für verschiedene RC Modelle bei D-Edition</h2><p>Brushless Motoren (kurz BL) sind heute die am häufigsten eingebauten elektrischen Antriebsmotoren in der Modellbauwelt. „Brushless“ kommt aus dem Englischen und bedeutet „bürstenlos“. Im Vergleich zu Bürstenmotoren haben sie einen höheren Wirkungsgrad, erbringen also eine bessere Leistung und zeichnen sich durch einen niedrigen Verschleiß aus. Brushless Motoren überhitzen zudem weniger schnell und haben eine vergleichsweise lange Lebensdauer. Diese Elektro-Motoren können sowohl bei RC Cars aller Arten, als auch RC Schiffe und RC Flugmodellen eingesetzt werden. Da viele Motoren dem gleichen Typ entsprechen, kann man diese universell einsetzten. Doch auch für ausgefallene Modelle ist der richtige BL Motor dabei. verschiedene Wicklungen von bis zu 30 Turns lassen keine Wünsche offen. Durch die aufwendigere Herstellung und die neuste integrierte Technik sind sie ein wenig kostspieliger als Motoren mit Bürsten. Dafür hat man mit ihnen länger Spaß und ist womöglich der schnellste auf dem RC Feld. Je nach Preis-Leistungsanspruch ist bei D-Edition für jeden RC Piloten der passende Brushless Motor dabei.</p><h2>Funktionsweise von Brushless Motoren</h2><p>Auch bei dieser Art von Elektro-Motoren wird die Rotordrehung durch zwei Magnetfelder erzeugt. Die Kohlenbürste von Bürstenmotoren wird ersetzt durch einen Regler, der die Magnetfelder steuert. Bei Brushless Motoren handelt es sich um Drehstrom-Synchronmotoren. Das bedeutet, dass die Wicklungen nacheinander in drei Magnetfeldern in Gleichspannung gelegt werden. Drei Außenleiter versorgen den Motor mit Strom. Wenn zwei der drei Wicklungen, die um 120 Grad versetzt sind, unter Strom gesetzt werden, entsteht ein Magnetfeld. Somit wird der Rotor durch Permanentmagneten mitgenommen. Die versetzten Wicklungen werden zeitlich gesteuert und sinusförmig unter Strom gesetzt. So entsteht ein rotierendes magnetisches Feld, das den Rotor immer weiter dreht. Generell unterteilt man die Brushless Motoren in Sensorlose BL Motoren, sensorgesteuerte, Inrunner (Innenläufer) und Outrunner (Außenläufer). Bei einem Brushless Motor werden die Drehzahlen ohne Last angegeben. Dies geschieht immer in Bezug auf ein Volt und trägt die Abkürzung kV. Dank dieser Angabe kann die Drehzahl die der Motor mit einem Akku erreichen kann errechnet werden.</p>]]></text></feedback></campaign></campaigns>
+	
+		<asn>
+			<group name="Kategorie" detailedLinks="10" type="text" style="TREE" selectionType="singleHideUnselected"><element field="KategorienameROOT" name="RC Flugmodelle" count="130" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterKategorienameROOT=RC+Flugmodelle&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="KategorienameROOT" name="RC Modellbau Zubehör" count="127" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterKategorienameROOT=RC+Modellbau+Zubeh%C3%B6r&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="KategorienameROOT" name="RC Cars" count="123" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterKategorienameROOT=RC+Cars&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="KategorienameROOT" name="RC Hubschrauber" count="70" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterKategorienameROOT=RC+Hubschrauber&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="KategorienameROOT" name="RC Modellbau Tuning-Ersatzteile" count="9" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterKategorienameROOT=RC+Modellbau+Tuning-Ersatzteile&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="KategorienameROOT" name="RC Boote" count="8" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterKategorienameROOT=RC+Boote&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="KategorienameROOT" name="RC Cars Verbrenner" count="2" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterKategorienameROOT=RC+Cars+Verbrenner&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="KategorienameROOT" name="RC Fahrzeuge" count="2" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterKategorienameROOT=RC+Fahrzeuge&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+</group>
+<group name="Hersteller" detailedLinks="5" type="text" style="DEFAULT" selectionType="singleHideUnselected"><element field="Hersteller" name="Thunder Tiger" count="219" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Thunder+Tiger&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Graupner" count="115" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Graupner&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="LRP" count="99" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=LRP&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="E-flite" count="90" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=E-flite&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Absima" count="61" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Absima&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="HPI" count="40" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=HPI&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Carson" count="38" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Carson&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Blade" count="36" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Blade&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Jamara" count="35" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Jamara&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Novak" count="32" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Novak&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Multiplex" count="30" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Multiplex&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Align" count="28" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Align&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Hype" count="27" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Hype&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Drive &amp; Fly Models" count="25" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Drive+%26+Fly+Models&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Robitronic" count="23" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Robitronic&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Great Planes" count="22" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Great+Planes&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Parkzone" count="22" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Parkzone&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Arrma" count="21" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Arrma&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="DJI" count="21" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=DJI&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Losi" count="19" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Losi&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Dynamite" count="17" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Dynamite&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Traxxas" count="17" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Traxxas&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Robbe" count="13" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Robbe&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Hobbywing" count="12" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Hobbywing&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Monstertronic" count="12" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Monstertronic&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Team C" count="12" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Team+C&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Futaba" count="11" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Futaba&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Kyosho" count="11" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Kyosho&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Team Orion" count="11" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Team+Orion&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Flyzone" count="8" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Flyzone&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Tamiya" count="8" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Tamiya&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Axial" count="7" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Axial&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Proboat" count="7" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Proboat&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Aquacraft" count="6" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Aquacraft&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Hobbyzone" count="6" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Hobbyzone&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="RC4WD" count="6" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=RC4WD&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="RRP" count="6" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=RRP&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Yuneec" count="6" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Yuneec&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Track Power" count="5" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Track+Power&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Yuki Model" count="5" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Yuki+Model&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Maverick" count="4" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Maverick&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Sanwa" count="4" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Sanwa&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Savöx" count="4" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Sav%C3%B6x&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Spektrum" count="4" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Spektrum&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Dromida" count="3" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Dromida&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Nine Eagles" count="3" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Nine+Eagles&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Ansmann Racing" count="2" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Ansmann+Racing&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Merlin" count="2" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Merlin&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Pichler" count="2" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Pichler&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Vaterra" count="2" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Vaterra&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="FG" count="1" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=FG&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Hot Bodies" count="1" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Hot+Bodies&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Much More" count="1" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Much+More&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Roxxy" count="1" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Roxxy&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Super Tigre" count="1" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Super+Tigre&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="TTRobotix" count="1" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=TTRobotix&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Hersteller" name="Walkera" count="1" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterHersteller=Walkera&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+</group>
+<group name="Preis" detailedLinks="10" type="number" unit="€" style="DEFAULT" selectionType="singleHideUnselected"><element field="Preis" name="&lt; 25,00" count="120" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterPreis=%3C+25%2C00&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Preis" name="25,00 - 49,99" count="164" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterPreis=25%2C00+-+49%2C99&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Preis" name="50,00 - 74,99" count="141" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterPreis=50%2C00+-+74%2C99&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Preis" name="75,00 - 99,99" count="157" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterPreis=75%2C00+-+99%2C99&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Preis" name="100,00 - 249,99" count="427" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterPreis=100%2C00+-+249%2C99&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Preis" name="&gt;= 250,00" count="217" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterPreis=%3E%3D+250%2C00&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+</group>
+<group name="Preis als Slider" detailedLinks="5" type="number" unit="€" style="SLIDER" selectionType="singleHideUnselected"><element field="PreisSlider" name="Preis als Slider" count="1226" clusterLevel="0" selected="false" selectedMin="3" selectedMax="3185" absoluteMin="3" absoluteMax="3185"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&channel=D-Edition&followSearch=9999&internal=true&format=XML&filterPreisSlider=]]></searchParams>
+</element>
+</group>
+<group name="Bauart" detailedLinks="5" type="text" style="DEFAULT" selectionType="singleHideUnselected"><element field="Bauart" name="RTR Ready to Run" count="114" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterBauart=RTR+Ready+to+Run&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Bauart" name="RTF Ready to Fly" count="57" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterBauart=RTF+Ready+to+Fly&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Bauart" name="BNF Flugfertig ohne Sender" count="47" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterBauart=BNF+Flugfertig+ohne+Sender&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Bauart" name="ARF Teilgebaut" count="38" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterBauart=ARF+Teilgebaut&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Bauart" name="Kit (Bausatz)" count="15" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterBauart=Kit+%28Bausatz%29&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Bauart" name="PNP Ohne Akku / Ladegerät / Sender / Empfänger" count="11" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterBauart=PNP+Ohne+Akku+%2F+Ladeger%C3%A4t+%2F+Sender+%2F+Empf%C3%A4nger&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+</group>
+<group name="Akku-Typ" detailedLinks="5" type="text" style="DEFAULT" selectionType="singleHideUnselected"><element field="Akku-Typ" name="11.1V" count="64" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterAkku-Typ=11.1V&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Akku-Typ" name="7.4V" count="34" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterAkku-Typ=7.4V&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Akku-Typ" name="3.7V" count="13" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterAkku-Typ=3.7V&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Akku-Typ" name="7.2V" count="10" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterAkku-Typ=7.2V&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Akku-Typ" name="14.8V" count="4" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterAkku-Typ=14.8V&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Akku-Typ" name="22.2V" count="3" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterAkku-Typ=22.2V&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Akku-Typ" name="Sonstige" count="3" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterAkku-Typ=Sonstige&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Akku-Typ" name="8.4V" count="2" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterAkku-Typ=8.4V&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+</group>
+<group name="Antriebsart" detailedLinks="5" type="text" style="DEFAULT" selectionType="singleHideUnselected"><element field="Antrisbart" name="Elektro Brushless" count="276" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterAntrisbart=Elektro+Brushless&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Antrisbart" name="Elektro Brushed" count="17" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterAntrisbart=Elektro+Brushed&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Antrisbart" name="Verbrenner" count="1" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterAntrisbart=Verbrenner&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+</group>
+<group name="Einsatzgebiet" detailedLinks="5" type="text" style="DEFAULT" selectionType="singleHideUnselected"><element field="Einsatzgebiet" name="Luft" count="155" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterEinsatzgebiet=Luft&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Einsatzgebiet" name="Off Road" count="93" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterEinsatzgebiet=Off+Road&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Einsatzgebiet" name="Straße" count="22" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterEinsatzgebiet=Stra%C3%9Fe&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Einsatzgebiet" name="Wasser" count="7" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterEinsatzgebiet=Wasser&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+</group>
+<group name="Fabrikat" detailedLinks="5" type="text" style="DEFAULT" selectionType="singleHideUnselected"><element field="Fabrikat" name="Cessna" count="4" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterFabrikat=Cessna&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Fabrikat" name="Piper" count="3" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterFabrikat=Piper&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Fabrikat" name="Aircobra" count="2" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterFabrikat=Aircobra&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Fabrikat" name="Audi" count="2" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterFabrikat=Audi&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Fabrikat" name="Chevrolet" count="2" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterFabrikat=Chevrolet&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Fabrikat" name="Porsche" count="2" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterFabrikat=Porsche&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Fabrikat" name="VW Scirocco" count="2" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterFabrikat=VW+Scirocco&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Fabrikat" name="BMW" count="1" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterFabrikat=BMW&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Fabrikat" name="Corsair" count="1" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterFabrikat=Corsair&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Fabrikat" name="Ferrari" count="1" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterFabrikat=Ferrari&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Fabrikat" name="Ford Fiesta" count="1" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterFabrikat=Ford+Fiesta&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Fabrikat" name="MIG" count="1" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterFabrikat=MIG&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Fabrikat" name="Spitfire" count="1" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterFabrikat=Spitfire&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Fabrikat" name="Sprint 2" count="1" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterFabrikat=Sprint+2&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Fabrikat" name="Toyota" count="1" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterFabrikat=Toyota&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+<element field="Fabrikat" name="Yamaha" count="1" clusterLevel="0" selected="false"><searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&filterFabrikat=Yamaha&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+</element>
+</group>
+
+		</asn>
+	
+	
+		<paging pageCount="62" currentPage="1">
+			
+			<searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&channel=D-Edition&followSearch=9999&internal=true&format=XML&page=]]></searchParams>
+			<settings>
+			     <linkCount>10</linkCount>
+			     <nextCaption>paging.next</nextCaption>
+			     <previousCaption>paging.previous</previousCaption>
+			</settings>
+		</paging>
+	
+	
+		<sorting>
+					
+			<sort name="Relevancy" description="Relevance" method="desc" selected="true">
+				<searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+			</sort>
+					
+			<sort name="ProduktBezeichnung" description="Name (A-Z)" method="asc" selected="false">
+				<searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&sortProduktBezeichnung=asc&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+			</sort>
+					
+			<sort name="ProduktBezeichnung" description="Name (Z-A)" method="desc" selected="false">
+				<searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&sortProduktBezeichnung=desc&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+			</sort>
+					
+			<sort name="Preis" description="Increasing price" method="asc" selected="false">
+				<searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&sortPreis=asc&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+			</sort>
+					
+			<sort name="Preis" description="Decreasing price" method="desc" selected="false">
+				<searchParams><![CDATA[/d-edition6.10/Search.ff?query=brushless&sortPreis=desc&channel=D-Edition&followSearch=9999&internal=true&format=XML]]></searchParams>
+			</sort>
+		
+		</sorting>
+	
+	<results count="1226">
+		
+			<record nr="0" id="1167673" relevancy="99.99">
+				
+				
+					<field name="ProduktLangBeschreibung"><![CDATA[Der FG Baja Buggy WB535E - jetzt mit Brushless-Power! Das 'E' steht für Elektro-Power und bedeutet extrem viel Drehmoment, hohe Endgeschwindigkeit und alles ohne Motorengeräusch. Der Baja Buggy 535E ist mit einem leistungsstarken Brushless-Motor und einem 150A-Regler ausgerüstet. Der Regler lässt sich einfach über den Sender bzw. optional über eine Programmierkarte Best.-Nr. 07906 einstellen. Der Baja WB535E wird als RTR-Modell fahrfertig lackiert und montiert mit 2.4 GHz Fernlenkanlage. Es werden zusätzlich noch die LiPo-Akkus und das passende Ladegerät benötigt. Für eine problemlose Montage empfehlen wir 2x3S oder 2x6S LiPo-Akkus mit mind. 45C/ 5000 mAh mit einer max. Länge von 150mm und einer Breite von 50mm zu verwenden. Passende 6mm Goldkontakt-Stecker und Buchsen für die LiPo-Akkus liegen bei]]></field>
+				
+					<field name="Hersteller">..FG..</field>
+				
+					<field name="EAN">4046032029882</field>
+				
+					<field name="ProduktBezeichnung">FG Brushless 1:6 Baja Buggy WB 535E 4WD RTR Lackierte Karosserie</field>
+				
+					<field name="Lieferzeit">Artikel derzeit nicht verfügbar</field>
+				
+					<field name="FFAutomaticSearchOptimization"/>
+				
+					<field name="DQAttributes"/>
+				
+					<field name="Gewicht">..0.0000..</field>
+				
+					<field name="Produktlink"><![CDATA[http://www.d-edition.de/RC-Cars/RC-Cars-Benziner/FG-Brushless-1-6-Baja-Buggy-WB-535E-4WD-RTR-Lackierte-Karosserie.html]]></field>
+				
+					<field name="Einsatzgebiet">..Off Road..</field>
+				
+					<field name="FotoLink"><![CDATA[http://www.d-edition.de/images/product_images/popup_images/fg-brushless-1_6-baja-buggy-wb-535e-4wd-rtr-lackierte-karosserie_FG-62045R_1.jpg]]></field>
+				
+					<field name="Lagerbestand">0</field>
+				
+					<field name="Fabrikat"/>
+				
+					<field name="ProduktKurzBeschreibung"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNrWithoutPrefix">62045R</field>
+				
+					<field name="Akku-Typ"/>
+				
+					<field name="Kategoriename">|KategorienameROOT=RC Cars|KategorienameROOT/RC Cars=RC Cars Benziner|</field>
+				
+					<field name="ProduktID">1167673</field>
+				
+					<field name="Preis">1097.54</field>
+				
+					<field name="PreisSlider">1097.54</field>
+				
+					<field name="FFCliplisterQuality"/>
+				
+					<field name="Bauart">..RTR Ready to Run..</field>
+				
+					<field name="Maßstab">1:6</field>
+				
+					<field name="Kategoriename_lvl1"/>
+				
+					<field name="Kategoriename_lvl2"/>
+				
+					<field name="Antrisbart">..Elektro Brushless..</field>
+				
+					<field name="ArtikelNroderHerstellerArtikelNr">FG-62045R</field>
+				
+					<field name="FFAfterSearchReorder"/>
+				
+					<field name="Kategoriename_lvl0"/>
+				
+			</record>
+		
+			<record nr="1" id="1411631" relevancy="99.98">
+				
+				
+					<field name="ProduktLangBeschreibung"><![CDATA[Darf es ein bisschen größer sein? Neben dem Yeti im Maßstab 1:10 präsentiert Axial den großen Bruder Yeti XL in 1:8. Auch dieses Modell besticht durch seine komplette Ausstattung mit hochwertigsten Komponenten, die es zu einem echten Beherrscher auch noch so schweren Geländes machen. Der Brushless 2200KV 4-Pol Motor verleiht dem fast sechs Kilogramm schweren Yeti die nötige Kraft für den wilden Ritt, die High-End-Fahrwerkskomponenten stellen die perfekte Kontrolle sicher, um auch schwierigste Geländeabschnitte zu meistern The playground just got a lot smaller - YETI XL&trade; BIG POWER, UNDER CONTROL!The Yeti XL&trade; is powered by a Castle Creations 2200KV 4-pole Vanguard XL brushless motor and it?s equipped with the industry?s first 8th scale solid rear axle with an independent front suspension [IFS] chassis system. Everything?s kept under control by massive 20mm aluminum shock bodies that house Big Bore 16&trade; (16mm) pistons on beefy 4mm shock shafts which help maintain high speed stability when running through a wide variety of terrain. With this, we have yet again skirted the mainstream and delivered a vehicle that falls into it?s own niche, the Monster Buggy. The AR60 XL&trade; solid rear axle is constructed from high strength composite material which has a low flex rate but is not as brittle as standard glass filled nylon. An added reinforced axle truss strengthens the rear axle by reducing flex and by distributing the force of potentially damaging impacts. The combination of our axles and a true 4-link suspension gives you optimal performance for any terrain with the look of a real 1:1 vehicle. Maintenance is easy - simply remove four screws to access the rear differential. FEATURES: 2200KV BRUSHLESS MOTOR,WATER RESISTANTWhen you are talking big chassis and big wheel combinations, there is one company that stands out when it comes to BIG POWER and that is Castle Creations! The Axial Yeti XL&trade; is powered by a Castle Creations 2200KV 4-pole brushless motor which provides unimaginable amounts of power, amazing torque and blazing-speed for this rock bashing monster. WB XL CVJ REAR DRIVESHAFT This design uses less parts for a stronger, more durable and tighter fitment. While this is a more compact design, it uses larger diameter bearings to keep the input gear stable under instant heavy power. Axial has continually developed our plastic driveshafts and has taken this accumulative knowledge and put it into this beefy driveshaft. The composite material was specifically chosen for it?s resistance to heat and the ability to withstand direct impact. &bull; Less slop = less driveline clunk with instant power transfer&bull; Captured cross pin design, no set screws to lose&bull; Increased surface area at the connection between the ball joint and the composite drive shaft&bull; Captured cross pin design eliminates older set screw design for more durability and easy maintenance All-METAL / HI-LO TRANSMISSIONMetal where it matters most! The Yeti XL&trade; features an all metal gear transmission specifically designed for this chassis, along with CNC cut metal gears in both the front and rear differentials. With all metal internal gears, this full ball bearing transmission has the strength to endure the harshest rock racing environment and brushless power. The factory gearbox comes as a single speed with the high gear installed for high speed fun. The integrated motor mount features a wide range of movement for endless gearing options.Optional two-speed transmission component sold separately. DUAL SLIPPER CLUTCHOur dual slipper design uses an aluminum pad on each side of the spur gear which provides the right amount of slip for performance and heat resistance for durability. The all-metal spur gear features 32 pitch gearing for high torque applications. PROTECTIVE TRANSMISSION COVERHelps keep dirt and debris out of your pinion and spur gear for a quiet and efficient drivetrain, and it also prevents any loose wires from getting chewed up! CNC METAL CUT GEARSMassive brushless power requires heavy duty drivetrain components. The Yeti XL&trade; features hardened steel CNC cut metal gears in both the front and rear differentials for the ultimate in strength and durability. WB XL CVJ PROP SHAFTThe rebuildable prop shaft delivers the power from the transmission to the front differential. The prop shaft features an all metal, super strong CVJ design and they?re completely rebuildable. FRONT CVJ METAL UNIVERSALSThe front universals feature an all metal, super strong CVJ design and they?re completely rebuildable. The benefit of a universal joint is an increased steering angle and precise fitment for an efficient driveline. The captured pin design allows for better reliability and easier maintenance. ALUMINUM CHASSIS BRACESThe Yeti XL&trade; features integrated upper and lower aluminum chassis braces to increase stiffness and durabilty. INDEPENDENT FRONT SUSPENSION (IFS)The Yeti&trade; is equipped with an Independent Front Suspension [IFS] system to help maintain high speed stability when running through a diverse range of terrain. Every rock the Yeti XL&trade; will encounter is individual. They come in random sizes and are scattered throughout the course, making the terrain varied from one side of the vehicle to the other. The IFS system allows you to better control the intended direction of travel at high speeds when one side is adjusting to overcome road obstructions. This stability that the IFS front end provides is paramount when rock bashing.BIG BORE 16&trade; SHOCKSIn the suspension department, the Yeti XL&trade; is equipped with the industry's first 1/8th scale solid rear axle with an independent front suspension [IFS] setup. The suspension is controlled by massive 20mm aluminum shock bodies that house big bore 16mm pistons on beefy 4mm shock shafts to help maintain high speed stability when running through a diverse range of terrain. Precision machined Big Bore 16&trade; shocks are standard equipment and deliver smooth suspension movement for consistent handling. 4-LINKED REAR SUSPENSIONThe Yeti XL&trade; features the massive AR60 XL&trade; solid rear axle with 4-linked rear suspension. The Yeti XL&trade; chassis offers multiple upper link positions to adjust the anti-squat. These tuning options will help you get the most performance from your rig. 3.8 RACELINE MONSTER WHEELSRaceline is by far the most popular wheel for extreme off-road duty. Their ability to stand up to the abuse demanded by the full-size racer and their show quality finish is second to none. The officially licensed Raceline Monster gives the Yeti XL&trade; that authentic racing look as well as providing the strength to handle whatever you can dish out! With a name like Monster, you know this Raceline wheel is ready to bash!Wheel Size: 96mm (3.8") diameter BFGOODRICH® KRAWLER&trade; T/A® KX TIRESBFGoodrich has more than three decades of off-road racing commitment under their belt, scoring 23 SCORE Baja 1000 championships and 26 Score Baja 500 championships from 1975 - 2010! In the full-size off-road world, BFGoodrich® Krawler&trade; T/A® KX tires are the winner of more rock-crawling championships than all other tires combined (Race spec tire, Years 2004 through 2008). The Axial version of this tire captures the same aggressive look and provides awesome performance on a wide variety of surfaces. This is the perfect tire for this style of vehicle due to its high level of performance and diversity.Tires - 74x184mm (2.9x7.25")BFGoodrich® Tires and KRAWLER&trade; T/A® Trademarks are used under License from Michelin METAL GEAR TACTIC SERVO, 151 oz-in, WATER RESISTANT The included Tactic TSX45 metal gear servo is rated at 151 oz-in of torque for massive turning power and dual ball bearings provide smooth and precise movement for the metal gear train. EASY ACCESS BATTERY TRAY Twin battery trays can be easily accessed by removing the two front body pins and pivoting the entire body up. Install or remove your batteries by removing the remaining body pins. Foam blocks are included to help keep the batteries in place.Battery tray dimensions:Length: 6.89in(175mm)Height: 1.3in (33mm)Width: 1.7in (43mm) RECOMMENDED BATTERIES: 2x 2S 7.4V LiPo packs, or2x 3S 11.1V LiPo packs.Minimum 25C rating VANGUARD AE-4 XL ESC, WATERPROOF Developed by Castle Creations for Axial, the Vanguard ESC provides exceptional power, braking and adjustability. The ESC comes standard with Deans® Ultra Plugs®. The ESC can be programmed manually via Castle Field Programming Card or through the Castle Link software interface (optional). RECOMMENDED BATTERIES: 4S / 6S LiPo Deans® and Ultra Plugs® are registered trademarks of W.S. Deans Co. U.S. Patent No. 5,533,91 EASY CHASSIS ACCESS Pull two pins and pop the hood for complete access to chassis components. RECEIVER BOX, WATERPROOF A waterproof receiver box is integrated into the bottom of the Yeti XL&trade; chassis. Three different silicone seals are included, one for the antenna, one for the servo wires (includes three slots for three channels), and one acts as a gasket for the receiver box cover. No more stress when running in mud, water, or snow! 3-CHANNEL 2.4GHz RECEIVER The AR-3 2.4 GHz receiver uses no crystals so you?ll experience worry free driving with no frequency conflicts. This lightweight, compact, and bind button equipped receiver with LED indicator makes setup easy! 2.4GHz RADIO FOR WORRY-FREE DRIVING The AX-3 2.4GHz transmitter is a two channel, pistol grip radio with servo reversing switches for steering and throttle, trim dials for fine tuning steering and throttle centers. The battery indicator light also lets you know when your transmitter batteries run low. Was Sie noch Benötigen: - 2x 2S LiPo Battery Pack with 7.4 or 11.1V minimum 25C and Deans Ultra Plug- Charger- AA Batteries for the transmitter]]></field>
+				
+					<field name="Hersteller">..Axial..</field>
+				
+					<field name="EAN">8168740131896</field>
+				
+					<field name="ProduktBezeichnung"><![CDATA[Axial Brushless 4WD YETI XL 1:8 Monster Buggy Rock Racer RTR 2,4Ghz Waterproof]]></field>
+				
+					<field name="Lieferzeit">Sofort versandfertig</field>
+				
+					<field name="FFAutomaticSearchOptimization"/>
+				
+					<field name="DQAttributes"/>
+				
+					<field name="Gewicht">..2.0000..</field>
+				
+					<field name="Produktlink"><![CDATA[http://www.d-edition.de/RC-Cars/RC-Cars-Elektro-Offroad/Axial-Brushless-4WD-YETI-XL-1-8-Monster-Buggy-Rock-Racer-RTR-2-4Ghz-Waterproof.html]]></field>
+				
+					<field name="Einsatzgebiet">..Off Road..</field>
+				
+					<field name="FotoLink"><![CDATA[http://www.d-edition.de/images/product_images/popup_images/axial-brushless-4wd-yeti-xl-1_8-monster-buggy-rock-racer-rtr-24ghz_HOB-AX90032_1.jpg]]></field>
+				
+					<field name="Lagerbestand">4</field>
+				
+					<field name="Fabrikat"/>
+				
+					<field name="ProduktKurzBeschreibung"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNrWithoutPrefix">AX90032</field>
+				
+					<field name="Akku-Typ"/>
+				
+					<field name="Kategoriename"><![CDATA[|KategorienameROOT=RC Cars|KategorienameROOT/RC Cars=RC Cars Elektro Offroad|]]></field>
+				
+					<field name="ProduktID">1411631</field>
+				
+					<field name="Preis">669.99</field>
+				
+					<field name="PreisSlider">669.99</field>
+				
+					<field name="FFCliplisterQuality"/>
+				
+					<field name="Bauart">..RTR Ready to Run..</field>
+				
+					<field name="Maßstab">1:8</field>
+				
+					<field name="Kategoriename_lvl1"/>
+				
+					<field name="Kategoriename_lvl2"/>
+				
+					<field name="Antrisbart">..Elektro Brushless..</field>
+				
+					<field name="ArtikelNroderHerstellerArtikelNr">HOB-AX90032</field>
+				
+					<field name="FFAfterSearchReorder"/>
+				
+					<field name="Kategoriename_lvl0"/>
+				
+			</record>
+		
+			<record nr="2" id="1312484" relevancy="99.98">
+				
+				
+					<field name="ProduktLangBeschreibung"><![CDATA[Elektro- Brushless Flugzeug U CAN FLY II RTF Elektro Trainer inkl. RC Anlage, BL Motor, Regler, Eingebaute Servos... Neu mit Bonbon Abwurfschacht Hersteller Artikelnummer: 1-022-2301KY Beschreibung Mit dem U Can Fly II geht unser 100.000-fach bewährter Trainer in die nächste Runde. Neben dem optischen Facelift, wurden der Antrieb und die Wartungsfreundlichkeit optimiert. So kann die Motorhaube nun durch das Lösen von zwei Schrauben, die hinter dem Spinner versteckt sind, einfach abgenommen werden. Fliegerisch bleibt der U Can Fly II seinem Namen treu - Fliegen kann so einfach sein&hellip;! Der U-Can-Fly-II-Trainer ist und bleibt das ultimative Modell für das schnelle Erfolgserlebnis! Mit nur wenigen Handgriffen ist das Modell flugfertig aufgebaut und startbereit. Je nach Ausführung muss ggf. nur noch die RC-Anlage im Modell eingebaut werden. Die Montage des Modells erfolgt komplett OHNE Klebstoff, alle Teile werden durch ein ausgeklügeltes Stecksystem miteinander verbunden. Als Besonderheit, verfügt das Modell über einen Abwurfschacht, der über die RC-Anlage geöffnet und geschlossen werden kann. So lassen sich im Flug Bonbons, kleine Fallschirmspringer und vieles mehr abwerfen! Alle Ruder am U-Can-Fly-II-Trainer sind als spaltfreie Elastoflaps ausgelegt, die bereits fertig am Modell montiert sind. Bei der Entwicklung des U-Can-Fly-II-Trainers wurden alle Komponenten mit Hinblick auf gutmütige Flugeigenschaften entwickelt, um dem Piloten ein entspanntes Fliegen zu ermöglichen. Rumpf, Tragflächen und Leitwerk sind aus dem bewährten Werkstoff HypoDur® gefertigt und verfügen über hohe Festigkeitswerte bei minimalem Gewicht. Die Tragfläche ist geteilt aufgebaut und kann für den Transport mit wenigen Handgriffen demontiert werden. Die Verbindung der beiden Tragflächenhälften erfolgt über ein kraftschlüssiges Steckungssystem aus Kohlefaser. Die Montage der Tragfläche auf dem Rumpf erfolgt mit M6-Kunststoffschrauben, damit sich die Fläche im Falle einer harten Landung vom Modell lösen kann. Der Antrieb des U-Can-Fly-II-Trainers erfolgt durch ein LiPo-Brushless-Power-System, das perfekt auf das Modell abgestimmt ist. Der 40A Skywalker-Regler ist fertig angeschlossen und programmiert. Der Wechsel des Antriebsakkus erfolgt einfach und bequem über einen Deckel auf der Rumpfoberseite. Die fünf Micro-Servos sind fertig im Modell eingebaut, ebenso sind die Anlenkgestänge bereits flugfertig montiert. Die Querruder werden von zwei separaten Tragflächenservos angesteuert. Dabei sind die Servos und die Anlenkungen aerodynamisch verkleidet. Der Klappenmechanismus des Abwurfschachts wird über ein Servo angesteuert und ist ebenfalls fix & fertig im Modell eingebaut. Das Beladen des Schachts kann wahlweise von unten oder auch von oben durch den Tragflächenausschnitt des Rumpfes erfolgen. Das Modell wird wahlweise als ARF- oder RTF-Version geliefert. Jede Version ist in den attraktiven Farbvarianten Rot, Blau und Grün erhältlich. Die ARF-Version beinhaltet das vormontierte Modell mit fünf Micro-Servos, Brushless-Motor mit Regler, Luftschraube und Spinner. In der Luft zeigt der U-Can-Fly-II-Trainer dann seine wahren Stärken! Das gutmütige und langsame Flugverhalten gibt dem Piloten viel Zeit, das nächste Steuermanöver einzuleiten. Durch die perfekte aerodynamische Konzeption, kommt der U Can Fly II ohne jegliche Kreiselsystem aus. Mitbewerber verbauen oft Kreiselsysteme in ihren Modellen, um konstruktive Unzulänglichkeiten zu kaschieren - das brauchen wir nicht! Auch beim Landen besticht das Modell durch sein eigenstabiles Flugverhalten und die pefekte Steuerfolgsamkeit auf alle Ruderbefehle. Nutzt man dann auch noch die Abwurfvorrichtung und setzt Fallschirmspringer im Flug ab, wird der U-Can-Fly-II-Trainer zum absoluten Eyecatcher auf jedem Flugplatz. So begeistert das Modell Piloten und Zuschauer mit seinen unübertroffenen Flugleistungen gleichermaßen.  Technische Daten Spannweite: 1.460 mm; Länge: 1.220 mm; Gewicht ca.: 1.250 g; Motor: Ø30x28mm 1.350kV; Akku: LiPo 3s 11,1V; RC-Anlage: ab 4 Kanäle  RC-Funktionen Höhenruder, Seitenruder mit Bugfahrwerk, Querruder, Motor, Ladeluke  Features &bull; Eleganter Trainer mit gutmütigen Flugeigenschaften&bull; RTF-Version mit 2.4GHz-Fernsteuersystem, 11,1V-LiPo-Akku und 12V-Balancer-Ladegerät&bull; Alle Servos mit Gestängen fertig eingebaut&bull; Motor & Regler ebenfalls flugfertig eingebaut&bull; Hoher Vorfertigungsrad, dadurch extrem kurze Bauzeit!&bull; Abwurfschacht für den Abwurf von Bonbons, Fallschirmspringern&bull; Abnehmbare Motorhaube&bull; Komplette Montage ohne Klebstoff&bull; Zeitgemäßer LiPo-Brushless-Antrieb mit hohem Wirkungsgrad&bull; Rumpf, Tragfläche und Leitwerk sind aus dem leichten Werkstoff HypoDur® gefertigt&bull; Geteilte Tragfläche mit kraftschlüssiger Steckung aus Kohlefaser&bull; Alle Ruder als spaltfreie Elastoflaps ausgelegt  Lieferumfang Geschäumte Formteile für Rumpf, Tragfläche und Heckleitwerk aus HypoDur®, 5 Micro-Servos, Brushless-Motor, LiPo-Brushless-Regler, 3s 11,1V LiPo-Akku, 12V-Balancer-Ladegerät, 2.4GHz-Fernsteuersystem  Erforderliches Zubehör 8x Akku AA 1,2V 2700mAhBest.-Nr. ORI13502  Zielgruppe Einsteiger, Fortgeschrittene Warnhinweise:ACHTUNGNicht für Kinder unter 14 Jahren geeignet.Benutzung unter unmittelbarer Aufsicht von Erwachsenen.]]></field>
+				
+					<field name="Hersteller">..Hype..</field>
+				
+					<field name="EAN">4044792059972</field>
+				
+					<field name="ProduktBezeichnung">Hype Brushless Elektro Flugzeug U Can Fly II RTF,rot,2.4GHz</field>
+				
+					<field name="Lieferzeit">Sofort versandfertig</field>
+				
+					<field name="FFAutomaticSearchOptimization"/>
+				
+					<field name="DQAttributes"/>
+				
+					<field name="Gewicht">..0.5000..</field>
+				
+					<field name="Produktlink"><![CDATA[http://www.d-edition.de/RC-Flugmodelle/RC-Flieger-Elektro/Hype-Brushless-Elektro-Flugzeug-U-Can-Fly-II-RTF-rot-2-4GHz.html]]></field>
+				
+					<field name="Einsatzgebiet">..Luft..</field>
+				
+					<field name="FotoLink"><![CDATA[http://www.d-edition.de/images/product_images/popup_images/hype-brushless-elektro-flugzeug-u-can-fly-ii-rtfrot2.4ghz_RO-1-022-2301KY_1.jpg]]></field>
+				
+					<field name="Lagerbestand">-1</field>
+				
+					<field name="Fabrikat"/>
+				
+					<field name="ProduktKurzBeschreibung"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNrWithoutPrefix">1-022-2301KY</field>
+				
+					<field name="Akku-Typ">..11.1V..</field>
+				
+					<field name="Kategoriename"><![CDATA[|KategorienameROOT=RC Flugmodelle|KategorienameROOT/RC Flugmodelle=RC Flieger Elektro|]]></field>
+				
+					<field name="ProduktID">1312484</field>
+				
+					<field name="Preis">233.63</field>
+				
+					<field name="PreisSlider">233.63</field>
+				
+					<field name="FFCliplisterQuality"/>
+				
+					<field name="Bauart">..RTF Ready to Fly..</field>
+				
+					<field name="Maßstab"/>
+				
+					<field name="Kategoriename_lvl1"/>
+				
+					<field name="Kategoriename_lvl2"/>
+				
+					<field name="Antrisbart">..Elektro Brushless..</field>
+				
+					<field name="ArtikelNroderHerstellerArtikelNr">RO-1-022-2301KY</field>
+				
+					<field name="FFAfterSearchReorder"/>
+				
+					<field name="Kategoriename_lvl0"/>
+				
+			</record>
+		
+			<record nr="3" id="1292102" relevancy="99.98">
+				
+				
+					<field name="ProduktLangBeschreibung"><![CDATA[Elektro- Brushless Flugzeug U CAN FLY II RTF Elektro Trainer inkl. RC Anlage, BL Motor, Regler, Eingebaute Servos... Neu mit Bonbon Abwurfschacht Hersteller Artikelnummer: 1-022-2303KY Beschreibung Mit dem U Can Fly II geht unser 100.000-fach bewährter Trainer in die nächste Runde. Neben dem optischen Facelift, wurden der Antrieb und die Wartungsfreundlichkeit optimiert. So kann die Motorhaube nun durch das Lösen von zwei Schrauben, die hinter dem Spinner versteckt sind, einfach abgenommen werden. Fliegerisch bleibt der U Can Fly II seinem Namen treu - Fliegen kann so einfach sein&hellip;! Der U-Can-Fly-II-Trainer ist und bleibt das ultimative Modell für das schnelle Erfolgserlebnis! Mit nur wenigen Handgriffen ist das Modell flugfertig aufgebaut und startbereit. Je nach Ausführung muss ggf. nur noch die RC-Anlage im Modell eingebaut werden. Die Montage des Modells erfolgt komplett OHNE Klebstoff, alle Teile werden durch ein ausgeklügeltes Stecksystem miteinander verbunden. Als Besonderheit, verfügt das Modell über einen Abwurfschacht, der über die RC-Anlage geöffnet und geschlossen werden kann. So lassen sich im Flug Bonbons, kleine Fallschirmspringer und vieles mehr abwerfen! Alle Ruder am U-Can-Fly-II-Trainer sind als spaltfreie Elastoflaps ausgelegt, die bereits fertig am Modell montiert sind. Bei der Entwicklung des U-Can-Fly-II-Trainers wurden alle Komponenten mit Hinblick auf gutmütige Flugeigenschaften entwickelt, um dem Piloten ein entspanntes Fliegen zu ermöglichen. Rumpf, Tragflächen und Leitwerk sind aus dem bewährten Werkstoff HypoDur® gefertigt und verfügen über hohe Festigkeitswerte bei minimalem Gewicht. Die Tragfläche ist geteilt aufgebaut und kann für den Transport mit wenigen Handgriffen demontiert werden. Die Verbindung der beiden Tragflächenhälften erfolgt über ein kraftschlüssiges Steckungssystem aus Kohlefaser. Die Montage der Tragfläche auf dem Rumpf erfolgt mit M6-Kunststoffschrauben, damit sich die Fläche im Falle einer harten Landung vom Modell lösen kann. Der Antrieb des U-Can-Fly-II-Trainers erfolgt durch ein LiPo-Brushless-Power-System, das perfekt auf das Modell abgestimmt ist. Der 40A Skywalker-Regler ist fertig angeschlossen und programmiert. Der Wechsel des Antriebsakkus erfolgt einfach und bequem über einen Deckel auf der Rumpfoberseite. Die fünf Micro-Servos sind fertig im Modell eingebaut, ebenso sind die Anlenkgestänge bereits flugfertig montiert. Die Querruder werden von zwei separaten Tragflächenservos angesteuert. Dabei sind die Servos und die Anlenkungen aerodynamisch verkleidet. Der Klappenmechanismus des Abwurfschachts wird über ein Servo angesteuert und ist ebenfalls fix & fertig im Modell eingebaut. Das Beladen des Schachts kann wahlweise von unten oder auch von oben durch den Tragflächenausschnitt des Rumpfes erfolgen. Das Modell wird wahlweise als ARF- oder RTF-Version geliefert. Jede Version ist in den attraktiven Farbvarianten Rot, Blau und Grün erhältlich. Die ARF-Version beinhaltet das vormontierte Modell mit fünf Micro-Servos, Brushless-Motor mit Regler, Luftschraube und Spinner. In der Luft zeigt der U-Can-Fly-II-Trainer dann seine wahren Stärken! Das gutmütige und langsame Flugverhalten gibt dem Piloten viel Zeit, das nächste Steuermanöver einzuleiten. Durch die perfekte aerodynamische Konzeption, kommt der U Can Fly II ohne jegliche Kreiselsystem aus. Mitbewerber verbauen oft Kreiselsysteme in ihren Modellen, um konstruktive Unzulänglichkeiten zu kaschieren - das brauchen wir nicht! Auch beim Landen besticht das Modell durch sein eigenstabiles Flugverhalten und die pefekte Steuerfolgsamkeit auf alle Ruderbefehle. Nutzt man dann auch noch die Abwurfvorrichtung und setzt Fallschirmspringer im Flug ab, wird der U-Can-Fly-II-Trainer zum absoluten Eyecatcher auf jedem Flugplatz. So begeistert das Modell Piloten und Zuschauer mit seinen unübertroffenen Flugleistungen gleichermaßen.  Technische Daten Spannweite: 1.460 mm; Länge: 1.220 mm; Gewicht ca.: 1.250 g; Motor: Ø30x28mm 1.350kV; Akku: LiPo 3s 11,1V; RC-Anlage: ab 4 Kanäle  RC-Funktionen Höhenruder, Seitenruder mit Bugfahrwerk, Querruder, Motor, Ladeluke  Features &bull; Eleganter Trainer mit gutmütigen Flugeigenschaften&bull; RTF-Version mit 2.4GHz-Fernsteuersystem, 11,1V-LiPo-Akku und 12V-Balancer-Ladegerät&bull; Alle Servos mit Gestängen fertig eingebaut&bull; Motor & Regler ebenfalls flugfertig eingebaut&bull; Hoher Vorfertigungsrad, dadurch extrem kurze Bauzeit!&bull; Abwurfschacht für den Abwurf von Bonbons, Fallschirmspringern&bull; Abnehmbare Motorhaube&bull; Komplette Montage ohne Klebstoff&bull; Zeitgemäßer LiPo-Brushless-Antrieb mit hohem Wirkungsgrad&bull; Rumpf, Tragfläche und Leitwerk sind aus dem leichten Werkstoff HypoDur® gefertigt&bull; Geteilte Tragfläche mit kraftschlüssiger Steckung aus Kohlefaser&bull; Alle Ruder als spaltfreie Elastoflaps ausgelegt  Lieferumfang Geschäumte Formteile für Rumpf, Tragfläche und Heckleitwerk aus HypoDur®, 5 Micro-Servos, Brushless-Motor, LiPo-Brushless-Regler, 3s 11,1V LiPo-Akku, 12V-Balancer-Ladegerät, 2.4GHz-Fernsteuersystem  Erforderliches Zubehör 8x Akku AA 1,2V 2700mAhBest.-Nr. ORI13502  Zielgruppe Einsteiger, Fortgeschrittene Warnhinweise:ACHTUNGNicht für Kinder unter 14 Jahren geeignet.Benutzung unter unmittelbarer Aufsicht von Erwachsenen.]]></field>
+				
+					<field name="Hersteller">..Hype..</field>
+				
+					<field name="EAN">4044792059996</field>
+				
+					<field name="ProduktBezeichnung">Hype Brushless Elektro Flugzeug U Can Fly II RTF,blau,2.4GHz</field>
+				
+					<field name="Lieferzeit">Sofort versandfertig</field>
+				
+					<field name="FFAutomaticSearchOptimization"/>
+				
+					<field name="DQAttributes"/>
+				
+					<field name="Gewicht">..0.5000..</field>
+				
+					<field name="Produktlink"><![CDATA[http://www.d-edition.de/RC-Flugmodelle/RC-Flieger-Elektro/Hype-Brushless-Elektro-Flugzeug-U-Can-Fly-II-RTF-blau-2-4GHz.html]]></field>
+				
+					<field name="Einsatzgebiet">..Luft..</field>
+				
+					<field name="FotoLink"><![CDATA[http://www.d-edition.de/images/product_images/popup_images/hype-brushless-elektro-flugzeug-u-can-fly-ii-rtfblau2.4ghz_RO-1-022-2303KY_1.jpg]]></field>
+				
+					<field name="Lagerbestand">0</field>
+				
+					<field name="Fabrikat"/>
+				
+					<field name="ProduktKurzBeschreibung"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNrWithoutPrefix">1-022-2303KY</field>
+				
+					<field name="Akku-Typ">..11.1V..</field>
+				
+					<field name="Kategoriename"><![CDATA[|KategorienameROOT=RC Flugmodelle|KategorienameROOT/RC Flugmodelle=RC Flieger Elektro|]]></field>
+				
+					<field name="ProduktID">1292102</field>
+				
+					<field name="Preis">233.63</field>
+				
+					<field name="PreisSlider">233.63</field>
+				
+					<field name="FFCliplisterQuality"/>
+				
+					<field name="Bauart">..RTF Ready to Fly..</field>
+				
+					<field name="Maßstab"/>
+				
+					<field name="Kategoriename_lvl1"/>
+				
+					<field name="Kategoriename_lvl2"/>
+				
+					<field name="Antrisbart">..Elektro Brushless..</field>
+				
+					<field name="ArtikelNroderHerstellerArtikelNr">RO-1-022-2303KY</field>
+				
+					<field name="FFAfterSearchReorder"/>
+				
+					<field name="Kategoriename_lvl0"/>
+				
+			</record>
+		
+			<record nr="4" id="1252418" relevancy="99.98">
+				
+				
+					<field name="ProduktLangBeschreibung"><![CDATA[WR8 FLUX Ken Block Monster Ford Fiesta von HPI - auffälliges Design vereint mit unfassbarer FLUX Power Der HPI WR8 FLUX Ford Fiesta im Ken Blocks Monster Design bietet Elektro Rallye auf einer ganz neuen Ebene. Das auffällige Design zeichnet sich durch ein blau-schwarzes Thema aus. So besitzt der Rennwagen beispielsweise die herausstechenden blauen 11-Speichen Speedline GRC Felgen. Mit dem Original dieses detailgetreuen Modells ist der US-amerikanische Rallye- und Ralleycross-Fahrer Ken Block bereits gefahren. Der WR8 FLUX fährt mit einer atemberaubenden Geschwindigkeit von bis zu 97 Stundenkilometer. Erreicht wird dieses Tempo durch einfache Betätigung des Gashebels, denn das RC-Modell startet in GRC Action aus dem Stand heraus. Möglich macht das der FLUX VEKTOR 4000KV Motor. Das wahre Kraftpaket ist verantwortlich für die wahnsinnige Beschleunigung und manch halsbrecherischen Drift. Der Brushless Motor muss kaum gewartet werden und bietet trotzdem maximale Performance.  Viele Besonderheiten und individuell einstellbar - der HPI WR8 FLUX Der komplett vormontierte Ford Fiesta von HPI, der sowohl On- als auch Offroad geeignet ist, ist dank seines WR8 FLUX Chassis extrem stabil, da dieses dem eines Monstertrucks nachempfunden ist. Der Allradantrieb und die Semi-Slick Reifen von HPI geben die nötige Sicherheit bei verschiedenen äußeren Bedingungen und sorgen für die perfekte Lage auf jedem Untergrund. Der robuste und solide Auftritt des HPI WR8 FLUX mit Ford Fiesta H.F.H.V. Karosserie wird zudem durch die Doppelquerlenkeraufhängung, den Öldruckstoßdämpfer und die Stabilisatoren sowohl vorne als auch hinten verstärkt. Und das Beste an diesem RC-Rallye-Modell ist, dass er, wie ein echter Rennwagen, individuell einstellbar ist. Egal ob die Position der Dämpfer oder die Höhe des Fahrzeugs, dies alles kann direkt am Modell verstellt werden.  Lieferumfang:  RC-Modell RTR 2,4 GHz Sender und Empfänger 4 AA HPI Plazma Batterien für Sender]]></field>
+				
+					<field name="Hersteller">..HPI..</field>
+				
+					<field name="EAN">4944258025704</field>
+				
+					<field name="ProduktBezeichnung"><![CDATA[HPI 1:8 Brushless Elektro Auto WR8 Flux 2013 Ken Block Monster Fiesta RTR]]></field>
+				
+					<field name="Lieferzeit">Sofort versandfertig</field>
+				
+					<field name="FFAutomaticSearchOptimization"/>
+				
+					<field name="DQAttributes"/>
+				
+					<field name="Gewicht">..0.5000..</field>
+				
+					<field name="Produktlink"><![CDATA[http://www.d-edition.de/RC-Cars/RC-Cars-Elektro-Offroad/HPI-1-8-Brushless-Elektro-Auto-WR8-Flux-2013-Ken-Block-Monster-Fiesta-RTR.html]]></field>
+				
+					<field name="Einsatzgebiet"/>
+				
+					<field name="FotoLink"><![CDATA[http://www.d-edition.de/images/product_images/popup_images/hpi-1_8-brushless-elektro-auto-wr8-flux-2013-ken-block-monster-fiesta-rtr_LR-H112715_1.jpg]]></field>
+				
+					<field name="Lagerbestand">16</field>
+				
+					<field name="Fabrikat"/>
+				
+					<field name="ProduktKurzBeschreibung"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNrWithoutPrefix">H112715</field>
+				
+					<field name="Akku-Typ"/>
+				
+					<field name="Kategoriename"><![CDATA[|KategorienameROOT=RC Cars|KategorienameROOT/RC Cars=RC Cars Elektro Offroad|]]></field>
+				
+					<field name="ProduktID">1252418</field>
+				
+					<field name="Preis">497.68</field>
+				
+					<field name="PreisSlider">497.68</field>
+				
+					<field name="FFCliplisterQuality"/>
+				
+					<field name="Bauart"/>
+				
+					<field name="Maßstab"/>
+				
+					<field name="Kategoriename_lvl1"/>
+				
+					<field name="Kategoriename_lvl2"/>
+				
+					<field name="Antrisbart"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNr">LR-H112715</field>
+				
+					<field name="FFAfterSearchReorder"/>
+				
+					<field name="Kategoriename_lvl0"/>
+				
+			</record>
+		
+			<record nr="5" id="1228721" relevancy="99.98">
+				
+				
+					<field name="ProduktLangBeschreibung"><![CDATA[BL Combo SPX Zero #80705 / X20 17.5T #50854 StockSpec Top Brushless-Combo für Stock Racer! Mit dem Vector X20 StockSpec und dem SPX Zero warten höchste Power, mehr Kontrollierbarkeit, besseres Fahrgefühl und höhere Effizienz für noch mehr Spaß und packende Zweikämpfe auf jeden Stock Racer. Dieses Duo ist speziell auf die Bedürfnisse des True Stock Racing hin entwickelt worden und ist damit, sowie dem günstigen Paketpreis, die optimale Wahl für Vereinsrennen und Hobby-Rennserien!  > &#132;Boost 0" Brushless-Regler für echtes Stock Racing> VECTOR X20 StockSpec extrem leistungsstark & Wartungsarm> DHI Stock Champion & JConcepts Stock Nationals Champion 2013> High Output von "Blue is Better" unvergleichbar günstig> Perfekt für Vereinsrennen/Clubracer/Stock Klassen    LRP Vector X20 StockSpec:&bull; Advanced StockSpec Magnet - Rennlegaler, hochfester Magnet für maximale Leistung&bull; XTEC X20 Coolmax Gehäuse - Gefrästes 7075-T6 Aluminiumgehäuse mit maximalem Lufteinlass für niedrigste Betriebstemperatuen&bull; Dynamic Balanced StockSpec Rotor - Auf 2 Ebenen gewuchteter 12.5mm Sintered StockSpec Rotor für maximale Power und höchste Effizienz&bull; Optimierter Wettbewerbsstator - Optimierter kompakter Stator für verbessertes Fahrgefühl und Effizienz Mehr auf den Produktdetailseiten  LRP SPX Zero Regler:&bull; Boost Zero Mode: Keine Timing Funktion für echtes StockRacing! Einfache Anzeige über blinkende LED &bull; AutoCell System: Automatische NiMH-NiCD-LiPo Umstellung&bull; Advanced Digital mit 4 einstellbaren Modi: Komplett einstellbar - AutoCell System, Power Profile, Initial Brake und Auto-Brake&bull; 6 Power Profile: Perfekte Abstimmung auf alle Streckenbedingungen     Entspricht dem Reglement aller internationalen und nationalen Stock-Klassen!z.B. IFMAR, EFRA, DMC und BRCA  Vorgeschrieben in der LRP-HPI-Challenge und LRP-Offroad-Challenge!(außer Rookie)]]></field>
+				
+					<field name="Hersteller">..LRP..</field>
+				
+					<field name="EAN">4250068157444</field>
+				
+					<field name="ProduktBezeichnung">LRP BL Brushless Combo SPX Zero #80705/X20 17,5T #50854 StockSpec</field>
+				
+					<field name="Lieferzeit">Sofort versandfertig</field>
+				
+					<field name="FFAutomaticSearchOptimization"/>
+				
+					<field name="DQAttributes"/>
+				
+					<field name="Gewicht">..0.0000..</field>
+				
+					<field name="Produktlink"><![CDATA[http://www.d-edition.de/RC-Modellbau-Zubehoer/Elektronik/Motoren---Regler-Combo-Elektro/LRP-BL-Brushless-Combo-SPX-Zero--80705-X20-17-5T--50854-StockSpec.html]]></field>
+				
+					<field name="Einsatzgebiet"/>
+				
+					<field name="FotoLink"><![CDATA[http://www.d-edition.de/images/product_images/popup_images/lrp-bl-brushless-combo-spx-zero-80705_x20-175t-50854-stockspec_LR-81152_1.jpg]]></field>
+				
+					<field name="Lagerbestand">1</field>
+				
+					<field name="Fabrikat"/>
+				
+					<field name="ProduktKurzBeschreibung"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNrWithoutPrefix">81152</field>
+				
+					<field name="Akku-Typ"/>
+				
+					<field name="Kategoriename"><![CDATA[|KategorienameROOT=RC Modellbau Zubehör|KategorienameROOT/RC Modellbau Zubehör=Elektronik|KategorienameROOT/RC Modellbau Zubehör/Elektronik=Motoren   Regler Combo Elektro|]]></field>
+				
+					<field name="ProduktID">1228721</field>
+				
+					<field name="Preis">172.87</field>
+				
+					<field name="PreisSlider">172.87</field>
+				
+					<field name="FFCliplisterQuality"/>
+				
+					<field name="Bauart"/>
+				
+					<field name="Maßstab"/>
+				
+					<field name="Kategoriename_lvl1"/>
+				
+					<field name="Kategoriename_lvl2"/>
+				
+					<field name="Antrisbart"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNr">LR-81152</field>
+				
+					<field name="FFAfterSearchReorder"/>
+				
+					<field name="Kategoriename_lvl0"/>
+				
+			</record>
+		
+			<record nr="6" id="1228720" relevancy="99.98">
+				
+				
+					<field name="ProduktLangBeschreibung"><![CDATA[BL Combo SPX Zero #80705 / X20 13.5T #50844 StockSpec Top Brushless-Combo für Stock Racer! Mit dem Vector X20 StockSpec und dem SPX Zero warten höchste Power, mehr Kontrollierbarkeit, besseres Fahrgefühl und höhere Effizienz für noch mehr Spaß und packende Zweikämpfe auf jeden Stock Racer. Dieses Duo ist speziell auf die Bedürfnisse des True Stock Racing hin entwickelt worden und ist damit, sowie dem günstigen Paketpreis, die optimale Wahl für Vereinsrennen und Hobby-Rennserien!  > &#132;Boost 0" Brushless-Regler für echtes Stock Racing> VECTOR X20 StockSpec extrem leistungsstark & Wartungsarm> DHI Stock Champion & JConcepts Stock Nationals Champion 2013> High Output von "Blue is Better" unvergleichbar günstig> Perfekt für Vereinsrennen/Clubracer/Stock Klassen    LRP Vector X20 StockSpec:&bull; Advanced StockSpec Magnet - Rennlegaler, hochfester Magnet für maximale Leistung&bull; XTEC X20 Coolmax Gehäuse - Gefrästes 7075-T6 Aluminiumgehäuse mit maximalem Lufteinlass für niedrigste Betriebstemperatuen&bull; Dynamic Balanced StockSpec Rotor - Auf 2 Ebenen gewuchteter 12.5mm Sintered StockSpec Rotor für maximale Power und höchste Effizienz&bull; Optimierter Wettbewerbsstator - Optimierter kompakter Stator für verbessertes Fahrgefühl und Effizienz Mehr auf den Produktdetailseiten  LRP SPX Zero Regler:&bull; Boost Zero Mode: Keine Timing Funktion für echtes StockRacing! Einfache Anzeige über blinkende LED &bull; AutoCell System: Automatische NiMH-NiCD-LiPo Umstellung&bull; Advanced Digital mit 4 einstellbaren Modi: Komplett einstellbar - AutoCell System, Power Profile, Initial Brake und Auto-Brake&bull; 6 Power Profile: Perfekte Abstimmung auf alle Streckenbedingungen    Entspricht dem Reglement aller internationalen und nationalen Stock-Klassen!z.B. IFMAR, EFRA, DMC und BRCA  Vorgeschrieben in der LRP-HPI-Challenge und LRP-Offroad-Challenge!(außer Rookie)]]></field>
+				
+					<field name="Hersteller">..LRP..</field>
+				
+					<field name="EAN">4250068157451</field>
+				
+					<field name="ProduktBezeichnung">LRP BL Brushless Combo SPX Zero #80705/X20 13,5T #50844 StockSpec</field>
+				
+					<field name="Lieferzeit">Lieferzeit 1-3 Tage</field>
+				
+					<field name="FFAutomaticSearchOptimization"/>
+				
+					<field name="DQAttributes"/>
+				
+					<field name="Gewicht">..0.0000..</field>
+				
+					<field name="Produktlink"><![CDATA[http://www.d-edition.de/RC-Modellbau-Zubehoer/Elektronik/Motoren---Regler-Combo-Elektro/LRP-BL-Brushless-Combo-SPX-Zero--80705-X20-13-5T--50844-StockSpec.html]]></field>
+				
+					<field name="Einsatzgebiet"/>
+				
+					<field name="FotoLink"><![CDATA[http://www.d-edition.de/images/product_images/popup_images/lrp-bl-brushless-combo-spx-zero-80705_x20-135t-50844-stockspec_LR-81151_1.jpg]]></field>
+				
+					<field name="Lagerbestand">-1</field>
+				
+					<field name="Fabrikat"/>
+				
+					<field name="ProduktKurzBeschreibung"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNrWithoutPrefix">81151</field>
+				
+					<field name="Akku-Typ"/>
+				
+					<field name="Kategoriename"><![CDATA[|KategorienameROOT=RC Modellbau Zubehör|KategorienameROOT/RC Modellbau Zubehör=Elektronik|KategorienameROOT/RC Modellbau Zubehör/Elektronik=Motoren   Regler Combo Elektro|]]></field>
+				
+					<field name="ProduktID">1228720</field>
+				
+					<field name="Preis">180.64</field>
+				
+					<field name="PreisSlider">180.64</field>
+				
+					<field name="FFCliplisterQuality"/>
+				
+					<field name="Bauart"/>
+				
+					<field name="Maßstab"/>
+				
+					<field name="Kategoriename_lvl1"/>
+				
+					<field name="Kategoriename_lvl2"/>
+				
+					<field name="Antrisbart"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNr">LR-81151</field>
+				
+					<field name="FFAfterSearchReorder"/>
+				
+					<field name="Kategoriename_lvl0"/>
+				
+			</record>
+		
+			<record nr="7" id="1228719" relevancy="99.98">
+				
+				
+					<field name="ProduktLangBeschreibung"><![CDATA[BL Combo SPX Zero #80705 / X20 10.5T #50834 StockSpec Top Brushless-Combo für Stock Racer! Mit dem Vector X20 StockSpec und dem SPX Zero warten höchste Power, mehr Kontrollierbarkeit, besseres Fahrgefühl und höhere Effizienz für noch mehr Spaß und packende Zweikämpfe auf jeden Stock Racer. Dieses Duo ist speziell auf die Bedürfnisse des True Stock Racing hin entwickelt worden und ist damit, sowie dem günstigen Paketpreis, die optimale Wahl für Vereinsrennen und Hobby-Rennserien!  > &#132;Boost 0" Brushless-Regler für echtes Stock Racing> VECTOR X20 StockSpec extrem leistungsstark & Wartungsarm> DHI Stock Champion & JConcepts Stock Nationals Champion 2013> High Output von "Blue is Better" unvergleichbar günstig> Perfekt für Vereinsrennen/Clubracer/Stock Klassen    LRP Vector X20 StockSpec:&bull; Advanced StockSpec Magnet - Rennlegaler, hochfester Magnet für maximale Leistung&bull; XTEC X20 Coolmax Gehäuse - Gefrästes 7075-T6 Aluminiumgehäuse mit maximalem Lufteinlass für niedrigste Betriebstemperatuen&bull; Dynamic Balanced StockSpec Rotor - Auf 2 Ebenen gewuchteter 12.5mm Sintered StockSpec Rotor für maximale Power und höchste Effizienz&bull; Optimierter Wettbewerbsstator - Optimierter kompakter Stator für verbessertes Fahrgefühl und Effizienz Mehr auf den Produktdetailseiten  LRP SPX Zero Regler:&bull; Boost Zero Mode: Keine Timing Funktion für echtes StockRacing! Einfache Anzeige über blinkende LED &bull; AutoCell System: Automatische NiMH-NiCD-LiPo Umstellung&bull; Advanced Digital mit 4 einstellbaren Modi: Komplett einstellbar - AutoCell System, Power Profile, Initial Brake und Auto-Brake&bull; 6 Power Profile: Perfekte Abstimmung auf alle Streckenbedingungen    Entspricht dem Reglement aller internationalen und nationalen Stock-Klassen!z.B. IFMAR, EFRA, DMC und BRCA  Vorgeschrieben in der LRP-HPI-Challenge und LRP-Offroad-Challenge!(außer Rookie)]]></field>
+				
+					<field name="Hersteller">..LRP..</field>
+				
+					<field name="EAN">4250068157482</field>
+				
+					<field name="ProduktBezeichnung"><![CDATA[LRP BL Brushless Motor Set Combo SPX Zero #80705/X20 10,5T #50834 StockSpec]]></field>
+				
+					<field name="Lieferzeit">Lieferzeit 10-14 Tage</field>
+				
+					<field name="FFAutomaticSearchOptimization"/>
+				
+					<field name="DQAttributes"/>
+				
+					<field name="Gewicht">..0.0500..</field>
+				
+					<field name="Produktlink"><![CDATA[http://www.d-edition.de/RC-Modellbau-Zubehoer/Elektronik/Motoren---Regler-Combo-Elektro/LRP-BL-Brushless-Motor-Set-Combo-SPX-Zero--80705-X20-10-5T--50834-StockSpec.html]]></field>
+				
+					<field name="Einsatzgebiet"/>
+				
+					<field name="FotoLink"><![CDATA[http://www.d-edition.de/images/product_images/popup_images/lrp-bl-brushless-motor-set-combo-spx-zero-80705_x20-105t-50834-stockspec_LR-81150_1.jpg]]></field>
+				
+					<field name="Lagerbestand">-1</field>
+				
+					<field name="Fabrikat"/>
+				
+					<field name="ProduktKurzBeschreibung"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNrWithoutPrefix">81150</field>
+				
+					<field name="Akku-Typ"/>
+				
+					<field name="Kategoriename"><![CDATA[|KategorienameROOT=RC Modellbau Zubehör|KategorienameROOT/RC Modellbau Zubehör=Elektronik|KategorienameROOT/RC Modellbau Zubehör/Elektronik=Motoren   Regler Combo Elektro|]]></field>
+				
+					<field name="ProduktID">1228719</field>
+				
+					<field name="Preis">170.05</field>
+				
+					<field name="PreisSlider">170.05</field>
+				
+					<field name="FFCliplisterQuality"/>
+				
+					<field name="Bauart"/>
+				
+					<field name="Maßstab"/>
+				
+					<field name="Kategoriename_lvl1"/>
+				
+					<field name="Kategoriename_lvl2"/>
+				
+					<field name="Antrisbart"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNr">LR-81150</field>
+				
+					<field name="FFAfterSearchReorder"/>
+				
+					<field name="Kategoriename_lvl0"/>
+				
+			</record>
+		
+			<record nr="8" id="1225446" relevancy="99.98">
+				
+				
+					<field name="ProduktLangBeschreibung"><![CDATA[LRP Combo Set Spin Pro Brushless Regler + LRP Vector K7 6,5T Brushless Motor  LRP Nr: 80751  Beschreibung Regler: Der Spin Pro Brushlessregler eignet sich ideal für Hobby- und Parkplatzfahrer sowie ambitionierte Wettbewerbseinsteiger. Der Regler weist zahlreiche Features auf, die speziell auf Wettbewerbseinsteiger abgestimmt sind. Mehr Leistung durch einstellbare Powerprogramme und die einstellbare Autobrake-Funktion machen den Spin Pro zur ersten Wahl für den Einsatz in Hobbyrennklassen, wie beispielsweise der LRP-HPI-Challenge. (Boost 0 Modus)  Der Spin Pro verfügt über ein getaktetes BEC und kann mit 2S bis 4S LiPo Akkus betrieben werden. Der Regler ist sensorgesteuert und setzt in Sachen Preis/Leistung neue Maßstäbe. Durch das völlig neue Design konnten alle Komponenten inklusive dem Powerkondensator und Ein/Aus Schalter im Gehäuse integriert werden. Die Software kann mittels USB Bridge aktualisiert werden.    Features: Weltmeister Sensor Brushless Technologie2S-4S LiPo (7.2 - 14.8V) - Einstellbarer LiPo Cut-OffPowerprogramme - 5 Profile für feine Anpassung an alle Bedingungen und Motoren &#132;true stock racing" - &#132;Boost 0" Modus möglichGefährlich Leistungsstark - Weltmeisterleistung in einem überraschend günstigen GesamtpaketDeans® Hochstrom-AkkusteckerEinfache Single-Touch BedienungVorwärts/Bremse/Rückwärts + Wettbewerbsmodus nur mit Vorwärts/BremseEinstellbare Automatikbremse - Einfache Anpassung an unterschiedliche StreckenverhältnisseHeavy-Duty Design - Robuste, vollständig integrierte KonstruktionBenutzer-Interface mit 3 LED's - Für einfachste HandhabungMulti Protection System - Fail SafeStarkes getaktetes BEC - 6V / 2ASteckbarer High Performance Lüfter - Leichter Einbau und effiziente Kühlung für niedriges Motorlimit  Technische Daten: Spannungsbereich 7.2 - 14.8V (2S - 4S LiPo) Strombelastbarkeit 200A Phase Typischer Spannungsabfall @20A 0.044V/Phase Gewicht (ohne Kabel) 32g Gehäuse-Abmessungen 36 x 38.5 x 22mm Empfohlenes Motorlimt (2S 7.4V) über 5.5T Empfohlenes Motorlimt (3S 11.1V) über 9.5T Empfohlenes Motorlimt (4S 14.8V) über 12.5T  Beschreibung Motor: Weltmeistergene zum Budget-Preis! Der Vector K7 ist der ultimative Powermotor zum Taschengeld-Preis. Mit diesem Motor bietet LRP erstmals World-Champion Technik für Hobbyfahrer.  Maximale Power und maximale Haltbarkeit sind die Attribute des K7, der die Gene des Weltmeister-Motors Vector X20 beinhaltet. Egal ob Tourenwagen, Buggy, Truggy, Monstertruck oder Short-Course - dieser Brushlessmotor verleiht jedem R/C Car im Maßstab 1/10 ein sattes Plus an Leistung und dank LRP PreciSensor System ein deutlich feinfühligeres Ansprechverhalten.  Weitere Top-Features wie Oversized Kugellager, zerlegbares Aluminium Gehäuse, die innovative HDS Technologie und natürlich der gesinterte Hochleistungsmagnet machen den Vector K7 zum unantastbaren Preis-Leistungs-Sieger.  Aluminium Motorgehäuse: Effiziente Motorkühlung und optimiertem DesignGesinterter Hochleistungsmagnet: Hochfester gesinterter Magnet für maximale LeistungHDS Technologie: Kompakter Stator für maximale LeistungStandard 540er Größe und GewichtZerlegbar: Komplett zerlegbares Gehäuse zum Reinigen und TunenRevolutionär präzise Sensor-Positionierung für beste Leistung, Fahrgefühl und EffizienzÜberdimensionierte Kugellager für höchste Leistung und HaltbarkeitEasysolder design: Dick-Kupfer Multilayer-PCB für niedrigsten WiderstandHandgewickeltKann mit gesensorten und sensorlosen Reglern betrieben werden Drehzahl 40.700Gewicht 154gkv 5.500Leistung 370WMagnetmaterial Sintered 12.45mmSpannungsbereich 3.7-7.4VWirkungsgrad 92%Länge 50.2mmDurchmesser 35.8mmWellendurchmesser 3.17mm]]></field>
+				
+					<field name="Hersteller">..LRP..</field>
+				
+					<field name="EAN">4250068153286</field>
+				
+					<field name="ProduktBezeichnung">LRP BL Brushless Combo Spin Pro Super #80250 / Vector k7 6.5T #50431</field>
+				
+					<field name="Lieferzeit">Sofort versandfertig</field>
+				
+					<field name="FFAutomaticSearchOptimization"/>
+				
+					<field name="DQAttributes"/>
+				
+					<field name="Gewicht">..0.5000..</field>
+				
+					<field name="Produktlink"><![CDATA[http://www.d-edition.de/RC-Modellbau-Zubehoer/Elektronik/Motoren---Regler-Combo-Elektro/LRP-BL-Brushless-Combo-Spin-Pro-Super--80250---Vector-k7-6-5T--50431.html]]></field>
+				
+					<field name="Einsatzgebiet"/>
+				
+					<field name="FotoLink"><![CDATA[http://www.d-edition.de/images/product_images/popup_images/lrp-bl-brushless-combo-spin-pro-super-80250-_-vector-k7-6.5t-50431_LR-80751_1.jpg]]></field>
+				
+					<field name="Lagerbestand">-1</field>
+				
+					<field name="Fabrikat"/>
+				
+					<field name="ProduktKurzBeschreibung"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNrWithoutPrefix">80751</field>
+				
+					<field name="Akku-Typ"/>
+				
+					<field name="Kategoriename"><![CDATA[|KategorienameROOT=RC Modellbau Zubehör|KategorienameROOT/RC Modellbau Zubehör=Elektronik|KategorienameROOT/RC Modellbau Zubehör/Elektronik=Motoren   Regler Combo Elektro|]]></field>
+				
+					<field name="ProduktID">1225446</field>
+				
+					<field name="Preis">133.08</field>
+				
+					<field name="PreisSlider">133.08</field>
+				
+					<field name="FFCliplisterQuality"/>
+				
+					<field name="Bauart"/>
+				
+					<field name="Maßstab"/>
+				
+					<field name="Kategoriename_lvl1"/>
+				
+					<field name="Kategoriename_lvl2"/>
+				
+					<field name="Antrisbart"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNr">LR-80751</field>
+				
+					<field name="FFAfterSearchReorder"/>
+				
+					<field name="Kategoriename_lvl0"/>
+				
+			</record>
+		
+			<record nr="9" id="1222368" relevancy="99.98">
+				
+				
+					<field name="ProduktLangBeschreibung"><![CDATA[LRP Combo Set Spin Super Brushless Regler + LRP Vector K7 10,5T Brushless Motor LRP Nr: 80748  Beschreibung Regler: Spin Super Brushless Regler Unschlagbar in Preis und Leistung! Art.Nr.: 80230  Der Spin Super Brushless Reverse Regler eignet sich ideal für Hobby- und Parkplatzfahrer sowie ambitionierte Wettbewerbseinsteiger. Der Spin Super ist ein zuverlässiger und kostengünstiger Allround-Regler, der ein perfektes Tuning für RTR-Modelle darstellt. Er eignet sich für R/C Cars im Maßstab 1/10 und kann in Tourenwagen, Buggys, Truggys, Monstertrucks oder auch Short Course Trucks eingesetzt werden.  Der Regler verfügt über ein getaktetes BEC und kann mit 2S bis 4S LiPo Akkus betrieben werden. Er ist sensorgesteuert und setzt in Sachen Preis/Leistung neue Maßstäbe. Durch das völlig neue Design konnten alle Komponenten inklusive dem Powerkondensator und Ein/Aus Schalter im Gehäuse integriert werden. Die Software des Spin Reglers kann mittels USB Bridge aktualisiert werden.   Features: Weltmeister Sensor Brushless Technologie2S-4S LiPo (7.2 - 14.8V) - Einstellbarer LiPo Cut-Offtrue stock racing - Boost 0 Modus möglichGefährlich Leistungsstark - Weltmeisterleistung in einem überraschend günstigen GesamtpaketSpritzwassergeschützt - Schutz gegen die Einwirkungen der ElementeEinfache Single-Touch BedienungUSB Software Updatebarkeit - Profitieren Sie von den neusten Entwicklungen, erhältlich auf www.LRP.cc!Vorwärts/Bremse/Rückwärts + Wettbewerbsmodus nur mit Vorwärts/BremseHeavy-Duty Design - Robuste, vollständig integrierte KonstruktionBenutzer-Interface mit 3 LED's - Für einfachste HandhabungMulti Protection System - Fail SafeStarkes getaktetes BEC - 6V / 2A  Technische Daten: Spannungsbereich 7.2 - 14.8V (2S - 4S LiPo) Strombelastbarkeit 100A Phase Typischer Spannungsabfall @20A 0.044V/Phase Gewicht (ohne Kabel) 32g Gehäuse-Abmessungen 36 x 38.5 x 22mm Empfohlenes Motorlimit über 9.5T  Beschreibung Motor: Weltmeistergene zum Budget-Preis! Der Vector K7 ist der ultimative Powermotor zum Taschengeld-Preis. Mit diesem Motor bietet LRP erstmals World-Champion Technik für Hobbyfahrer.  Maximale Power und maximale Haltbarkeit sind die Attribute des K7, der die Gene des Weltmeister-Motors Vector X20 beinhaltet. Egal ob Tourenwagen, Buggy, Truggy, Monstertruck oder Short-Course - dieser Brushlessmotor verleiht jedem R/C Car im Maßstab 1/10 ein sattes Plus an Leistung und dank LRP PreciSensor System ein deutlich feinfühligeres Ansprechverhalten.  Weitere Top-Features wie Oversized Kugellager, zerlegbares Aluminium Gehäuse, die innovative HDS Technologie und natürlich der gesinterte Hochleistungsmagnet machen den Vector K7 zum unantastbaren Preis-Leistungs-Sieger.  Aluminium Motorgehäuse: Effiziente Motorkühlung und optimiertem DesignGesinterter Hochleistungsmagnet: Hochfester gesinterter Magnet für maximale LeistungHDS Technologie: Kompakter Stator für maximale LeistungStandard 540er Größe und GewichtZerlegbar: Komplett zerlegbares Gehäuse zum Reinigen und TunenRevolutionär präzise Sensor-Positionierung für beste Leistung, Fahrgefühl und EffizienzÜberdimensionierte Kugellager für höchste Leistung und HaltbarkeitEasysolder design: Dick-Kupfer Multilayer-PCB für niedrigsten WiderstandHandgewickeltKann mit gesensorten und sensorlosen Reglern betrieben werden Drehzahl 26.640Gewicht 154gkv 3.600Leistung 280WMagnetmaterial Sintered 12.45mmSpannungsbereich 3.7-11.1VWirkungsgrad 93%Länge 50.2mmDurchmesser 35.8mmWellendurchmesser 3.17mm]]></field>
+				
+					<field name="Hersteller">..LRP..</field>
+				
+					<field name="EAN">4250068153279</field>
+				
+					<field name="ProduktBezeichnung">LRP BL Brushless Combo Spin Super #80230 / Vector k7 10.5T #50451</field>
+				
+					<field name="Lieferzeit">Sofort versandfertig</field>
+				
+					<field name="FFAutomaticSearchOptimization"/>
+				
+					<field name="DQAttributes"/>
+				
+					<field name="Gewicht">..0.5000..</field>
+				
+					<field name="Produktlink"><![CDATA[http://www.d-edition.de/RC-Modellbau-Zubehoer/Elektronik/Motoren---Regler-Combo-Elektro/LRP-BL-Brushless-Combo-Spin-Super--80230---Vector-k7-10-5T--50451.html]]></field>
+				
+					<field name="Einsatzgebiet"/>
+				
+					<field name="FotoLink"><![CDATA[http://www.d-edition.de/images/product_images/popup_images/lrp-bl-brushless-combo-spin-super-80230-_-vector-k7-10.5t-50451_LR-80748_1.jpg]]></field>
+				
+					<field name="Lagerbestand">-2</field>
+				
+					<field name="Fabrikat"/>
+				
+					<field name="ProduktKurzBeschreibung"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNrWithoutPrefix">80748</field>
+				
+					<field name="Akku-Typ"/>
+				
+					<field name="Kategoriename"><![CDATA[|KategorienameROOT=RC Modellbau Zubehör|KategorienameROOT/RC Modellbau Zubehör=Elektronik|KategorienameROOT/RC Modellbau Zubehör/Elektronik=Motoren   Regler Combo Elektro|]]></field>
+				
+					<field name="ProduktID">1222368</field>
+				
+					<field name="Preis">111.26</field>
+				
+					<field name="PreisSlider">111.26</field>
+				
+					<field name="FFCliplisterQuality"/>
+				
+					<field name="Bauart"/>
+				
+					<field name="Maßstab"/>
+				
+					<field name="Kategoriename_lvl1"/>
+				
+					<field name="Kategoriename_lvl2"/>
+				
+					<field name="Antrisbart"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNr">LR-80748</field>
+				
+					<field name="FFAfterSearchReorder"/>
+				
+					<field name="Kategoriename_lvl0"/>
+				
+			</record>
+		
+			<record nr="10" id="1076450" relevancy="99.98">
+				
+				
+					<field name="ProduktLangBeschreibung"><![CDATA[                                         	RC- Elektro Brushless Motor	     	    		Brushless Motor	             LRP 456MB Jet Stream Brushless 	Motor 	    Passend für Jet Stream Type- G 	ARF	            NEU & 	Original Verpackt        SOFORT LIEFERBAR - SOFORT LIEFERBAR        ---> 	Kaufabwicklungsinformationen finden Sie am Ende der Artikelbeschreibung <---                              Beschreibung:         						              				 				Hochwertiger Ersatz und 				Zubehörmotor für den 456MB Type G Jet Stream Notwendig für den 				456MB Jet Stream Type G ARF.								 			               									 						 			               				Lieferumfang				 						- LRP Brushless Motor ( 		Type-G )  Nr:MB66438						Neu und Original Verpackt				                                                                                            														Weiteres Zubehör                                                                                                                                                                       Egal was und                           wie viel Zubehör Sie zusätzlich bestellen, es fallen                           keine weiteren Versandkosten innerhalb Deutschland an                           !                                                                                                                                                                      ]]></field>
+				
+					<field name="Hersteller">..LRP..</field>
+				
+					<field name="EAN"/>
+				
+					<field name="ProduktBezeichnung">LRP Brushless Motor (Jet-Stream Typ-G)</field>
+				
+					<field name="Lieferzeit">Lieferzeit 4-6 Tage</field>
+				
+					<field name="FFAutomaticSearchOptimization"/>
+				
+					<field name="DQAttributes"/>
+				
+					<field name="Gewicht">..0.0000..</field>
+				
+					<field name="Produktlink"><![CDATA[http://www.d-edition.de/RC-Modellbau-Zubehoer/Elektronik/Motoren-Elektro/LRP-Brushless-Motor--Jet-Stream-Typ-G-.html]]></field>
+				
+					<field name="Einsatzgebiet"/>
+				
+					<field name="FotoLink"><![CDATA[http://www.d-edition.de/images/product_images/popup_images/lrp-brushless-motor-jet-stream-typ-g_LR-MB66438_1.jpg]]></field>
+				
+					<field name="Lagerbestand">0</field>
+				
+					<field name="Fabrikat"/>
+				
+					<field name="ProduktKurzBeschreibung"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNrWithoutPrefix">MB66438</field>
+				
+					<field name="Akku-Typ"/>
+				
+					<field name="Kategoriename"><![CDATA[|KategorienameROOT=RC Modellbau Zubehör|KategorienameROOT/RC Modellbau Zubehör=Elektronik|KategorienameROOT/RC Modellbau Zubehör/Elektronik=Motoren Elektro|]]></field>
+				
+					<field name="ProduktID">1076450</field>
+				
+					<field name="Preis">29.99</field>
+				
+					<field name="PreisSlider">29.99</field>
+				
+					<field name="FFCliplisterQuality"/>
+				
+					<field name="Bauart"/>
+				
+					<field name="Maßstab"/>
+				
+					<field name="Kategoriename_lvl1"/>
+				
+					<field name="Kategoriename_lvl2"/>
+				
+					<field name="Antrisbart"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNr">LR-MB66438</field>
+				
+					<field name="FFAfterSearchReorder"/>
+				
+					<field name="Kategoriename_lvl0"/>
+				
+			</record>
+		
+			<record nr="11" id="1069452" relevancy="99.98">
+				
+				
+					<field name="ProduktLangBeschreibung"><![CDATA[RC- Elektro Zubehör von LRP " Brushless Low Profile Tuning Lüfter " - Für Brushless Regler - LRP Nr: 82512 NEU & Original Verpackt   Beschreibung Der perfekte Tuning-Lüfter für den SPHERE TC-Spec und den SPX Bullet ReverseTrotz flacherer Bauweise wird der Luftdurchsatz erhöht. Diese Kühlung steigert die Effizienz des Reglers enorm inkl. Schrauben.]]></field>
+				
+					<field name="Hersteller">..LRP..</field>
+				
+					<field name="EAN">4250068140439</field>
+				
+					<field name="ProduktBezeichnung">LRP Brushless Low Profile Tuning Lüfter 25x25x7 82512</field>
+				
+					<field name="Lieferzeit">Sofort versandfertig</field>
+				
+					<field name="FFAutomaticSearchOptimization"/>
+				
+					<field name="DQAttributes"/>
+				
+					<field name="Gewicht">..0.0670..</field>
+				
+					<field name="Produktlink"><![CDATA[http://www.d-edition.de/RC-Modellbau-Zubehoer/Elektronik/Sonstiges/LRP-Brushless-Low-Profile-Tuning-Luefter-25x25x7-82512.html]]></field>
+				
+					<field name="Einsatzgebiet"/>
+				
+					<field name="FotoLink"><![CDATA[http://www.d-edition.de/images/product_images/popup_images/lrp-brushless-low-profile-tuning-luefter-25x25x7-82512_LR-82512_1.jpg]]></field>
+				
+					<field name="Lagerbestand">-3</field>
+				
+					<field name="Fabrikat"/>
+				
+					<field name="ProduktKurzBeschreibung"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNrWithoutPrefix">82512</field>
+				
+					<field name="Akku-Typ"/>
+				
+					<field name="Kategoriename"><![CDATA[|KategorienameROOT=RC Modellbau Zubehör|KategorienameROOT/RC Modellbau Zubehör=Elektronik|KategorienameROOT/RC Modellbau Zubehör/Elektronik=Sonstiges|]]></field>
+				
+					<field name="ProduktID">1069452</field>
+				
+					<field name="Preis">11.31</field>
+				
+					<field name="PreisSlider">11.31</field>
+				
+					<field name="FFCliplisterQuality"/>
+				
+					<field name="Bauart"/>
+				
+					<field name="Maßstab"/>
+				
+					<field name="Kategoriename_lvl1"/>
+				
+					<field name="Kategoriename_lvl2"/>
+				
+					<field name="Antrisbart"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNr">LR-82512</field>
+				
+					<field name="FFAfterSearchReorder"/>
+				
+					<field name="Kategoriename_lvl0"/>
+				
+			</record>
+		
+			<record nr="12" id="1338513" relevancy="99.97">
+				
+				
+					<field name="ProduktLangBeschreibung"><![CDATA[E-flite NIGHTvisionaire BNF Basic Die Sonne geht unter, die Dämmerung beginnt - und wo sind Sie? Auf dem Flugplatz natürlich! Erleben Sie mit der E-flite NIGHT VisionAire Kunstflugspaß zu jeder Tages- oder Nachtzeit. Die im Inneren der aus Z-Schaum aufgebauten Zelle integrierte LED-Beleuchtung ist stark genug das ganze Modell erstrahlen zu lassen und macht Ihre NIGHT VisionAire zum hellsten Punkt am Himmel. Noch nie haben 3D-Manöver so beeindruckend ausgesehen und so viel Spaß gemacht. Dank integrierter SAFE-Technologie können Sie sich jederzeit über einen Panikschalter automatisch aus kritischen Lagen befreien und haben das gute Gefühl, ein virtuelles Sicherheitsnetz an Bord zu haben. Fliegen Sie mit mehr Spaß auch an windigen Tagen oder bei Dunkelheit. Eine verbesserte Aerodynamik mit Vortex-Generatoren, optionalen Side-Force-Generatoren und raffinierter Profilierung sorgt dabei zudem für eine unglaubliche Wendigkeit. Das perfekte Modell für alle Piloten, die immer flugbereit sein wollen.  Mit SAFE-Technologie stressfrei fliegenDank SAFE-Technologie (Sensor Assisted Flight Envelope) fliegen Sie mit dem guten Gefühl, ein virtuelles Sicherheitsnetz an Bord zu haben, das Sie jederzeit über einen Panikschalter an der Fernsteuerung automatisch aus kritischen Lagen befreit. Rettung auf KnopfdruckSobald der Pilot die Kontrolle über das Modell verliert drückt er einfach den Panik-Button und das Modell nimmt automatisch eine stabile und gerade Fluglage ein. Hat sich das Flugzeug stabilisiert, bringt der Pilot alle Steuerknüppel in die Neutralposition und kann langsam auf Sicherheitshöhe steigen. LED-BeleuchtungDie im Inneren der aus Z-Schaum aufgebauten Zelle integrierte LED-Beleuchtung ist stark genug, das ganze Modell erstrahlen zu lassen. Damit sind Sie zu jeder Tages- und Nachtzeit flugbereit. AR636A EmpfängerNeben der zuverlässigen Spektrum 2.4GHz DSMX-Technologie ist der AR636A 6-Kanal Empfänger mit weiteren exklusiven Features ausgestattet. SAFE- und AS3X-Technologie helfen dem Piloten, jederzeit die Kontrolle über das Modell zu bewahren.   Verbesserte AerodynamikVortex-Generatoren, optionale Side-Force-Generatoren und eine raffinierte Profilierung sorgen für eine unglaubliche Wendigkeit. Das extra starke Profil und die erweiterte Sehnenlänge der Querruder erhöht die Stabilität bei langsamen Flügen. Einfache MontageDie zweiteiligen, CFK-verstärkten Plug-in Flügel machen den Transport und die Montage angenehm einfach. Eine große Zugangsluke sorgt für den schnellstmöglichen Einbau des empfohlenen E-flite 2200mAh 3S 11.1V 30C LiPo-Akkus (EFLB22003S30, separat erhältlich). Features     SAFE- und AS3X-Technologie helfen dem Piloten, jederzeit die Kontrolle über das Modell zu behalten    Spektrum AR636A DSMX 6-Kanal Empfänger enthalten    Lichtstarke LED-Nachtflugbeleuchtung im Inneren des Modells installiert    Leistungsstarker 10er, 1250Kv Brushless Außenläufer Motor enthalten    Robustes Draht-Fahrwerk und große Räder für das Abheben auf Gras    Digitale 13g Micro Servos mit Metallgetriebe installiert    Inkl. E-flite 40A Pro Lite Brushless Regler mit BEC-Switch-Mode  Artikelnummer                   EFL7150Hersteller                   E-fliteVersion                               BNF basicSpannweite                  1143 mmModell Länge                  1088 mmMaterial                              Z-SchaumModell Gewicht                  1350 - 1450 gElektro-Motor                  10er, 1250Kv Brushless Außenläufer Motor (enthalten)Akku                              11.1V 3S 2200mAh 30C LiPo Akku (benötigt)Regler                              40A Lite Pro Switch-Mode BEC Brushless ESC (enthalten)Servo                              4 Stk. 13g DigitalservosLadegerät                  3S LiPo kompatibles Balance Ladegerät (benötigt)On-Board-Elektronik      SAFE- und AS3X-TechnologieEmpfänger                  AR636A 6-Kanal DSMX Empfänger, SAFE installiert (enthalten)Fernsteuerung                  Mind. 4-Kanal Fernsteuerung mit DSM2/DSMX-Technologie (benötigt)Bauzeit                              weniger als 1 StundeEinsatzbereich                  OutdoorAltersklasse                  ab 14 JahreSkill Level                  Fortgeschrittene  Inhalt:     Fertig aufgebautes Modell    10er, 1250Kv Brushless Außenläufer-Motor    AR636A 6-Kanal DSMX Empfänger mit installierter SAFE-Technologie    4 Stk. 13g Digitalservos    40A Lite Pro Brushless ESC mit BEC-Switch-Mode Benötigtes Zubehör     Mind. 4-Kanal Fernsteuerung mit Spektrum DSM2-/DSMX-Technologie    2200mAh 3S 11.1V LiPo-Akku    3S LiPo kompatibles Balance-Ladegerät]]></field>
+				
+					<field name="Hersteller">..E-flite..</field>
+				
+					<field name="EAN">0605482057506</field>
+				
+					<field name="ProduktBezeichnung">E-flite Brushless Flugzeug NIGHTvisionaire BNF Basic</field>
+				
+					<field name="Lieferzeit">Sofort versandfertig</field>
+				
+					<field name="FFAutomaticSearchOptimization"/>
+				
+					<field name="DQAttributes"/>
+				
+					<field name="Gewicht">..0.0150..</field>
+				
+					<field name="Produktlink"><![CDATA[http://www.d-edition.de/RC-Flugmodelle/RC-Flieger-Elektro/E-flite-Brushless-Flugzeug-NIGHTvisionaire-BNF-Basic.html]]></field>
+				
+					<field name="Einsatzgebiet">..Luft..</field>
+				
+					<field name="FotoLink"><![CDATA[http://www.d-edition.de/images/product_images/popup_images/e-flite-brushless-flugzeug-nightvisionaire-bnf-basic_HOR-EFL7150_1.jpg]]></field>
+				
+					<field name="Lagerbestand">0</field>
+				
+					<field name="Fabrikat"/>
+				
+					<field name="ProduktKurzBeschreibung"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNrWithoutPrefix">EFL7150</field>
+				
+					<field name="Akku-Typ"/>
+				
+					<field name="Kategoriename"><![CDATA[|KategorienameROOT=RC Flugmodelle|KategorienameROOT/RC Flugmodelle=RC Flieger Elektro|]]></field>
+				
+					<field name="ProduktID">1338513</field>
+				
+					<field name="Preis">269.99</field>
+				
+					<field name="PreisSlider">269.99</field>
+				
+					<field name="FFCliplisterQuality"/>
+				
+					<field name="Bauart">..BNF Flugfertig ohne Sender..</field>
+				
+					<field name="Maßstab"/>
+				
+					<field name="Kategoriename_lvl1"/>
+				
+					<field name="Kategoriename_lvl2"/>
+				
+					<field name="Antrisbart"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNr">HOR-EFL7150</field>
+				
+					<field name="FFAfterSearchReorder"/>
+				
+					<field name="Kategoriename_lvl0"/>
+				
+			</record>
+		
+			<record nr="13" id="1329039" relevancy="99.97">
+				
+				
+					<field name="ProduktLangBeschreibung"><![CDATA[YETI Brushless RTR 1:10 4WD Scale Rock Racer 2,4Ghz Beschreibung Axial 1:10 Yeti 4WD Brushless Rock Racer Truck 2,4 GHz RTR Set AX90026 Der neue High-Level Rock Racer komplett wasserdicht mit 3150Kv Brushless Motor im RTR Set! Der Yeti ist Axial neuester Streich wenn es um High-Level Rock Racing geht. Durchdacht bis ins kleinste Detail ist der Rock Racer hinten mit einer soliden Starrachse und vorne mit Einzelradaufhängung ausgestattet. Entwickelt wurde das RC Modell für volle Rock Racing Action und um auch bei schlimmsten Bedingungen zuverlässig zu funktionieren. Die ausgeprägten technischen und ästhetischen Komponenten wurden unter Berücksichtigung echter Full-Size Desert Trucks und Rock Crawler entwickelt. Egal ob als Fun-Racer oder als Competition-Racer, der Yeti ist genau das was Sie suchen! Der neue Freund von Schlamm und Dreck! Rock Racing: Rock Racing gehört zu den neuen aufstrebenden Klassen im R/C Off-Road Rennsport. Dabei suchen sich die Fahrer dieser Boliden meist selbst die Strecken aus. Bereits der Feldweg um die Ecke oder ein alter Steinbruch eignen sich ideal zum Fahren. Das schöne hierbei: die Strecken liegen meist in der Natur und so kann positives (R/C Fahren) mit positivem (Natur) verbunden werden. Perfekt entwickelt: Der Yeti ist in technischer Hinsicht ein perfektes Rock-Racing Fahrzeug. Mit starrer Hinterachse und einer Einzelradaufhängung vorne macht er jedes Basher-Herz glücklich. Aber auch die Rock Racer kommen voll auf ihre Kosten, denn der Yeti kann beides und das ohne Kompromisse. Einzelradaufhängung vorne: Der Yeti ist mit einem Einzelradaufhängungs-System (IFS) ausgestattet. Dieses System verhilft zu mehr Stabilität bei hohen Geschwindigkeiten. Und das egal um welchen Untergrund es sich handelt. Alle Steine, die dem Modell in den Weg gelegt werden sind unterschiedlich groß und fordern die Federung eines jeden Rock Racers. Die Rocks sind manchmal links, rechts oder auch mittig anzutreffen wodurch sie das Fahrverhalten entscheidend beeinflussen. Das IFS-System ermöglicht es, die beabsichtigte Fahrtrichtung besser unter Kontrolle zu halten und das vor allem bei hohen Geschwindigkeiten. Die Stabilität, die das IFS-System an der Vorderachse mitbringt ist von größter Bedeutung wenn es um Rock-Racing geht. 3150Kv Brushless Motor - wasserdicht: Der eingebaute 4-polige Brushless Motor mit 3150Kv versorgt den Yeti zuverlässig mit genügend Drehmoment und Drehzahl um ihn mit vollgas durch die Prärie zu katapultieren. Vor allem bei der Verwendung von 3S LiPo Akkus (11,1V) liegt kein Stein mehr auf dem anderen. Aluminium Öldruck-Stoßdämpfer: Normalerweise ein Tuningteil gehören die Aluminium Dämpfergehäuse beim Yeti zur Serienausstattung. Diese sorgen für eine sehr glatte Federbewegung über den gesamten Bereich des Federwegs. Die Gehäuse sind passgenau präzisionsgefertigt und überzeugen durch eine zuverlässige Funktion. Gesperrte AR60 OCP-Achse: Die AR60 OCP-Axle ist aus hochfestem Composite-Kunststoff gefertigt und zeichnet sich durch ihre extreme Verwindungssteifigkeit aus, ohne dabei so spröde wie herkömmliche glasfaserverstärkte Kunststoffe zu sein. Wie bei echten Rock Racern ist die Achse an einer echten 4-Link Aufhängung montiert. Dies sorgt für eine optimale Performance und zusätzlich zu einem echten Erscheinungsbild.  4-Link Hinterachsaufhängung: Der Yeti verfügt über die bewährte AR60 Hinterachse, wie sie bereits vom Wraith bekannt ist. Allerdings hängt die Achse an einer völlig neu konstruierten 4-Link-Aufhängung. Das Yeti-Chassis bietet drei Positionen für die oberen Querlenker, damit das Anti-Squat eingestellt werden kann. Die unteren Querlenkerhalter können umgedrecht werden, wodurch das Rollzentrum verändert werden kann. Diese fortschrittlichen Tuning-Optionen hilft, damit das Maximum an Leistung aus dem Yeti geholt werden kann. Long Travel Stabilisator an der Hinterachse: Das Streben nach Leistung und die Fähigkeit, die Kraft auch auf den Boden zu bringen sind wichtige Aspekte des Offroad-Rennsports. Der Stabi im einzigartigen Drehstab-Design mit langen Schwenkarmen wurde entwickelt, um das Drehmoment genauestens zu handhaben. Dieses Stabi-System hilft weiterhin, die Seitenneigung zu reduzieren und die Stabilität bei hohen Geschwindigkeiten zu erhöhen. BFGoodrich Krawler T/A KX Reifen: Die Original 1/1 Krawler T/A KX Reifen haben in den Jahren 2004 bis 2008 mehr Rock-Crawler-Siege errungen als alle anderen Reifen zusammen. Die Axial 1:10 Nachbildung besitzt den gleichen aggressiven Look und eine großartige Leistung auf unerschiedlichsten Untergründen. Der perfekte Reifen für solche Fahrzeuge. Walker Evans Racing Wheels (Beadlock): Offiziell lizenziert Walker Evans Racing Beadlock Felgen in einem sehr aggressiven Black-Style. Die Felgen sind kompatibel mit den meisten 2,2-Rock-Crawler Reifen. Das IFD (Interchangeable-Face-Design) System macht es sehr einfach, wenn es darum geht die Felge zu wechseln. Das Rad Design ermöglicht es weiterhin, die Menge der Luft, die durch die Belüftungslöcher eintritt zu variieren. Es kann zwischen einem, zwei oder drei offenen Löchern (zwei , vier oder sechs insgesamt) durch Drehen des inneren (Beadlock) Rings gewählt werden. Die Position wird mit mit dem Festziehen der Schrauben gesperrt. WB8 HD Wild Boar Antriebswelle: Die neue Version der WB8 Antriebswellen erhält den Beinamen HD, was für Heavy Duty steht. Bei dieser neuen Ausführung des populären Antriebswellensystems mit Metallgelenken wurde wichtigen Punkte verstärkt. Daher sind die Wellen jetzt noch zuverlässiger und stabiler als die vorhergehende Version. WB8 HD Center CVD Gelenk: Die WB8 HD Wildboar Antriebswellen-Gelenke sind an der Stirnwand eingesetzt. Sie verfügen über ein verbessertes Design mit einem größeren Durchmesser (Querstift 2x11mm) zusammen mit einer M4 Madenschraube (f. 2 mm Sechskantantrieb). Dies sorgt für zusätzliche Festigkeit und eine längere Haltbarkeit. Duale Rutschkupplung: Diese verfügt über ein zwei Pad Design wie es z.B. von Wettbewerbs-Offroad-Chassis bekannt ist. Durch den beidseitigen Belag kann die Kupplung genauer und einfacher eingestellt werden. Das Hauptzahnrad ist mit einer 32dp Verzahnung ausgestattet. Hauptzahnradabdeckung: Die Abdeckung des Hauptzahnrads verhindert, das sich Schmutz zwischen Ritzel und Hauptzahnrad ablagert. Dies gewährleistet einen ruhigen und effizienten Antriebsstrang. High-Low Getriebe: Das neue Axial High-Low Getriebe wurde speziell für die Yeti -Chassis entwickelt. Die Zahnräder sind hier alle aus Metall hergestellt und komplett kugelgelagert. Somit ist das Getriebe bestens für starke Brushless-Power und extremes Rock-Racing gerüstet. Ab Werk ist das Getriebe mit der schnellen Übersetzung ausgestattet. Die integrierte Motorhalterung erlaubt es aber auch mit anderen Ritzel - Zahnrad Kombinationen zu fahren. So kann die Geschwindigkeit des Yeti perfekt auf die Bedürfnisse abgestimmt werden. Sollte dies nicht genug sein, ist in Kürze auch noch ein 2-Gang Getriebe zum nachrüsten erhältlich. Lenkungsstange mit doppelten Haltern: Der Yeti verfügt über die Weiterentwicklung der EXO-Stangen-Anlenkung. Die verbesserte Konstruktion sorgt für zusätzliche Kraft um die großen 2.2 Reifen genau dorthin zu bewegen, wo hingelenkt wird. Realistischen Scale-Details: Wie bei den anderen Axial R/C Modellen ist auch der Yeti mit wichtigen Scale-Details ausgestattet: Polycarbonat Innenschale mit Fahrer- und Beifahrerfiguren, Armaturenbrett, Helme, Auspuffrohre, Luftgitter, Scheinwerfereinsätze und Motorhaube mit Entlüftungsöffnungen. Der innere Käfig dient hierbei nicht zur als optisches Highlight sondern ist mit der Karosserie an mehreren Befestigungspunkten verschraubt. Komplett anpassbare Akkuhalterung: Die integrierte Akku-Halterung kann beim Yeti sehr leicht erreicht werden. Hierzu müssen lediglich die beiden vorderen Karosseriesplinte abgezogen werden und danach die Karosserie nach hinten geklappt werden. Schon kann ein Akkuwechsel durchgeführt werden. Werden auch die hinteren beiden Karosseriesplinte abgezogen, kann die Karosserie komplett abgenommen werden. Das Akkufach ist durch vier Schrauben komplett höhenverstellbar und bietet Platz für alle gängigen Standard 2S und 3S LiPo Akkus. Wasserdichte Empfänger-Box: Die neue wasserdichte Empfänger-Box ist im Boden des Yeti-Chassis integriert. Drei unterschiedliche Silikondichtungen sind enthalten, damit auch wirklich keine Feuchtigkeit oder Wasser in den Empfänger eindringen kann. Somit gilt: nie mehr Stress, wenn im Schlamm, Wasser oder Schnee gefahren wird! 2,4 GHz Fernsteuerung und Empfänger: Bei der AX-3 Fernsteuerung handelt es sich um einen 2,4GHz Drehknopf-Sender mit den wichtigsten Funktionen wie Servo-Reverse, Trimmung für Lenkung und Gas und natürlich eine Batteriestandsanzeige. Wie alle 2,4GHz System benötigen weder Sender noch Empfänger Quarze und gewährleisten durch die Bind-Funktion einen reibungslosen Betrieb. Wasserdichtes Tactic Lenkservo mit MetallgetriebeDas eingebaute Lenkservo TSX45 kommt von Tactic und ist mit einem Metallgetriebe ausgestattet. Damit es auch im harten Terrain eingesetzt werden kann besitzt es einen starken Drehmoment und eine starke Kraft bis zu 4,2 kg. Für weniger Reibung sind doppelte Kugellager verbaut. Wasserdichter Vanguard Fahrregler für 3S LiPo Akkus: Der Regler wird vom bekannten Hersteller Castle Creation für Axial hergestellt. Ausgestattet mit einer Power Bremse und voll einstellbar ist der Regler perfekt für den Betrieb mit dem Yeti. Standardmäßig ist der Regler mit einem Deans-T-Stecker zum Akku anschließen ausgestattet. Neben 2S und 3S LiPo Akkus kann der Regler natürlich auch mit NiMH Akkus betrieben werden. Zum verändern der voreingestellten Pogrammeinstellungen wird eine Castle Field Programmierkarte oder das Castle-Link Kabel mit Software benötigt (separat erhältlich). Zum Betreiben des Modells werden noch 8 AA-Mignonzellen (für die Fernsteuerung), ein 7,2V Stick NiMH / 7,4V oder 11,1V Stick LiPo Akku (Hardcase) sowie ein passendes Ladegerät benötigt (siehe Zusatzangebote). Features: RTR - Fahrfertig aufgebautes 4WD Allradantrieb Modell Coole Yeti Karosserie im stylischen Design Stabile Gitterrohrrahmenkonstruktion zum Schutz vor Überschlägen Perfekte Kombination von Basher und Rock Racer Independet Front Suspension (IFS) - Einzelradaufhängung vorne Starre AR60 OCP Achse hinten 4-Link Achsaufhängung hinten Long Travel Stabilisator hinten 2.2 Walker Evans Beadlock Racing Felgen 2.2 BFGoodirch Krawler T/A KX Reifen Axial Vanguard AE-3 Brushless Fahrregler wasserdicht (3S Lipo Ready) Tactic TSX45 Lenkservo mit Metallgetriebe und 4,2 kg Leistung Starker Vanguard 3150Kv Brushless Motor wasserdicht High-Low Getriebe mit Metallzahnrädern Wasserdichte Empfängerbox Antriebschonende Dual Pad Rutschkupplung Öldruckstoßdämpfer mit Aluminiumgehäuse WB8 HD Wild Boar Gelenkwellen Kugelgelagert Länge: ca. 495 mm Breite: ca. 312 mm Höhe: ca. 195 mm Radstand: ca. 360 mm Bodenfreiheit: ca. 50 mm Gewicht: ca. 2.900 g Hersteller: Axial Lieferumfang: Axial 1:10 Yeti 4WD Brushless Rock Racer Truck (fertig gebaut und beklebt) Axial AX-3 Fernsteuerung 2,4 GHz 2-Kanal Kleinteile Bauanleitung Benötigtes Zubehör: - 8 Stück AA 1,2 -1,5 Akkus/ Batterien für Sender- 7,2V Fahrakku- Ladegerät Warnhinweise:ACHTUNGNicht für Kinder unter 14 Jahren geeignet.Benutzung unter unmittelbarer Aufsicht von Erwachsenen.]]></field>
+				
+					<field name="Hersteller">..Axial..</field>
+				
+					<field name="EAN">8168740124034</field>
+				
+					<field name="ProduktBezeichnung">Axial Brushless 4WD YETI 1:10 Rock Racer RTR 2,4Ghz</field>
+				
+					<field name="Lieferzeit">Sofort versandfertig</field>
+				
+					<field name="FFAutomaticSearchOptimization"/>
+				
+					<field name="DQAttributes"/>
+				
+					<field name="Gewicht">..2.0000..</field>
+				
+					<field name="Produktlink"><![CDATA[http://www.d-edition.de/RC-Cars/RC-Cars-Elektro-Offroad/Axial-Brushless-4WD-YETI-1-10-Rock-Racer-RTR-2-4Ghz.html]]></field>
+				
+					<field name="Einsatzgebiet">..Off Road..</field>
+				
+					<field name="FotoLink"><![CDATA[http://www.d-edition.de/images/product_images/popup_images/axial-crawler-4wd-yeti-1_10-rock-racer-rtr-24ghz-ax90026_HOB-AX90026_1.jpg]]></field>
+				
+					<field name="Lagerbestand">-1</field>
+				
+					<field name="Fabrikat"/>
+				
+					<field name="ProduktKurzBeschreibung"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNrWithoutPrefix">AX90026</field>
+				
+					<field name="Akku-Typ"/>
+				
+					<field name="Kategoriename"><![CDATA[|KategorienameROOT=RC Cars|KategorienameROOT/RC Cars=RC Cars Elektro Offroad|]]></field>
+				
+					<field name="ProduktID">1329039</field>
+				
+					<field name="Preis">392.99</field>
+				
+					<field name="PreisSlider">392.99</field>
+				
+					<field name="FFCliplisterQuality"/>
+				
+					<field name="Bauart">..RTR Ready to Run..</field>
+				
+					<field name="Maßstab">1:10</field>
+				
+					<field name="Kategoriename_lvl1"/>
+				
+					<field name="Kategoriename_lvl2"/>
+				
+					<field name="Antrisbart">..Elektro Brushless..</field>
+				
+					<field name="ArtikelNroderHerstellerArtikelNr">HOB-AX90026</field>
+				
+					<field name="FFAfterSearchReorder"/>
+				
+					<field name="Kategoriename_lvl0"/>
+				
+			</record>
+		
+			<record nr="14" id="1307993" relevancy="99.97">
+				
+				
+					<field name="ProduktLangBeschreibung"><![CDATA[RC- Elektro - Modellauto Zubehör Carson Brushless Set The New Generation Dragster Sport Brushless Set 14T Waterproof Art: Nr: 500906159 Beschreibung Die neue, wasserfeste und sensorlose Generation der CARSON Brushless-Antriebe wurde für noch mehr POWER + SPEED entwickelt. Der feinfühlige Shooter Sport Brushless-Motor sorgt mit enormen Drehmoment und hohen Wirkungsgrad für eine rasante Beschleunigung und sehr hohe Top-Speed. Sein Dragster Sport Fahrregler lässt sich sehr feinfühlig regeln und ist für extreme Einsätze zusätzlich mit einem Lüfter ausgestattet. Das DRAGSTER SPORT RTR Set ist zu nahezu allen 1:10er Modellen mit Motorbaugröße Typ 540 kompatibel und passt damit in viele TAMYA Modelle wie DT-02/03, TT-01/02, TT-02B und viele weitere.  Brushless-Regler sensorlosVorwärts/Bremse/Rückwärtsgeeignet für 6-7 NiMH oder 2 Li-Po-ZellenDauerstrom 10 A, kurzzeitig 120 ATaktfrequenz 16 kHzGewicht 86 gT-Plug StecksystemBrushless-Motor 14T2700 kV (U/min pro Volt)Leerlaufdrehzahl 19.440 U/min bei 7,2 VAbgabeleistung 360 WattDauerstrom 50 A, kurzzeitig 70 AAbmessungen (ØxL): 35,8 x 55 mmWellen-Ø: 3,175 mm  Lieferumfang: Brushless-Set mit ausführlicher und deutschsprachiger Bedienungsanleitung  Technische Details: Motorbaugröße Typ 5403 Fahrmodi, Racing-Modus/Normal-Modus/Crawler-ModusMotorbremse in NeutralstellungLiPo-Unterspannungs-SicherheitsabschaltungBeschleunigung (Punch) einstellbarmaximale Bremskraft einstellbarflexible Silikonkabel]]></field>
+				
+					<field name="Hersteller">..Carson..</field>
+				
+					<field name="EAN">4005299961595</field>
+				
+					<field name="ProduktBezeichnung">Carson Brushless Set Waterproof 14T Motor + Regler</field>
+				
+					<field name="Lieferzeit">Artikel derzeit nicht verfügbar</field>
+				
+					<field name="FFAutomaticSearchOptimization"/>
+				
+					<field name="DQAttributes"/>
+				
+					<field name="Gewicht">..0.4146..</field>
+				
+					<field name="Produktlink"><![CDATA[http://www.d-edition.de/RC-Modellbau-Zubehoer/Elektronik/Motoren---Regler-Combo-Elektro/Carson-Brushless-Set-Waterproof-14T-Motor---Regler.html]]></field>
+				
+					<field name="Einsatzgebiet"/>
+				
+					<field name="FotoLink"><![CDATA[http://www.d-edition.de/images/product_images/popup_images/carson-brushless-set-waterproof-14t-motor-_-regler_CT-500906159_1.jpg]]></field>
+				
+					<field name="Lagerbestand">0</field>
+				
+					<field name="Fabrikat"/>
+				
+					<field name="ProduktKurzBeschreibung"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNrWithoutPrefix">500906159  906159</field>
+				
+					<field name="Akku-Typ"/>
+				
+					<field name="Kategoriename"><![CDATA[|KategorienameROOT=RC Modellbau Zubehör|KategorienameROOT/RC Modellbau Zubehör=Elektronik|KategorienameROOT/RC Modellbau Zubehör/Elektronik=Motoren   Regler Combo Elektro|]]></field>
+				
+					<field name="ProduktID">1307993</field>
+				
+					<field name="Preis">64.59</field>
+				
+					<field name="PreisSlider">64.59</field>
+				
+					<field name="FFCliplisterQuality"/>
+				
+					<field name="Bauart"/>
+				
+					<field name="Maßstab"/>
+				
+					<field name="Kategoriename_lvl1"/>
+				
+					<field name="Kategoriename_lvl2"/>
+				
+					<field name="Antrisbart"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNr">CT-500906159</field>
+				
+					<field name="FFAfterSearchReorder"/>
+				
+					<field name="Kategoriename_lvl0"/>
+				
+			</record>
+		
+			<record nr="15" id="1307992" relevancy="99.97">
+				
+				
+					<field name="ProduktLangBeschreibung"><![CDATA[Carson Brushless Set The New Generation Dragster Sport Brushless Set 12T Waterproof Art: Nr: 500906158 Beschreibung Die neue, wasserfeste und sensorlose Generation der CARSON Brushless-Antriebe wurde für noch mehr POWER + SPEED entwickelt. Der feinfühlige Shooter Sport Brushless-Motor sorgt mit enormen Drehmoment und hohen Wirkungsgrad für eine rasante Beschleunigung und sehr hohe Top-Speed. Sein Dragster Sport Fahrregler lässt sich sehr feinfühlig regeln und ist für extreme Einsätze zusätzlich mit einem Lüfter ausgestattet. Das DRAGSTER SPORT RTR Set ist zu nahezu allen 1:10er Modellen mit Motorbaugröße Typ 540 kompatibel und passt damit in viele TAMYA Modelle wie DT-02/03, TT-01/02, TT-02B und viele weitere. Brushless-Regler sensorlosVorwärts/Bremse/Rückwärtsgeeignet für 6-7 NiMH oder 2 Li-Po-ZellenDauerstrom 10 A, kurzzeitig 120 ATaktfrequenz 16 kHzGewicht 86 gT-Plug StecksystemBrushless-Motor 12T3300 kV (U/min pro Volt)Leerlaufdrehzahl 23.760 U/min bei 7,2 VAbgabeleistung 430 WattDauerstrom 60 A, kurzzeitig 80 AAbmessungen (ØxL): 35,8 x 55 mmWellen-Ø: 3,175 mm Lieferumfang: Brushless-Set mit ausführlicher und deutschsprachiger Bedienungsanleitung  Technische Details: Motorbaugröße Typ 5403 Fahrmodi, Racing-Modus/Normal-Modus/Crawler-ModusMotorbremse in NeutralstellungLiPo-Unterspannungs-SicherheitsabschaltungBeschleunigung (Punch) einstellbarmaximale Bremskraft einstellbarflexible Silikonkabel]]></field>
+				
+					<field name="Hersteller">..Carson..</field>
+				
+					<field name="EAN">4005299961588</field>
+				
+					<field name="ProduktBezeichnung">Carson Brushless Set Waterproof 12T Regler + Motor</field>
+				
+					<field name="Lieferzeit">Artikel derzeit nicht verfügbar</field>
+				
+					<field name="FFAutomaticSearchOptimization"/>
+				
+					<field name="DQAttributes"/>
+				
+					<field name="Gewicht">..0.4180..</field>
+				
+					<field name="Produktlink"><![CDATA[http://www.d-edition.de/RC-Modellbau-Zubehoer/Elektronik/Motoren---Regler-Combo-Elektro/Carson-Brushless-Set-Waterproof-12T-Regler---Motor.html]]></field>
+				
+					<field name="Einsatzgebiet"/>
+				
+					<field name="FotoLink"><![CDATA[http://www.d-edition.de/images/product_images/popup_images/carson-brushless-set-waterproof-12t-regler-_-motor_CT-500906158_1.jpg]]></field>
+				
+					<field name="Lagerbestand">-6</field>
+				
+					<field name="Fabrikat"/>
+				
+					<field name="ProduktKurzBeschreibung"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNrWithoutPrefix">500906158  906158</field>
+				
+					<field name="Akku-Typ"/>
+				
+					<field name="Kategoriename"><![CDATA[|KategorienameROOT=RC Modellbau Zubehör|KategorienameROOT/RC Modellbau Zubehör=Elektronik|KategorienameROOT/RC Modellbau Zubehör/Elektronik=Motoren   Regler Combo Elektro|]]></field>
+				
+					<field name="ProduktID">1307992</field>
+				
+					<field name="Preis">64.59</field>
+				
+					<field name="PreisSlider">64.59</field>
+				
+					<field name="FFCliplisterQuality"/>
+				
+					<field name="Bauart"/>
+				
+					<field name="Maßstab"/>
+				
+					<field name="Kategoriename_lvl1"/>
+				
+					<field name="Kategoriename_lvl2"/>
+				
+					<field name="Antrisbart"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNr">CT-500906158</field>
+				
+					<field name="FFAfterSearchReorder"/>
+				
+					<field name="Kategoriename_lvl0"/>
+				
+			</record>
+		
+			<record nr="16" id="1252414" relevancy="99.97">
+				
+				
+					<field name="ProduktLangBeschreibung"><![CDATA[Elektro Glattbahner der besonderen Art Ford Mustang GT-R Waterproof Sprint 2 FLUX RTR 2,4Ghz Best.-Nr. H112710 Maßstab 1:10 Beschreibung HPI Sprint 2 Flux RTR mit Ford Mustang GTR Karosserie HPIs schnellster Sprint 2, jetzt wasserdicht und mit 2.4GHz! Dieser RTR Sprint 2 Flux ist mit der aktuellsten Ford Mustang GT-R Karosserie bestückt. Ihr authentisches Design und die Liebe zum Detail machen diese Karosserie zum absoluten Highlight! Das Chassis ist professionell vormontiert und direkt aus der Verpackung heraus fahrbereit. Mit dem Sprint 2 Flux können Sie schnell und einfach in den Genuss von professionellem RC-Car Racing kommen. Maximaler Spaß ist garantiert!  Der neue RTR Sprint 2 Flux ist ab sofort wasserdicht und kann bei nassen Konditionen, wie Regen, Schnee und Matsch eingesetzt werden. Der neue 2,4GHz Empfänger wird zuverlässig von einer neuen wasserdichten Empfängerbox geschützt, sodass eine sichere Funkverbindung zu jeder Zeit gewährleistet ist! Das neue, wasserdichte SF-10W Lenkservo und der wasserdichte Flux Vapor Fahrtenregler komplettieren das Paket, sodass Sie unabhängig von Wind und Wetter mit Ihrem Modell Spaß haben können!  Die aktuellsten HPI Modelle sind ab sofort mit einem neuen, komfortablen HPI 2,4GHz Funkfernsteuer System ausgestattet! Hierbei handelt es sich um eine "Pistolen-Form" Fernsteuerung mit Lenkrad, die mit folgenden Merkmalen glänzt: 3 Kanäle, einem praktischen Tragegriff, herunterklappbarer Antenne, Endpunkteinstellungen, Servo Umkehrung und Lenkausschlagbegrenzung.  Der RTR Sprint 2 Flux beinhaltet eine lackierte Chevrolet Camaro 2010 Racing Karosserie mit authentischen Details und Aufklebern. Die Karosserie ist komplett ausgeschnitten, angepasst und bereit für den ersten Einsatz. Ein spezieller Racing Heckspoiler sorgt für mehr Kontrolle auch bei hohen Geschwindigkeiten. Diese qualitativ hochwertige Karosserie veredelt den Sprint 2 wie nie zuvor. Natürlich können Sie auch jederzeit auf unser großes HPI Sortiment an lackierten und unlackierten Lexan Karosserien zurückgreifen. Auch Karosserien von anderen Herstellern passen problemlos. Für den vollendeten Look wurden dem RTR Sprint 2 Flux noch offiziell lizenzierte Bronze Rays/Volk TE37 Felgen mit montierten HPI X-Pattern Reifen verpasst.  Warnhinweise:ACHTUNGBenutzung unter unmittelbarer Aufsicht von Erwachsenen. Features: - Offiziell lizenzierte Ford Mustang GT-R Karosserie für einen coolen Look - 2,4GHz Funkfernsteuer System § HPI Flux Vektor 5900 Brushless Motor- Wasserdichter HPI Flux Vapor elektronischer Fahrtenregler mit LiPo Spannungs-Abschaltung (ACHTUNG: *nicht* 3S Lipo kompatibel) - Wasserdichtes SF-10W Lenkservo - Wasserdichte Empfänger-/Akkubox - Orange eloxierte Aluminium Chassisteile - Offiziell lizenzierte Rays/Volk TE37 Felgen, 6mm Offset hinten, um den Radkasten voll auszufüllen und um einen authentischen Look zu erzeugen - HPI X-Pattern Gummireifen für super Fahreigenschaften - Schaumstofframmer, schützt bei Einschlägen - Einstellbare Karosseriehalter, somit können Sie viele verschiedenen Karosserien verwenden ohne die Halter zu ersetzen - Einstellbare Spurstangen, um das Setup optimieren zu können - Komplettes Kugellager-Set für einen effizienten Antrieb - Öldruckstoßdämpfer mit speziell ausgesuchten Federn - 2 Grad und 3 Grad Radträger für hinten - Haltbares Nylon Chassis - Dämpferbrücken vorne und hinten mit optimierten Dämpfer- und Spurstangenbefestigungspositionen - Optionale tiefe Dämpferbrücke vorne inklusive, um alle HPI 190mm oder 200mm Karosserien verwenden zu können - Ausfederwegsschrauben ermöglichen rennoptimierte Einstellungen - Umlenkhebel-Lenkung für eine präzise Lenkung Erforderliches Zubehör: - 7,4V Lipo Akku mit T-Plug Stecker- 4 Mignon 1,2 - 1,5V AA Senderbatterien / Akkus]]></field>
+				
+					<field name="Hersteller">..HPI..</field>
+				
+					<field name="EAN">4944258023342</field>
+				
+					<field name="ProduktBezeichnung"><![CDATA[HPI Elektro Brushless Auto SPRINT 2 FLUX RTR Mit Ford Mustang GT-R KAROSSERIE]]></field>
+				
+					<field name="Lieferzeit">Lieferzeit 1-3 Tage</field>
+				
+					<field name="FFAutomaticSearchOptimization"/>
+				
+					<field name="DQAttributes"/>
+				
+					<field name="Gewicht">..2.0000..</field>
+				
+					<field name="Produktlink"><![CDATA[http://www.d-edition.de/RC-Cars/RC-Cars-Elektro-Onroad/HPI-Elektro-Brushless-Auto-SPRINT-2-FLUX-RTR-Mit-Ford-Mustang-GT-R-KAROSSERIE.html]]></field>
+				
+					<field name="Einsatzgebiet">..Straße..</field>
+				
+					<field name="FotoLink"><![CDATA[http://www.d-edition.de/images/product_images/popup_images/hpi-elektro-brushless-auto-sprint-2-flux-rtr-mit-ford-mustang-gt-r-karosserie_LR-H112710_1.jpg]]></field>
+				
+					<field name="Lagerbestand">-2</field>
+				
+					<field name="Fabrikat">..Chevrolet..</field>
+				
+					<field name="ProduktKurzBeschreibung"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNrWithoutPrefix">H112710</field>
+				
+					<field name="Akku-Typ"/>
+				
+					<field name="Kategoriename"><![CDATA[|KategorienameROOT=RC Cars|KategorienameROOT/RC Cars=RC Cars Elektro Onroad|]]></field>
+				
+					<field name="ProduktID">1252414</field>
+				
+					<field name="Preis">329.21</field>
+				
+					<field name="PreisSlider">329.21</field>
+				
+					<field name="FFCliplisterQuality"/>
+				
+					<field name="Bauart">..RTR Ready to Run..</field>
+				
+					<field name="Maßstab">1:10</field>
+				
+					<field name="Kategoriename_lvl1"/>
+				
+					<field name="Kategoriename_lvl2"/>
+				
+					<field name="Antrisbart">..Elektro Brushed..</field>
+				
+					<field name="ArtikelNroderHerstellerArtikelNr">LR-H112710</field>
+				
+					<field name="FFAfterSearchReorder"/>
+				
+					<field name="Kategoriename_lvl0"/>
+				
+			</record>
+		
+			<record nr="17" id="1140157" relevancy="99.97">
+				
+				
+					<field name="ProduktLangBeschreibung"><![CDATA[Wettbewerb der Königsklasse Elektro Zubehör Absima Team C Brushless Regler 80A 1:10 "Thrust A10" Waterproof Artikelnummer: 2110001   Beschreibung mit der neuen Brushless-Serie starter Absima Team C in den High Performance Bereich ein.Und JETZT NEU WATERPROOF ( Wasserdicht ) Die Absima Team C Brushless Regler geben in sehr kleinen Zeitschritten die Befehle an den Motor weiter. Das Ergebnis ist ein sehr präzise und schnelle Regelung der Motordrehzahl, unterstützt durch die intelligente, voll-adaptive Software. Aus Welcher Kinderstube die Motoren sowie Regler Stammen ist doch am Design sowie interne Information klarersichtlich ! Die Vorteile liegen auf der Hand und sind nicht nur für den Profi erkennbar sondern auch für den ambitionierten ein und Aufsteiger sofort fühl - und messbar.  Technische Daten Sensorless ESCDauerbelastung 80AKurzzeit 90ABEC Ausgang (6V/3A)5-6 NiMH Zellen / -2S lipo ZellenVorwärts / Rückwärts / BremseÜberhitzungsschutz(L/B/H) 40x35x33 mmGewicht 83 g  Besonderheiten Waterproof ( Wasserdicht )Betriebsspannung 6,6 - 7,4 VPlug & Drive System  Lieferumfang Brushless ReglerAnleitung Warnhinweise:ACHTUNGBenutzung unter unmittelbarer Aufsicht von Erwachsenen.]]></field>
+				
+					<field name="Hersteller">..Absima..</field>
+				
+					<field name="EAN">4250650911096</field>
+				
+					<field name="ProduktBezeichnung">Absima Brushless Regler "Thrust A10" 80A 1:10 Waterproof</field>
+				
+					<field name="Lieferzeit">Sofort versandfertig</field>
+				
+					<field name="FFAutomaticSearchOptimization"/>
+				
+					<field name="DQAttributes"/>
+				
+					<field name="Gewicht">..0.1170..</field>
+				
+					<field name="Produktlink"><![CDATA[http://www.d-edition.de/RC-Modellbau-Zubehoer/Elektronik/Regler/Regler-Car/Absima-Brushless-Regler--Thrust-A10--80A-1-10-Waterproof.html]]></field>
+				
+					<field name="Einsatzgebiet"/>
+				
+					<field name="FotoLink"><![CDATA[http://www.d-edition.de/images/product_images/popup_images/absima-brushless-regler-thrust-a10-80a-1_10-waterproof_AB-2110001_1.jpg]]></field>
+				
+					<field name="Lagerbestand">1</field>
+				
+					<field name="Fabrikat"/>
+				
+					<field name="ProduktKurzBeschreibung"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNrWithoutPrefix">2110001</field>
+				
+					<field name="Akku-Typ"/>
+				
+					<field name="Kategoriename"><![CDATA[|KategorienameROOT=RC Modellbau Zubehör|KategorienameROOT/RC Modellbau Zubehör=Elektronik|KategorienameROOT/RC Modellbau Zubehör/Elektronik=Regler|KategorienameROOT/RC Modellbau Zubehör/Elektronik/Regler=Regler Car|]]></field>
+				
+					<field name="ProduktID">1140157</field>
+				
+					<field name="Preis">45.05</field>
+				
+					<field name="PreisSlider">45.05</field>
+				
+					<field name="FFCliplisterQuality"/>
+				
+					<field name="Bauart"/>
+				
+					<field name="Maßstab"/>
+				
+					<field name="Kategoriename_lvl1"/>
+				
+					<field name="Kategoriename_lvl2"/>
+				
+					<field name="Antrisbart"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNr">AB-2110001</field>
+				
+					<field name="FFAfterSearchReorder"/>
+				
+					<field name="Kategoriename_lvl0"/>
+				
+			</record>
+		
+			<record nr="18" id="1136735" relevancy="99.97">
+				
+				
+					<field name="ProduktLangBeschreibung"><![CDATA[Wettbewerb der Königsklasse Elektro Zubehör Absima Team C Brushless Regler Thrust A8 120A 1:8 Artikelnummer: 2110002   Beschreibung  mit der neuen Brushless-Serie starter Absima Team C in den High Performance Bereich ein. Die Absima Team C Brushless Regler geben in sehr kleinen Zeitschritten die Befehle an den Motor weiter. Das Ergebnis ist ein sehr präzise und schnelle Regelung der Motordrehzahl, unterstützt durch die intelligente, voll-adaptive Software. Aus Welcher Kinderstube die Motoren sowie Regler Stammen ist doch am Design sowie interne Information klarersichtlich ! Die Vorteile liegen auf der Hand und sind nicht nur für den Profi erkennbar sondern auch für den ambitionierten ein und Aufsteiger sofort fühl - und messbar.  Technische Daten Sensorless ESCDauerbelastung 120AKurzzeit 130ABEC Ausgang (6V/3A)6-10 NiMH Zellen / 2-4S lipo ZellenVorwärts / Rückwärts / BremseÜberhitzungsschutz  Lieferumfang Brushless ReglerAnleitung Warnhinweise:ACHTUNGBenutzung unter unmittelbarer Aufsicht von Erwachsenen.    -]]></field>
+				
+					<field name="Hersteller">..Absima..</field>
+				
+					<field name="EAN">4250650911119</field>
+				
+					<field name="ProduktBezeichnung">Absima Brushless Regler "Thrust A8" 120A 1:8 Waterproof</field>
+				
+					<field name="Lieferzeit">Sofort versandfertig</field>
+				
+					<field name="FFAutomaticSearchOptimization"/>
+				
+					<field name="DQAttributes"/>
+				
+					<field name="Gewicht">..0.1800..</field>
+				
+					<field name="Produktlink"><![CDATA[http://www.d-edition.de/RC-Modellbau-Zubehoer/Elektronik/Regler/Regler-Car/Absima-Brushless-Regler--Thrust-A8--120A-1-8-Waterproof.html]]></field>
+				
+					<field name="Einsatzgebiet"/>
+				
+					<field name="FotoLink"><![CDATA[http://www.d-edition.de/images/product_images/popup_images/absima-brushless-regler-thrust-a8-120a-1_8-waterproof_AB-2110002_1.jpg]]></field>
+				
+					<field name="Lagerbestand">6</field>
+				
+					<field name="Fabrikat"/>
+				
+					<field name="ProduktKurzBeschreibung"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNrWithoutPrefix">2110002</field>
+				
+					<field name="Akku-Typ"/>
+				
+					<field name="Kategoriename"><![CDATA[|KategorienameROOT=RC Modellbau Zubehör|KategorienameROOT/RC Modellbau Zubehör=Elektronik|KategorienameROOT/RC Modellbau Zubehör/Elektronik=Regler|KategorienameROOT/RC Modellbau Zubehör/Elektronik/Regler=Regler Car|]]></field>
+				
+					<field name="ProduktID">1136735</field>
+				
+					<field name="Preis">74.25</field>
+				
+					<field name="PreisSlider">74.25</field>
+				
+					<field name="FFCliplisterQuality"/>
+				
+					<field name="Bauart"/>
+				
+					<field name="Maßstab"/>
+				
+					<field name="Kategoriename_lvl1"/>
+				
+					<field name="Kategoriename_lvl2"/>
+				
+					<field name="Antrisbart"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNr">AB-2110002</field>
+				
+					<field name="FFAfterSearchReorder"/>
+				
+					<field name="Kategoriename_lvl0"/>
+				
+			</record>
+		
+			<record nr="19" id="1069346" relevancy="99.97">
+				
+				
+					<field name="ProduktLangBeschreibung"><![CDATA[RC- Elektro Zubehör von LRP SPX Brushless Bullet Reverse" Elek. Fahrregler " LRP Nr: 80450 Beschreibung Allrounder mit Präzision und SchnelligkeitDie neuen SPX Regler sind die perfekten Allrounder im High Performance Bereich. Sie bieten ein sehr gutesPreis-Leistungs-Verhältnis bei enormer Vielseitigkeit. So können sowohl Brushless als auch Brushed Motorensogar rückwärts mit voller Power betrieben werden! Sie erhalten sozusagen 4 Regler in einem!Die LRP SPX Regler geben in sehr kleinen Zeitschritten die Befehle an den Motor weiter. Das Ergebnis ist einesehr präzise und schnelle Regelung der Motordrehzahl, unterstützt durch die intelligente, volladaptive Software. &bull; Brushless + Brushed: Vorwärts/Bremse/Rückwärts + Vorwärts/Bremse&bull; Automatische Brushless/Brushed Erkennung&bull; Internal- Temp- Check System&bull; ADVANCED Digital mit 4 einstellbaren Modi&bull; Großer Powerkondensator für maximalen Punch und Schutz des Reglers&bull; IceDrive Design&bull; AutoCell System - Automatische NiMH/ LiPo Erkennung&bull; Eingangsspannung: 4.8 - 7.4V&bull; Entspricht dem Reglement der folgenden Verbände: IFMAR, BRCA, JMRCA, EFRA, ROAR, DMC&bull; Motorlimit: über 3 Turns (Brushless)&bull; Motorlimit: über 4 Turns (Brushed)&bull; Gewicht: 45g&bull; Low Profile Kühlkörper mit integriertem High PerformanceLüfter&bull; Der Lüfter wird bei Bestätigen des Regler-Powerschaltersein- und ausgeschaltet]]></field>
+				
+					<field name="Hersteller">..LRP..</field>
+				
+					<field name="EAN">4250068124194</field>
+				
+					<field name="ProduktBezeichnung">LRP SPX Brushless Bullet Reverse Fahrregler</field>
+				
+					<field name="Lieferzeit">Sofort versandfertig</field>
+				
+					<field name="FFAutomaticSearchOptimization"/>
+				
+					<field name="DQAttributes"/>
+				
+					<field name="Gewicht">..0.8000..</field>
+				
+					<field name="Produktlink"><![CDATA[http://www.d-edition.de/RC-Modellbau-Zubehoer/Elektronik/Regler/Regler-Car/LRP-SPX-Brushless-Bullet-Reverse-Fahrregler.html]]></field>
+				
+					<field name="Einsatzgebiet"/>
+				
+					<field name="FotoLink"><![CDATA[http://www.d-edition.de/images/product_images/popup_images/lrp-spx-brushless-bullet-reverse-fahrregler_LR-80450_1.jpg]]></field>
+				
+					<field name="Lagerbestand">-1</field>
+				
+					<field name="Fabrikat"/>
+				
+					<field name="ProduktKurzBeschreibung"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNrWithoutPrefix">80450</field>
+				
+					<field name="Akku-Typ"/>
+				
+					<field name="Kategoriename"><![CDATA[|KategorienameROOT=RC Modellbau Zubehör|KategorienameROOT/RC Modellbau Zubehör=Elektronik|KategorienameROOT/RC Modellbau Zubehör/Elektronik=Regler|KategorienameROOT/RC Modellbau Zubehör/Elektronik/Regler=Regler Car|]]></field>
+				
+					<field name="ProduktID">1069346</field>
+				
+					<field name="Preis">214.28</field>
+				
+					<field name="PreisSlider">214.28</field>
+				
+					<field name="FFCliplisterQuality"/>
+				
+					<field name="Bauart"/>
+				
+					<field name="Maßstab"/>
+				
+					<field name="Kategoriename_lvl1"/>
+				
+					<field name="Kategoriename_lvl2"/>
+				
+					<field name="Antrisbart"/>
+				
+					<field name="ArtikelNroderHerstellerArtikelNr">LR-80450</field>
+				
+					<field name="FFAfterSearchReorder"/>
+				
+					<field name="Kategoriename_lvl0"/>
+				
+			</record>
+		
+	</results>
+	<refKey>iZXg8vy_J</refKey>
+</ff>
