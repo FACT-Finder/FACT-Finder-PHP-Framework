@@ -1,5 +1,9 @@
+Version 2.5.6
+    FIX: products per page options may be null at json response although result exists
+
 Version 2.5.5
     CHG: SCIC adapters now exist for all versions (and both interfaces), because the action changes in FF 6.8.
+    ADD: Legacy Tracking Adapter which can be used for FF6.8 and 6.9
 
 Version 2.5.4
     FIX: build the slider base URL the correct way (it's not ensured the empty parameter is at the end)
@@ -91,52 +95,52 @@ Version 2.4.3
 Version 2.4.2
     ADD: Logger eingebaut
     ADD: ImportAdapter eingebaut
-    CHG: copy right Kommentare eingefügt
-    FIX: leerer Channel Parameter wird weggelassen, da dies zu einem FF Fehler führt (seit ff67)
+    CHG: copy right Kommentare eingefï¿½gt
+    FIX: leerer Channel Parameter wird weggelassen, da dies zu einem FF Fehler fï¿½hrt (seit ff67)
     FIX: bei fehlendem Suchbegriff wird kein JS click Code erzeugt
-    FIX: Einige strlen()-Aufrufe wurden noch um isset() ergänzt.
+    FIX: Einige strlen()-Aufrufe wurden noch um isset() ergï¿½nzt.
     FIX: rendering.php behandelt die Daten nicht explizit als UTF-8
 
 Version 2.4.1
-    FIX: der lib-include Pfad wird nur noch gesetzt wenn nötig und dann auch nur noch ans Ende der Pfad-Liste sodass andere Systeme nicht beeinträchtigt werden
+    FIX: der lib-include Pfad wird nur noch gesetzt wenn nï¿½tig und dann auch nur noch ans Ende der Pfad-Liste sodass andere Systeme nicht beeintrï¿½chtigt werden
     FIX: Diverse ungeeignete empty()-Aufrufe wurden durch strlen() ersetzt.
-    FIX: Parameter, die einen Namen aber keinen Wert haben, werden NICHT gelöscht. Ansonsten funktioniert der Slider nicht.
+    FIX: Parameter, die einen Namen aber keinen Wert haben, werden NICHT gelï¿½scht. Ansonsten funktioniert der Slider nicht.
     ADD: Unit-Tests ausgebaut
 
 Version 2.4.0
 	ADD: ParallelDataProvider, der das curl_multi_* Interface verwendet.
-	ADD: Unterstützung von Produkt-Kampagnen (FF-6.7-Feature).
-	ADD: Unterstützung mehrerer IDs im RecommendationAdapter ab FF 6.7.
-	ADD: OneTouchSlider für Preis-Filter in Demoshop integriert.
+	ADD: Unterstï¿½tzung von Produkt-Kampagnen (FF-6.7-Feature).
+	ADD: Unterstï¿½tzung mehrerer IDs im RecommendationAdapter ab FF 6.7.
+	ADD: OneTouchSlider fï¿½r Preis-Filter in Demoshop integriert.
 	ADD: Logging implementiert.
 	ADD: Zweiter Demoshop mit Render-Funktionen statt .phtml-Templates.
 	ADD: TagCloud in Demoshop integriert.
-	ADD: Unterstützung von Array-Parametern in XML-Requests.
-	ADD: Unterstützung der Request-Parameter idsOnly und maxResults der Recommendation-Engine.
+	ADD: Unterstï¿½tzung von Array-Parametern in XML-Requests.
+	ADD: Unterstï¿½tzung der Request-Parameter idsOnly und maxResults der Recommendation-Engine.
 	ADD: Ausbau der Test-Suite.
-	CHG: Similarity ist kein Pflichtfeld für Record-Objekte mehr. (Default: 100)
-	CHG: get*()-Aufrufe von Recommendation-, SimilarRecords- und CompareAdapter haben keine Parameter mehr (Adapter müssen vorher konfiguriert werden).
+	CHG: Similarity ist kein Pflichtfeld fï¿½r Record-Objekte mehr. (Default: 100)
+	CHG: get*()-Aufrufe von Recommendation-, SimilarRecords- und CompareAdapter haben keine Parameter mehr (Adapter mï¿½ssen vorher konfiguriert werden).
 
 --------------
 
 Version 2.3.23
-	ADD: Unterstützung der Compare-Schnittstelle (Produktvergleich) ab FF 6.6.
-	ADD: Test für CompareAdapter.
+	ADD: Unterstï¿½tzung der Compare-Schnittstelle (Produktvergleich) ab FF 6.6.
+	ADD: Test fï¿½r CompareAdapter.
 	FIX: Falsche Verwendung von empty() auf Zend-XML-Objekten wurde korrigiert.
 	ADD: zweite Demo die "klassisch" auf PHP Funktionen basiert
 
 Version 2.3.22
-	ADD: Unterstützung der SimilarRecords-Schnittstelle ab FF 6.6.
-	ADD: Test für SimilarRecordsAdapter
+	ADD: Unterstï¿½tzung der SimilarRecords-Schnittstelle ab FF 6.6.
+	ADD: Test fï¿½r SimilarRecordsAdapter
 
 Version 2.3.21
-	ADD: Unterstützung für Berater-Kampagnen (FF 6.7) durch das Framework (siehe Campaign.php, AdvisorQuestion.php und AdvisorAnswer.php).
+	ADD: Unterstï¿½tzung fï¿½r Berater-Kampagnen (FF 6.7) durch das Framework (siehe Campaign.php, AdvisorQuestion.php und AdvisorAnswer.php).
 	ADD: Integration der Berater-Kampagnen in den Demoshop analog zum Demoshop auf dem FF-Server.
-	ADD: Unterstützung für gesamten AdvisorTree bei Berater-Kampagnen.
+	ADD: Unterstï¿½tzung fï¿½r gesamten AdvisorTree bei Berater-Kampagnen.
 	ADD: Integration des AdvisorTrees als Debug-Ausgabe im Demoshop. Aktivierbar mit Parameter generateAdvisorTree=true
 	FIX: Ein paar Typos in diversen Kommentaren.
 	FIX: beim Kodieren mit iconv werden problematische Zeichen verworfen ohne dass eine NOTICE erzeugt wird
-	FIX: Kodierung der Demo auf ISO-8859-15 umgestellt, damit Euro zeichen korrekt dargestellt werden können €
+	FIX: Kodierung der Demo auf ISO-8859-15 umgestellt, damit Euro zeichen korrekt dargestellt werden kï¿½nnen ï¿½
 
 Version 2.3.20
 	CHG: verwende Channel aus dem Request bevorzugt zum Channel Parameter aus der Konfiguration
@@ -145,23 +149,23 @@ Version 2.3.20
 	ADD: FF 6.7 Anpassungen (BETA: no advisor campaigns yet)
 
 Version 2.3.19
-	FIX: korrekte Erkennung im DataProvider, ob Daten neu geladen werden müssen
+	FIX: korrekte Erkennung im DataProvider, ob Daten neu geladen werden mï¿½ssen
 	FIX: Abstract/RecommendationAdapter korrigiert (interne Variable deklariert; convenience check)
-	ADD: UserID der SCIC Schnittstelle für das Cart- und Checkout-Tracking hinzugefügt
+	ADD: UserID der SCIC Schnittstelle fï¿½r das Cart- und Checkout-Tracking hinzugefï¿½gt
 	FIX: es wird kein Suchrequest gesendet, wenn der Query nicht gesetzt bzw. leer ist (Achtung: es wird eine Exception geworfen)
-	CHG: Demo optimiert: Encoding Einstellungen in der config werden berücksichtigt; Fehler Seite optimiert
+	CHG: Demo optimiert: Encoding Einstellungen in der config werden berï¿½cksichtigt; Fehler Seite optimiert
 
 Version 2.3.18
-	FIX: legacy code für altere Konfigurationen hinzugefügt
+	FIX: legacy code fï¿½r altere Konfigurationen hinzugefï¿½gt
 	FIX: Workaround "283751" nicht mehr global verwenden; nur noch intern
 	CHG: weitere nicht-verwendete Variablen entfernt
 	CHG: Dokumentationen angepasst
 
 Version 2.3.17
 	ADD: public convert Methode im EncodingHandler, die die eigentliche convert Methode kapselt
-	CHG: unnötige CURL Option "CURLOPT_FOLLOWLOCATION" entfernt
-	CHG: setzen der CURL Optionen von außen überschreibt die default Optionen
-	CHG: alle "private" Klassenvariablen ohne zugehörige get-Methode auf "protected" gesetzt
+	CHG: unnï¿½tige CURL Option "CURLOPT_FOLLOWLOCATION" entfernt
+	CHG: setzen der CURL Optionen von auï¿½en ï¿½berschreibt die default Optionen
+	CHG: alle "private" Klassenvariablen ohne zugehï¿½rige get-Methode auf "protected" gesetzt
 	CHG: alle "private" Methoden auf "protected" gesetzt
 	DEL: nicht verwendete Klassenvariablen entfernt
 
@@ -170,45 +174,45 @@ Version 2.3.16
 	ADD: Recommendation Adapter
 	ADD: erster phpunit test
 	ADD: phing build script
-	CHG: korrekte Schreibweise für die Konfigurationsoption "protocol" (anstatt "protokoll" x) (Legacy Code hinzugefügt)
+	CHG: korrekte Schreibweise fï¿½r die Konfigurationsoption "protocol" (anstatt "protokoll" x) (Legacy Code hinzugefï¿½gt)
 	CHG: Code Dokumentation erweitert
-	CHG: Workaround für einige Server (IIS) bei denen es die Variable '$_SERVER['REQUEST_URI']' nicht gibt
+	CHG: Workaround fï¿½r einige Server (IIS) bei denen es die Variable '$_SERVER['REQUEST_URI']' nicht gibt
 
 Version 2.3.15
 	FIX: orig-position korrekt auslesen
 
 Version 2.3.14
-	CHG: language codes so geändert, wie FACT-Finder diese erwartet
+	CHG: language codes so geï¿½ndert, wie FACT-Finder diese erwartet
 
 Version 2.3.13
-	FIX: keine kodierung durchführen, wenn nicht 2 Encodings angegeben sind oder beide Encoding gleich sind
+	FIX: keine kodierung durchfï¿½hren, wenn nicht 2 Encodings angegeben sind oder beide Encoding gleich sind
 
 Version 2.3.12
-	ADD: AsnSliderFilter::getValue() && AsnSliderFilter::getField() hinzugefügt
+	ADD: AsnSliderFilter::getValue() && AsnSliderFilter::getField() hinzugefï¿½gt
 
 Version 2.3.11
 	ADD: Search Adapter erzeugt FACTFinder_Parameters
-	ADD: FACTFinder_Parameters berücksichtigt followSearch
+	ADD: FACTFinder_Parameters berï¿½cksichtigt followSearch
 	ADD: FACTFinder_AsnGroup::hasSelectedItems
 	CHG: alle Tabs durch 4 Leerzeichen ersetzt
-	ADD: Asn Filter erwarten den Feldnamen, über den sie filtern (wird intern aber noch nicht verwendet, sondern nur bereitgestellt falls vorhanden; default='')
+	ADD: Asn Filter erwarten den Feldnamen, ï¿½ber den sie filtern (wird intern aber noch nicht verwendet, sondern nur bereitgestellt falls vorhanden; default='')
 
 Version 2.3.10
-	CHG: Custom Verzeichnis nach "FACTFinderCustom" umbenannt um im Shop Context keine Konflikte zu provuzieren; Legacy Code eingefügt => keine funktionale Änderung
+	CHG: Custom Verzeichnis nach "FACTFinderCustom" umbenannt um im Shop Context keine Konflikte zu provuzieren; Legacy Code eingefï¿½gt => keine funktionale ï¿½nderung
 
 Version 2.3.9
 	CHG: den workaround zur wiederherstellung der echten parameter so erweitert, dass falsche parameter im $_GET array entfernt werden
 
 Version 2.3.8
-	FIX: encoding handler hat das eingabearray modifiziert, wodurch geänderte keys nicht überschrieben wurden
+	FIX: encoding handler hat das eingabearray modifiziert, wodurch geï¿½nderte keys nicht ï¿½berschrieben wurden
 	FIX: workaround: passwort, username und timestamp werden aus dem XML Ergebnis ignoriert
 
 Version 2.3.7
 	FIX: AsnSliderFilter funktioniert nun
-	CHG: Die Demo Konfigurationsdatei enthält nun keine Versionsnummer mehr
+	CHG: Die Demo Konfigurationsdatei enthï¿½lt nun keine Versionsnummer mehr
 
 Version 2.3.6
-	FIX: der Funktion http_build_query explizit angegeben, welche Zeichen zur Erstellung der URL verwendet werden sollen, da ab PHP 5.3 standardmäßig &amp; statt & für die Parameter Verknüpfung verwendet wird
+	FIX: der Funktion http_build_query explizit angegeben, welche Zeichen zur Erstellung der URL verwendet werden sollen, da ab PHP 5.3 standardmï¿½ï¿½ig &amp; statt & fï¿½r die Parameter Verknï¿½pfung verwendet wird
 
 Version 2.3.5
 	FIX: in der API ebenfalls "address" statt "adress" benutzen
@@ -232,7 +236,7 @@ Version 2.3.1
 	FIX: redirect kampagnen objekte werden korrekt erstellt
 
 Version 2.3.0
-	CHG: Framework komplett überarbeitet
+	CHG: Framework komplett ï¿½berarbeitet
 	CHG: Demo komplett von der Library getrennt
-	ADD: phpdoc hinzugefügt
-	DEL: Smarty gelöscht
+	ADD: phpdoc hinzugefï¿½gt
+	DEL: Smarty gelï¿½scht
